@@ -30,7 +30,8 @@
     display: block;
     color: $text-color;
     font-size: 1.75em;
-    text-transform: lowercase;
+    font-weight: 600;
+    text-transform: capitalize;
   }
   .author_job {
     display: block;
