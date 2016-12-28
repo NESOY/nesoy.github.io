@@ -44,7 +44,9 @@ date: 2016-12-28
 
 - #### CMD창에서 Devkit 초기화 하기
 > ### cd C:\RubyDevkit
+
 > ### ruby dk.rb init  
+
 > ### ruby dk.rb install
 
   #### 성공화면
@@ -94,7 +96,9 @@ date: 2016-12-28
 ## 5. Jekyll 실행하기
 - #### Jekyll 폴더 만들기 & 명령어 실행하기
 > ### mkdir C:\jekyll
+
 > ### gem install wdm
+
 > ### jekyll
 
 
@@ -102,6 +106,7 @@ date: 2016-12-28
 
 - #### Jekyll 실행하기
 > ### jekyll serve
+
 > ### Browser로 접속 >> **127.0.0.1:4000**
 
   ![No Image](/assets/20161228/jekyll_browser.PNG)
@@ -112,13 +117,16 @@ date: 2016-12-28
 
 - #### 환경설정하기 : config.yml 맨끝에 추가하기
 > ### encoding: utf-8
+
 > ### highlighter: rouge
+
 > ### highlighter: Pygments
 
   ![No Image](/assets/20161228/config.PNG)
 
 - #### Jekyll 실행하기
 > ### jekyll serve
+
 > ### Browser로 접속 >> **127.0.0.1:4000**
 
   ![No Image](/assets/20161228/jekyll_browser2.PNG)
