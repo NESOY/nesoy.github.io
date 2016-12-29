@@ -9,7 +9,7 @@ date: 2016-12-29
 ---
 
 # **Jekyll Github에 올리기**
-![No Image](/assets/20161228/jekyll_logo.PNG)
+![No Image](/assets/20161228/jekyll_logo.png)
 
 ## 1. Github Repository 생성
 - #### Github아이디.github.io
