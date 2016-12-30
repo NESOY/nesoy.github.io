@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll 설치하기
 categories: [Jekyll]
+excerpt: " "
 comments: true
 share: true
 tags: [Jekyll,window]
@@ -17,7 +18,7 @@ date: 2016-12-28
 - #### Jekyll은 여러 형태의 텍스트와 소스들로 구성 정적 파일들을 웹사이트로 생성시켜주는 툴.
 
 - #### GitHub Pages 에서도 이용, 개인블로그도 생성 가능
-  - #### Jekyll Site : https://jekyllrb-ko.github.io/
+  - #### [https://jekyllrb-ko.github.io/](https://jekyllrb-ko.github.io/)
 
 ## 1. 필요한 Software
 - #### Ruby(ruby, DevKit)
@@ -26,7 +27,7 @@ date: 2016-12-28
 - #### rouge
 
 ## 2. Ruby 설치하기
-- #### Ruby Site : http://rubyinstaller.org/downloads/
+- #### [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
 
 - #### PC환경에 맞게 Download
 ![No Image](/assets/20161228/ruby_down.PNG)
@@ -34,7 +35,7 @@ date: 2016-12-28
 ![No Image](/assets/20161228/ruby_path.PNG)
 
 - ### DevKit 설치하기
-  - #### Ruby Site : http://rubyinstaller.org/downloads/
+  - #### [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
 
 - #### PC환경에 맞게 Download
 ![No Image](/assets/20161228/ruby_devkit.PNG)
@@ -66,7 +67,7 @@ date: 2016-12-28
   ![No Image](/assets/20161228/rouge_down.PNG)
 
 ## 4. Python 설치하기
-  - #### Python Site : https://www.python.org/downloads/
+  - #### [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 - #### PC환경에 맞게 Download
   ![No Image](/assets/20161228/python_down.PNG)

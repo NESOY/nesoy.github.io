@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll Github에 올리기 & 테마 적용하기
 categories: [Jekyll]
+excerpt: " "
 comments: true
 share: true
 tags: [Jekyll,Github]
@@ -30,7 +31,7 @@ date: 2016-12-29
 # **Jekyll 테마적용하기**
 
 ## 1. Jekyll Theme Site
-- #### http://jekyllthemes.org/
+- #### [http://jekyllthemes.org/](http://jekyllthemes.org/)
 ![No Image](/assets/20161229/jekyll_themes.PNG)
 
 ## 2. 원하는 Theme 고르기
@@ -44,4 +45,4 @@ date: 2016-12-29
   - #### http://Github아이디.github.io
 
 ## 참고
-  - #### https://www.youtube.com/watch?v=T_ZhqkshtKk
+  - #### 동영상[https://www.youtube.com/watch?v=T_ZhqkshtKk](https://www.youtube.com/watch?v=T_ZhqkshtKk)
