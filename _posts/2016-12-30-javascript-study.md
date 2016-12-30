@@ -14,6 +14,7 @@ date: 2016-12-30
 
 ## 1. Javascript 구성요소
 ![No Image](/assets/20161230/javascript_element.png)
+
 - #### Core(ECMAScript)
   - ##### 자바스크립트의 기본 문법과 구조, 데이터 타입, 조건문, 반목문, 함수, 기본 라이브러리등이 포함
 - #### DOM(Document Object Model)
