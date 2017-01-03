@@ -4,7 +4,7 @@ title: Javascript Study2(Editing)
 categories: [Javascript]
 excerpt: " "
 comments: true
-share: true 
+share: true
 tags: [Javascript]
 date: 2017-01-03
 ---
