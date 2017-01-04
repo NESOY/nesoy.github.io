@@ -195,12 +195,14 @@ alert(values); // 1,2,3,4,5
   var myRegExp = /regexr/i;
   {% endhighlight %}
   ![No Image](/assets/20170104/regExp.PNG)
-  
-  - ##### 참고 사이트 :  [http://poiemaweb.com/js-regexp](http://poiemaweb.com/js-regexp)
+
+  - ##### 참고 사이트
+    [http://poiemaweb.com/js-regexp](http://poiemaweb.com/js-regexp)
 
 
 ## 참조
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
+
+[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 
 
-http://poiemaweb.com/js-regexp
+[http://poiemaweb.com/js-regexp](http://poiemaweb.com/js-regexp)
