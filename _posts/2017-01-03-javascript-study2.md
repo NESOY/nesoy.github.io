@@ -165,5 +165,7 @@ alert(person.name); // NESOY
   {% endhighlight %}
 
 ## 참조
-- ##### http://poiemaweb.com/
-- ##### http://www.nextree.co.kr/p7363/
+
+<http://poiemaweb.com/>
+
+<http://www.nextree.co.kr/p7363/>

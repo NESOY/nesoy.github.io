@@ -85,4 +85,6 @@ Sitemap: http://nesoy.github.io/sitemap.xml
 - #### 위에 방법과 비슷하게 진행한다.
 
 
-## 출처 사이트 : [http://dveamer.github.io/homepage/SubmitSitemap](http://dveamer.github.io/homepage/SubmitSitemap)
+## 참고
+
+<http://dveamer.github.io/homepage/SubmitSitemap>
