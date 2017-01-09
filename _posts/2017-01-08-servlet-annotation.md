@@ -1,0 +1,39 @@
+---
+layout: post
+title: Servlet Annotation
+categories: [Servlet]
+excerpt: " "
+comments: true
+share: true
+tags: [Servlet,Annotation]
+date: 2017-01-08
+---
+
+# **Servlet Annotation**
+
+Servlet을 공부하던 중에 index.html에서 action의 DoLogin을 호출하는 경우가 있었다.
+
+``` html
+<form action="DoLogin" method="post">
+    Username : <input type="text" name="username"> <br>
+    Password : <input type="password" name="password"> <br>
+    <input type="submit" value="Press">
+</form>
+```
+
+404 에러가 발생 하였다.
+
+![No Image](/assets/20170108/404error.PNG)
+
+왜 그런지 이유를 찾다보니까 Servlet Annotation의 문제가 확인 되었다.
+
+``` javascript
+@WebServlet(name = "DoLogin")
+```
+
+이렇게 작성하였는데 name은 Servlet 이름을 알려주는 것이고 Servlet urlPatterns을 넣어줘야 Web Application Server가 위치를 알고 resource를 찾아 잘 넘겨준다. 
+
+
+## 참조
+
+<https://tomcat.apache.org/tomcat-7.0-doc/servletapi/javax/servlet/annotation/WebServlet.html>

@@ -202,6 +202,7 @@ alert(values); // 1,2,3,4,5
 
 ## 참조
 
-<https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf>
+[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 
-<http://poiemaweb.com/js-regexp>
+
+[http://poiemaweb.com/js-regexp](http://poiemaweb.com/js-regexp)
