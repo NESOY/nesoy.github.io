@@ -40,5 +40,5 @@ Servlet urlPatterns을 넣어줘야 Server가 위치를 알고 resource를 찾�
 ```
 
 ## 참조
-  
+   
 <https://tomcat.apache.org/tomcat-7.0-doc/servletapi/javax/servlet/annotation/WebServlet.html>
