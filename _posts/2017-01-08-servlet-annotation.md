@@ -32,7 +32,9 @@ Servlet을 공부하던 중에 index.html에서 action의 DoLogin을 호출하�
 ```
 
 이렇게 작성하였는데 name은 Servlet 이름을 알려주는 것이고
+
 정작 Servlet urlPatterns이 없어서 Server가 URL 위치를 몰라 404 Error를 낸거 같다.
+
 Servlet urlPatterns을 넣어줘야 Server가 위치를 알고 resource를 찾아 잘 넘겨준다.
 
 ``` javascript
@@ -40,5 +42,5 @@ Servlet urlPatterns을 넣어줘야 Server가 위치를 알고 resource를 찾�
 ```
 
 ## 참조
-   
+
 <https://tomcat.apache.org/tomcat-7.0-doc/servletapi/javax/servlet/annotation/WebServlet.html>
