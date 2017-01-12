@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub Pull Request 따라하기(Edit)
+title: GitHub Pull Request 따라하기
 categories: [Github]
 excerpt: " "
 comments: true
