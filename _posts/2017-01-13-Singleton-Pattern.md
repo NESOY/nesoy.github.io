@@ -13,6 +13,8 @@ date: 2017-01-13
 
 Spring을 공부하던 도중에 Container가 Default로 빈(Bean) 들을 Singleton Pattern으로 관리한다는 사실을 알았다.
 
+
+
 > 싱글턴 패턴(Singleton pattern)을 따르는 클래스는, 생성자가 여러 차례 호출되더라도 **실제로 생성되는 객체는 하나** 이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 생성한 객체를 리턴한다.
 
 ## Eager initialization
@@ -131,5 +133,7 @@ public enum SingletonTest {
 
 ## 참조
 <https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B8%80%ED%84%B4_%ED%8C%A8%ED%84%B4>
+
 <https://blog.seotory.com/post/2016/03/java-singleton-pattern>
+
 <http://blog.naver.com/madplay/220849063221>
