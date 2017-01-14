@@ -27,7 +27,7 @@ C:\Program Files\Git\cmd
 
 ### 3. File - Setting 을 들어가서 Git Test를 해본다.
 
-![No Image](/assets/20170114/3.PNG)
+![No Image](/assets/20170114/3.png)
 
 ![No Image](/assets/20170114/4.PNG)
 
