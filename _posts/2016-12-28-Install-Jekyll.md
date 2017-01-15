@@ -118,3 +118,6 @@ date: 2016-12-28
   - #### jekyll serve
   - #### Browser로 접속  127.0.0.1:4000
   ![No Image](/assets/20161228/jekyll_browser2.PNG)
+
+## 참조
+<http://tech.whatap.io/2015/09/11/install-jekyll-on-windows/>
