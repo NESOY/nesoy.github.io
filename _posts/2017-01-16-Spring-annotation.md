@@ -95,6 +95,7 @@ public class MainApp {
 ```
 
 > @Required가 2개지만 Property를 1개만 적어줬기 때문에 Error가 난다.
+
 - #### Error Message
 
 > Property 'age' is required for bean 'student'
@@ -170,6 +171,7 @@ public class MainApp {
 ```
 
 - #### Beans.xml
+
 ```xml
 <!-- Definition for textEditor bean without constructor-arg  -->
 <bean id="textEditor" class="com.tutorialspoint.TextEditor">
@@ -188,6 +190,7 @@ private SpellChecker spellChecker;
 ```
 
 - constructor도 쉽게 @Autowired를 통해 <constructor-arg>를 추가하지 않고 할 수 있다.
+
 ```java
 public class TextEditor {
    private SpellChecker spellChecker;
@@ -205,7 +208,7 @@ public class TextEditor {
 ```
 
 - #### @Autowired Option
-  - required: Autowired 어노테이션을 적용한 프로퍼티 중 반드시 설정할 필요가 없는 경우에 false값을 주어 프로퍼티가 존재하지 않더라도 스프링이 예외를 발생하지 않도록 한다. 기본값은 TRUE. ex) @Autowired(required=false)
+  - required: 반드시 설정할 필요가 없는 경우에 false값을 주어 프로퍼티가 존재하지 않더라도 스프링이 예외를 발생하지 않도록 한다. 기본값은 TRUE. ex) @Autowired(required=false)
 
 
 
