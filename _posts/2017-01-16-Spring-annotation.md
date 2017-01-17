@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Annotation(@Required,@Autowired,@Qulifier,@Resource)(Edit)
+title: Spring Annotation(@Required,@Autowired,@Qulifier,@Resource)
 categories: [Spring]
 excerpt: " "
 comments: true
@@ -116,7 +116,7 @@ public class MainApp {
 
 Name : Zara , Age : 11
 
-- ## @Autowired
+- ## @Autowired (Auto Wiring by type)
 
   - @Required과 같이 사용하며 XML에 있는 <property> element를 제거하고 사용할 수 있습니다.
 
@@ -208,11 +208,118 @@ public class TextEditor {
 ```
 
 - #### @Autowired Option
-  - required: 반드시 설정할 필요가 없는 경우에 false값을 주어 프로퍼티가 존재하지 않더라도 스프링이 예외를 발생하지 않도록 한다. 기본값은 TRUE. ex) @Autowired(required=false)
+  - required: Property를 반드시 설정할 필요가 없는 경우에 false값을 주어 프로퍼티가 존재하지 않더라도 스프링이 예외를 발생하지 않도록 한다.
+  - Default Value = TRUE. ex) @Autowired(required=false)
 
 
+- ## @Qulifier
+  - @Autowired와 자주 사용되는 Annotation으로써 동일 타입의 Bean객체가 존재시 특정 Bean을 삽입할 수 있게 설정할 수 있다.
 
+- #### Student.java
 
+```java
+public class Student {
+   private Integer age;
+   private String name;
+
+   public void setAge(Integer age) {
+      this.age = age;
+   }
+   public Integer getAge() {
+      return age;
+   }
+   public void setName(String name) {
+      this.name = name;
+   }
+   public String getName() {
+      return name;
+   }
+}
+```
+
+- #### Profile.java
+
+```java
+public class Profile {
+   @Autowired
+   @Qualifier("student1")
+   private Student student;
+
+   public Profile(){
+      System.out.println("Inside Profile constructor." );
+   }
+
+   public void printAge() {
+      System.out.println("Age : " + student.getAge() );
+   }
+
+   public void printName() {
+      System.out.println("Name : " + student.getName() );
+   }
+}
+```
+
+- #### MainApp.java
+
+```java
+ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+
+Profile profile = (Profile) context.getBean("profile");
+
+profile.printAge();
+profile.printName();
+```
+
+- #### 결과물
+Inside Profile constructor.
+Age : 11
+Name : Zara
+
+- #### Beans.XML
+
+```xml
+<!-- Definition for profile bean -->
+   <bean id="profile" class="com.tutorialspoint.Profile">
+   </bean>
+
+   <!-- Definition for student1 bean -->
+   <bean id="student1" class="com.tutorialspoint.Student">
+      <property name="name"  value="Zara" />
+      <property name="age"  value="11"/>
+   </bean>
+
+   <!-- Definition for student2 bean -->
+   <bean id="student2" class="com.tutorialspoint.Student">
+      <property name="name"  value="Nuha" />
+      <property name="age"  value="2"/>
+   </bean>
+```
+
+- ## @Resource (Auto Wiring by Name)
+  - Name에 의해서 Auto Wiring 된다.
+
+- #### @Resource Option
+  - name : 자동으로 연결될 Bean 객체 이름을 입력한다.
+  - ex) @Resource(name="test")
+
+- #### PetOwner.java
+
+```java
+public class PetOwner {
+    @Resource(name = "dog")
+    private  AnimalType animal;
+
+    public void play(){
+        animal.sound();
+    }
+}
+```
+
+- #### Beans.xml
+
+```xml
+<bean id="dog" class="NesoyAnnotationTest"></bean>
+```
 ## 참조
 <https://www.tutorialspoint.com/spring/spring_annotation_based_configuration.htm>
 <http://noritersand.tistory.com/156#@Autowired>
