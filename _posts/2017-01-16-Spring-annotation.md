@@ -320,6 +320,9 @@ public class PetOwner {
 ```xml
 <bean id="dog" class="NesoyAnnotationTest"></bean>
 ```
+
 ## 참조
+
 <https://www.tutorialspoint.com/spring/spring_annotation_based_configuration.htm>
+
 <http://noritersand.tistory.com/156#@Autowired>
