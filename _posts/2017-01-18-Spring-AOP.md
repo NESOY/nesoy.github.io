@@ -1,15 +1,12 @@
 ---
 layout: post
 title: Spring AOP
-categories:
-  - Spring
+categories: [Spring]
 excerpt: ' '
 comments: true
 share: true
-tags:
-  - Spring
-  - AOP
-date: 2017-01-18T00:00:00.000Z
+tags: [Spring,AOP]
+date: 2017-01-18
 ---
 
 # **Spring AOP**
