@@ -6,7 +6,7 @@ excerpt: ' '
 comments: true
 share: true
 tags: [Programming]
-date: 2017-01-18
+date: 2017-01-27
 ---
 
 # **Synchronous Vs Asynchronous**
@@ -22,7 +22,9 @@ date: 2017-01-18
 
 ![No Image](/assets/20170127/Blocking.jpg)
 
-- Blocking I/O Model 에서는 **I/O 작업이 끝날때까지 대기해야 하고 함수가 Return하지 않는다.**
+- Blocking I/O Model 에서는 **System Call이 끝날때까지 프로그램은 대기해야 하고 System Call이 완료가 되면 그때야 Return 한다.**
+
+-
 
 - 간단한 예로 C언어의 Scanf()를 생각한다면 프로그램은 사용자가 입력하기 전까지 대기한 상태로 Scanf는 Return하지 않는 모습을 알 수 있다.
 
@@ -30,16 +32,27 @@ date: 2017-01-18
 
 ![No Image](/assets/20170127/Non-Blocking.jpg)
 
-- Non-Blocking I/O Model 에서는 **I/O 작업을 완료할 수 있다면 완료하고 그렇지 않으면 대기하지 않고 Return 해버린다.**
+- Non-Blocking I/O Model 에서는 **System Call이 완료되지 않아도 대기하지 않고 Return 해버린다.**
 
-### **Blocking Vs Non-Blocking**
-- 가장 큰 차이점은 I/O 작업의 끝을 기다리느냐 아니면 기다리지 않고 바로 Return하는 점이다.
+### **Blocking Vs Non-Blocking 차이점**
+- 가장 큰 차이점은 System Call의 끝을 기다리면서 프로그램이 Blocking 아니면 Blocking 하지 않고 바로 Return하여 프로그램이 바로 실행될 수 있는지 **즉 프로그램이 바로 실행할 수 있는 유무가 다르다.**
 
 ## **Synchronous Vs Asynchronous**
-- Synchronous & Asynchronous은 결과물(Return 값)을 돌려받는 시점에 초점을 두면 이해를 하면 좀 더 쉽게 이해를 할 수 있다.
+- Synchronous & Asynchronous은 결과물을 돌려받는 시점에 초점을 두면 이해를 하면 좀 더 쉽게 이해를 할 수 있다.
 
 ## 3. Synchronous
--
+- Synchronous 에서는 **System Call이 끝날때까지 기다리고 결과물을 가져온다.**
+
+## 4. Asynchronous
+- Asynchronous 에서는 **System Call이 완료되지 않아도 나중에 완료가 되면 그때 결과물을 가져온다.**
+
+### **Synchronous Vs Asynchronous 차이점**
+- 가장 큰 차이점은 System Call의 끝나고 기다리던지 아니면 알림을 통해 결과물을 가져오던지 **즉 결과물을 가저오는 시점이 다르다.**
+
+TodoList
+Synchronous & Asynchronous 사진 추가
+### **ASynchronous Vs Non-Blocking**
+### **Synchronous Vs Blocking**
 
 
 ## 참고
@@ -49,6 +62,8 @@ date: 2017-01-18
 <http://www.slideshare.net/unitimes/sync-asyncblockingnonblockingio>
 
 <http://www.slideshare.net/namhyeonuk90/tcp-ip-io-model>
+
+<http://www.gpgstudy.com/forum/viewtopic.php?f=8&t=14985>
 
 <http://devsw.tistory.com/142>
 
