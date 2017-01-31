@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Synchronous Vs Asynchronous
+title: Synchronous(동기) Vs Asynchronous(비동기)
 categories: [Programming]
 excerpt: ' '
 comments: true
 share: true
-tags: [Programming]
+tags: [Programming,Synchronous,Asynchronous]
 date: 2017-01-27
 ---
 
-# **Synchronous Vs Asynchronous**
+# **Synchronous(동기) Vs Asynchronous(비동기)**
 
 > 예전에 Javascript를 공부하는 과정에 Synchronized와 Asynchronized의 차이점에 대해 공부를 했지만 다른 사람이 물어보았을때 차이점에 대해 명확히 설명할 수 없었기에 이렇게 블로그를 남긴다.
 
