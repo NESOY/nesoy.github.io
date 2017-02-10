@@ -10,7 +10,8 @@ date: 2016-12-29
 ---
 
 > 아래 포스팅을 따라 하기 전에 Window에 Jekyll 설치하기에 관한 Posting을 읽어보시면 좋을 듯 합니다.
-<https://nesoy.github.io/articles/2016-12/Install-Jekyll>
+
+Window에 Jekyll설치하기 : <https://nesoy.github.io/articles/2016-12/Install-Jekyll>
 
 # **Jekyll Github에 올리기**
 
