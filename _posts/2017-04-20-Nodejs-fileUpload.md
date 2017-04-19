@@ -63,6 +63,7 @@ req.on('end',function(){
 - 멀티 파트 분석 모듈 : `formidable`, `multer`
 
 ## formidable
+### Install
 - `npm install formidable`
 
 ### Class
@@ -96,6 +97,7 @@ req.on('end',function(){
 - 파일 이름 변경
 
 - 이름 설정을 안할시 파일 이름
+
 ![No Image](/assets/20170420/2.PNG)
 
 ### 파일 업로드 서비스
