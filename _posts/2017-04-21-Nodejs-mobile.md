@@ -50,6 +50,7 @@ console.log('job', profile.job);
 ![No Image](/assets/20170421/2.PNG)
 
 - JSON을 파싱한 결과를 출력
+
 ![No Image](/assets/20170421/3.PNG)
 
 ## XML
