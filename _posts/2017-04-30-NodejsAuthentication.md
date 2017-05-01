@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nodejs의 인증(Authentication)(Edit)
+title: Nodejs의 인증(Authentication), Passport
 categories: [Nodejs]
 excerpt: ' '
 comments: true
@@ -136,3 +136,67 @@ app.use(session({
 var passport = require('passport');
 app.use(passport.initialize());
 ```
+
+- Strategy 인증 방법
+- facebook, twitter, google, kakaotalk
+
+```
+var Strategy = require('passport-strategy').Strategy;
+passport.use(new Strategy(function username, password, done){});
+```
+
+- 인증 요청
+- `passport.authenticate('local');`
+
+- 세션 기록
+
+``` javascript
+passport.serializeUser(function(user, done) {
+    console.log('세션에 기록하기');
+   done(null, user);
+});
+```
+
+- 세션 읽기
+
+``` javascript
+passport.deserializeUser(function(user, done) {
+    console.log('세션에서 사용자 정보 읽기');
+    done(null, user);
+});
+```
+
+### Local Authentication
+- `npm install passport-local`
+- `var LocalStrategy = require('passport-local').Strategy`
+- `var Strategy = new LocalStrategy(Option, function(username,password,done){});`
+- `done(null, userinfo);` : 성공
+- `done(null, false, '로그인 실패');` : 실패
+
+### Ex
+- Web-Browser : `app.post('/login',passport.authenticate('local',{successRedirect:'SuccessAddress',failureRedirect:'failureAddress'}))`
+- Mobile : `app.post('/login',passport.authenticate('local'),function(req,res){res.end('login Success');})`
+
+
+## Facebook OAuth
+- `npm install passport-facebook`
+- 페이스북에 서비스(앱) 등록
+- Redirect 주소 필요
+
+``` javascript
+passport.use(new FacebookStrategy({
+    clientID: FACEBOOK_APP_ID,
+    clientSecret: FACEBOOK_APP_SECRET,
+    callbackURL: "http://localhost:3000/auth/facebook/callback"
+  },
+  function(accessToken, refreshToken, profile, cb) {
+    User.findOrCreate({ facebookId: profile.id }, function (err, user) {
+      return cb(err, user);
+    });
+  }
+));
+```
+
+### Login 요청
+- `<a href="/auth/facebook">FB 로그인 </a>`
+- `app.get('/auth/facebook',passport.authenticate('facebook',{scope:'email'}));`
