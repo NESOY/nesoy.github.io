@@ -35,6 +35,7 @@ date: 2017-04-17
 - `npm install` : 패키지에 필요한 모듈 설치
 - `npm install package` : 개별 패키지 설치
 - `npm list` : 설치된 모듈 목록 보기
+- `npm list -g --depth=0` : Global List 확인하기
 - `npm info` : 모듈 정보
 - `npm search` : 모듈 검색
 - `npm update` : 모듈 업데이트
@@ -62,6 +63,7 @@ date: 2017-04-17
 - `npm init`으로 생성
 - 패키지에 대한 정보 입력
 - `npm install Module --save` : package.json에 의존성 정보 기록하기
+- `npm install Module --save-dev` : 실무환경이 아닌 개발할 때만 사용한다고 알리는 옵션
 - package.json
 
 ``` json
