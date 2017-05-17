@@ -222,6 +222,28 @@ var MovieScheme = mongoose.Schema({
 var Movie = mongoose.model('Movie', MovieScheme);
 ```
 
+### Error 처리
+- mongoose v4 이상의 버전부터 mongoose의 save()와 쿼리같은 비동기 동작에서는 Promises/A+ conformant pomises를 반환하게 되어있다.
+
+![No Image](/assets/20170426/1.PNG)
+
+- `mongoose.Promise = global.Promise;` 추가하면 해결된다.
+
+### `__v` 제거하기
+- `versionKey`가 Default로 들어간다.
+
+![No Image](/assets/20170426/2.PNG)
+
+``` javascript
+var UserSchema = new mongoose.Schema({
+    nickname: String,
+    reg_time: {type: Date, default: Date.now}
+}, {
+    versionKey: false // You should be aware of the outcome after set to false
+});
+```
+
+
 ### Document Insert
 - `Model.save(function(err,product));` : Callback
 - `Model.save().then(resolved,rejected);` : Promise
@@ -289,3 +311,6 @@ Movie.findOne({title:'아바타'}).exec(function(err, doc) {
 
 Movie.remove({director:'크리스토퍼 놀란'}).then(resolved, rejected);
 ```
+
+## Reference
+- <http://stackoverflow.com/questions/12495891/what-is-the-v-field-in-mongodb>
