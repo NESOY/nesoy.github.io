@@ -9,6 +9,8 @@ tags: [NodeJs,Web,Javascript]
 date: 2017-04-30
 ---
 
+![No Image](/assets/20170413/1.PNG)
+
 ## 쿠키
 - 쿠키에 대한 BLOG : <https://nesoy.github.io/articles/2017-03/Session-Cookie>
 
