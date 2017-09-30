@@ -9,7 +9,7 @@ tags: [MongoDB,Mongoose,NoSQL]
 date: 2017-06-02
 ---
 
-![No Image](/assets/20170602/1.PNG)
+![No Image](/assets/posts/20170602/1.PNG)
 
 > 이번 프로젝트에 Mongoose를 활용하고 있는데 Data Type이 Array 형태인 부분이 많다. Array형태의 Delete 다루는 부분에 있어서 에러가 발생하였습니다. 해결책을 mongoose github에 issues에서 찾았고 많은 사람들이 이 문제를 쉽게 해결하기 위해 기록을 남긴다.
 
@@ -52,7 +52,7 @@ UserSchema.methods.removeFriend = function (info) {
 
 ### Solution
 
-![No Image](/assets/20170602/2.PNG)
+![No Image](/assets/posts/20170602/2.PNG)
 
 - `_id`를 기반으로 찾기 때문에 friendId로는 찾을 수 없다.
 - `_id`를 옵션을 꺼주면 해결할 수 있다.

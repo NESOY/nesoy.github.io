@@ -9,7 +9,7 @@ tags: [NodeJs,Web,Javascript]
 date: 2017-04-13
 ---
 
-![No Image](/assets/20170413/1.PNG)
+![No Image](/assets/posts/20170413/1.PNG)
 
 ## Basic Module(기본 모듈)
 
@@ -56,11 +56,11 @@ date: 2017-04-13
 #### 결과
 - `process.env`
 
-![No Image](/assets/20170413/2.PNG)
+![No Image](/assets/posts/20170413/2.PNG)
 
 - `process.arch, process.platform`
 
-![No Image](/assets/20170413/3.PNG)
+![No Image](/assets/posts/20170413/3.PNG)
 
 ### Timer
 - 지연 동작 : `setTimeout`

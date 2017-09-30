@@ -9,7 +9,7 @@ tags: [NodeJs,Web,Javascript,Express]
 date: 2017-04-22
 ---
 
-![No Image](/assets/20170413/1.PNG)
+![No Image](/assets/posts/20170413/1.PNG)
 
 ## Express
 - Light HTTP web Framework
@@ -38,7 +38,7 @@ http.createServer(app).listen(3000);
 - 중간에 껴넣는다는 의미로 부가적인 기능이나 처리를 제공하는 목적
 - app.use(MiddleWare)
 
-![No Image](/assets/20170422/1.PNG)
+![No Image](/assets/posts/20170422/1.PNG)
 
 ### routing
 - 요청 처리 미들웨어로 분배

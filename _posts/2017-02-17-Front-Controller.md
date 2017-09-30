@@ -17,7 +17,7 @@ date: 2017-02-17
 
 ## 2. MVC(Model-View-Controller) Pattern 구성요소
 
-![NO Image](/assets/20170217/1.PNG)
+![NO Image](/assets/posts/20170217/1.PNG)
 
 #### 컨트롤러(Controller)
   1. 모델(Model)에 명령을 보냄으로써 모델의 상태를 변경할 수 있다.
@@ -33,7 +33,7 @@ date: 2017-02-17
 
 ## 3. Front-Controller Pattern 이란?
 
-![NO Image](/assets/20170217/2.PNG)
+![NO Image](/assets/posts/20170217/2.PNG)
 
 - 웹 어플리케이션(Web application)과 관련된 패턴(Pattern)이다.
 - 모든 리소스(Resource) 요청을 처리해주는 하나의 컨트롤러(Controller)를 두는 패턴이다.

@@ -9,7 +9,7 @@ tags: [Javascript]
 date: 2017-05-04
 ---
 
-![No Image](/assets/20161230/javascript.PNG)
+![No Image](/assets/posts/20161230/javascript.PNG)
 
 ## 클로저(Closure)
 - 클로저(closure)는 내부함수가 외부함수의 맥락(context)에 접근할 수 있는 것을 가르킨다. 클로저는 자바스크립트를 이용한 고난이도의 테크닉을 구사하는데 필수적인 개념으로 활용된다.  

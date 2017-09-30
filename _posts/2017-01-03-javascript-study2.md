@@ -10,7 +10,7 @@ date: 2017-01-03
 ---
 
 # **Javascript**
-![No Image](/assets/20161230/javascript.PNG)
+![No Image](/assets/posts/20161230/javascript.PNG)
 
 ## 3. 언어의 기초
 
@@ -130,7 +130,7 @@ alert(person.name); // NESOY
   foo();
   {% endhighlight %}
 
-![No Image](/assets/20170103/execution-context.PNG)
+![No Image](/assets/posts/20170103/execution-context.PNG)
 
   - ##### Global Execution Context 생성
   - ##### 함수가 호출 될때마다 Stack의 모양으로 쌓인다.

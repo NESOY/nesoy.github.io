@@ -10,7 +10,7 @@ date: 2017-01-26
 ---
 
 # **Git .gitignore File 적용하기**
-![No Image](/assets/20170126/GitLogo.PNG)
+![No Image](/assets/posts/20170126/GitLogo.PNG)
 
 ## .gitignore이란?
 > Project에 원하지 않는 Backup File이나 Log File , 혹은 컴파일 된 파일들을 Git에서 제외시킬수 있는 설정 File이다.
@@ -21,7 +21,7 @@ date: 2017-01-26
 
 - Ex) 예시
 
-![No Image](/assets/20170126/1.PNG)
+![No Image](/assets/posts/20170126/1.PNG)
 
 - 문법
 
@@ -60,7 +60,7 @@ git commit -m "fixed untracked files"
 
 ## 3. 확인해보기
 
-![No Image](/assets/20170126/2.PNG)
+![No Image](/assets/posts/20170126/2.PNG)
 
 - Local에서는 ignoreFile이 사라지지 않았지만 Remote에 Push가 될때에는 적용되어 올라간 모습을 볼 수 있다.
 

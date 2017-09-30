@@ -9,12 +9,12 @@ tags: [NodeJs,Web,Javascript,MySQL]
 date: 2017-04-24
 ---
 
-![No Image](/assets/20170413/1.PNG)
+![No Image](/assets/posts/20170413/1.PNG)
 
 ## MySQL
 - `npm install mysql`
 
-![No Image](/assets/20170424/1.PNG)
+![No Image](/assets/posts/20170424/1.PNG)
 
 ### Connection(커넥션)
 - `mysql.createConnection(DATABASE_CONFIG)`
@@ -156,7 +156,7 @@ User.create({
 
 - 결과 화면
 
-![No Image](/assets/20170424/2.PNG)
+![No Image](/assets/posts/20170424/2.PNG)
 
 ### Model Read
 
@@ -170,7 +170,7 @@ User.findAll({
 }).then(resolved,rejected);
 ```
 
-![No Image](/assets/20170424/3.PNG)
+![No Image](/assets/posts/20170424/3.PNG)
 
 ### Model Update
 
@@ -184,7 +184,7 @@ User.update({
 }).then(resolved,rejected);
 ```
 
-![No Image](/assets/20170424/4.PNG)
+![No Image](/assets/posts/20170424/4.PNG)
 
 ### Model DELETE
 
@@ -196,4 +196,4 @@ User.destroy({
    }).then(resolved,rejected);
 ```
 
-![No Image](/assets/20170424/5.PNG)
+![No Image](/assets/posts/20170424/5.PNG)

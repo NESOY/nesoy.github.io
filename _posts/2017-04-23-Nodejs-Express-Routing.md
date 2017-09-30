@@ -9,7 +9,7 @@ tags: [NodeJs,Web,Javascript,Express]
 date: 2017-04-23
 ---
 
-![No Image](/assets/20170413/1.PNG)
+![No Image](/assets/posts/20170413/1.PNG)
 
 ## Routing
 - 클라이언트의 요청을 미들웨어로 분배

@@ -11,7 +11,7 @@ date: 2016-12-28
 
 # **Jekyll 설치하기(Window)**
 
-![No Image](/assets/20161228/jekyll_logo.png)
+![No Image](/assets/posts/20161228/jekyll_logo.png)
 
 ## Jekyll
 
@@ -30,15 +30,15 @@ date: 2016-12-28
 - #### [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
 
 - #### PC환경에 맞게 Download
-![No Image](/assets/20161228/ruby_down.PNG)
+![No Image](/assets/posts/20161228/ruby_down.PNG)
 - #### 환경변수에 자동으로 넣어주는 Option Check
-![No Image](/assets/20161228/ruby_path.PNG)
+![No Image](/assets/posts/20161228/ruby_path.PNG)
 
 - ### DevKit 설치하기
   - #### [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
 
 - #### PC환경에 맞게 Download
-![No Image](/assets/20161228/ruby_devkit.PNG)
+![No Image](/assets/posts/20161228/ruby_devkit.PNG)
 
 - #### DevKit 디렉토리 만들기
   - #### C:\RubyDevkit
@@ -49,14 +49,14 @@ date: 2016-12-28
   - #### ruby dk.rb install
 
   - #### 성공화면
-  ![No Image](/assets/20161228/ruby_success.PNG)
+  ![No Image](/assets/posts/20161228/ruby_success.PNG)
 
 ## 3. Jekyll 설치하기
 - #### gem을 이용하여 Jekyll 설치하기 (권한 요청하면 주기)
   - #### gem install jekyll
 
   - ##### 성공화면
- ![No Image](/assets/20161228/jekyll_down.PNG)
+ ![No Image](/assets/posts/20161228/jekyll_down.PNG)
 
   미리설치한 관계로 숫자가 적지만 원래 더 많습니다.
 
@@ -64,29 +64,29 @@ date: 2016-12-28
   - #### gem install rouge
 
   #### 성공화면
-  ![No Image](/assets/20161228/rouge_down.PNG)
+  ![No Image](/assets/posts/20161228/rouge_down.PNG)
 
 ## 4. Python 설치하기
   - #### [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 - #### PC환경에 맞게 Download
-  ![No Image](/assets/20161228/python_down.PNG)
+  ![No Image](/assets/posts/20161228/python_down.PNG)
 
 - #### pip는 Python에 자동으로 설치된다.
 
 - #### 환경변수추가하기
   - #### C:\Python27;C:\Python27\Scripts;
-  ![No Image](/assets/20161228/path.PNG)
-  ![No Image](/assets/20161228/path2.PNG)
+  ![No Image](/assets/posts/20161228/path.PNG)
+  ![No Image](/assets/posts/20161228/path2.PNG)
 
   - #### python
   - #### python 성공화면
-  ![No Image](/assets/20161228/python_success.PNG)
+  ![No Image](/assets/posts/20161228/python_success.PNG)
 
   - #### pip
 
   - #### pip 성공화면
-  ![No Image](/assets/20161228/pip_success.PNG)
+  ![No Image](/assets/posts/20161228/pip_success.PNG)
 
 - #### Pygments 설치
   - #### pip install Pygments
@@ -96,13 +96,13 @@ date: 2016-12-28
   - #### mkdir C:\jekyll
   - #### gem install wdm
   - #### jekyll
-  ![No Image](/assets/20161228/jekyll_execute.PNG)
+  ![No Image](/assets/posts/20161228/jekyll_execute.PNG)
 
 - #### Jekyll 실행하기
   - #### jekyll serve
   - #### Browser로 접속  127.0.0.1:4000
 
-  ![No Image](/assets/20161228/jekyll_browser.PNG)
+  ![No Image](/assets/posts/20161228/jekyll_browser.PNG)
 
 ## 6. Jekyll 사이트 생성하기
 - #### blog 디렉토리 생성
@@ -112,12 +112,12 @@ date: 2016-12-28
   - #### encoding: utf-8
   - #### highlighter: rouge
   - #### highlighter: Pygments
-  ![No Image](/assets/20161228/config.PNG)
+  ![No Image](/assets/posts/20161228/config.PNG)
 
 - #### Jekyll 실행하기
   - #### jekyll serve
   - #### Browser로 접속  127.0.0.1:4000
-  ![No Image](/assets/20161228/jekyll_browser2.PNG)
+  ![No Image](/assets/posts/20161228/jekyll_browser2.PNG)
 
 ## 참조
 <http://tech.whatap.io/2015/09/11/install-jekyll-on-windows/>

@@ -18,7 +18,7 @@ date: 2017-03-06
 
 ## 템플릿 시스템(Template System)의 구성요소
 
-![No Image](/assets/20170306/1.PNG)
+![No Image](/assets/posts/20170306/1.PNG)
 
 - 템플릿 엔진(Template Engine)
 - 템플릿 자료(Template Resource) : 템플릿 언어로 작성된 웹 템플릿
@@ -39,7 +39,7 @@ date: 2017-03-06
 - Static Web Page만을 생성한다.
 - OutSider Server의 대표적인 예시이다.
 
-![No Image](/assets/20170306/2.PNG)
+![No Image](/assets/posts/20170306/2.PNG)
 
 ## Server-side Systems
 
@@ -51,7 +51,7 @@ date: 2017-03-06
 - Browser에서 XSLT 스타일시트를 적용하여 XML의 데이터를 XHTML로 바꿀 수 있다.
 - Javascript를 이용하여 템플릿을 구성하기도 한다.
 
-![No Image](/assets/20170306/3.PNG)
+![No Image](/assets/posts/20170306/3.PNG)
 
 ## 참조
 

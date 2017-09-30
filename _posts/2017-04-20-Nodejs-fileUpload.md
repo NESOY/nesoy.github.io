@@ -9,7 +9,7 @@ tags: [NodeJs,Web,Javascript]
 date: 2017-04-20
 ---
 
-![No Image](/assets/20170413/1.PNG)
+![No Image](/assets/posts/20170413/1.PNG)
 
 ## Multipart 요청
 - ex) 사진 올리기, 글과 사진 올리기
@@ -21,7 +21,7 @@ date: 2017-04-20
 - 파크 인코딩
 - 파트 내 정보
 
-![No Image](/assets/20170420/1.PNG)
+![No Image](/assets/posts/20170420/1.PNG)
 
 ### HTML form Tag
 
@@ -98,7 +98,7 @@ req.on('end',function(){
 
 - 이름 설정을 안할시 파일 이름
 
-![No Image](/assets/20170420/2.PNG)
+![No Image](/assets/posts/20170420/2.PNG)
 
 ### 파일 업로드 서비스
 - 파일 업로드(formidable) - 임시 폴더

@@ -8,7 +8,7 @@ share: true
 tags: [NodeJs,Web,Javascript]
 date: 2017-04-15
 ---
-![No Image](/assets/20170413/1.PNG)
+![No Image](/assets/posts/20170413/1.PNG)
 
 ## 스트림(Stream)
 ### 스트림 : 데이터의 전송 흐름

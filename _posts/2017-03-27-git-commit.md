@@ -66,7 +66,7 @@ $ git rebase -i HEAD~commit개수
 $ git rebase -i HEAD~commit개수
 ```
 
-![No Image](/assets/20170327/1.PNG)
+![No Image](/assets/posts/20170327/1.PNG)
 
 ```shell
 pick commit번호 commit내용
@@ -75,7 +75,7 @@ squash commit번호 commit내용 // 앞부분 원하는 command로 변경하기
 
 - 결과 확인하기
 
-![No Image](/assets/20170327/2.PNG)
+![No Image](/assets/posts/20170327/2.PNG)
 
 ## Reference
 - <https://backlogtool.com/git-guide/kr/stepup/stepup7_1.html>

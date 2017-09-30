@@ -23,7 +23,7 @@ Servlet을 공부하던 중에 index.html에서 action의 DoLogin을 호출하�
 
 404 에러가 발생 하였다.
 
-![No Image](/assets/20170108/404error.PNG)
+![No Image](/assets/posts/20170108/404error.PNG)
 
 에러의 이유를 찾다보니까 Servlet Annotation의 문제가 확인 되었다.
 
@@ -63,7 +63,7 @@ Servlet urlPatterns을 넣어줘야 Server가 위치를 알고 resource를 찾�
 
 ## WebServlet Attributes
 
-![No Image](/assets/20170108/attributes.PNG)
+![No Image](/assets/posts/20170108/attributes.PNG)
 
 
 ## 참조

@@ -15,26 +15,26 @@ date: 2017-02-05
 
 - New Project - Maven - Create from archetype(해제하기)
 
-![No Image](/assets/20170204/1.PNG)
+![No Image](/assets/posts/20170204/1.PNG)
 
 ## 2. Project SpringMVC Framework 추가하기
 
 - Add Framework Support
 
-![No Image](/assets/20170204/2.PNG)
+![No Image](/assets/posts/20170204/2.PNG)
 
 - Spring - Spring MVC 체크하기
 
-![No Image](/assets/20170204/3.PNG)
+![No Image](/assets/posts/20170204/3.PNG)
 
 ## 3. Spring MVC Library 다운로드 완료 후 Project 모습
-![No Image](/assets/20170204/4.PNG)
+![No Image](/assets/posts/20170204/4.PNG)
 
 ## 4. web.xml 변경하기
 - servlet-mapping의 url-pattern변경하기 : ``` *.form -> / ```
 - 변경 전 web.xml
 
-![No Image](/assets/20170204/5.PNG)
+![No Image](/assets/posts/20170204/5.PNG)
 
 - 변경 후 web.xml
 
@@ -67,7 +67,7 @@ date: 2017-02-05
 
 - New - Directory
 
-![No Image](/assets/20170204/6.PNG)
+![No Image](/assets/posts/20170204/6.PNG)
 
 - index.jsp
 
@@ -119,7 +119,7 @@ date: 2017-02-05
 
 - New - Directory
 
-![No Image](/assets/20170204/7.PNG)
+![No Image](/assets/posts/20170204/7.PNG)
 
 ```java
 package Controller;
@@ -144,64 +144,64 @@ public class controller {
 
 - Run - Edit Configuration
 
-![No Image](/assets/20170204/8.PNG)
+![No Image](/assets/posts/20170204/8.PNG)
 
 - Tomcat Server 추가하기
 
-![No Image](/assets/20170204/9.PNG)
+![No Image](/assets/posts/20170204/9.PNG)
 
 - Warning 나오면 Fix 버튼누르기
 
-![No Image](/assets/20170204/10.PNG)
+![No Image](/assets/posts/20170204/10.PNG)
 
 - war exploded로 추가하여 설정한 모습
 
-![No Image](/assets/20170204/11.PNG)
+![No Image](/assets/posts/20170204/11.PNG)
 
 ## 9. Error 1 : web.xml의 ApplicationContext.xml 빨간 글씨가 발생하여 tomcat 실행 X
 
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 
-![No Image](/assets/20170204/12.PNG)
+![No Image](/assets/posts/20170204/12.PNG)
 
 ### 해결 방법 : WEB-INF 경로 잡아주기
 
 - Open Module Settings에 들어간다.
 
-![No Image](/assets/20170204/13.PNG)
+![No Image](/assets/posts/20170204/13.PNG)
 
 - Modules - web - Web Resource Directory가 빨간 글씨가 된 걸 확인할 수 있다.
 
-![No Image](/assets/20170204/14.PNG)
+![No Image](/assets/posts/20170204/14.PNG)
 
 - 경로 다시 잡아 주기
 
-![No Image](/assets/20170204/15.PNG)
+![No Image](/assets/posts/20170204/15.PNG)
 
 - 해결 된 모습
 
-![No Image](/assets/20170204/16.PNG)
+![No Image](/assets/posts/20170204/16.PNG)
 
 ## 10. Error 2 : Tomcat 오류 - RMI TCP Connection
 
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 
-![No Image](/assets/20170204/17.PNG)
+![No Image](/assets/posts/20170204/17.PNG)
 
 ### 해결 방법 : Library 집어넣기.
 
 - Project Structure - Artifacts에 들어간다.
 
-![No Image](/assets/20170204/18.PNG)
+![No Image](/assets/posts/20170204/18.PNG)
 
 - **Available Elements 아래에 있는 Library를 더블 클릭한다.**
 
 - 옮겨진 모습
 
-![No Image](/assets/20170204/19.PNG)
+![No Image](/assets/posts/20170204/19.PNG)
 
 ## 11. 모든 에러를 통과한 후 실행하기
 
 > 깔끔하게 성공된 모습을 볼 수 있다.
 
-![No Image](/assets/20170204/20.PNG)
+![No Image](/assets/posts/20170204/20.PNG)
