@@ -115,7 +115,6 @@
           {% endif %}
 
           {% if post.comments %}
-            {% include _third-party/adsense/adsense.html %}
             {% if site.duoshuo_shortname or site.duoshuo and site.duoshuo.shortname %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
@@ -416,5 +415,6 @@
           <div class="post-eof"></div>
         {% endunless %}
       {% endif %}
+      {% include _third-party/adsense/adsense.html %}
     </footer>
   </article>
