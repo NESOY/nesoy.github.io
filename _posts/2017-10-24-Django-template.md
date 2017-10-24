@@ -44,12 +44,14 @@ def detail(request, question_id):
 
 ### 강결합 코드
 #### html
+
 ```html
 <li><a href="/memos/{{ memo.id }}/">{{ memo.content }}</a></li>
 ```
 
 ### 약결합 코드
 #### urls.py
+
 ```python
 from django.conf.urls import url
 
@@ -61,7 +63,9 @@ urlpatterns = [
 ]
 
 ```
+
 #### html
+
 ```html
 <li><a href="{% url 'detail' memo.id %}">{{ memo.content }}</a></li>
 ```
@@ -70,6 +74,7 @@ urlpatterns = [
 > 다른 App의 urls.py를 사용하기 위해
 
 #### urls.py
+
 ```python
 app_name = 'memos' # App 이름 선언
 urlpatterns = [
@@ -77,7 +82,9 @@ urlpatterns = [
     url(r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail'),
 ]
 ```
+
 #### html
+
 ```html
 <li><a href="{% url 'memos:detail' memo.id %}">{{ memo.content }}</a></li>
 ```
