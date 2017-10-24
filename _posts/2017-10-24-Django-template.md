@@ -43,36 +43,9 @@ def detail(request, question_id):
 > URL이 변경되면 URL을 포함한 코드를 전부 변경해야하는 문제점을 해결하기 위해 제거한다.
 
 ### 강결합 코드
+
 #### html
 
 ```html
 <li><a href="/memos/{{ memo.id }}/">{{ memo.content }}</a></li>
 ```
-
-### 약결합 코드
-
-```python
-    (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail')
-```
-
-#### html
-
-```HTML
-<li><a href="{% url 'detail' memo.id %}">{{ memo.content }}</a></li>
-```
-
-### URL 구역나누기
-> 다른 App의 URLS.py를 사용하기 위해
-
-```python
-app_name = 'memos' # App 이름 선언
-```
-
-#### html
-
-```HTML
-<li><a href="{% url 'memos:detail' memo.id %}">{{ memo.content }}</a></li>
-```
-
-## Reference
-- <https://docs.djangoproject.com/ko/1.11/intro/tutorial03/>
