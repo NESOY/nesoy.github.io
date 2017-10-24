@@ -53,9 +53,7 @@ def detail(request, question_id):
 #### urls.py
 
 ```python
-urlpatterns = [
-    url(r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail'),
-]
+    (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail') #url pattern
 ```
 
 #### html
@@ -71,9 +69,6 @@ urlpatterns = [
 
 ```python
 app_name = 'memos' # App 이름 선언
-urlpatterns = [
-    url (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail'),
-]
 ```
 
 #### html
