@@ -53,15 +53,9 @@ def detail(request, question_id):
 #### urls.py
 
 ```python
-from django.conf.urls import url
-
-from . import views
-
 urlpatterns = [
-    url (r'^$', views.index, name='index'),
-    url (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail'),
+    url(r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail'),
 ]
-
 ```
 
 #### html
@@ -78,7 +72,6 @@ urlpatterns = [
 ```python
 app_name = 'memos' # App 이름 선언
 urlpatterns = [
-    url (r'^$', views.index, name='index'),
     url (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail'),
 ]
 ```
