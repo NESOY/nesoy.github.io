@@ -50,7 +50,6 @@ def detail(request, question_id):
 ```
 
 ### 약결합 코드
-#### urls.py
 
 ```python
     (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail') #url pattern
@@ -64,8 +63,6 @@ def detail(request, question_id):
 
 ### URL 구역나누기
 > 다른 App의 urls.py를 사용하기 위해
-
-#### urls.py
 
 ```python
 app_name = 'memos' # App 이름 선언
