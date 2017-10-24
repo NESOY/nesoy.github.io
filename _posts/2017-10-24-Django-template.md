@@ -49,3 +49,9 @@ def detail(request, question_id):
 ```html
 <li><a href="/memos/{{ memo.id }}/">{{ memo.content }}</a></li>
 ```
+
+### 약결합 코드
+
+```python
+    (r'^memos/(?P<memo_id>[0-9]+)/$', views.detail, name='detail')
+```
