@@ -20,7 +20,7 @@ date: 2017-11-20
 
 # Test code
 
-```Java
+```java
 /**
  * Created by nesoy on 2017. 11. 16..
  * blog : https:nesoy.github.io
