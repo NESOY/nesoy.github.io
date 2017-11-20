@@ -19,7 +19,6 @@ date: 2017-11-20
 - `StringBuffer` : 기존의 문자열 객체의 크기를 증가시켜 값을 더한다. // 동기화 기능 제공 O
 
 # Test code
-
 ```java
 /**
  * Created by nesoy on 2017. 11. 16..
