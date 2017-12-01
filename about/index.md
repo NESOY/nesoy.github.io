@@ -67,7 +67,7 @@ Web / Server / Network / Software Engineering
 - 2017.01.16 ~ 01.20 :: Hansung University Programming Camp Mentor
 - 2017.04.19 ~ 06.23 :: **SK Tacademy Server Developer Course**
 - 2017.08.18 ~ 08.18 :: Graduate from Hansung University
-- 2017.07.03 ~ 08.18 :: **NAVER Intern**
+- 2017.07.03 ~ 08.18 :: **NAVER Corporation Intern**
 
 ## Project
 - #### Train Reservation Service - Using C Language
@@ -81,7 +81,7 @@ Web / Server / Network / Software Engineering
 - #### SoundCatcher - Embedded Streaming Server
   [Code](https://github.com/SCCasper) :: [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
 - #### Nelp - Springboot
-  [Code](https://github.com/Nelp-dev/Nelp) :: <http://nelp.kr>
+  [Code](https://github.com/Nelp-dev/Nelp)
 - #### B-gle
   [Code](https://github.com/B-gle/Server)
 
