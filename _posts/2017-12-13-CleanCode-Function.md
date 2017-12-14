@@ -52,7 +52,7 @@ public static String renderPageWithSetupsAndTeardowns( PageData pageData, boolea
 ### 함수 내 섹션
 함수를 여러 섹션(선언, 초기화 등등)으로 나눌 수 있다면 그 함수는 여러작업을 하는 셈이다.
 
-## 함수 당 추상화 순준은 하나로 하기
+## 함수 당 추상화 수준은 하나로 하기
 함수가 ‘한가지’ 작업만 하려면 함수 내 모든 문장의 추상화 수준이 동일해야 된다.
 만약 한 함수 내에 추상화 수준이 섞이게 된다면 읽는 사람이 헷갈린다.
 
@@ -61,7 +61,7 @@ public static String renderPageWithSetupsAndTeardowns( PageData pageData, boolea
 함수 추상화 부분이 한번에 한단계씩 낮아지는 것이 가장 이상적이다.(내려가기 규칙)
 
 ## Switch문
-
+### Bad Example
 ```java
 public Money calculatePay(Employee e) throws InvalidEmployeeType {
     switch (e.type) {
@@ -81,6 +81,7 @@ public Money calculatePay(Employee e) throws InvalidEmployeeType {
 - SRP(Single Responsibility Principle)를 위반한다. (코드를 변경할 이유가 여럿이기 때문이다.)
 - OCP(Open Closed Principle)를 위반한다.(새 직원 유형을 추가할 때마다 코드를 변경하기 때문이다.)
 
+### Good Example
 ```java
 public abstract class Employee {
     public abstract boolean isPayday();
@@ -124,7 +125,8 @@ switch문은 작게 만들기 어렵지만(if/else의 연속 도 마찬가지!),
 플래그 인수는 추하다. 쓰지마라. bool 값을 넘기는 것 자체가 그 함수는 한꺼번에 여러가지 일을 처리한다고 공표하는 것과 마찬가지다.
 
 ### 이항 함수
-단항 함수보다 이해하기가 어렵다. Point 클래스의 경우에는 이항 함수가 적절하다. 2개의 인수간의 자연적인 순서가 있어야함  무조건 나쁜 것은 아니지만, 인수가 2개이니 만큼 이해가 어렵고 위험이 따르므로 가능하면 단항으로 바꾸도록
+단항 함수보다 이해하기가 어렵다. Point 클래스의 경우에는 이항 함수가 적절하다.
+2개의 인수간의 자연적인 순서가 있어야함  무조건 나쁜 것은 아니지만, 인수가 2개이니 만큼 이해가 어렵고 위험이 따르므로 가능하면 단항으로 바꾸도록
 
 - 자연스러운 이해 : `assertEquals(expected, actual)`, `Point p = new Point(x,y);`
 
@@ -157,6 +159,7 @@ assertExpectedEqualsActual(expected, actual);
 ```
 
 ## 부수 효과를 일으키지 말기
+### Bad Example
 ```java
 public class UserValidator {
     private Cryptographer cryptographer;
@@ -189,6 +192,8 @@ public class UserValidator {
 
 ## 오류 코드보다 예외를 사용하라.
 장황한 `if`을 통해 코드의 가독성과 이해도가 떨어진다.
+
+### Bad Example
 ```java
 if (deletePage(page) == E_OK) {
     if (registry.deleteReference(page.name) == E_OK) {
@@ -206,6 +211,8 @@ if (deletePage(page) == E_OK) {
 ```
 
 오류 코드 대신 예외를 사용하면 오류 처리 코드가 원래 코드에서 분리되므로 코드가 깔금해진다.
+
+### Good Example
 ```java
 try{
   deletePage(page);
@@ -219,6 +226,7 @@ try{
 ### Try/Catch 뽑아내기
 `Try/Catch` 블록을 별로 함수로 뽑아내는 편이 좋다.
 
+### Best Example
 ```java
 public void delete(Page page) {
     try {
