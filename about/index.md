@@ -6,8 +6,6 @@ layout: page
 ## Profile
 - Bachelor in Computer Engineering from [Hansung University](http://www.hansung.ac.kr/)
 
-- 2012.04 ~ 2014.01 :: Serving a mandatory military service
-
 ## Links
 
 - Email : kyoje11@gmail.com
@@ -16,43 +14,33 @@ layout: page
 
 - Blog : [https://nesoy.github.io/](https://nesoy.github.io/)
 
-- <i class="fa fa-facebook-official" aria-hidden="true"></i>(https://www.facebook.com/Nesoy92)
+- [Facebook](https://www.facebook.com/Nesoy92)
 
 - [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/)
 
 - [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
 ## Interests
-Web / Server / Network / Software Engineering
+Web / Server / Software Engineering
 
 ## Technical Skill
-- Program Language - Javascript, C, C++, Java
+- Program Language - Java, C, Javascript, C++
 - Web Framework - Spring, Nodejs - Express
 - Database - MySql, MongoDB, AWS RDB
 - Version Control System - Git
 - Server - AWS EC2
 
-## Awards
-- 2015.09.23 :: Hansung University Engineering Contest **2nd** Prize – FingerKeyboard
-
-- 2015.09.23 :: Hansung University IPP Industry-University Cooperation Award
-
-- 2016.06.03 :: Hansung University Capstone Design **1st** Prize - SoundCatcher
-
-- 2016.09.23 :: Hansung University Engineering Contest **4nd** Prize – SoundCatcher
-
-- 2016.12.08 :: Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)
-
-
 ## Activities
-#### 2015
-- 2015.01.19 ~ 01.24 :: Hansung University **Programming Camp**
-- 2015.03.02 ~ 06.08 :: **Mentoring** - C Language
-- 2015.08.31 ~ 12.11 :: **Mentoring** - C++ Language
-- 2015.09.21 ~ 12.04 :: **Mentoring** - Data Structure
-- 2015.09.23 ~ 09.24 :: Hansung University **Engineering Contest** - FingerKeyboard
+### 2018
+- 2018.01.08 ~ Now :: **Ticket Monster Corporation**
 
-#### 2016
+### 2017
+- 2017.01.16 ~ 01.20 :: Hansung University Programming Camp Mentor
+- 2017.04.19 ~ 06.23 :: **SK Tacademy Server Developer Course**
+- 2017.08.18 ~ 08.18 :: Graduate from Hansung University
+- 2017.07.03 ~ 08.18 :: **NAVER Corporation Intern**
+
+### 2016
 - 2016.01.25 ~ 01.29 :: Hansung University **Programming Camp**
 - 2016.02.29 ~ 06.10 :: **Mentoring** - Programming Lab
 - 2016.03.04 ~ 06.30 :: Hansung University **Capstone Design** - SoundCatcher
@@ -63,11 +51,25 @@ Web / Server / Network / Software Engineering
 - 2016.09.23 ~ 12.07 :: **Mentoring** - Java Language
 - 2016.09.27 ~ 09.28 :: Hansung University **Engineering Contest** - SoundCatcher
 
-#### 2017
-- 2017.01.16 ~ 01.20 :: Hansung University Programming Camp Mentor
-- 2017.04.19 ~ 06.23 :: **SK Tacademy Server Developer Course**
-- 2017.08.18 ~ 08.18 :: Graduate from Hansung University
-- 2017.07.03 ~ 08.18 :: **NAVER Corporation Intern**
+### 2015
+- 2015.01.19 ~ 01.24 :: Hansung University **Programming Camp**
+- 2015.03.02 ~ 06.08 :: **Mentoring** - C Language
+- 2015.08.31 ~ 12.11 :: **Mentoring** - C++ Language
+- 2015.09.21 ~ 12.04 :: **Mentoring** - Data Structure
+- 2015.09.23 ~ 09.24 :: Hansung University **Engineering Contest** - FingerKeyboard
+
+### 2012 ~ 2014
+- 2012.04 ~ 2014.01 :: Serving a mandatory military service
+
+## Awards
+### 2016
+- 2016.06.03 :: Hansung University Capstone Design **1st** Prize - SoundCatcher
+- 2016.12.08 :: Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)
+- 2016.09.23 :: Hansung University Engineering Contest **4nd** Prize – SoundCatcher
+
+### 2015
+- 2015.09.23 :: Hansung University Engineering Contest **2nd** Prize – FingerKeyboard
+- 2015.09.23 :: Hansung University IPP Industry-University Cooperation Award
 
 ## Project
 - #### Train Reservation Service - Using C Language
@@ -82,7 +84,7 @@ Web / Server / Network / Software Engineering
   [Code](https://github.com/SCCasper) :: [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
 - #### Nelp - Springboot
   [Code](https://github.com/Nelp-dev/Nelp)
-- #### B-gle
+- #### B-gle - Nodejs
   [Code](https://github.com/B-gle/Server)
 
 ## Press
