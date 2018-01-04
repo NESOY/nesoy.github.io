@@ -14,11 +14,7 @@ layout: page
 
 - Blog : [https://nesoy.github.io/](https://nesoy.github.io/)
 
-- [Facebook](https://www.facebook.com/Nesoy92)
-
-- [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/)
-
-- [SlideShare](http://slideshare.net/YoungJaeKwon3)
+- [Facebook](https://www.facebook.com/Nesoy92),  [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/),           [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
 ## Interests
 Web / Server / Software Engineering
@@ -72,20 +68,13 @@ Web / Server / Software Engineering
 - 2015.09.23 :: Hansung University IPP Industry-University Cooperation Award
 
 ## Project
-- #### Train Reservation Service - Using C Language
-  [Code](https://github.com/NESOY/TrainReserveService)
-- #### Pokemon Block Game - Java Game using XML
-  [Code](https://github.com/NESOY/PokemonBlockGame)
-- #### PixcelGun - Java Network Shooting Game
-  [Code](https://github.com/NESOY/PixelGun)
-- #### FingerKeyboard - Embedded Image processing KeyBoard
-  [Code](https://github.com/FingerKeyboard-jh-sm/FingerKeyboard) :: [Video](https://www.youtube.com/watch?v=xI_Y875FghU)
-- #### SoundCatcher - Embedded Streaming Server
-  [Code](https://github.com/SCCasper) :: [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
-- #### Nelp - Springboot
-  [Code](https://github.com/Nelp-dev/Nelp)
-- #### B-gle - Nodejs
-  [Code](https://github.com/B-gle/Server)
+- #### Train Reservation Service - Using C Language : [Code](https://github.com/NESOY/TrainReserveService)
+- #### Pokemon Block Game - Java Game using XML : [Code](https://github.com/NESOY/PokemonBlockGame)
+- #### PixcelGun - Java Network Shooting Game : [Code](https://github.com/NESOY/PixelGun)
+- #### FingerKeyboard - Embedded Image processing KeyBoard : [Code](https://github.com/FingerKeyboard-jh-sm/FingerKeyboard) :: [Video](https://www.youtube.com/watch?v=xI_Y875FghU)
+- #### SoundCatcher - Embedded Streaming Server : [Code](https://github.com/SCCasper) :: [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
+- #### Nelp - Springboot : [Code](https://github.com/Nelp-dev/Nelp)
+- #### B-gle - Nodejs : [Code](https://github.com/B-gle/Server)
 
 ## Press
 2015.09.23 Hansung University Engineering Contest **2nd** Prize
