@@ -16,7 +16,7 @@ layout: page
 
 - Blog : [https://nesoy.github.io/](https://nesoy.github.io/)
 
-- [Facebook](https://www.facebook.com/Nesoy92)
+- <i class="fa fa-facebook-official" aria-hidden="true"></i>(https://www.facebook.com/Nesoy92)
 
 - [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/)
 
