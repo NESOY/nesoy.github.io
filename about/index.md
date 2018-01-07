@@ -12,8 +12,6 @@ layout: page
 
 - Github : [https://github.com/nesoy](https://github.com/nesoy)
 
-- Blog : [https://nesoy.github.io/](https://nesoy.github.io/)
-
 - [Facebook](https://www.facebook.com/Nesoy92),  [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/),           [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
 ## Interests
