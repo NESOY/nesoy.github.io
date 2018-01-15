@@ -32,7 +32,7 @@ Web / Server / Software Engineering
 - 2017.01.16 ~ 01.20 :: Hansung University Programming Camp Mentor
 - 2017.04.19 ~ 06.23 :: **SK Tacademy Server Developer Course**
 - 2017.08.18 ~ 08.18 :: Graduate from Hansung University
-- 2017.07.03 ~ 08.18 :: **NAVER Corporation Intern**
+- 2017.07.03 ~ 08.18 :: **Naver Corporation Intern**
 
 ### 2016
 - 2016.01.25 ~ 01.29 :: Hansung University **Programming Camp**
