@@ -5,7 +5,7 @@ categories: [Git]
 excerpt: ' '
 comments: true
 share: true
-tags: [Develop,Git,Github]
+tags: [Git]
 date: 2017-03-27
 ---
 

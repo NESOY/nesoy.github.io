@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Git .gitignore 적용하기
-categories: [Github]
+categories: [Git]
 excerpt: " "
 comments: true
 share: true
-tags: [Git,Github]
+tags: [Git]
 date: 2017-01-26
 ---
 

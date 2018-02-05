@@ -6,7 +6,6 @@ categories:
 excerpt: ' '
 tags:
   - Java
-  - Algorithm
 
 date: 2017-11-20
 ---

@@ -5,7 +5,7 @@ categories: [Design Pattern]
 excerpt: ' '
 comments: true
 share: true
-tags: [MVC,Pattern,Spring,Web,Design Pattern]
+tags: [Spring,Design Pattern]
 date: 2017-02-17
 ---
 

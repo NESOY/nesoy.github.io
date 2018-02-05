@@ -5,7 +5,7 @@ categories: [jQuery]
 excerpt: " "
 comments: true
 share: true
-tags: [JQuery,Web]
+tags: [jQuery]
 date: 2017-05-14
 ---
 

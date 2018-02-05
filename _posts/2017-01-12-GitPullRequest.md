@@ -1,11 +1,11 @@
 ---
 layout: post
 title: GitHub Pull Request 따라하기
-categories: [Github]
+categories: [Git]
 excerpt: " "
 comments: true
 share: true
-tags: [Git,Github]
+tags: [Git]
 date: 2017-01-12
 ---
 

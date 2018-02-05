@@ -5,7 +5,7 @@ categories: [Spring]
 excerpt: ' '
 comments: true
 share: true
-tags: [Spring,AOP]
+tags: [Spring]
 date: 2017-01-18
 ---
 

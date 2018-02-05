@@ -5,7 +5,7 @@ categories: [Intellij]
 excerpt: " "
 comments: true
 share: true
-tags: [Intellij,Git,Github]
+tags: [Intellij,Git]
 date: 2017-01-14
 ---
 

@@ -6,7 +6,6 @@ categories:
 excerpt: ' '
 tags:
   - CleanCode
-  - Programming
 
 date: 2018-01-09
 ---

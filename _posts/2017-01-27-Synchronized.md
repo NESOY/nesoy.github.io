@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Synchronous(동기) Vs Asynchronous(비동기)
-categories: [Programming]
+categories: [OS]
 excerpt: ' '
 comments: true
 share: true
-tags: [Programming,Synchronous,Asynchronous]
+tags: [OS]
 date: 2017-01-27
 ---
 

@@ -5,7 +5,7 @@ categories: [NodeJs]
 excerpt: ' '
 comments: true
 share: true
-tags: [NodeJs,Web,Javascript,MySQL]
+tags: [NodeJs,MySQL]
 date: 2017-04-24
 ---
 

@@ -5,7 +5,7 @@ categories: [NodeJs]
 excerpt: ' '
 comments: true
 share: true
-tags: [NodeJs,Web,Javascript,npm,nodemon]
+tags: [NodeJs,npm]
 date: 2017-04-17
 ---
 

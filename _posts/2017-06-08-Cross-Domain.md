@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 크로스 도메인(Cross Domain) 이슈
-categories: [Javascript]
+categories: [Web]
 excerpt: ' '
 comments: true
 share: true
-tags: [Javascript]
+tags: [Web]
 date: 2017-06-08
 ---
 

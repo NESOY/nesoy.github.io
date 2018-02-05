@@ -5,7 +5,7 @@ categories: [Javascript]
 excerpt: ' '
 comments: true
 share: true
-tags: [NodeJs,Web,Javascript]
+tags: [Javascript]
 date: 2017-05-16
 ---
 

@@ -2,11 +2,10 @@
 layout: post
 title: 코드 커버리지(Code Coverage)란?
 categories:
-  - Test
+  - Testing
 excerpt: ' '
 tags:
-  - Test
-  - CleanCode
+  - Testing
 date: 2018-01-14
 ---
 

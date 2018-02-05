@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Servlet Annotation
-categories: [Servlet]
+categories: [Java]
 excerpt: " "
 comments: true
 share: true
-tags: [Servlet,Annotation]
+tags: [Java,Servlet]
 date: 2017-01-08
 ---
 

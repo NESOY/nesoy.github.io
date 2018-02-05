@@ -5,7 +5,7 @@ categories: [Design Pattern]
 excerpt: " "
 comments: true
 share: true
-tags: [Design Pattern,Spring,Java]
+tags: [Design Pattern]
 date: 2017-01-13
 ---
 

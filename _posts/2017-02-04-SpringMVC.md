@@ -5,7 +5,7 @@ categories: [Spring]
 excerpt: ' '
 comments: true
 share: true
-tags: [Spring,Intellij,MVC]
+tags: [Spring,Intellij]
 date: 2017-02-05
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: Mac 터미널 셋팅하기.
 categories:
-  - Develop
+  - 개발환경
 excerpt: ' '
 tags:
-  - Develop
+  - 개발환경
   - Mac
 
 date: 2018-01-13

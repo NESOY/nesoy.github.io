@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Mongoose 활용하여 Array에 Add(Push), Delete(Remove) 하기
-categories: [Mongoose]
+categories: [MongoDB]
 excerpt: ' '
 comments: true
 share: true
-tags: [MongoDB,Mongoose,NoSQL]
+tags: [MongoDB,Mongoose]
 date: 2017-06-02
 ---
 
