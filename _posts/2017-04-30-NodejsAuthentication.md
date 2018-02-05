@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nodejs의 인증(Authentication), Passport
-categories: [Nodejs]
+categories: [NodeJs]
 excerpt: ' '
 comments: true
 share: true

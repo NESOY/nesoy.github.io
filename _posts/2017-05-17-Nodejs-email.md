@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nodejs를 통해 Email 보내기
-categories: [Nodejs]
+categories: [NodeJs]
 excerpt: ' '
 comments: true
 share: true
