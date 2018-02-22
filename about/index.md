@@ -4,18 +4,16 @@ layout: page
 ---
 
 ## Profile
+- Working in [Ticket Monster](http://www.ticketmonster.co.kr/)
 - Bachelor in Computer Engineering from [Hansung University](http://www.hansung.ac.kr/)
 
 ## Links
-
 - Email : kyoje11@gmail.com
-
 - Github : [https://github.com/nesoy](https://github.com/nesoy)
-
 - [Facebook](https://www.facebook.com/Nesoy92),  [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/),           [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
 ## Interests
-Web / Server / Software Engineering
+Web / Server / Database / Software Engineering
 
 ## Technical Skill
 - Program Language - Java, C, Javascript, C++
@@ -27,40 +25,40 @@ Web / Server / Software Engineering
 ## Activities
 ### 2018
 - 2018.01.08 ~ Now :: **Ticket Monster Corporation**
+- 2018.02.12 ~ 02.12 :: GDG Campus Korea Meetup
 
 ### 2017
-- 2017.01.16 ~ 01.20 :: Hansung University Programming Camp Mentor
-- 2017.04.19 ~ 06.23 :: **SK Tacademy Server Developer Course**
 - 2017.08.18 ~ 08.18 :: Graduate from Hansung University
 - 2017.07.03 ~ 08.18 :: **Naver Corporation Intern**
+- 2017.04.19 ~ 06.23 :: **SK Tacademy Server Developer Course**
+- 2017.01.16 ~ 01.20 :: Hansung University Programming Camp Mentor
 
 ### 2016
-- 2016.01.25 ~ 01.29 :: Hansung University **Programming Camp**
-- 2016.02.29 ~ 06.10 :: **Mentoring** - Programming Lab
-- 2016.03.04 ~ 06.30 :: Hansung University **Capstone Design** - SoundCatcher
-- 2016.03.19 ~ 06.30 :: ihateFlyingBugs Supports Project - SoundCatcher
-- 2016.03.15 ~ 07.01 :: Hansung University **Start-up Competition** - SoundCatcher
-- 2016.05.02 ~ 11.18 :: **Embedded Software Contest** - SoundCatcher
-- 2016.06.23 ~ 06.24 :: **Naver Campus Hack Day**
-- 2016.09.23 ~ 12.07 :: **Mentoring** - Java Language
 - 2016.09.27 ~ 09.28 :: Hansung University **Engineering Contest** - SoundCatcher
+- 2016.09.23 ~ 12.07 :: **Mentoring** - Java Language
+- 2016.06.23 ~ 06.24 :: **Naver Campus Hack Day**
+- 2016.05.02 ~ 11.18 :: **Embedded Software Contest** - SoundCatcher
+- 2016.03.15 ~ 07.01 :: Hansung University **Start-up Competition** - SoundCatcher
+- 2016.03.19 ~ 06.30 :: ihateFlyingBugs Supports Project - SoundCatcher
+- 2016.03.04 ~ 06.30 :: Hansung University **Capstone Design** - SoundCatcher
+- 2016.02.29 ~ 06.10 :: **Mentoring** - Programming Lab
+- 2016.01.25 ~ 01.29 :: Hansung University **Programming Camp**
 
 ### 2015
-- 2015.01.19 ~ 01.24 :: Hansung University **Programming Camp**
-- 2015.03.02 ~ 06.08 :: **Mentoring** - C Language
-- 2015.08.31 ~ 12.11 :: **Mentoring** - C++ Language
-- 2015.09.21 ~ 12.04 :: **Mentoring** - Data Structure
 - 2015.09.23 ~ 09.24 :: Hansung University **Engineering Contest** - FingerKeyboard
+- 2015.09.21 ~ 12.04 :: **Mentoring** - Data Structure
+- 2015.08.31 ~ 12.11 :: **Mentoring** - C++ Language
+- 2015.03.02 ~ 06.08 :: **Mentoring** - C Language
+- 2015.01.19 ~ 01.24 :: Hansung University **Programming Camp**
 
 ### 2012 ~ 2014
 - 2012.04 ~ 2014.01 :: Serving a mandatory military service
 
 ## Awards
 ### 2016
-- 2016.06.03 :: Hansung University Capstone Design **1st** Prize - SoundCatcher
 - 2016.12.08 :: Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)
 - 2016.09.23 :: Hansung University Engineering Contest **4nd** Prize – SoundCatcher
-
+- 2016.06.03 :: Hansung University Capstone Design **1st** Prize - SoundCatcher
 ### 2015
 - 2015.09.23 :: Hansung University Engineering Contest **2nd** Prize – FingerKeyboard
 - 2015.09.23 :: Hansung University IPP Industry-University Cooperation Award
