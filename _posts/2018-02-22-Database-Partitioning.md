@@ -11,7 +11,9 @@ date: 2018-02-22
 ---
 
 # Partitioning
+
 ## 배경
+
 ![No Image](/assets/posts/20180222/1.png)
 
 서비스의 크기가 점점 커지게 되면서 다양하고 많은 Table들이 존재하게 되었다. 
@@ -24,6 +26,7 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 - 큰 Table이나 인덱스를 관리하기 쉬운 단위로 분리하는 방법을 의미한다. 
 
 ## Benifits
+
 ### 가용성(Availability)
 - 물리적인 Partitioning으로 인해 전체 데이터의 훼손 가능성이 줄어들고 데이터 가용성이 향상된다.
 
@@ -39,6 +42,7 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 - 테이블과 인덱스를 별도로 파티션 할수는 없다. 테이블과 인덱스를 같이 Partitioning 하여야 한다.
 
 ## Partitioning 범위
+
 ### Range partitioning 
 - 연속적인 숫자나 날짜 기준으로 Partitioning 한다.
 - 손쉬운 관리 기법 제공 에 따른 관리 시간의 단축할 수 있다.
@@ -69,7 +73,9 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 ![No Image](/assets/posts/20180222/4.png)
 
 ## 방법
+
 ### Horizontal Partitioning
+
 ![No Image](/assets/posts/20180222/5.png)
 
 #### Benefits
@@ -83,6 +89,7 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 
 
 ### Vertical Partitioning
+
 ![No Image](/assets/posts/20180222/6.png)
 
 - 테이블의 컬럼을 기준으로 나누어 Partitioning한다.
