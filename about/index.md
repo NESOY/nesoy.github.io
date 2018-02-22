@@ -59,6 +59,7 @@ Web / Server / Database / Software Engineering
 - 2016.12.08 :: Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)
 - 2016.09.23 :: Hansung University Engineering Contest **4nd** Prize – SoundCatcher
 - 2016.06.03 :: Hansung University Capstone Design **1st** Prize - SoundCatcher
+
 ### 2015
 - 2015.09.23 :: Hansung University Engineering Contest **2nd** Prize – FingerKeyboard
 - 2015.09.23 :: Hansung University IPP Industry-University Cooperation Award

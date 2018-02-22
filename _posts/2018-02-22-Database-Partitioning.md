@@ -26,8 +26,10 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 ## Benifits
 ### 가용성(Availability)
 - 물리적인 Partitioning으로 인해 전체 데이터의 훼손 가능성이 줄어들고 데이터 가용성이 향상된다.
+
 ### 관리용이성(Manageability)
 - 큰 Table들을 제거하여 관리를 쉽게 해준다.
+
 ### 성능(Performance)
 - 특정 DML과 Query의 성능을 향상시킴, 주로 `대용량 Data Write` 환경에서 효율적이다.
 - 많은 Insert가 있는 OLTP 시스템에서 Insert 작업들을 분리된 파티션들로 분산시켜 경합을 줄인다.
@@ -73,6 +75,7 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 #### Benefits
 - 데이터의 개수를 기준으로 나누어 Partitioning한다.
 - 데이터의 개수가 작아지고 따라서 index의 개수도 작아지게 된다. 자연스럽게 성능은 향상된다.
+
 #### Disadvantages
 - 서버간의 연결과정이 많아진다.
 - 데이터를 찾는 과정이 기존보다 복잡하기 때문에 latency가 증가하게 된다.
