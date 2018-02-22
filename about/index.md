@@ -24,8 +24,8 @@ Web / Server / Database / Software Engineering
 
 ## Activities
 ### 2018
-- 2018.01.08 ~ Now :: **Ticket Monster Corporation**
 - 2018.02.12 ~ 02.12 :: GDG Campus Korea Meetup
+- 2018.01.08 ~ Now :: **Ticket Monster Corporation**
 
 ### 2017
 - 2017.08.18 ~ 08.18 :: Graduate from Hansung University
@@ -63,25 +63,24 @@ Web / Server / Database / Software Engineering
 - 2015.09.23 :: Hansung University Engineering Contest **2nd** Prize – FingerKeyboard
 - 2015.09.23 :: Hansung University IPP Industry-University Cooperation Award
 
-## Project
-- #### Train Reservation Service - Using C Language : [Code](https://github.com/NESOY/TrainReserveService)
-- #### Pokemon Block Game - Java Game using XML : [Code](https://github.com/NESOY/PokemonBlockGame)
-- #### PixcelGun - Java Network Shooting Game : [Code](https://github.com/NESOY/PixelGun)
-- #### FingerKeyboard - Embedded Image processing KeyBoard : [Code](https://github.com/FingerKeyboard-jh-sm/FingerKeyboard) :: [Video](https://www.youtube.com/watch?v=xI_Y875FghU)
-- #### SoundCatcher - Embedded Streaming Server : [Code](https://github.com/SCCasper) :: [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
-- #### Nelp - Springboot : [Code](https://github.com/Nelp-dev/Nelp)
-- #### B-gle - Nodejs : [Code](https://github.com/B-gle/Server)
-
 ## Press
-2015.09.23 Hansung University Engineering Contest **2nd** Prize
+- 2015.09.23 :: Hansung University Engineering Contest **2nd** Prize
+    - [AsiaToday](http://www.asiatoday.co.kr/view.php?key=20151007001927323)
+    - [Moneytoday](http://www.mt.co.kr/view/mtview.php?type=1&no=2015092423497453318&outlink=1)
 
-- [AsiaToday](http://www.asiatoday.co.kr/view.php?key=20151007001927323)
+- 2016.12.08 :: Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)
+    - [Link](http://eswcontest.com/bbs/board.php?tbl=award&category=2016%B3%E2)
 
-- [Moneytoday](http://www.mt.co.kr/view/mtview.php?type=1&no=2015092423497453318&outlink=1)
+## Project
+- Train Reservation Service - Using C Language : [Code](https://github.com/NESOY/TrainReserveService)
+- Pokemon Block Game - Java Game using XML : [Code](https://github.com/NESOY/PokemonBlockGame)
+- PixcelGun - Java Network Shooting Game : [Code](https://github.com/NESOY/PixelGun)
+- FingerKeyboard - Embedded Image processing KeyBoard : [Code](https://github.com/FingerKeyboard-jh-sm/FingerKeyboard) :: [Video](https://www.youtube.com/watch?v=xI_Y875FghU)
+- SoundCatcher - Embedded Streaming Server : [Code](https://github.com/SCCasper) :: [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
+- Nelp - Springboot : [Code](https://github.com/Nelp-dev/Nelp)
+- B-gle - Nodejs : [Code](https://github.com/B-gle/Server)
 
-2016.12.08 Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)
 
-- [Link](http://eswcontest.com/bbs/board.php?tbl=award&category=2016%B3%E2)
 
 ## License
 - 2014.01.31 :: Word Processor
