@@ -70,8 +70,8 @@ date: 2017-02-05
 ![No Image](/assets/posts/20170204/18.PNG)
 
 ### Available Elements 아래에 있는 Library를 더블 클릭한다.
-- Add Spring-4.3.6-RELEASE to artifact
-- Add Spring MVC-4.3.6-RELEASE to artifact
+- Spring-4.3.6-RELEASE to artifact
+- Spring MVC-4.3.6-RELEASE to artifact
 
 ### 옮겨진 모습
 
