@@ -11,13 +11,13 @@ date: 2017-02-05
 
 > Intellij에서 Spring MVC를 이용하여 Hello World를 띄우기 까지 매우 많은 삽질을 통해 해결했다. 많은 이들이 포스팅을 통해서 삽질을 그나마 줄일 수 있다면 좋겠다.
 
-## 1. Intellij Maven Project 만들기
+## Intellij Maven Project 만들기
 
 - New Project - Maven - Create from archetype(해제하기)
 
 ![No Image](/assets/posts/20170204/1.PNG)
 
-## 2. Project SpringMVC Framework 추가하기
+## Project SpringMVC Framework 추가하기
 
 - Add Framework Support
 
@@ -27,10 +27,10 @@ date: 2017-02-05
 
 ![No Image](/assets/posts/20170204/3.PNG)
 
-## 3. Spring MVC Library 다운로드 완료 후 Project 모습
+## Spring MVC Library 다운로드 완료 후 Project 모습
 ![No Image](/assets/posts/20170204/4.PNG)
 
-## 4. web.xml 변경하기
+## web.xml 변경하기
 - servlet-mapping의 url-pattern변경하기 : ``` *.form -> / ```
 - 변경 전 web.xml
 
@@ -63,7 +63,49 @@ date: 2017-02-05
 </web-app>
 ```
 
-## 5. views 디렉토리 파일 만들기 & index.jsp 이동시키기
+## 라이브러리 추가해주기
+
+- Project Structure - Artifacts에 들어간다.
+
+![No Image](/assets/posts/20170204/18.PNG)
+
+### Available Elements 아래에 있는 Library를 더블 클릭한다.
+- Add Spring-4.3.6-RELEASE to artifact
+- Add Spring MVC-4.3.6-RELEASE to artifact
+
+### 옮겨진 모습
+
+![No Image](/assets/posts/20170204/19.PNG)
+
+
+## dispatcher-servlet.xml에 추가하기
+
+- Annotation 활성화 & component-scan 파일 지정하기
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+
+    <mvc:annotation-driven></mvc:annotation-driven> <!-- Annotation 활성화 -->
+    <context:component-scan base-package="Controller"></context:component-scan> <!-- Component 패키지 지정 -->
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+</beans>
+```
+- Annotation 활성화를 안해주면 bean을 하나하나 다 등록 해야 하는 어려움이 있다.
+- component-scan 패키지를 지정해주지 않으면 spring-framework가 scan을 못하여 작동하지 않게 된다.
+
+## views 디렉토리 파일 만들기 & index.jsp 이동시키기
 
 - New - Directory
 
@@ -90,32 +132,9 @@ date: 2017-02-05
 </html>
 ```
 
-## 6. dispatcher-servlet.xml에 추가하기
 
-- Annotation활성화 & Scan 파일 지정하기
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
-        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
-
-    <mvc:annotation-driven></mvc:annotation-driven>
-    <context:component-scan base-package="Controller"></context:component-scan>
-
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/"></property>
-        <property name="suffix" value=".jsp"></property>
-    </bean>
-
-</beans>
-```
-
-## 7. Controller 디렉토리 만들기 & 간단한 Controller code
+## Controller 디렉토리 만들기 & 간단한 Controller code
 
 - New - Directory
 
@@ -140,7 +159,7 @@ public class controller {
 }
 ```
 
-## 8. Run Edit Configuration으로 Tomcat Server 추가하기
+## Run Edit Configuration으로 Tomcat Server 추가하기
 
 - Run - Edit Configuration
 
@@ -158,13 +177,17 @@ public class controller {
 
 ![No Image](/assets/posts/20170204/11.PNG)
 
-## 9. Error 1 : web.xml의 ApplicationContext.xml 빨간 글씨가 발생하여 tomcat 실행 X
-
+## Error 1 : web.xml의 ApplicationContext.xml 빨간 글씨가 발생하여 tomcat 실행 X
+### 원인
+- tomcat의 context root 기본 파일 이름명이 `webapps` 때문에 에러가 발생하였다.
+### 해결방법
+- 경로 재설정 / 파일 이름 바꾸기 두 가지 해결방법이 있다. 
+- 아래는 경로 재설정을 설명한 것이다.
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 
 ![No Image](/assets/posts/20170204/12.PNG)
 
-### 해결 방법 : WEB-INF 경로 잡아주기
+### WEB-INF 경로 잡아주기
 
 - Open Module Settings에 들어간다.
 
@@ -182,7 +205,7 @@ public class controller {
 
 ![No Image](/assets/posts/20170204/16.PNG)
 
-## 10. Error 2 : Tomcat 오류 - RMI TCP Connection
+## Error 2 : Tomcat 오류 - RMI TCP Connection
 
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 
@@ -200,7 +223,7 @@ public class controller {
 
 ![No Image](/assets/posts/20170204/19.PNG)
 
-## 11. 모든 에러를 통과한 후 실행하기
+## 모든 에러를 통과한 후 실행하기
 
 > 깔끔하게 성공된 모습을 볼 수 있다.
 
