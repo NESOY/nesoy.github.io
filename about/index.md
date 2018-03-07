@@ -23,6 +23,8 @@ Web / Server / Database / Software Engineering
 - Server - AWS EC2
 
 ## Activities
+### Github
+![Github Image](https://ghchart.rshah.org/nesoy)
 ### 2018
 - 2018.02.12 ~ 02.12 :: GDG Campus Korea Meetup
 - 2018.01.08 ~ Now :: **Ticket Monster Corporation**
