@@ -27,10 +27,10 @@ post:
   toc_empty: 목차 없음
   visitors: 방문객
   wordcount: Words count in article
-  min2read: Reading time
+  min2read: 읽는 시간
   copyright:
-    author: Post author
-    link: Post link
+    author: 저자
+    link: 링크
     license_title: Copyright Notice
     license_content: 'All articles in this blog are licensed under
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
@@ -41,7 +41,7 @@ page:
 
 footer:
   powered: "Powered by %s"
-  theme: Theme
+  theme: 테마
 
 counter:
   tag_cloud:
