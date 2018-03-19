@@ -43,13 +43,13 @@ public Service getService() {
 ### Main 분리
 
 아래의 그림처럼 생성과 관련된 코드는 모두 main이나 main이 호출하는 모듈로 옮기고 나머지 시스템은 모든 객체가 생성되었고 모든 의존성이 연결되었다고 가정하고 비즈니스 로직에 집중할 수 있다.
-![No Image](/assets/posts/20180314/1.png)
+![No Image](/assets/posts/20180320/1.png)
 
 #### 팩토리(Factory)
 
 어떤 경우에는 생성에 관련된 부분을 애플리케이션이 결정할 필요가 있다. 그런 부분은 Factory Pattern을 사용하여 애플리케이션이 결정하지만 직접 생성하는 부분의 연관성을 제거한다.
 
-![No Image](/assets/posts/20180314/2.png)
+![No Image](/assets/posts/20180320/2.png)
 
 #### 의존성 주입(Dependency Injection)
 제어 역전(Inversion of Control IOC)을 적용한 메커니즘이다. 인스턴스를 생성할 책임을 지는 `main`이나 특수 `컨테이너`를 사용한다.
@@ -138,7 +138,7 @@ public interface BankLocal extends java.ejb.EJBLocalObject {
 - 코드는 상당히 많으며 제법 복잡하다. -> 깨끗한 코드를 작성하기 어렵다.
 
 ## 순수 자바 AOP 프레임 워크
-![No Image](/assets/posts/20180314/3.png)
+![No Image](/assets/posts/20180320/3.png)
 
 위의 그림을 코드로 표현하면 아래와 같다.
 
@@ -244,3 +244,6 @@ public class Bank implements java.io.Serializable {
 
 ## Reference 
 - <https://kwosu87.gitbooks.io/clean-code/content/Chapter%2011%20-%20%EC%8B%9C%EC%8A%A4%ED%85%9C.html>
+
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
