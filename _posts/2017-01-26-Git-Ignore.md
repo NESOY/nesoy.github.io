@@ -65,10 +65,10 @@ git commit -m "fixed untracked files"
 - Local에서는 ignoreFile이 사라지지 않았지만 Remote에 Push가 될때에는 적용되어 올라간 모습을 볼 수 있다.
 
 
-## 참고
+## Reference
+- <https://www.git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>
+- <https://www.gitignore.io/>
+- <http://stackoverflow.com/questions/11451535/gitignore-not-working>
 
-<https://www.git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>
 
-<https://www.gitignore.io/>
-
-<http://stackoverflow.com/questions/11451535/gitignore-not-working>
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
