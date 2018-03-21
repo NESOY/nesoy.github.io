@@ -48,3 +48,6 @@ Query의 대부분을 차지하는 `Select`를 어느 정도 해결하기 위해
 
 ## Reference
 - <https://dev.mysql.com/doc/refman/5.7/en/replication.html>
+
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
