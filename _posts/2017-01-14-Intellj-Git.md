@@ -8,10 +8,11 @@ share: true
 tags: [Intellij,Git]
 date: 2017-01-14
 ---
+![No Image](/assets/posts/20180328/0.png)
 
 # **Intellij Git 연동하기**
 
-Intellij에서 해당 Project를 Version 관리를 위해 Git을 연동하는 과정을 설명하겠습니다.
+- Intellij에서 해당 Project를 Version 관리를 위해 Git을 연동하는 과정을 설명하겠습니다.
 
 ### 1. Git.exe 실행파일 찾기
 
@@ -50,3 +51,5 @@ C:\Program Files\Git\cmd
 ### 8. Push후 Github가서 확인하기
 
 ![No Image](/assets/posts/20170114/9.PNG)
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
