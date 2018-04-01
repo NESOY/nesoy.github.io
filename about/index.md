@@ -3,24 +3,24 @@ title: about
 layout: page
 ---
 
-## Profile
+## YoungJae Kwon(Nesoy)
+- Seoul, South Korea.
+- Back-end Web Developer
 - Working in [Ticket Monster](http://www.ticketmonster.co.kr/)
-- Bachelor in Computer Engineering from [Hansung University](http://www.hansung.ac.kr/)
 
 ## Links
 - Email : kyoje11@gmail.com
 - Github : [https://github.com/nesoy](https://github.com/nesoy)
 - [Facebook](https://www.facebook.com/Nesoy92),  [LinkedIn](https://www.linkedin.com/in/young-jae-kwon-3514b3141/),           [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
-## Interests
-Web / Server / Database / Software Engineering
 
 ## Technical Skill
-- Program Language - Java, C, Javascript, C++
-- Web Framework - Spring, Nodejs - Express
-- Database - MySql, MongoDB, AWS RDB
-- Version Control System - Git
-- Server - AWS EC2
+- **Program Language** - Java, C, Javascript, C++
+- **Web Framework** - Spring, Nodejs - Express
+- **Database** - MySql, MongoDB, AWS RDB
+- **Version Control System** - Git
+- **Server** - AWS EC2
+
 
 ## Activities
 ### Github
@@ -84,6 +84,9 @@ Web / Server / Database / Software Engineering
 - B-gle - Nodejs : [Code](https://github.com/B-gle/Server)
 
 
+## Languages
+- **English**
+- **Korean**
 
 ## License
 - 2014.01.31 :: Word Processor
