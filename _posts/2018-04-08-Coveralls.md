@@ -43,6 +43,7 @@ date: 2018-04-08
 ### Gradle 설정하기
 - 테스트 커버리지 측정 도구 : `cobertura`
 - 테스트 결과 report : `coveralls`
+- <https://github.com/kt3k/coveralls-gradle-plugin>
 
 ```gradle
 dependencies {
