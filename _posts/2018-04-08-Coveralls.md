@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CoverAlls 시작하기
+title: Coveralls 시작하기
 categories: [DevOps]
 excerpt: " "
 comments: true
