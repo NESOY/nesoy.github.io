@@ -52,4 +52,18 @@ date: 2018-03-28
 ## 결과화면
 ![No Image](/assets/posts/20180328/1.png)
 
+
+## Exclude 파일 제외하는 방법.
+### 변경 전 모습
+![No Image](/assets/posts/20180328/11.png)
+
+### 설정 변경하기
+- Show Excluded files 체크 해제하기
+
+![No Image](/assets/posts/20180328/9.png)
+### 변경 후 모습
+![No Image](/assets/posts/20180328/10.png)
+
+
+
 > 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
