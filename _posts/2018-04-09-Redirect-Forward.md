@@ -40,8 +40,8 @@ Location: nesoy.github.io
 > Forward는 Web Container의 내부에서 이동하기 때문에 request와 response 객체를 공유할 수 있습니다.
 
 ## 결론
-- URL의 변화여부가 필요하다면 Redirect를 사용하는 것이 좋다.
-- 객체를 재사용하거나 공유해야한다면 Forward를 사용하는 것이 좋을 것 같다.
+- URL의 변화여부가 필요하다면 Redirect를 사용하는 것이 좋습니다.
+- 객체를 재사용하거나 공유해야한다면 Forward를 사용하는 것이 좋습니다.
 
 ## Reference
 - <https://developer.mozilla.org/ko/docs/Web/HTTP/Redirections>
