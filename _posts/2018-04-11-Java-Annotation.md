@@ -14,15 +14,20 @@ date: 2018-04-11
 - AOP(Aspect Oriented Programing; 관심지향프로그래밍)을 편리하게 구성할 수 있습니다.
 
 ## Built-in Annotation
+
 #### @Override 
 - 메소드가 오버라이드 됐는지 검증합니다. 
 - 만약 부모 클래스 또는 구현해야할 인터페이스에서 해당 메소드를 찾을 수 없다면 컴파일 오류가 납니다.
+
 #### @Deprecated 
 - 메소드를 사용하지 말도록 유도합니다. 만약 사용한다면 컴파일 경고를 일으킵니다.
+
 #### @SuppressWarnings 
 - 컴파일 경고를 무시하도록 합니다.
+
 #### @SafeVarargs 
 - 제너릭 같은 가변인자 매개변수를 사용할 때 경고를 무시합니다. (자바7 이상)
+
 #### @FunctionalInterface 
 - 람다 함수등을 위한 인터페이스를 지정합니다. 메소드가 없거나 두개 이상 되면 컴파일 오류가 납니다. (자바 8이상)
 
@@ -31,12 +36,16 @@ date: 2018-04-11
 
 #### @Retention
 - 어노테이션의 Life Time입니다.
+
 #### @Documented 
 - 문서에도 어노테이션의 정보가 표현됩니다.
+
 #### @Target 
 - 적용할 위치를 결정합니다.
+
 #### @Inherited 
 - 자식클래스가 어노테이션을 상속 받을 수 있습니다.
+
 #### @Repeatable 
 - 반복적으로 어노테이션을 선언할 수 있게 합니다.
 
@@ -77,9 +86,11 @@ public @interface NesoyAnnotation{
 ```
 
 ## Custom Annotation 만들어보기
+
 ### Nesoy Annotation
 - Annotation은 `RUNTIME`에 적용합니다.
 - 적용할 범위는 `Method`만 입니다.
+
 ```java
 @Inherited
 @Documented
@@ -148,6 +159,7 @@ class MyContextContainer {
 ```
 
 ### Main
+
 ```java
 public class Main {
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
