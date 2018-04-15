@@ -11,7 +11,7 @@ date: 2018-04-15
 
 ![No Image](/assets/posts/20180328/0.png)
 
-> Intellij로 개발하는 과정에서 Log Framework를 사용하여 Msg를 보게되었는데 특정 Msg를 보고 싶었는데 어려움이 있었다. Console의 특정 Msg를 Grep하는 Plugin을 찾아 공유합니다.
+> Intellij로 개발하는 과정에서 Log Framework를 사용하여 Debug Msg를 보게 되었습니다. 특정 Msg를 보고 싶었는데 어려움이 있었고 Console의 특정 Msg를 Grep하는 Plugin을 찾아 공유합니다.
 
 ![No Image](/assets/posts/20180415/6.png)
 
