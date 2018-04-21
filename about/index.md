@@ -26,6 +26,7 @@ layout: page
 ![Github Image](https://ghchart.rshah.org/nesoy)
 ### 2018
 - 2018.01.08 - Current :: **Ticket Monster Corporation**
+- 2018.04.21 - 04.21 :: Little Big Data Meetup
 - 2018.02.12 - 02.12 :: GDG Campus Korea Meetup
 
 ### 2017
