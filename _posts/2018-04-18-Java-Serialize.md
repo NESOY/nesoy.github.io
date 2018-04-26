@@ -194,6 +194,9 @@ json (byte size = 62)
 - 자주 변경되는 비즈니스적인 데이터를 자바 직렬화을 사용하지 않습니다.
 - 긴 만료 시간을 가지는 데이터는 JSON 등 다른 포맷을 사용하여 저장합니다.
 
+
 ## Reference
 - <http://woowabros.github.io/experience/2017/10/17/java-serialize.html>
 - <http://woowabros.github.io/experience/2017/10/17/java-serialize2.html>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

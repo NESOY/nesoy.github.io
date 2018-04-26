@@ -309,3 +309,5 @@ Clean한 접근 방식을 사용한다면, 제대로 된 코드를 만들어낼 
 
 ## Reference
 - <https://kwosu87.gitbooks.io/clean-code/content/Chapter%2013%20-%20%EB%8F%99%EC%8B%9C%EC%84%B1.html>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
