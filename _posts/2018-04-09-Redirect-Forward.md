@@ -34,6 +34,7 @@ Location: nesoy.github.io
 ![No Image](/assets/posts/20180409/2.png)
 - Client가 Server에 Resource를 요청합니다.
 - Server는 Web Container(Tomcat, Jboss등)에 의해 LoginServlet에서 HelloServlet로 forward하게 됩니다.
+    - 이때 객체 정보는 Request Scope, Session Scope, Page Scope를 통해 전달되게 됩니다.
 - Server는 최종적으로 HelloServlet의 결과를 응답하게 됩니다.
 - Client입장에서는 한번의 요청으로 결과물을 받아볼 수 있습니다.
 
@@ -45,6 +46,7 @@ Location: nesoy.github.io
 
 ## Reference
 - <https://developer.mozilla.org/ko/docs/Web/HTTP/Redirections>
+- <https://okky.kr/article/32206>
 
 
 > 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
