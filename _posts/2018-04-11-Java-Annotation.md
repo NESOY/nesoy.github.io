@@ -8,6 +8,9 @@ share: true
 tags: [Java]
 date: 2018-04-11
 ---
+
+![No Image](/assets/posts/20180502/Java.jpg)
+
 # Annotation
 - Java 5부터 등장한 기능입니다.
 - 흔히 알고 있는 `@Override`, `@Deprecated`이 대표적인 예입니다.
