@@ -9,6 +9,8 @@ tags: [Git]
 date: 2017-01-12
 ---
 
+![No Image](/assets/posts/20170126/GitLogo.PNG)
+
 # **GitHub Pull Request 따라하기**
 
 ### 1. 원하는 Project Fork하기
