@@ -10,7 +10,7 @@ tags:
 date: 2018-05-02
 ---
 
-![No Image](/assets/posts/20180502/Java.jpg)
+![No Image](/assets/logo/Java.jpg)
 
 # Exception에 대해
 

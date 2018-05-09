@@ -8,6 +8,9 @@ share: true
 tags: [Java]
 date: 2018-04-18
 ---
+
+![No Image](/assets/logo/Java.jpg)
+
 # 들어가며
 > 예전에 네트워크 통신을 할때 Serialize에 대해 공부를 한 경험이 있지만 지식의 부족함을 느끼고 조사하여 결과를 정리합니다.
 

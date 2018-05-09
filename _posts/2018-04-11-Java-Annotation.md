@@ -9,7 +9,7 @@ tags: [Java]
 date: 2018-04-11
 ---
 
-![No Image](/assets/posts/20180502/Java.jpg)
+![No Image](/assets/logo/Java.jpg)
 
 # Annotation
 - Java 5부터 등장한 기능입니다.
