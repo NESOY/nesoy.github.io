@@ -211,3 +211,5 @@ date: 2018-05-09
 
 ## Reference
 - <https://medium.com/startlovingyourself/microservices-vs-monolithic-architecture-c8df91f16bb4>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

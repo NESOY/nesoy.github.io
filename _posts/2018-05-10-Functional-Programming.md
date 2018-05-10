@@ -27,8 +27,8 @@ date: 2018-05-10
 - 값을 수정하기도, 값을 할당할 수도 있다는 의미. -> `함수를 값처럼 할당하기도 수정도 할 수 있다.`
 
 #### 일급 시민은 누가 있을까요?
-- value : `1, 'c', '안'`
-- type : `int, double, float, char`
+- value
+- type
 - object
 - entity
 
@@ -42,7 +42,7 @@ date: 2018-05-10
 
 #### Pure function을 사용하면 우리는 무엇을 얻을 수 있을까요?
 - 함수 자체가 독립적이고 Side-Effect가 없기 때문에 스레드에 안전성을 보장받습니다.
-- 스레드에 안전성이 보장되면 병렬적인 계산을 진행할 수 있습니다 :)
+- 스레드에 안전성이 보장되면 병렬적인 계산을 진행할 수 있습니다.
 
 ### Referential transparency
 - 함수 프로그래밍은 대입이 없는 특성을 가지고 있기 때문에 참조(Reference)에 투명성을 가지고 있습니다.
@@ -63,7 +63,7 @@ date: 2018-05-10
 
 
 ## 단점은 없을까요?
-- 기본적으로 추상화 단계가 지나치게 높아져서 절대 다수의 개발자들에겐 코드 리딩이 어렵습니다.
+- 기본적으로 추상화 단계가 지나치게 높아져서 읽기어려운 코드 즉 Reading이 어렵습니다.
 - 기존의 자료구조를 상당히 들어엎어야 한다는 부담이 있습니다.
 - 함수형 언어의 장점인 병렬/분산 프로그래밍 또한 실제로는 기존 명령형 언어들의 기능을 가지고도 충분히 구현할 수 있습니다.
 
@@ -81,3 +81,6 @@ date: 2018-05-10
 - <http://cafe.elharo.com/programming/java-programming/why-functional-programming-in-java-is-dangerous/>
 - <https://medium.com/@originerd/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8%EA%B8%B0-14ce8f98e34e>
 - <https://sungjk.github.io/2017/07/17/fp.html>
+
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

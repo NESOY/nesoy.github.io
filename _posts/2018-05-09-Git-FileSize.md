@@ -28,3 +28,5 @@ git config --global http.postBuffer 157286400
 
 ## Reference
 - <https://articles.assembla.com/using-git/git-troubleshooting/git-push-rejected-error-failed-to-push-some-refs>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
