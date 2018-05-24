@@ -15,6 +15,7 @@ date: 2018-05-10
 # 함수형 프로그래밍(Functional Programming)이란?
 ## Concept
 > Avoids changing State and Mutable data
+
 - 상태와 Data를 변경하는 것을 피하면서 프로그래밍하는 것입니다.
 - 즉 대입문[assignment statements] 없이 프로그래밍하는 것입니다.
 
