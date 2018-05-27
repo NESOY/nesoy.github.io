@@ -9,6 +9,7 @@ tags:
 
 date: 2018-02-16
 ---
+![No Image](/assets/logo/database.jpg)
 
 # Replication
 ## 배경

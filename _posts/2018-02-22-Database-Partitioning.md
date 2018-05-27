@@ -10,6 +10,8 @@ tags:
 date: 2018-02-22
 ---
 
+![No Image](/assets/logo/database.jpg)
+
 # Partitioning
 
 ## 배경
