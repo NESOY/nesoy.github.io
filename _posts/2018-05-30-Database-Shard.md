@@ -127,7 +127,11 @@ date: 2018-05-30
     - Locator와 Sync해야하는 비용이 필요합니다.
     - Cross-Partition Query가 발생할 경우 기존의 Query보다 느릴 수 있습니다.
 
+
 ## Reference
 - <https://en.wikipedia.org/wiki/Shard_(database_architecture)>
 - <https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6>
 - <https://www.quora.com/Whats-the-difference-between-sharding-DB-tables-and-partitioning-them>
+
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
