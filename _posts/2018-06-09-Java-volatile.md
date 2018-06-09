@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java volatile에 대해
+title: Java volatile이란?
 categories:
   - Java
 excerpt: ' '
