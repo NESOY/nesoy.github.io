@@ -9,7 +9,7 @@ tags: [Intellij]
 date: 2018-05-29
 ---
 
-![No Image](/assets/posts/20180328/0.png)
+![No Image](/assets/logo/Intellij.png)
 
 
 ## 문제 정의

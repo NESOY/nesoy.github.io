@@ -9,6 +9,8 @@ tags: [Intellij]
 date: 2017-01-10
 ---
 
+![No Image](/assets/logo/Intellij.png)
+
 # **Intellij War 추출하기**
 
 Intellij에서 Deploy를 하기 위해 War를 추출하는 방법에 대해 알아보자.

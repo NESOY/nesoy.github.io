@@ -8,7 +8,7 @@ share: true
 tags: [Intellij,Git]
 date: 2017-01-14
 ---
-![No Image](/assets/posts/20180328/0.png)
+![No Image](/assets/logo/Intellij.png)
 
 # **Intellij Git 연동하기**
 

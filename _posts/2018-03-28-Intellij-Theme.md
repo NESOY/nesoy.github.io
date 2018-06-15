@@ -8,7 +8,7 @@ share: true
 tags: [Intellij]
 date: 2018-03-28
 ---
-![No Image](/assets/posts/20180328/0.png)
+![No Image](/assets/logo/Intellij.png)
 
 # Intellij Material Theme 적용하기
 
