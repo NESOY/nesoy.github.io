@@ -64,7 +64,7 @@ public static void main(String[] args){
 ### 왜(Why) 결과가 false일까요?
 - Object에 정의된 equals를 확인하면 정답을 알 수 있습니다.
 
-![No Image](/assets/posts/20180626/1.png)
+![No Image](/assets/posts/20180626/1.PNG)
 
 - 단순히 Object의 ==로 비교하는 것을 확인할 수 있습니다.
 
@@ -106,7 +106,7 @@ public boolean equals(Object obj) {
 
 #### Result
 
-![No Image](/assets/posts/20180626/2.png)
+![No Image](/assets/posts/20180626/2.PNG)
 
 
 ## 이런 상황은 어떨까요?
@@ -140,19 +140,28 @@ public int hashCode() {
 ```
 
 #### Result
-![No Image](/assets/posts/20180626/3.png)
+![No Image](/assets/posts/20180626/3.PNG)
 
 ## 어떻게(How) hashCode()는 결정되는걸까요?
 
 ### Object의 hashCode()
+- hashCode()로 native call을 하여 Memory에서 가진 해쉬 주소값을 출력합니다. 
+- 특별한 설정을 하지 않았을 경우 `System.identityHashCode()`와 동일한 값을 나타냅니다.
 
-![No Image](/assets/posts/20180626/4.png)
+![No Image](/assets/posts/20180626/4.PNG)
+
+
 
 ### String의 hashCode()
 
-![No Image](/assets/posts/20180626/5.png)
+![No Image](/assets/posts/20180626/5.PNG)
 
+#### 왜(Why) 31인가요?
+> 31은 소수이면서 홀수이기 때문에 선택된 값이다. 만일 그 값이 짝수였고 곱셈 결과가 오버플로되었다면 정보는 사라졌을 것이다. 2로 곱하는 것은 비트를 왼쪽으로 shift하는 것과 같기 때문이다. 소수를 사용하는 이점은 그다지 분명하지 않지만 전통적으로 널리 사용된다. 31의 좋은 점은 곱셈을 시프트와 뺄셈의 조합으로 바꾸면 더 좋은 성능을 낼 수 있다는 것이다(31 * i는 (i << 5) - i 와 같다). 최신 VM은 이런 최적화를 자동으로 실행한다.
 
+- 소수이면서 홀수이기 때문에 선택된 것입니다.
+	- 소수는 1과 자기 자신을 제외한 숫자이기 때문에 Hash하였을 경우 충돌이 가장 적은 숫자입니다.
+	- 언제든지 변경될 가능성이 있다고 생각합니다.
 
 ## Reference
 - <https://blog.weirdx.io/post/3113>
