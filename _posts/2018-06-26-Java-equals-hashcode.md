@@ -163,6 +163,9 @@ public int hashCode() {
 	- 소수는 1과 자기 자신을 제외한 숫자이기 때문에 Hash하였을 경우 충돌이 가장 적은 숫자입니다.
 	- 언제든지 변경될 가능성이 있다고 생각합니다.
 
+## 정리하며
+- equals()를 재정의한다면 side effect를 줄이기 위해서 hashCode()도 재정의하는것이 좋습니다.
+
 ## Reference
 - <https://blog.weirdx.io/post/3113>
 - <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
