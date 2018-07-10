@@ -26,6 +26,7 @@ layout: page
 ![Github Image](https://ghchart.rshah.org/nesoy)
 ### 2018
 - 2018.01.08 - Current :: **Ticket Monster Corporation**
+- 2018.07.10 - 07.10 :: LINE Developers Meetup - Server tech
 - 2018.06.30 - 06.30 :: Opensource Developer Meetup
 - 2018.05.29 - 05.29 :: DevOps Korea Meetup
 - 2018.05.08 - 05.08 :: Next With Google Meetup
