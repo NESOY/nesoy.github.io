@@ -16,10 +16,12 @@ layout: page
 - [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
 ## Technical Skills
-- **Program Language** :: Java, C, Javascript, C++
+- **Program Language** :: Java, Python, Javascript, C, C++
 - **Web Framework** :: Spring, Nodejs - Express
 - **Database** :: MySql, MongoDB, AWS RDB
 - **Others** :: Git, Github, AWS
+
+-------
 
 ## Activities
 ### Github
@@ -32,6 +34,7 @@ layout: page
 - 2018.05.08 - 05.08 :: Next With Google Meetup
 - 2018.04.21 - 04.21 :: Little Big Data Meetup
 - 2018.02.12 - 02.12 :: GDG Campus Korea Meetup
+
 
 ### 2017
 - 2017.08.18 - 08.18 :: Graduate from Hansung University
@@ -60,6 +63,8 @@ layout: page
 ### 2012 - 2014
 - 2012.04 - 2014.01 :: Serving a mandatory military service
 
+-------
+
 ## Projects
 ### Nelp
 - Springboot. JPA. Sprint. Code Review. Github.
@@ -74,6 +79,9 @@ layout: page
 - Opencv. RaspberryPi
 - [Code](https://github.com/FingerKeyboard-jh-sm/FingerKeyboard)
 - [Video](https://www.youtube.com/watch?v=xI_Y875FghU)
+
+
+-------
 
 ## Awards
 ### 2016
