@@ -119,8 +119,12 @@ date: 2018-07-02
 - `커뮤니케이션의 문제를 극복하는 게 DDD의 목적` 중 하나인데 오히려 DDD 때문에 커뮤니케이션이 복잡해진다면 이는 DDD의 애초 목적에도 맞지 않습니다.
 > Bounded Context 정답은 사람들과 커뮤니케이션을 통해 만들어 가는 것이라 생각됩니다.
 
+
+
 ## Reference
 - <https://martinfowler.com/bliki/BoundedContext.html>
 - <https://martinfowler.com/bliki/CQRS.html>
 - <https://martinfowler.com/bliki/CommandQuerySeparation.html>
 - <http://blog.fupfin.com/?p=161>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

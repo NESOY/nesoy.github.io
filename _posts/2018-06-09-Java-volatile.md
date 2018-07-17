@@ -88,6 +88,8 @@ public class SharedObject {
 - 주의할 점?
     - 성능에 영향이 어느 정도 영향을 줄 수 있는 Point라는 점.
 
+
+
 ## Reference
 - <http://tutorials.jenkov.com/java-concurrency/volatile.html>
 

@@ -154,6 +154,10 @@ public void updateUser throws NullPointerException {
 - 물론 정교한 에러메시지나 그에 따른 별도의 화면 Flow가 필요할 때는 섬세하게 catch를 할 수도 있습니다. 
 - 에러 페이지도 Business 언어 수준의 예외를 정의하고 거기에 맞는 페이지를 따로 준비하기도 합니다.
 
+
+
 ## Reference
 - <https://www.slipp.net/questions/350>
 - <https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

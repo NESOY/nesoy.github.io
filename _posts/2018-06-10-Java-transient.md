@@ -75,6 +75,7 @@ class Member implements Serializable {
     - Data를 제외하였을 경우에 서비스 장애에 이상이 없는지에 대한 고려.
 
 
+
 ## Reference
 - <https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.3.1.4>
 

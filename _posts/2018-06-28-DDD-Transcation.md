@@ -73,5 +73,9 @@ date: 2018-06-28
 
 - 문제에 대해 이해하고 Lock 전략을 선택하는 것이 최선입니다.
 
+
+
 ## Reference
 - <https://github.com/iamkyu/TIL/blob/master/books/summary/ddd-start.md#8-%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B1%B0%ED%8A%B8-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B4%80%EB%A6%AC>
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

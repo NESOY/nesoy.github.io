@@ -166,9 +166,13 @@ public int hashCode() {
 ## 정리하며
 - equals()를 재정의한다면 side effect를 줄이기 위해서 hashCode()도 재정의하는것이 좋습니다.
 
+
+
 ## Reference
 - <https://blog.weirdx.io/post/3113>
 - <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
 - <https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier>
 - <https://johngrib.github.io/wiki/Object-hashCode/#%EA%B7%B8%EB%9F%B0%EB%8D%B0-%EC%99%9C-31%EC%9D%84-%EA%B3%B1%ED%95%98%EB%8A%94-%EA%B1%B8%EA%B9%8C>
 
+
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
