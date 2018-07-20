@@ -3,6 +3,7 @@ layout: post
 title: Git Revert에 대해 알아보자.
 categories:
   - Git
+excerpt: ' '
 tags:
   - Git
 
