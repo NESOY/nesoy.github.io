@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Revert에 대해 알아보자.
+title: Git Revert란?
 categories:
   - Git
 excerpt: ' '
