@@ -9,6 +9,9 @@ tags: [Git]
 date: 2017-03-27
 ---
 
+![No Image](/assets/logo/git.png)
+
+## emfdjrkau
 > 개발하는 과정에 있어 commit을 잘못하거나, 팀원들의 코드 리뷰를 통해 문제를 수정하고 다시 commit하는 과정에서 불필요한 commit들을 합치는 과정이 필요하다. git의 commit에 대한 명령어에 대해 기억하기 위해 포스팅을 한다.
 
 ## Commit 명령어

@@ -9,7 +9,7 @@ tags: [Git]
 date: 2017-01-12
 ---
 
-![No Image](/assets/posts/20170126/GitLogo.PNG)
+![No Image](/assets/logo/git.png)
 
 # **GitHub Pull Request 따라하기**
 

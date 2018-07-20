@@ -9,8 +9,9 @@ tags: [Git]
 date: 2017-01-26
 ---
 
+![No Image](/assets/logo/git.png)
+
 # **Git .gitignore File 적용하기**
-![No Image](/assets/posts/20170126/GitLogo.PNG)
 
 ## .gitignore이란?
 > Project에 원하지 않는 Backup File이나 Log File , 혹은 컴파일 된 파일들을 Git에서 제외시킬수 있는 설정 File이다.
@@ -55,7 +56,7 @@ doc/**/*.pdf
 ```shell
 git rm -r --cached .
 git add .
-git commit -m "fixed untracked files"
+git commit -m "Apply .gitignore"
 ```
 
 ## 3. 확인해보기
