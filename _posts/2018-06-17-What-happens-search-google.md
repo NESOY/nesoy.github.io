@@ -9,6 +9,8 @@ tags: [Web]
 date: 2018-06-17
 ---
 
+![No Image](/assets/logo/web.jpg)
+
 ## 들어가며
 > 예전에 받았던 면접 질문들을 회고하고 보다 깊이 있게 이해하기 위해 정리합니다.
 
@@ -18,7 +20,7 @@ date: 2018-06-17
 - `https://www.google.com`을 IP주소로 변환하는 작업이 필요합니다.
 
 ### Browser DNS Cache - Chrome
-- 브라우저는 도메인이 캐시에 들어있는지 확인합니다. 
+- 브라우저는 도메인이 캐시에 들어있는지 확인합니다.
 - `chrome://net-internals/#dns`
 
 ![No Image](/assets/posts/20180617/1.png)

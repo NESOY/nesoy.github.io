@@ -9,6 +9,8 @@ tags: [Web]
 date: 2017-03-06
 ---
 
+![No Image](/assets/logo/web.jpg)
+
 > Spring의 JSP나 Springboot의 Thymeleaf등등 Template에 대해 역할 궁금하여 찾아본 결과 Web Template System의 Engine이란 걸 알았다. Web Template System에 대해 정리하고 또 기억하기 위해 포스팅을 한다.
 
 ## 템플릿 시스템(Template System)
