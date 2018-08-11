@@ -101,6 +101,7 @@
                 <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if site.social_icons.enable %}
                     <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i>
+                    <br>
                   {% endif %}
                   {{ name }}
                 </a>
