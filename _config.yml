@@ -214,6 +214,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/nesoy
+  Linkedin: https://www.linkedin.com/in/young-jae-kwon-3514b3141
+  Facebook: https://www.facebook.com/Nesoy92
+  SlideShare: https://www.slideshare.net/YoungJaeKwon3
 
 
 # Social Links Icons
@@ -228,7 +231,9 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
+  Linkedin: linkedin
+  Facebook: facebook
+  SlideShare: slideshare
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
