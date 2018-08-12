@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DDD - Domain
+title: DDD - Architecture
 categories:
   - DDD
 excerpt: ' '
