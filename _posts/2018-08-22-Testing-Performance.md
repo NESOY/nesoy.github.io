@@ -27,9 +27,11 @@ date: 2018-08-22
 
 
 ## 어느(Where) 부분을 테스트 해야 할까요?
+
 ### Application
 - TPS(Transaction Per Second)
 - 응답 시간(Response Time)
+
 ### Middleware
 - Message Queue
   - RabbitMQ
@@ -38,6 +40,7 @@ date: 2018-08-22
 - Web Server
   - Apache(Network outbound io (bandwidth))
   - Tomcat(Idle Thread)
+
 ### Infra
 - CPU
 - Memory(Swapping)
@@ -46,34 +49,42 @@ date: 2018-08-22
 
 
 ## 테스트 종류는 어떤 것들이 있을까요?
+
 ### 성능(Performance) Test
 > 시스템의 요소가 특정 상황에서 어느 정도의 성능을 보이는지를 측정하는 테스트.
 - 기존 시스템에 대한 benchmarking 하는 것입니다.
 - 어플리케이션의 결함을 찾는 목적이 아닙니다.
 - 성능에 대한 정확하고 면밀한 모니터링을 진행해야 합니다.
+
 ### 부하(Load) Test
 > 임계치의 한계에 도달할 때까지 시스템에 부하를 꾸준히 증가시키며 진행하는 테스트.
 - 부하 상황에서 시스템이 어떻게 동작하는지 모니터링 하고 정보를 얻습니다.
 - 발생시키는 부하는 실제 시스템에 적용될 예상 트래픽이어야 합니다.
 - `volume test` 또는 `endurance test`라고도 합니다.
 - Web Server, Database, Infra등 모든 요소의 한계를 찾아서 미래에 발생할 부하에 대비하는 것이 목표입니다.
+
 #### 예를 들자면?
 - 수강 신청하는 인원이 어느정도 예상되는지 알고 싶은 경우
+
 ### 스트레스(Stress) Test
 > 시스템이 과부하 상태에서 어떻게 작동하는지를 검사하는 테스트.
 - 시스템의 실패를 확인하고 모니터링하는 과정이 정상적으로 이루어지는지
 - 민감한 정보나 보안상의 문제가 노출되지 않는지
 - 장애 조치와 복구 절차가 효과적이고 효율적인지
+
 #### Soak Test
 - 한참 동안 부하를 가해서, 메모리 누수나 자원 누수를 알아내는 테스트.
+
 #### Negative Test
   - 부하를 발생시킨 상태에서 특정 시스템 구성요소 중 일부를 제거하는 테스트.
+
 #### Fatigue Test
   - 대역폭 용량을 뛰어넘는 부하를 발생시켜 테스트.
 
 
 ## Graph를 해석해 볼까요?
 ![No Image](/assets/posts/20180822/1.png)
+
 ### 포화점(Saturation Point)
 - 시스템은 언제나 처리에 한계가 있으므로 어느 순간에 더 이상 증가하지 않고 그래프가 꺽이게 됩니다.
 
@@ -85,6 +96,7 @@ date: 2018-08-22
 - 비즈니스 관점에서 최대 처리량을 재정의하고 최대 처리량과 여유를 두는 것이 좋습니다.
 
 ## 용어는 어떤게 있을까요?
+
 #### Workload
 - 주어진 시간 동안 컴퓨터가 처리한 일의 양. 혹은 그러기 위해 부과된 연속된 일.
 - Web 기반 시스템에서는 주로 HTTP 요청이 Workload 역할을 하게 됩니다.
@@ -114,6 +126,7 @@ date: 2018-08-22
 - 튜닝(tuning)이란, 활용도가 100%인 컴퓨넌트가 정말 100%로 사용되어야 하는가를 살피고, 각 컴포넌트 간 활용도의 밸런스를 맞추어서 전체 시스템이 가장 좋은 성능을 발휘하도록 개선하는 작업입니다.
 
 ## Tool
+
 ### Monitoring Tool
 - APM (Application Performance Monitoring)
   - [제니퍼](http://www.jennifersoft.com)
@@ -121,7 +134,7 @@ date: 2018-08-22
   - [Pinpoint](https://github.com/naver/pinpoint)
   - [개발자들이 좋아하는 APM 소프트웨어 9선 - CIO Korea](http://www.ciokorea.com/news/37808)
 
-### Test Tool
+### Testing Tool
 - [JMeter](https://jmeter.apache.org/)
 - [NGrinder](http://naver.github.io/ngrinder/)
 - [LoadRunner](https://software.microfocus.com/ko-kr/products/loadrunner-load-testing/overview)
