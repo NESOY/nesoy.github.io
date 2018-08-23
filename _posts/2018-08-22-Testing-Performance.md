@@ -2,10 +2,10 @@
 layout: post
 title: 성능, 부하, 스트레스 테스트에 대하여
 categories:
-  - Performance
+  - Testing
 excerpt: ' '
 tags:
-  - Performance
+  - Testing
 
 date: 2018-08-22
 ---
