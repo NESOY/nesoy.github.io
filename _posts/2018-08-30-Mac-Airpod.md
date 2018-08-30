@@ -24,7 +24,7 @@ date: 2018-08-30
 
 ### Script를 작성합니다.
 
-```AppleScript
+```applescript
 activate application "SystemUIServer"
 tell application "System Events"
 	tell process "SystemUIServer"
