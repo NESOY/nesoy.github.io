@@ -48,9 +48,12 @@ date: 2018-08-31
 
 
 #### Step 1 : Insert 8
-- 루트는 흑색인 규칙에 따라 8을 블랙으로 변경됩니다.
 
 ![No Image](/assets/posts/20180831/4.png)
+
+- 루트는 흑색인 규칙에 따라 8을 블랙으로 변경됩니다.
+
+
 
 #### Step 2 : Insert 18
 
@@ -61,6 +64,9 @@ date: 2018-08-31
 ![No Image](/assets/posts/20180831/6.png)
 
 #### Step 4 : Insert 15
+
+![No Image](/assets/posts/20180831/7.png)
+
 - `RED 노드가 연속적으로 나올 수 없다` 규칙을 위반했습니다.
 - 연속된 RED가 나오게 된다면 이를 해결하기 위해 두 가지 해결방법을 사용하고 있습니다.
   - Recoloring
@@ -73,33 +79,44 @@ date: 2018-08-31
   - 부모의 부모노드가 Root Node인 경우 `Root Node인 경우 Black인 규칙`에 의해 변경되지 않습니다.
     - 부모의 부모노드가 Root node가 아닌 경우 Double Red가 다시 발생 할 수 있습니다.
 
-![No Image](/assets/posts/20180831/7.png)
+
 
 #### Step 5 : Insert 17
+
+![No Image](/assets/posts/20180831/8.png)
+
 - 삽입된 노드의 부모의 형제 색깔이 NULL이기 때문에 Restructuring으로 진행합니다.
   - 삽입된 노드, 부모, 부모의 부모(Grand Parent) 오름차순으로 정렬합니다.
   - 중앙 값을 부모 노드로 만들고 나머지 노드를 자식으로 변환합니다.
   - 부모 노드가 된 노드를 BLACK 나머지 노드를 RED로 Coloring합니다.
 
-![No Image](/assets/posts/20180831/8.png)
+
 
 #### Step 6 : Insert 25
+
+![No Image](/assets/posts/20180831/9.png)
+
 - `RED 노드가 연속적으로 나올 수 없다` 규칙을 위반했습니다.
 - 삽입된 노드의 부모의 형제 색깔이 RED인 경우에 해당됩니다.
   - Recoloring으로 규칙을 위반하지 않게 조정합니다.
   - 삽입된 노드의 부모와 부모 형제노드를 BLACK으로 부모의 부모노드를 RED로 Coloring합니다.
 
-![No Image](/assets/posts/20180831/9.png)
+
 
 #### Step 7 : Insert 40
+
+![No Image](/assets/posts/20180831/10.png)
+
 - 삽입된 노드의 부모의 형제 색깔이 NULL이기 때문에 Restructuring으로 진행합니다.
   - 삽입된 노드, 부모, 부모의 부모(Grand Parent) 오름차순으로 정렬합니다.
   - 중앙 값을 부모 노드로 만들고 나머지 노드를 자식으로 변환합니다.
   - 부모 노드가 된 노드를 BLACK 나머지 노드를 RED로 Coloring합니다.
 
-![No Image](/assets/posts/20180831/10.png)
 
 #### Step 7 : Insert 80
+
+![No Image](/assets/posts/20180831/11.png)
+
 - `RED 노드가 연속적으로 나올 수 없다` 규칙을 위반했습니다.
 - 삽입된 노드의 부모의 형제 색깔이 RED인 경우에 해당됩니다.
   - Recoloring으로 규칙을 위반하지 않게 조정합니다.
@@ -112,7 +129,7 @@ date: 2018-08-31
 
 > 가장 마지막 Step에 오타로 Node 8 -> Node 10으로 바뀌었습니다.
 
-![No Image](/assets/posts/20180831/11.png)
+
 
 
 ### RedBlack Tree Remove
