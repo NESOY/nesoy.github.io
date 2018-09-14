@@ -44,6 +44,9 @@ date: 2018-04-15
 - `Preference -> Other Setting` -> Grep Console에서 변경 가능합니다.
 ![No Image](/assets/posts/20180415/5.png)
 
+- 빨간색 : #FF6464
+- 노란색 : #FCFF77
+
 ## Reference
 - <https://plugins.jetbrains.com/plugin/7125-grep-console>
 
