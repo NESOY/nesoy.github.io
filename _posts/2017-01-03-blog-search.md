@@ -14,42 +14,12 @@ date: 2017-01-03
 ## 1. Jekyll Sitemap 만들기
 - #### /sitemap.xml 만들기
 
-``` xml
----
-layout: null
----
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+![No Image](/assets/posts/20170103/1.png)
 
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-
-    </url>
-  {% endfor %}
-</urlset>
-```
-
-- #### Github Sitemap.xml 확인하기
+#### Github Sitemap.xml 확인하기
   ![No Image](/assets/posts/20170103/sitemap.PNG)
 
-- #### Local Sitemap.xml (127.0.0.1:4000/sitemap.xml) 확인하기
+#### Local Sitemap.xml (127.0.0.1:4000/sitemap.xml) 확인하기
   ![No Image](/assets/posts/20170103/sitemap2.PNG)
 
 ## 2. Robots.txt 만들기
@@ -86,5 +56,6 @@ Sitemap: http://nesoy.github.io/sitemap.xml
 
 
 ## 참고
+- <http://dveamer.github.io/homepage/SubmitSitemap>
 
-<http://dveamer.github.io/homepage/SubmitSitemap>
+> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
