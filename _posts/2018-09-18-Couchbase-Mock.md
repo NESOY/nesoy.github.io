@@ -74,7 +74,7 @@ private void createBucket(@NotNull String bucketName) {
 ### CouchbaseMock Bucket에 대해 CRUD를 사용하시면 됩니다.
 ```java
 public void test() {
-    bucket.upsert(JsonDocument.create(DEAL_MAX_SUFFIX + "1000000022", doc));
+    bucket.upsert(JsonDocument.create("DOCUMENT::123", doc));
 }
 ```
 
