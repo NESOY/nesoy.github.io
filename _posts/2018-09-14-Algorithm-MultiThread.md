@@ -86,6 +86,24 @@ MAT-VEC(A,x)
 - 재귀적으로 생성되는 비용도 무시하지 말고 확인해야 합니다.
 
 
+## Multi Thread 실행 모델
+### DAG(Directed acyclic graph)
+- 그래프에 사이클이 없는게 특징.
+
+![NO Image](/assets/posts/20180914/8.png)
+
+- [Khan Academy - Graph](https://ko.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
+- [Wiki](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+
+## Multi Thread Scheduling
+- 좋은 Multi Threading이란 작업의 범위를 최소화할 뿐만 아니라 작업이 병렬 기계의 프로세서에 의해 효율적으로 스켸줄링되어야 합니다.
+- <https://en.wikipedia.org/wiki/Scheduling_(computing)>
+
+### Work Stealing
+
+![NO Image](/assets/posts/20180914/10.png)
+
+
 ## Race Condition
 
 ```
@@ -110,8 +128,13 @@ RACE-EXAMPLE()
 > 이러한 버그는 찾기도 매우 힘들고, 재연하기도 매우 힘듭니다. 또한 심각한 결과를 초래할 수도 있습니다.
 
 ### 어떻게 문제를 해결할까요?
-- Mutex, Lock, Semaphore와 같은 기법을 사용해서 동기화를 진행합니다.
-- 재귀적으로 호출을 하게 된다면? 이들은 서로 독립적이여야 합니다.
+- [Mutex](https://en.wikipedia.org/wiki/Mutual_exclusion), Lock, [Semaphore](https://en.wikipedia.org/wiki/Semaphore_%28programming%29)와 같은 기법을 사용해서 동기화를 진행합니다.
+- [Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
+
+![NO Image](/assets/posts/20180914/9.png)
+
+- 재귀적으로 호출을 하게 된다면?
+    - 이들은 서로 독립적이여야 합니다.
 - 즉 순서에 상관없이 호출되고 하나의 계산 결과가 다른 계산에 영향을 주지 않아야 합니다.
     - [함수형 프로그래밍](https://nesoy.github.io/articles/2018-05/Functional-Programming)
 
@@ -131,5 +154,8 @@ RACE-EXAMPLE()
 - <http://sunyzero.tistory.com/191>
 - <https://blog.koriel.kr/fork-hamsureul-iyonghayeo-pibonaci-suyeoleul-culryeoghaeboja/>
 - <http://bart7449.tistory.com/244>
+- <http://www.albahari.com/threading/part4.aspx>
+- <https://actor-framework.readthedocs.io/en/stable/Scheduler.html>
+- <https://youtu.be/M1e9nmmD3II>
 
 > 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
