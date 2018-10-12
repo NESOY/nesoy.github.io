@@ -28,6 +28,7 @@ layout: page
 ![Github Image](https://ghchart.rshah.org/nesoy)
 ### 2018
 - 2018.01.08 - Current :: **Ticket Monster Corporation**
+- 2018.10.11 - 10.11 :: DEVIEW 2018
 - 2018.07.10 - 07.10 :: LINE Developers Meetup - Server tech
 - 2018.06.30 - 06.30 :: Opensource Developer Meetup
 - 2018.05.29 - 05.29 :: DevOps Korea Meetup
@@ -98,7 +99,7 @@ layout: page
 - 2016.12.08 :: [Embedded Software Contest **2nd** Prize - SoundCatcher(Casper)](http://eswcontest.com/bbs/board.php?tbl=award&category=2016%B3%E2)
 
 ## Education
-- 2011.03 - 2018.08 :: Computer Engineering, Engineering college, Hansung University 
+- 2011.03 - 2018.08 :: Computer Engineering, Engineering college, Hansung University
 - 2017.04 - 2018.06 :: SK Tacademy Server Developer Course
 
 ## Languages
