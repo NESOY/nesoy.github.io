@@ -5,7 +5,7 @@ layout: page
 
 ## YoungJae Kwon [Nesoy]
 - Seoul. South Korea.
-- Jr. **Back-end** Web Developer
+- Jr. **Back-end** Software Engineer
 - Working in [Ticket Monster](http://www.ticketmonster.co.kr/)
 
 ## Links
@@ -18,7 +18,7 @@ layout: page
 ## Technical Skills
 - **Program Language** :: Java, Python, Javascript, C, C++
 - **Web Framework** :: Spring, Nodejs - Express
-- **Database** :: MySql, MongoDB, AWS RDB
+- **Database** :: MySQL, MongoDB, AWS RDB
 - **Others** :: Git, Github, AWS
 
 -------
@@ -27,7 +27,8 @@ layout: page
 ### Github
 ![Github Image](https://ghchart.rshah.org/nesoy)
 ### 2018
-- 2018.01.08 - Current :: **Ticket Monster Corporation**
+- 2018.01.08 - Current :: **Ticket Monster Corporation Back-end Software Engineer**
+- 2018.10.19 - 10.19 :: OKKYCON2018 - The Real TDD
 - 2018.10.11 - 10.11 :: DEVIEW 2018
 - 2018.07.10 - 07.10 :: LINE Developers Meetup - Server tech
 - 2018.06.30 - 06.30 :: Opensource Developer Meetup
