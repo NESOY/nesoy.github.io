@@ -1,6 +1,6 @@
 ---
 layout: post
-title: String Matching에 대해
+title: String Matching Algorithm에 대해
 categories:
   - Algorithm
 excerpt: ' '
