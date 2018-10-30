@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mac 모하비 brew Error 해결하기
+title: Mac 모하비 brew 에러 해결하기
 categories:
   - Mac
 excerpt: ' '
