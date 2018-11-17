@@ -27,7 +27,7 @@ layout: page
 ### Github
 ![Github Image](https://ghchart.rshah.org/nesoy)
 ### 2018
-- 2018.01.08 - Current :: **Ticket Monster Corporation Back-end Software Engineer**
+- 2018.01.08 - Current :: **Ticket Monster Corporation**
 - 2018.10.19 - 10.19 :: OKKYCON2018 - The Real TDD
 - 2018.10.11 - 10.11 :: DEVIEW 2018
 - 2018.07.10 - 07.10 :: LINE Developers Meetup - Server tech
