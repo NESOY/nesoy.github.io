@@ -4,7 +4,7 @@ title: Context Switching이란?
 categories:
   - OS
 excerpt: ' '
-tags::
+tags:
   - OS
 
 date: 2018-11-13
