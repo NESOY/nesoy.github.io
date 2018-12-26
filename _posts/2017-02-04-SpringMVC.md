@@ -9,6 +9,8 @@ tags: [Spring,Intellij]
 date: 2017-02-05
 ---
 
+![NO Image](/assets/logo/spring.png)
+
 > Intellij에서 Spring MVC를 이용하여 Hello World를 띄우기 까지 매우 많은 삽질을 통해 해결했다. 많은 이들이 포스팅을 통해서 삽질을 그나마 줄일 수 있다면 좋겠다.
 
 ## Intellij Maven Project 만들기
@@ -181,7 +183,7 @@ public class controller {
 ### 원인
 - tomcat의 context root 기본 파일 이름명이 `webapps` 때문에 에러가 발생하였다.
 ### 해결방법
-- 경로 재설정 / 파일 이름 바꾸기 두 가지 해결방법이 있다. 
+- 경로 재설정 / 파일 이름 바꾸기 두 가지 해결방법이 있다.
 - 아래는 경로 재설정을 설명한 것이다.
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 

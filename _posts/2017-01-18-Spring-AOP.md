@@ -9,6 +9,8 @@ tags: [Spring]
 date: 2017-01-18
 ---
 
+![NO Image](/assets/logo/spring.png)
+
 # **Spring AOP**
 
 ## AOP(Aspect Oriented Programming)이란?
@@ -33,11 +35,11 @@ date: 2017-01-18
 
 ```java
 @Aspect
-public class AspectUsingAnnotation {    
+public class AspectUsingAnnotation {
     @Pointcut("execution(public * nesoy.aop.sample.*Sample.*(..))")
     public void targetMethod() {
       //함수 정의
-    }    
+    }
 }
 ```
 
@@ -51,7 +53,7 @@ public class AspectUsingAnnotation {
 
       ```java
       @Aspect
-      public class AspectUsingAnnotation {    
+      public class AspectUsingAnnotation {
       @Before("targetMethod()")
       public void beforeTargetMethod(JoinPoint thisJoinPoint) {
       //함수 정의
