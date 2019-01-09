@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elastic Search에 대해
+title: Elastic Search에 시작하며
 categories:
   - ElasticSearch
 excerpt: ' '
