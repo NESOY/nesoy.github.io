@@ -10,6 +10,8 @@ tags:
 date: 2019-01-12
 ---
 
+![No Image](/assets/logo/elastic.png)
+
 ## [Elastic Search Config](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 ![No Image](/assets/posts/20190112/1.png)
 
