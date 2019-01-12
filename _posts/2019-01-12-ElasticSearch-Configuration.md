@@ -21,6 +21,7 @@ date: 2019-01-12
 - 자바 Heap Memory Error가 발생하면 오류 내용을 heapdump.hprof와 같은 파일에 저장
     - Default HeapDump Path : Home
     - 수백MB ~ 수GB 정도로 용량이 크므로 넉넉한 용량을 가진 별도의 경로에 저장하는 것을 권장
+
 ### [`elasticsearch.yml`](https://www.elastic.co/guide/en/elasticsearch/reference/current/important-settings.html)
 - `cluster.name`
     - Elastic Search Cluster : 각 노드가 연결된 전체 시스템
@@ -42,14 +43,17 @@ date: 2019-01-12
     - Default Port : 9200
     - ElasticSearch Port : 9200~9299
     - 다른 Node와 Binding되어 데이터 교환을 위해 통신하는 포트 : 9300~9399
+
 #### Gateway
 - ElasticSearch의 전체 Cluster의 상태를 저장하는 저장소
 - Recovery
     - ElasticSearch의 전체 Cluster가 종료된 후 재실행 될 때 Gateway에 저장된 상태 값을 읽어 들여 노드와 인덱스 등에 대해 새로 설정하는 과정
 - `gateway.recover_after_nodes`
     - 전체 Cluster가 재시작 되고 몇 개의 노드가 활성화됐을때 리커버리를 시작할지 설정한다.
+
 #### Discovery
 - 원격 네트워크에 있는 Node와의 Binding을 설정하는 데 필요하다.
+
 #### Slow Log
 - Query, Fetch, Indexing 활동에 대해 Slow Log를 남길 수 있다.
 - `index.search.slowlog.threshold.(query,fetch,index).(warn,info,error)`
