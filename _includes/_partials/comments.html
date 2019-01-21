@@ -1,6 +1,7 @@
 {% if page.comments %}
   <div class="comments" id="comments">
     {% include _third-party/adsense/adsense.html %}
+    {% include _third-party/comments/Utterance.html %}
     {% if site.duoshuo and site.duoshuo.shortname or site.duoshuo_shortname %}
       <div class="ds-thread" data-thread-key="{{ page.url | relative_url }}"
            data-title="{{ page.title }}" data-url="{{ page.url | absolute_url }}">

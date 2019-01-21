@@ -18,7 +18,7 @@ layout: page
 ## Technical Skills
 - **Program Language** :: Java, Python, Javascript, C, C++
 - **Web Framework** :: Spring, Nodejs - Express
-- **Database** :: MySQL, MongoDB, AWS RDB
+- **Database** :: MySQL, MongoDB, AWS RDB, Couchbase, Elastic Search
 - **Others** :: Git, Github, AWS
 
 -------
@@ -26,8 +26,9 @@ layout: page
 ## Activities
 ### Github
 ![Github Image](https://ghchart.rshah.org/nesoy)
-### 2018
+### 2019
 - 2018.01.08 - Current :: **Ticket Monster Corporation**
+### 2018
 - 2018.11.29 - 11.29 :: KOSSCON - 2018
 - 2018.10.19 - 10.19 :: OKKYCON2018 - The Real TDD
 - 2018.10.11 - 10.11 :: DEVIEW 2018
