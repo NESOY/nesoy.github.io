@@ -26,8 +26,10 @@ layout: page
 ## Activities
 ### Github
 ![Github Image](https://ghchart.rshah.org/nesoy)
+
 ### 2019
 - 2018.01.08 - Current :: **Ticket Monster Corporation**
+
 ### 2018
 - 2018.11.29 - 11.29 :: KOSSCON - 2018
 - 2018.10.19 - 10.19 :: OKKYCON2018 - The Real TDD
