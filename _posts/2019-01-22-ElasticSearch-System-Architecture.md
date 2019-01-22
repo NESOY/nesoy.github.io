@@ -85,7 +85,9 @@ nested: IllegalArgumentException[can't add node {es-master}{KTKlgNlqllbkaw}{7QMJ
 discovery.zen.ping.multicast.enabled: false
 discovery.zen.ping.unicast.host: ["192.168.1.10", "192.168.1.11"]
 ```
+
 ## [Hot-warm Architecture](https://www.elastic.co/blog/hot-warm-architecture)
+
 ![No Image](/assets/posts/20190122/4.png)
 
 ### Master nodes
