@@ -15,10 +15,10 @@ layout: page
 - [Linkedin](https://www.linkedin.com/in/young-jae-kwon-3514b3141/)
 - [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
-## Technical Skills
+## Skills
 - **Program Language** :: Java, Python, Javascript, C, C++
-- **Web Framework** :: Spring, Nodejs - Express
-- **Database** :: MySQL, MongoDB, AWS RDB, Couchbase, Elastic Search
+- **Web Framework** :: Spring, Express
+- **Database** :: Couchbase, Elastic Search, MySQL, MongoDB
 - **Others** :: Git, Github, AWS
 
 -------
@@ -28,19 +28,18 @@ layout: page
 ![Github Image](https://ghchart.rshah.org/nesoy)
 
 ### 2019
-- 2018.01.08 - Current :: **Ticket Monster Corporation**
+- 2018.01.08 - Current :: **Ticket Monster Corporation - Service Lab**
 
 ### 2018
-- 2018.11.29 - 11.29 :: KOSSCON - 2018
-- 2018.10.19 - 10.19 :: OKKYCON2018 - The Real TDD
-- 2018.10.11 - 10.11 :: DEVIEW 2018
-- 2018.07.10 - 07.10 :: LINE Developers Meetup - Server tech
-- 2018.06.30 - 06.30 :: Opensource Developer Meetup
+- 2018.11.29 - 11.29 :: [KOSSCON - 2018](https://nesoy.github.io/articles/2018-11/KOSSCON-2018)
+- 2018.10.19 - 10.19 :: [OKKYCON2018 - The Real TDD](https://nesoy.github.io/articles/2018-10/OKKYCON2018-Real-TDD)
+- 2018.10.11 - 10.11 :: [DEVIEW 2018](https://nesoy.github.io/articles/2018-10/Deview-2018)
+- 2018.07.10 - 07.10 :: [LINE Developers Meetup - Server tech](https://nesoy.github.io/articles/2018-07/LINE-Developers-Meetup)
+- 2018.06.30 - 06.30 :: [Opensource Developer Meetup](https://nesoy.github.io/articles/2018-07/Opensource-Meetup)
 - 2018.05.29 - 05.29 :: DevOps Korea Meetup
-- 2018.05.08 - 05.08 :: Next With Google Meetup
-- 2018.04.21 - 04.21 :: Little Big Data Meetup
+- 2018.05.08 - 05.08 :: [Next With Google Meetup](https://nesoy.github.io/articles/2018-05/Next-With-Google)
+- 2018.04.21 - 04.21 :: [Little Big Data Meetup](https://nesoy.github.io/articles/2018-04/Little-Big-Data)
 - 2018.02.12 - 02.12 :: GDG Campus Korea Meetup
-
 
 ### 2017
 - 2017.08.18 - 08.18 :: Graduate from Hansung University
