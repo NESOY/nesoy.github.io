@@ -15,6 +15,7 @@ date: 2019-01-23
 
 ## CAS(Check & Set) 값이란?
 > Optimistic Concurrency Control
+
 - 문서의 일관성을 유지하기 위한 필드입니다.
 - 하나의 문서에 CAS의 값이 설정이 되어 있고, 문서의 값(VALUE)가 변경될 때 마다 이 CAS의 값도 변경됩니다.
 
