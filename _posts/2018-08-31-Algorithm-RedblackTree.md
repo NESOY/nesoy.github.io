@@ -163,5 +163,3 @@ date: 2018-08-31
 - <http://btechsmartclass.com/DS/U5_T4.html>
 - <https://ratsgo.github.io/data%20structure&algorithm/2017/10/28/rbtree/>
 - <https://www.geeksforgeeks.org/red-black-tree-vs-avl-tree/>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -114,5 +114,3 @@ date: 2018-06-02
 - <https://d2.naver.com/helloworld/284659>
 - <https://seokjun.kim/haproxy-and-nginx-load-balancing/>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

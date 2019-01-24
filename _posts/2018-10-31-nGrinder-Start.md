@@ -149,5 +149,3 @@ sudo tar xvfz ngrinder-agent-3.4.2-localhost.tar
 ## Reference
 - <https://github.com/naver/ngrinder/releases>
 - <https://opentutorials.org/module/351/3334>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

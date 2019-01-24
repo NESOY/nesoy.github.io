@@ -38,5 +38,3 @@ date: 2018-06-15
 
 ## Reference
 - <https://stackoverflow.com/questions/16671706/how-can-i-tell-intellijs-find-in-files-to-ignore-generated-files>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

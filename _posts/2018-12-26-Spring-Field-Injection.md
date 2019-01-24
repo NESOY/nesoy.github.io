@@ -63,5 +63,3 @@ public class NesoyService {
 - <https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-spring-beans-and-dependency-injection.html>
 - [Field Dependency Injection Considered Harmful](https://www.vojtechruzicka.com/field-dependency-injection-considered-harmful/)
 - <https://www.petrikainulainen.net/software-development/design/why-i-changed-my-mind-about-field-injection/>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -18,14 +18,14 @@ date: 2018-02-22
 
 ![No Image](/assets/posts/20180222/1.png)
 
-서비스의 크기가 점점 커지게 되면서 다양하고 많은 Table들이 존재하게 되었다. 
+서비스의 크기가 점점 커지게 되면서 다양하고 많은 Table들이 존재하게 되었다.
 
 VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어지는 DBMS`이 자연스럽게 등장하였고 하나의 DBMS가 많은 Table을 관리하다 보니 느려지는 이슈가 발생하게 되었다.
 
 이러한 이슈를 해결하기 위한 하나의 방법이 바로 파티셔닝(Partitioning)이다.
 
 ## Partitioning이란?
-- 큰 Table이나 인덱스를 관리하기 쉬운 단위로 분리하는 방법을 의미한다. 
+- 큰 Table이나 인덱스를 관리하기 쉬운 단위로 분리하는 방법을 의미한다.
 
 ## Benifits
 
@@ -45,14 +45,14 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 
 ## Partitioning 범위
 
-### Range partitioning 
+### Range partitioning
 - 연속적인 숫자나 날짜 기준으로 Partitioning 한다.
 - 손쉬운 관리 기법 제공 에 따른 관리 시간의 단축할 수 있다.
 - ex) 우편번호, 일별, 월별, 분기별 등 의 데이터에 적합하다.
 
 ![No Image](/assets/posts/20180222/2.png)
 
-### List partitioning 
+### List partitioning
 - 특정 Partition에 저장 될 Data에 대한 명시적 제어 가능하다.
 - 분포도가 비슷 하며, 많은 SQL에서 해당 Column의 조건이 많이 들어오는 경우 유용하다.
 - Multi-Column Partition Key 제공하기 힘들다.
@@ -60,7 +60,7 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 
 ![No Image](/assets/posts/20180222/3.png)
 
-### Composite partitioning 
+### Composite partitioning
 - Composite Partition은 Partition의 Sub-Partitioning 을 말한다.
 - 큰 파티션에 대한 I/O 요청을 여러 partition으로 분산할 수 있다.
 - Range Partitioning 할 수 있는 Column이 있지만, Partitioning 결과 생성된 Partition이 너무 커서 효과적으로 관리할 수 없을 때 유용하다.
@@ -105,7 +105,3 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 - <http://tnsdogfoot.blogspot.kr/2014/09/2014-9-25.html>
 - <http://geekswithblogs.net/shaunxu/archive/2012/01/07/sql-azure-federation-ndash-introduction.aspx>
 - <http://wiki.gurubee.net/pages/viewpage.action?pageId=3899999>
-
-
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

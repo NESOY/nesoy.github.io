@@ -99,7 +99,7 @@ date: 2018-07-02
   - 대표적인 예 : 제공[검색], 사용[블로그, 카페, 메일]
 - 이를 방지하기 위해 데이터 형태로 제공하는 해결 방법이 등장
   - [Google Protocol Buffer](https://developers.google.com/protocol-buffers/)
-  - XML, JSON 형태와 같은 데이터를 저장하는 형태 
+  - XML, JSON 형태와 같은 데이터를 저장하는 형태
 
 ### [손상 방지 계층(Anticorruption Layer)](https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer)
 ![No Image](/assets/posts/20180703/5.png)
@@ -126,5 +126,3 @@ date: 2018-07-02
 - <https://martinfowler.com/bliki/CQRS.html>
 - <https://martinfowler.com/bliki/CommandQuerySeparation.html>
 - <http://blog.fupfin.com/?p=161>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

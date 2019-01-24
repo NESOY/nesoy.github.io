@@ -83,5 +83,3 @@ date: 2018-05-10
 - <https://medium.com/@originerd/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8%EA%B8%B0-14ce8f98e34e>
 - <https://sungjk.github.io/2017/07/17/fp.html>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

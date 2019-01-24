@@ -32,7 +32,7 @@ public Service getService() {
 어떤 경우에도 `null`을 반환하지 않는다.
 
 
-하지만 서비스는 `MyServiceImpl` 클래스에 의존하게 된다. `MyServiceImpl`을 사용하지 않더라도 의존성을 해결하지 않으면 컴파일이 안되는 문제가 발생한다. 테스트 수행에도 문제가 발생한다. 
+하지만 서비스는 `MyServiceImpl` 클래스에 의존하게 된다. `MyServiceImpl`을 사용하지 않더라도 의존성을 해결하지 않으면 컴파일이 안되는 문제가 발생한다. 테스트 수행에도 문제가 발생한다.
 
 
 만약 `MyServiceImpl` 객체가 무거운 객체라면 테스트를 위한 Mock Object를 service필드에 대입해야 하며, 이는 기존의 runtime 로직에 관여하기 때문에 `모든 가능한 경우의 수`를 고려해야 하는 문제도 발생한다.
@@ -63,12 +63,12 @@ public Service getService() {
 깨끗한 코드는 코드 수준에서 시스템을 조정하고 확장하기 쉽게 만든다.
 
 아래의 코드는 EJB2를 상속받아 구현한 Bussiness Logic이다.
- ```java 
- /* Code 2-1(Listing 11-1): An EJB2 local interface for a Bank EJB */ 
+ ```java
+ /* Code 2-1(Listing 11-1): An EJB2 local interface for a Bank EJB */
  package com.example.banking;
 import java.util.Collections;
 import javax.ejb.*;
-public interface BankLocal extends java.ejb.EJBLocalObject { 
+public interface BankLocal extends java.ejb.EJBLocalObject {
   String getStreetAddr1() throws EJBException;
   String getStreetAddr2() throws EJBException;
   String getCity() throws EJBException;
@@ -81,16 +81,16 @@ public interface BankLocal extends java.ejb.EJBLocalObject {
   void setZipCode(String zip) throws EJBException;
   Collection getAccounts() throws EJBException;
   void setAccounts(Collection accounts) throws EJBException;
-  void addAccount(AccountDTO accountDTO) throws EJBException; } 
+  void addAccount(AccountDTO accountDTO) throws EJBException; }
 ```
 
 ```java
- /* Code 2-2(Listing 11-2): The corresponding EJB2 Entity Bean Implementation */ 
+ /* Code 2-2(Listing 11-2): The corresponding EJB2 Entity Bean Implementation */
  package com.example.banking;
  import java.util.Collections;
  import javax.ejb.*;
- public abstract class Bank implements javax.ejb.EntityBean { 
-   // Business logic... 
+ public abstract class Bank implements javax.ejb.EntityBean {
+   // Business logic...
    public abstract String getStreetAddr1();
    public abstract String getStreetAddr2();
    public abstract String getCity();
@@ -100,30 +100,30 @@ public interface BankLocal extends java.ejb.EJBLocalObject {
    public abstract void setStreetAddr2(String street2);
    public abstract void setCity(String city);
    public abstract void setState(String state);
-   public abstract void setZipCode(String zip); 
+   public abstract void setZipCode(String zip);
    ublic abstract Collection getAccounts();
    public abstract void setAccounts(Collection accounts);
-   public void addAccount(AccountDTO accountDTO) { 
+   public void addAccount(AccountDTO accountDTO) {
     InitialContext context = new InitialContext();
     AccountHomeLocal accountHome = context.lookup("AccountHomeLocal");
     AccountLocal account = accountHome.create(accountDTO);
-    Collection accounts = getAccounts(); accounts.add(account); 
-    } 
-    // EJB container logic public 
+    Collection accounts = getAccounts(); accounts.add(account);
+    }
+    // EJB container logic public
     abstract void setId(Integer id);
     public abstract Integer getId();
     public Integer ejbCreate(Integer id) { ... }
-    public void ejbPostCreate(Integer id) { ... } 
-    // The rest had to be implemented but were usually empty: 
-    public void setEntityContext(EntityContext ctx) {} 
-    public void unsetEntityContext() {} 
-    public void ejbActivate() {} 
-    public void ejbPassivate() {} 
-    public void ejbLoad() {} 
-    public void ejbStore() {} 
+    public void ejbPostCreate(Integer id) { ... }
+    // The rest had to be implemented but were usually empty:
+    public void setEntityContext(EntityContext ctx) {}
+    public void unsetEntityContext() {}
+    public void ejbActivate() {}
+    public void ejbPassivate() {}
+    public void ejbLoad() {}
+    public void ejbStore() {}
     public void ejbRemove() {}
-   } 
- ``` 
+   }
+ ```
 
 위에 코드는 `EJB2`의 컨테이너에 강하게 결합된다. 필요없는 메소드를 상속받아야 하며 덩그러니 남아있다.
 객체 지향 프로그래밍이라는 개념조차 뿌리가 흔들린다.
@@ -150,7 +150,7 @@ Bank bank = (Bank) bf.getBean("bank");
 ```
 
 
-구조 정의를 위한 xml은 다소 장황하고 읽기 힘들 수는 있지만 Java Proxy보다는 훨씬 간결하다. 
+구조 정의를 위한 xml은 다소 장황하고 읽기 힘들 수는 있지만 Java Proxy보다는 훨씬 간결하다.
 이 개념은 아래에 설명할 `EJB3`의 구조 개편에 큰 영향을 미쳤다. `EJB3`은 xml와 Java annotation을 사용해 cross-cutting concerns를 정의하고 서포트하게 되었다.
 
 
@@ -209,8 +209,8 @@ public class Bank implements java.io.Serializable {
 - 영속성 정보는 필요하다면 XML배치 기술자로 옮겨도 괜찮다. 그러면 순수한 POJO만 남는다.
 
 ## AspectJ 관점
-- AspectJ는 AOP를 실현하기 위한 full-featured tool이라 일컬어진다. 
-- 8~90%의 경우에는 Spring AOP와 JBoss AOP로도 충분하지만 AspectJ는 훨씬 강력한 수준의 AOP를 지원한다. 
+- AspectJ는 AOP를 실현하기 위한 full-featured tool이라 일컬어진다.
+- 8~90%의 경우에는 Spring AOP와 JBoss AOP로도 충분하지만 AspectJ는 훨씬 강력한 수준의 AOP를 지원한다.
 - 다만 이를 사용하기 위해 새로운 툴, 언어 구조, 관습적인 코드를 익혀야 한다는 단점도 존재한다.
 - 최근 소개된 "annotation-form AspectJ"로 인해 적용에 필요한 노력은 많이 줄어들었다고 한다.
 - AOP에 대한 더 자세한 내용은 [AspectJ], [Colyer], [Spring]를 참조하기 바란다.
@@ -218,8 +218,8 @@ public class Bank implements java.io.Serializable {
 
 ## 테스트 주도 시스템 아키텍처 구축
 - 코드 레벨에서부터 아키텍쳐와 분리된(decouple된) 프로그램 작성은 당신의 아키텍쳐를 test drive하기 쉽게 만들어 준다.
-- 처음에는 작고 간단한 구조에서 시작하지만 필요에 따라 새로운 기술을 추가해 정교한 아키텍쳐로 진화할 수 있다. 
-- 또한 decouple된 코드는 user story, 규모 변화와 같은 변경사항에 더 빠르게 대처할 수 있도록 우리를 도와 준다. 
+- 처음에는 작고 간단한 구조에서 시작하지만 필요에 따라 새로운 기술을 추가해 정교한 아키텍쳐로 진화할 수 있다.
+- 또한 decouple된 코드는 user story, 규모 변화와 같은 변경사항에 더 빠르게 대처할 수 있도록 우리를 도와 준다.
 - 도리어 BDUF(Big Design Up First)와 같은 방식은 변경이 생길 경우 기존의 구조를 버려야 한다는 심리적 저항, 아키텍쳐에 따른 디자인에 대한 고민 등 변화에 유연하지 못한 단점들을 가져오게 된다.
 
 > 이상적인 시스템 아키텍쳐는 각각 POJO로 만들어진 모듈화된 관심 분야 영역(modularized domains of concern)으로 이루어져야 한다. 다른 영역끼리는 Aspect의 개념을 사용해 최소한의 간섭으로 통합되어야 한다. 이러한 아키텍쳐는 코드와 마찬가지로 test-driven될 수 있다.
@@ -242,8 +242,6 @@ public class Bank implements java.io.Serializable {
 ## 결론
 > 시스템은 깨끗해야 하며 모든 추상화 단계에서 의도는 명확히 표현해야 한다.
 
-## Reference 
+## Reference
 - <https://kwosu87.gitbooks.io/clean-code/content/Chapter%2011%20-%20%EC%8B%9C%EC%8A%A4%ED%85%9C.html>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -33,7 +33,7 @@ date: 2018-02-24
 // 어마어마하게 큰 슈퍼 만능 클래스
 public class SuperDashboard extends JFrame implements MetaDataUser {
     public String getCustomizerLanguagePath()
-    public void setSystemConfigPath(String systemConfigPath) 
+    public void setSystemConfigPath(String systemConfigPath)
     public String getSystemConfigDocument()
     public Properties getProps()
     public String getUserHome()
@@ -43,23 +43,23 @@ public class SuperDashboard extends JFrame implements MetaDataUser {
     public int getBuildNumber()
     public MetaObject pasting(MetaObject target, MetaObject pasted, MetaProject project)
     public void processMenuItems(MetaObject metaObject)
-    public void processMenuSeparators(MetaObject metaObject) 
+    public void processMenuSeparators(MetaObject metaObject)
     public void processTabPages(MetaObject metaObject)
     public void processPlacement(MetaObject object)
     public void processCreateLayout(MetaObject object)
-    public void updateDisplayLayer(MetaObject object, int layerIndex) 
+    public void updateDisplayLayer(MetaObject object, int layerIndex)
     public void propertyEditedRepaint(MetaObject object)
     public void processDeleteObject(MetaObject object)
     public boolean getAttachedToDesigner()
-    public void processProjectChangedState(boolean hasProjectChanged) 
+    public void processProjectChangedState(boolean hasProjectChanged)
     public void processObjectNameChanged(MetaObject object)
     public void runProject()
-    public void setAçowDragging(boolean allowDragging) 
+    public void setAçowDragging(boolean allowDragging)
     public boolean allowDragging()
     public boolean isCustomizing()
     public void setTitle(String title)
     public IdeMenuBar getIdeMenuBar()
-    public void showHelper(MetaObject metaObject, String propertyName) 
+    public void showHelper(MetaObject metaObject, String propertyName)
 
     // ... many non-public methods follow ...
 }
@@ -84,7 +84,7 @@ public class SuperDashboard extends JFrame implements MetaDataUser {
     public void setLastFocused(Component lastFocused)
     public int getMajorVersionNumber()
     public int getMinorVersionNumber()
-    public int getBuildNumber() 
+    public int getBuildNumber()
 }
 ```
 
@@ -93,8 +93,8 @@ public class SuperDashboard extends JFrame implements MetaDataUser {
 // Version이라는 독자적인 클래스를 만들어 다른 곳에서 재사용하기 쉬워졌다.
 
 public class Version {
-    public int getMajorVersionNumber() 
-    public int getMinorVersionNumber() 
+    public int getMajorVersionNumber()
+    public int getMinorVersionNumber()
     public int getBuildNumber()
 }
 ```
@@ -122,19 +122,19 @@ public class Stack {
     private int topOfStack = 0;
     List<Integer> elements = new LinkedList<Integer>();
 
-    public int size() { 
+    public int size() {
         return topOfStack;
     }
 
-    public void push(int element) { 
-        topOfStack++; 
+    public void push(int element) {
+        topOfStack++;
         elements.add(element);
     }
 
-    public int pop() throws PoppedWhenEmpty { 
+    public int pop() throws PoppedWhenEmpty {
         if (topOfStack == 0)
             throw new PoppedWhenEmpty();
-        int element = elements.get(--topOfStack); 
+        int element = elements.get(--topOfStack);
         elements.remove(topOfStack);
         return element;
     }
@@ -153,15 +153,15 @@ public class Stack {
 // 이 긴 함수를 나누어 보자.
 public class PrintPrimes {
     public static void main(String[] args) {
-        final int M = 1000; 
+        final int M = 1000;
         final int RR = 50;
         final int CC = 4;
         final int WW = 10;
-        final int ORDMAX = 30; 
-        int P[] = new int[M + 1]; 
+        final int ORDMAX = 30;
+        int P[] = new int[M + 1];
         int PAGENUMBER;
-        int PAGEOFFSET; 
-        int ROWOFFSET; 
+        int PAGEOFFSET;
+        int ROWOFFSET;
         int C;
         int J;
         int K;
@@ -172,17 +172,17 @@ public class PrintPrimes {
         int MULT[] = new int[ORDMAX + 1];
 
         J = 1;
-        K = 1; 
-        P[1] = 2; 
-        ORD = 2; 
+        K = 1;
+        P[1] = 2;
+        ORD = 2;
         SQUARE = 9;
 
-        while (K < M) { 
+        while (K < M) {
             do {
                 J = J + 2;
                 if (J == SQUARE) {
                     ORD = ORD + 1;
-                    SQUARE = P[ORD] * P[ORD]; 
+                    SQUARE = P[ORD] * P[ORD];
                     MULT[ORD - 1] = J;
                 }
                 N = 2;
@@ -190,16 +190,16 @@ public class PrintPrimes {
                 while (N < ORD && JPRIME) {
                     while (MULT[N] < J)
                         MULT[N] = MULT[N] + P[N] + P[N];
-                    if (MULT[N] == J) 
+                    if (MULT[N] == J)
                         JPRIME = false;
-                    N = N + 1; 
+                    N = N + 1;
                 }
-            } while (!JPRIME); 
+            } while (!JPRIME);
             K = K + 1;
             P[K] = J;
-        } 
+        }
         {
-            PAGENUMBER = 1; 
+            PAGENUMBER = 1;
             PAGEOFFSET = 1;
             while (PAGEOFFSET <= M) {
                 System.out.println("The First " + M + " Prime Numbers --- Page " + PAGENUMBER);
@@ -207,7 +207,7 @@ public class PrintPrimes {
                 for (ROWOFFSET = PAGEOFFSET; ROWOFFSET < PAGEOFFSET + RR; ROWOFFSET++) {
                     for (C = 0; C < CC;C++)
                         if (ROWOFFSET + C * RR <= M)
-                            System.out.format("%10d", P[ROWOFFSET + C * RR]); 
+                            System.out.format("%10d", P[ROWOFFSET + C * RR]);
                     System.out.println("");
                 }
                 System.out.println("\f"); PAGENUMBER = PAGENUMBER + 1; PAGEOFFSET = PAGEOFFSET + RR * CC;
@@ -217,7 +217,7 @@ public class PrintPrimes {
 }
 ```
 
-리팩토링을 통해 위의 함수를 각각의 역할에 맞게 클래스로 분리 할 수 있다. 
+리팩토링을 통해 위의 함수를 각각의 역할에 맞게 클래스로 분리 할 수 있다.
 - PrimePrinter
 - RowColumnPagePrinter
 - PrimeGenerator
@@ -255,43 +255,43 @@ public class Sql {
 // 이렇게 하면 update문 추가 시에 기존의 클래스를 건드릴 이유가 없어진다.
 
 abstract public class Sql {
-    public Sql(String table, Column[] columns) 
+    public Sql(String table, Column[] columns)
     abstract public String generate();
 }
 public class CreateSql extends Sql {
-    public CreateSql(String table, Column[] columns) 
+    public CreateSql(String table, Column[] columns)
     @Override public String generate()
 }
 
 public class SelectSql extends Sql {
-    public SelectSql(String table, Column[] columns) 
+    public SelectSql(String table, Column[] columns)
     @Override public String generate()
 }
 
 public class InsertSql extends Sql {
-    public InsertSql(String table, Column[] columns, Object[] fields) 
+    public InsertSql(String table, Column[] columns, Object[] fields)
     @Override public String generate()
     private String valuesList(Object[] fields, final Column[] columns)
 }
 
-public class SelectWithCriteriaSql extends Sql { 
+public class SelectWithCriteriaSql extends Sql {
     public SelectWithCriteriaSql(
-    String table, Column[] columns, Criteria criteria) 
+    String table, Column[] columns, Criteria criteria)
     @Override public String generate()
 }
 
-public class SelectWithMatchSql extends Sql { 
-    public SelectWithMatchSql(String table, Column[] columns, Column column, String pattern) 
+public class SelectWithMatchSql extends Sql {
+    public SelectWithMatchSql(String table, Column[] columns, Column column, String pattern)
     @Override public String generate()
 }
 
 public class FindByKeySql extends Sql public FindByKeySql(
-    String table, Column[] columns, String keyColumn, String keyValue) 
+    String table, Column[] columns, String keyColumn, String keyValue)
     @Override public String generate()
 }
 
 public class PreparedInsertSql extends Sql {
-    public PreparedInsertSql(String table, Column[] columns) 
+    public PreparedInsertSql(String table, Column[] columns)
     @Override public String generate() {
     private String placeholderList(Column[] columns)
 }
@@ -315,5 +315,3 @@ public class ColumnList {
 
 > 결함도가 낮다는 말은 각 시스템 요소가 다른 요소로부터 그리고 변경으로부터 잘 격리되어있다는 뜻이다.
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

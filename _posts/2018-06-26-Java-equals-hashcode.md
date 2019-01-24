@@ -145,7 +145,7 @@ public int hashCode() {
 ## 어떻게(How) hashCode()는 결정되는걸까요?
 
 ### Object의 hashCode()
-- hashCode()로 native call을 하여 Memory에서 가진 해쉬 주소값을 출력합니다. 
+- hashCode()로 native call을 하여 Memory에서 가진 해쉬 주소값을 출력합니다.
 - 특별한 설정을 하지 않았을 경우 `System.identityHashCode()`와 동일한 값을 나타냅니다.
 
 ![No Image](/assets/posts/20180626/4.PNG)
@@ -174,5 +174,3 @@ public int hashCode() {
 - <https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier>
 - <https://johngrib.github.io/wiki/Object-hashCode/#%EA%B7%B8%EB%9F%B0%EB%8D%B0-%EC%99%9C-31%EC%9D%84-%EA%B3%B1%ED%95%98%EB%8A%94-%EA%B1%B8%EA%B9%8C>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

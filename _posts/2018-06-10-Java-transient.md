@@ -70,7 +70,7 @@ class Member implements Serializable {
 
 
 ## 주의해야할 점은 없을까요?
-- 적용하는 Data에 대해 이해가 필요합니다. 
+- 적용하는 Data에 대해 이해가 필요합니다.
     - 실제로 필요가 없는지에 대한 고려.
     - Data를 제외하였을 경우에 서비스 장애에 이상이 없는지에 대한 고려.
 
@@ -78,5 +78,3 @@ class Member implements Serializable {
 
 ## Reference
 - <https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.3.1.4>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

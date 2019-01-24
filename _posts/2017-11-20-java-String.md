@@ -100,7 +100,3 @@ public class Main {
 - 실제로 Side effect는 줄었지만 Memory를 더 많이 사용하게 되는 issue가 발생하게 되었습니다.
 - 그렇기에 mutable한 `StringBuilder`가 나오게 되었지만 Thread-Safe하지 않은 문제가 발생하게 되었습니다.
 - mutable하면서 Thread-Safe한 `StringBuffer`가 등장하게 되었습니다.
-
-
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

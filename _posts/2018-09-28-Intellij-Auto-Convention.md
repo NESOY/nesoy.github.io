@@ -61,5 +61,3 @@ date: 2018-09-28
 - import Layout
 
 ![No Image](/assets/posts/20180928/5.png)
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -78,10 +78,10 @@ date: 2018-05-30
     - Locator Service에 Shard Key를 추가만 하면됩니다.
     - 기존의 Data의 Shard Key는 변경이 없습니다.
     - 확장에 유연한 구조입니다.
-- Example 
+- Example
     - HDFS : [Name Node](http://blog.cloudera.com/blog/2012/03/high-availability-for-the-hadoop-distributed-file-system-hdfs/)
     - MongoDB : [ConfigServer](http://docs.mongodb.org/manual/core/sharded-cluster-config-servers/#sharding-config-server)
-    
+
 #### 단점은 없을까요?
 - Data Relocation을 하게 된다면?
     - Locator Service의 Shard Key Table도 일치시켜줘야 합니다.
@@ -121,7 +121,7 @@ date: 2018-05-30
 - 나머지 Node들은 Read Performance가 향상하는 효과를 얻을 수 있습니다.
 
 
-## 정리하며 
+## 정리하며
 - Sharding을 피하는 방법을 우선 적용해보고 불가피하다면 적용하는게 좋습니다.
 - 반드시 Trade-Off가 있습니다.
     - Locator와 Sync해야하는 비용이 필요합니다.
@@ -133,5 +133,3 @@ date: 2018-05-30
 - <https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6>
 - <https://www.quora.com/Whats-the-difference-between-sharding-DB-tables-and-partitioning-them>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

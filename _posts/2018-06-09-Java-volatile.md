@@ -28,7 +28,7 @@ date: 2018-06-09
 
 
 ### Example
-- SharedObject를 공유하는 두 개의 Thread가 있습니다. 
+- SharedObject를 공유하는 두 개의 Thread가 있습니다.
     - Thread-1는 counter 값을 더하고 읽는 연산을 합니다. (Read & Write)
     - Thread-2는 counter 값을 읽기만 합니다.(Only Read)
 
@@ -75,7 +75,7 @@ public class SharedObject {
 
 
 ## volatile 성능에 어떤 영향이 있을까요?
-- `volatile`는 변수의 read와 write를 Main Memory에서 진행하게 됩니다. 
+- `volatile`는 변수의 read와 write를 Main Memory에서 진행하게 됩니다.
 - `CPU Cache`보다 `Main Memory`가 비용이 더 크기 때문에 `변수 값 일치`을 보장해야 하는 경우에만 `volatile` 사용하는 것이 좋습니다.
 
 
@@ -92,6 +92,3 @@ public class SharedObject {
 
 ## Reference
 - <http://tutorials.jenkov.com/java-concurrency/volatile.html>
-
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

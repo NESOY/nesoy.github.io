@@ -55,7 +55,5 @@ Sitemap: http://nesoy.github.io/sitemap.xml
 - #### 위에 방법과 비슷하게 진행한다.
 
 
-## 참고
+## Reference
 - <http://dveamer.github.io/homepage/SubmitSitemap>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -71,5 +71,3 @@ git commit -m "Apply .gitignore"
 - <https://www.gitignore.io/>
 - <http://stackoverflow.com/questions/11451535/gitignore-not-working>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

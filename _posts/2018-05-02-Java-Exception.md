@@ -48,7 +48,7 @@ date: 2018-05-02
 - NullPointerException / ArrayIndexOutOfBoundException / ArithmeticException
 
 #### Example
-- 크기가 10인 int배열을 선언하고 값이 없지만 8번째와 11번째에 접근하려고 합니다. 
+- 크기가 10인 int배열을 선언하고 값이 없지만 8번째와 11번째에 접근하려고 합니다.
 - 하지만 컴파일 단계에서는 아무런 요구사항이 없습니다.
 
 ![No Image](/assets/posts/20180502/4.png)
@@ -61,31 +61,31 @@ date: 2018-05-02
 ## 예외 처리 방법
 ### 예외복구
 - 네트워크가 환경이 좋지 않아서 서버에 접속이 안되는 상황의 시스템에 적용하면 효율적입니다.
-- 예외를 잡아서 일정 시간만큼 대기하고 다시 재시도를 반복합니다. 
+- 예외를 잡아서 일정 시간만큼 대기하고 다시 재시도를 반복합니다.
 - 그리고 최대 재시도 횟수를 넘기면 예외를 발생합니다.
 
 ```java
-int maxretry = MAX_RETRY;  
-while(maxretry -- > 0) {  
+int maxretry = MAX_RETRY;
+while(maxretry -- > 0) {
     try {
         // 예외가 발생할 가능성이 있는 시도
         return; // 작업성공시 리턴
     }
     catch (SomeException e) {
         // 로그 출력. 정해진 시간만큼 대기
-    } 
+    }
     finally {
         // 리소스 반납 및 정리 작업
     }
 }
-throw new RetryFailedException(); // 최대 재시도 횟수를 넘기면 직접 예외 발생  
+throw new RetryFailedException(); // 최대 재시도 횟수를 넘기면 직접 예외 발생
 ```
 ### 예외처리 회피
 - 예외가 발생하면 throws를 통해 호출한쪽으로 예외를 던지고 그 처리를 회피합니다.
 - 단 예외처리의 필요성이 있다면 어느 정도 처리하고 호출한 쪽으로 넘기는게 좋습니다. 무책임하게 던지는 것은 위험합니다.
 
 ```java
-public void add() throws SQLException {  
+public void add() throws SQLException {
     ... // 구현 로직
 }
 ```
@@ -93,7 +93,7 @@ public void add() throws SQLException {
 - 호출한 쪽에서 예외를 받아서 처리할 때 좀 더 명확하게 인지할 수 있도록 돕기 위한 방법입니다.
 
 ```java
-catch(SQLException e) {  
+catch(SQLException e) {
    ...
    throw DuplicateUserIdException();
 }
@@ -107,5 +107,3 @@ catch(SQLException e) {
 
 ## Reference
 - <http://www.nextree.co.kr/p3239/>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

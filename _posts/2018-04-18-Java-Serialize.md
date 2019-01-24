@@ -55,7 +55,7 @@ public static void main(String[] args){
     try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
         try (ObjectOutputStream oos = new ObjectOutputStream(baos)) {
             oos.writeObject(member);
-            // serializedMember -> 직렬화된 member 객체 
+            // serializedMember -> 직렬화된 member 객체
             serializedMember = baos.toByteArray();
         }
     }
@@ -77,7 +77,7 @@ public static void main(String[] args){
 
 ```java
 public static void main(String[] args){
-    // 직렬화 예제에서 생성된 base64 데이터 
+    // 직렬화 예제에서 생성된 base64 데이터
     String base64Member = "...생략";
     byte[] serializedMember = Base64.getDecoder().decode(base64Member);
     try (ByteArrayInputStream bais = new ByteArrayInputStream(serializedMember)) {
@@ -106,8 +106,8 @@ public static void main(String[] args){
 
 ```java
 Member member = new Member("김배민", "deliverykim@baemin.com", 25);
-// member객체를 csv로 변환 
-String csv = String.format("%s,%s,%d",member.getName(), member.getEmail(), member.getAge()); 
+// member객체를 csv로 변환
+String csv = String.format("%s,%s,%d",member.getName(), member.getEmail(), member.getAge());
 System.out.println(csv);
 ```
 - [Apache Commons CSV](https://commons.apache.org/proper/commons-csv/)
@@ -118,11 +118,11 @@ System.out.println(csv);
 
 ```java
 Member member = new Member("김배민", "deliverykim@baemin.com", 25);
-// member객체를 json으로 변환 
+// member객체를 json으로 변환
 String json = String.format(
         "{\"name\":\"%s\",\"email\":\"%s\",\"age\":%d}",
         member.getName(), member.getEmail(), member.getAge());
-System.out.println(json);  
+System.out.println(json);
 ```
 - [Jackson](https://github.com/FasterXML/jackson)
 - [Gson](https://github.com/google/gson)
@@ -185,8 +185,8 @@ public class Member implements Serializable {
 ### 직렬화 Data Size 문제
 ```java
 {"name":"김배민","email":"deliverykim@baemin.com","age":25}
-serializedMember (byte size = 146)         
-json (byte size = 62)  
+serializedMember (byte size = 146)
+json (byte size = 62)
 ```
 - 아주 간단한 객체의 내용도 2배이상의 차이를 확인할 수 있습니다.
 - 일반적인 메모리기반의 Cache에서는 Data를 저장할 수 있는 용량의 한계가 있기 때문에 Json 형태와 같은 경량화된 형태로 직렬화하는 것도 좋은 방법입니다.
@@ -201,5 +201,3 @@ json (byte size = 62)
 ## Reference
 - <http://woowabros.github.io/experience/2017/10/17/java-serialize.html>
 - <http://woowabros.github.io/experience/2017/10/17/java-serialize2.html>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

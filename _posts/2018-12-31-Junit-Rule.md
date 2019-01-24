@@ -320,5 +320,3 @@ public class UseRuleChain {
 - <https://github.com/junit-team/junit4/wiki/Rules>
 - <http://kwonnam.pe.kr/wiki/java/junit/rule>
 - <http://redutan.github.io/2016/07/18/junit-rule>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

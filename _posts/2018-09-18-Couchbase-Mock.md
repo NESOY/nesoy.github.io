@@ -100,5 +100,3 @@ public void tearDown() {
 - <https://www.javatips.net/api/org.couchbase.mock.couchbasemock>
 - <https://github.com/couchbase/CouchbaseMock>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

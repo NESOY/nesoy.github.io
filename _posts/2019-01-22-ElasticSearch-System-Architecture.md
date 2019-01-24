@@ -108,6 +108,3 @@ discovery.zen.ping.unicast.host: ["192.168.1.10", "192.168.1.11"]
 - <https://brunch.co.kr/@alden/34>
 - <http://kimjmin.net/2018/01/2018-01-build-es-cluster-3/>
 - <https://www.elastic.co/pdf/architecture-best-practices.pdf>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
-

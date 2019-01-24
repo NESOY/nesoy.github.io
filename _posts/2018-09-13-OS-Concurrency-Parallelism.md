@@ -42,5 +42,3 @@ date: 2018-09-13
 - <http://tutorials.jenkov.com/java-concurrency/concurrency-vs-parallelism.html>
 - <http://www.linux-mag.com/id/7411/>
 - <http://egloos.zum.com/minjang/v/2517211>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

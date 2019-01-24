@@ -136,5 +136,3 @@ date: 2019-01-10
 
 ## Reference
 - <https://book.naver.com/bookdb/book_detail.nhn?bid=8769630>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -25,7 +25,7 @@ date: 2018-05-25
 // Example Code
 void printNesoy(String title, int age){
   printTableHead();
-  
+
   System.out.println( "Nesoy title : " + title );
   System.out.println( "age : " + age );
 }
@@ -35,7 +35,7 @@ void printNesoy(String title, int age){
 // Refactoring Code
 void printNesoy(String title, int age){
     printTableHead();
-    printNesoyDetail(title, age); 
+    printNesoyDetail(title, age);
 }
 
 void printNesoyDetail(String title, int age){
@@ -57,7 +57,7 @@ void printNesoyDetail(String title, int age){
 class Nesoy {
     private String title;
     private int age;
-    
+
     public String getTitle() {
         return title;
     }
@@ -81,7 +81,7 @@ class Nesoy {
 class Nesoy {
     private String title;
     private int age;
-    
+
     public String getTitle() {
         return title;
     }
@@ -155,7 +155,7 @@ class Person {
 	  if (p.participants[i].id == id) return(true);
     }
     return(false);
-  }   
+  }
 }
 ```
 
@@ -168,7 +168,7 @@ class Project {
 	  if (participants[i].id == x.id) return(true);
     }
     return(false);
-  }   
+  }
 }
 
 class Person {
@@ -367,7 +367,7 @@ class Employee {
 }
 ```
 
-## Pull Up/Down Field / Pull Up/Down Method 
+## Pull Up/Down Field / Pull Up/Down Method
 > 공통으로 쓰는 필드,메소드는 상위 클래스로 특정한 필드,메소드는 특정한 클래스로
 
 ### Field
@@ -419,5 +419,3 @@ System.out.println(area);
 - <https://wikidocs.net/597>
 - <https://refactoring.com/catalog/>
 - <https://refactoring.guru/>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

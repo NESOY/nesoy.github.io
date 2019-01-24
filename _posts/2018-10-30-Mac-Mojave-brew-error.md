@@ -38,5 +38,3 @@ $ xcode-select --install
 
 ## Reference
 - <https://github.com/Linuxbrew/homebrew-core/issues/8230>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

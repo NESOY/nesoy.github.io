@@ -46,5 +46,3 @@ date: 2019-01-09
 - <https://book.naver.com/bookdb/book_detail.nhn?bid=8769630>
 - <https://d2.naver.com/helloworld/273788>
 - <https://www.youtube.com/watch?v=l4ReamjCxHo>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

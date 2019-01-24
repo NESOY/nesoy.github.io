@@ -157,5 +157,3 @@ RACE-EXAMPLE()
 - <http://www.albahari.com/threading/part4.aspx>
 - <https://actor-framework.readthedocs.io/en/stable/Scheduler.html>
 - <https://youtu.be/M1e9nmmD3II>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

@@ -156,5 +156,3 @@ date: 2018-12-17
 - [Java 시스템 운영 중 알아두면 쓸모 있는 지식들](https://www.holaxprogramming.com/2017/10/09/java-jvm-performance/)
 - <http://kwonnam.pe.kr/wiki/java/gc>
 
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

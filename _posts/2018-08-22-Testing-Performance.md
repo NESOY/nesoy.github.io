@@ -154,6 +154,3 @@ date: 2018-08-22
 - <http://www.softfactory.org/test/performance>
 - <https://www.slideshare.net/sunnykwak90/ss-44875669>
 - <https://deview.kr/2013/detail.nhn?topicSeq=2>
-
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

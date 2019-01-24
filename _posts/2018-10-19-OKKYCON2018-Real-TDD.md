@@ -388,7 +388,3 @@ date: 2018-10-18
 ### TDD를 배우는데 있어 도움이 되는 책들.
 - [Art of Unit Testing](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=7791346)
 - [xUnit 테스트 패턴](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=6482223)
-
-
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)

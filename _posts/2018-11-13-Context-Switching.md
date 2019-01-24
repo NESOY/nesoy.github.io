@@ -90,6 +90,3 @@ date: 2018-11-13
 - <https://www.cs.swarthmore.edu/~kwebb/cs45/s18/03-Process_Context_Switching_and_Scheduling.pdf>
 - <https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html>
 - <https://wiki.osdev.org/Context_Switching>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
-

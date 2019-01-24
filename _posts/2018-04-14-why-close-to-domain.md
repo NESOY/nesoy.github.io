@@ -60,7 +60,6 @@ date: 2018-04-14
 - `비즈니스 논리 계층 (Business logic layer)` - 도메인 계층 (Domain layer)
 - `데이터 접근 계층 (Data access layer)` - 영속 계층 (Persistence layer)
 
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
 
 ## Reference
 - <https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/>

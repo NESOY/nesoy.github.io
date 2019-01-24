@@ -26,7 +26,7 @@ date: 2018-05-09
         - 다른 프로그래밍으로 작성 가능
             - Gateway는 Nodejs로 작성할 수 있다.
             - Backend는 Java로 작성할 수 있다.
-    
+
     - 함께 동작하는 작고 자율적인 서비스
     - 서비스 당 하나의 코드베이스
     - 특성
@@ -50,7 +50,7 @@ date: 2018-05-09
 
 - Service Framework
     - [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/)
-    - 분산된 서비스들을 어떻게 연결할거야? 
+    - 분산된 서비스들을 어떻게 연결할거야?
         - [Zuul](https://github.com/Netflix/zuul) & [Ribbon](https://github.com/Netflix/ribbon)
         - [Zuul 관련 글](http://woowabros.github.io/r&d/2017/06/13/apigateway.html)
         - [API Gateway Pattern](http://bcho.tistory.com/1005)
@@ -122,18 +122,18 @@ date: 2018-05-09
     - Hystrix
 - Spring - Netflix
     - Annotation 지원
-- Distributed Transaction trace 
+- Distributed Transaction trace
     - APM - [제니퍼](https://jennifersoft.com/ko/product/apm/)
     - [Zipkin](https://github.com/openzipkin/zipkin)
         - 구간 사용하는 시간 확인 가능
         - Trace id, Span id 확인 가능
         - [Spring Cloud Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)
         - Custum
-            - Start : Servlet Filter 
+            - Start : Servlet Filter
             - End : RESTtemplate
 - [Envoy Proxy](https://github.com/envoyproxy)
     - HTTP, HTTP2, gRPC 지원
-    - Lua engine 
+    - Lua engine
         - Redis
     - 서버 1000대가 넘으면 어떻게 할까?
         - istio Auth
@@ -153,7 +153,7 @@ date: 2018-05-09
         - Manual Judgements
         - Manual Rollbacks
     - Red/black
-        - 순식간에 전체를 이동시킨다. 
+        - 순식간에 전체를 이동시킨다.
         - 비용이 많이 든다.
     - Rolling red/black
         - 한개씩 이동시킨다.
@@ -211,5 +211,3 @@ date: 2018-05-09
 
 ## Reference
 - <https://medium.com/startlovingyourself/microservices-vs-monolithic-architecture-c8df91f16bb4>
-
-> 댓글을 통해 피드백을 남겨주시거나 광고 한번 클릭해주시면 감사하겠습니다 :)
