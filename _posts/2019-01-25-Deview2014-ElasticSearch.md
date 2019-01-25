@@ -16,15 +16,18 @@ date: 2019-01-25
 ### ElasticSearch 이해
 #### ElasticSearch란?
 - Lucene 기반의 오픈 소스 검색엔진
+
 #### ElasticSearch 특징
 - Easy
 - Real time search & analytics
 - Distributed & highly available search engine
+
 #### ElasticSearch 구성
 - physical
     - cluster -> Node -> Indice -> Shard
 - logical
     - Index -> Type -> Document -> field : value
+
 #### ElasticSearch Nodes
 - Master Node
     - `node.master: true`
@@ -34,6 +37,7 @@ date: 2019-01-25
 - Client Node
     - REST API, Load 분산
     - `node.client: true`
+
 #### ElasticSearch Node 구성 예
 - All Round Player
     - Master, Data Node 상관없이 진행
@@ -70,6 +74,7 @@ date: 2019-01-25
 #### Indice/Type Design
 - Time-based / User-based data
 - Relation Data
+
 #### Field Design
 - 검색 대상 필드
 - 분석 대상 필드
@@ -78,6 +83,7 @@ date: 2019-01-25
 - Primary Key 필드
     - Hashing으로 진행하기 때문에 특정 Shard에 데이터가 몰릴 위험성이 있다.
     - 꼭 테스트를 진행해보고 결과 확인하기
+
 #### Shard Design
 - number of shards >= number of data nodes
 - number of replica <= number of data nodes - 1
@@ -95,11 +101,13 @@ date: 2019-01-25
 - Disk I/O
 - RAM
 - CPU Cores
+
 #### 문서 관점
 - Document Size
 - Total Index Data Size
 - Data Size increase
 - Store period
+
 #### 서비스 관점
 - Analyzer
 - Analyze fields
@@ -117,6 +125,7 @@ date: 2019-01-25
 - 주의해야 할 점
     - Indexing 중심으로 Cluster를 구성하면 검색성능이 나오지 않는다.
     - 무조건 Shard를 늘린다고 검색성능이 나오지 않는다.
+
 #### 운영체제 관점
 - File Descriptor
     - 32K, 64K로 늘린다.
