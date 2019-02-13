@@ -4,6 +4,12 @@
             document.getElementById('banner-ads').style.display = "none";
         }
     }
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        if (window.outerWidth <= 479) {
+            document.getElementById('banner-ads').style.display = "none";
+        }
+    });
 </script>
 
 <div id='banner-ads'>
