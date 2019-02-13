@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JUnit Test 순서 제어하기
+excerpt: ' '
 categories:
   - Testing
 tags:
