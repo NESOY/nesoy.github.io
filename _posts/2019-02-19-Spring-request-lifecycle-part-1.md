@@ -61,6 +61,7 @@ date: 2019-02-19
 
 - HttpMethod가 Patch와 null인 경우 `FrameworkServlet#processRequest`
 - 그 외에는 super.service 즉 `HttpServlet#service`를 호출합니다.
+
 #### HttpMethod GET으로 호출하면 어떻게 진행될까?
 - `HttpServlet#service`에서 `HttpServlet#doGet`을 거쳐
 - @Override된 `FrameworkServlet#doGet`을 최종적으로 호출하게 됩니다.
