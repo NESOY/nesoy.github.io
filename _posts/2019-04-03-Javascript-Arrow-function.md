@@ -9,8 +9,7 @@ tags:
 date: 2019-04-03
 ---
 
-![No Image](/assets/posts/20161230/javascript.PNG)
-
+![No Image](/assets/logo/javascript.png)
 ## Arrow function과 Binding에 대해
 ### Arrow Function이란?
 - ES6부터 적용된 문법입니다.
