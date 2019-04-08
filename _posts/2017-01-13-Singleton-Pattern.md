@@ -136,4 +136,4 @@ public enum SingletonTest {
 
 <https://blog.seotory.com/post/2016/03/java-singleton-pattern>
 
-<http://blog.naver.com/madplay/220849063221>
+<https://madplay.github.io/post/singleton-pattern>
