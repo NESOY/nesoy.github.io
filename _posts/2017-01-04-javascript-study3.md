@@ -10,7 +10,7 @@ date: 2017-01-04
 ---
 
 # **Javascript**
-![No Image](/assets/posts/20161230/javascript.PNG)
+![No Image](/assets/logo/javascript.png)
 
 ## 5. 참조 타입
 - #### 객체 리터럴 표기법
@@ -128,7 +128,7 @@ alert(values); // 1,2,3,4,5
 
   alert(colors2); // blue,green,yellow,black
   alert(colors3); // blue,green,yellow
-  {% endhighlight %}  
+  {% endhighlight %}
 
   - ##### splice() = 삽입, 삭제, 대체 가능 (startIndex, deleteCount, item1,.....)
   {% highlight javascript %}
@@ -144,7 +144,7 @@ alert(values); // 1,2,3,4,5
   removed = colors.splice(1, 1, "red", "purple"); //데이터2개추가 1개 제거
   alert(colors); // green,red,purple,orange,blue
   alert(removed); // yellow
-  {% endhighlight %}  
+  {% endhighlight %}
 
 - #### 위치 Method
   - ##### indexOf(), lastIndexOf() = str.indexOf(searchValue[, fromIndex])
@@ -157,7 +157,7 @@ alert(values); // 1,2,3,4,5
   'Blue Whale'.indexOf('', 9);      // returns  9
   'Blue Whale'.indexOf('', 10);     // returns 10
   'Blue Whale'.indexOf('', 11);     // 전체 문자열의 길이가 10이므로, 10을 반환
-  {% endhighlight %}  
+  {% endhighlight %}
 
 - #### 반복 Method
   - ##### every() : 배열의 모든 데이터에서 콜백 함수를 호출하고 값이 전부 true이면 true 반환
@@ -187,7 +187,7 @@ alert(values); // 1,2,3,4,5
         return item * 2;
       })
     alert(mapResult); // 2,4,6,8,10,8,6,4,2
-  {% endhighlight %}  
+  {% endhighlight %}
 
 - #### Regular Expression
   - ##### 패턴을 찾는데 정규표현식을 사용하면 간편하게 처리할 수 있다.

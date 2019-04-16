@@ -10,7 +10,7 @@ date: 2016-12-30
 ---
 
 # **Javascript**
-![No Image](/assets/posts/20161230/javascript.PNG)
+![No Image](/assets/logo/javascript.png)
 
 ## 1. Javascript 구성요소
 ![No Image](/assets/posts/20161230/javascript_element.png)

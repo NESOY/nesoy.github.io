@@ -10,7 +10,7 @@ date: 2017-01-03
 ---
 
 # **Javascript**
-![No Image](/assets/posts/20161230/javascript.PNG)
+![No Image](/assets/logo/javascript.png)
 
 ## 3. 언어의 기초
 
@@ -148,7 +148,7 @@ alert(person.name); // NESOY
   {% highlight javascript %}
   // var로 선언
   function add(num1,num2){
-    var sum = num1 + num2;  
+    var sum = num1 + num2;
     return sum;
   }
   var result = add(10, 20); //30

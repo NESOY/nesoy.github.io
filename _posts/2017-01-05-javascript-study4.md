@@ -10,7 +10,7 @@ date: 2017-01-05
 ---
 
 # **Javascript**
-![No Image](/assets/posts/20161230/javascript.PNG)
+![No Image](/assets/logo/javascript.png)
 
 - #### Function 타입
   - 함수는 객체이다.
@@ -120,7 +120,7 @@ function factorial(num){
 
 - #### Math 객체
   - min(), max()
-  - random()  
+  - random()
 
 ## 참조
 <http://insanehong.kr/post/javascript-function/>
