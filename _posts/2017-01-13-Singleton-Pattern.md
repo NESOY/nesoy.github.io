@@ -9,6 +9,8 @@ tags: [Design Pattern]
 date: 2017-01-13
 ---
 
+![NO Image](/assets/logo/design-pattern.jpg)
+
 # **Singleton Pattern**
 
 Spring을 공부하던 도중에 Container가 Default로 빈(Bean) 들을 Singleton Pattern으로 관리한다는 사실을 알았다.
@@ -124,16 +126,14 @@ public class SingletonTest{
 ```java
 public enum SingletonTest {
 	INSTANCE;
-	public static SingletonTest getInstance() {		
+	public static SingletonTest getInstance() {
 		return INSTANCE;
 	}
 }
 ```
 
 
-## 참조
-<https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B8%80%ED%84%B4_%ED%8C%A8%ED%84%B4>
-
-<https://blog.seotory.com/post/2016/03/java-singleton-pattern>
-
-<https://madplay.github.io/post/singleton-pattern>
+## Reference
+- <https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B8%80%ED%84%B4_%ED%8C%A8%ED%84%B4>
+- <https://blog.seotory.com/post/2016/03/java-singleton-pattern>
+- <https://madplay.github.io/post/singleton-pattern>
