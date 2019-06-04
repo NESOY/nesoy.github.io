@@ -4,7 +4,7 @@ title: 병행성(Concurrency)와 병렬성(Parallelism)의 차이에 대해
 categories:
   - OS
 excerpt: ' '
-tags::
+tags:
   - OS
 
 date: 2018-09-13
