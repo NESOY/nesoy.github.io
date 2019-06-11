@@ -6,7 +6,6 @@ layout: page
 ## YoungJae Kwon [Nesoy]
 - Seoul. South Korea.
 - Jr. **Back-end** Software Engineer
-- Working in [Ticket Monster](http://www.ticketmonster.co.kr/)
 
 ## Links
 - Email : kyoje11@gmail.com
@@ -29,7 +28,7 @@ layout: page
 
 ### 2019
 - 2019.04.16 - 04.16 :: TOAST FORWARD - Spring Framework 애플리케이션 개발자를 위한 Spring Boot
-- 2018.01.08 - Current :: **Ticket Monster Corporation - Service Lab**
+- 2018.01.08 - 05.27 :: **Ticket Monster Corporation - Service Lab**
 
 ### 2018
 - 2018.11.29 - 11.29 :: [KOSSCON - 2018](https://nesoy.github.io/articles/2018-11/KOSSCON-2018)
