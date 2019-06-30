@@ -27,6 +27,7 @@ layout: page
 ![Github Image](https://ghchart.rshah.org/nesoy)
 
 ### 2019
+- 2019.07.01 - now   :: **Kakao Corporation**
 - 2019.04.16 - 04.16 :: TOAST FORWARD - Spring Framework 애플리케이션 개발자를 위한 Spring Boot
 - 2018.01.08 - 05.27 :: **Ticket Monster Corporation - Service Lab**
 
