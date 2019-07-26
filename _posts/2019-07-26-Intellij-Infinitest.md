@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intellij 테스트 자동 실행하기 (infinitest)
+title: Intellij 테스트 자동 실행하기
 categories:
   - Intellij
 excerpt: ' '
