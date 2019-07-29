@@ -6,6 +6,7 @@ layout: page
 ## YoungJae Kwon [Nesoy]
 - Seoul. South Korea.
 - Jr. **Back-end** Software Engineer
+- [Working in Kakao Corporation](https://www.kakaocorp.com/)
 
 ## Links
 - Email : kyoje11@gmail.com
@@ -28,6 +29,7 @@ layout: page
 
 ### 2019
 - 2019.07.01 - now   :: **Kakao Corporation**
+- 2019.07.25 - 07.25 :: [우아한 세계 - 우아한 형제들](https://nesoy.github.io/articles/2019-07/woowa-world-woowahan)
 - 2019.04.16 - 04.16 :: TOAST FORWARD - Spring Framework 애플리케이션 개발자를 위한 Spring Boot
 - 2018.01.08 - 05.27 :: **Ticket Monster Corporation - Service Lab**
 
