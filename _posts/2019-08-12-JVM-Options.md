@@ -27,9 +27,9 @@ date: 2019-08-12
 - `64bit` 운영체제인 경우 최대 Heap Size는 그보다 더 많이 사용할 수 있다.
   - 하지만 포인터 크기가 증가함에 따라 불필요한 메모리를 사용하는 단점이 있다.
   - Java에서는 더 많은 Heapsize와 작은 포인터 크기를 사용하기 위해 [Compressed Ordinary object pointers](https://brunch.co.kr/@alden/35)를 사용하였다.
-  - 실제로 주소가 아닌 주소의 Offset을 8의 배수로 계산하여 가지기 때문에 최대 힙사이즈는 `4GB -> 32GB`로 증가하게 됩니다.
-  - 최대 힙 사이즈가 `32GB`를 넘어서게 된다면 JVM은 `64bit 기반의 OOP`를 사용하게 됩니다.
-  - 그렇기 때문에 ElasticSearch에서는 최대 HeapSize를 32GB 이하로 권장합니다.
+  - 실제로 주소가 아닌 주소의 Offset을 8의 배수로 계산하여 가지기 때문에 최대 힙사이즈는 `4GB -> 32GB`로 증가하게 된다.
+  - 최대 힙 사이즈가 `32GB`를 넘어서게 된다면 JVM은 `64bit 기반의 OOP`를 사용하게 된다.
+  - 그렇기 때문에 ElasticSearch에서는 최대 HeapSize를 32GB 이하로 권장한다.
 
 
 ## Reference
