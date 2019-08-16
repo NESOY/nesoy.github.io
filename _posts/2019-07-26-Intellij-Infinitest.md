@@ -4,7 +4,7 @@ title: Intellij 테스트 자동 실행하기
 categories:
   - Intellij
 excerpt: ' '
-tags::
+tags:
   - Intellij
 
 date: 2019-07-26
