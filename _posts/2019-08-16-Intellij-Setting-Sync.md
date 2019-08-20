@@ -15,9 +15,12 @@ date: 2019-08-16
 ## 들어가며
 > 회사 컴퓨터, 개인 컴퓨터의 설정이 매번 달라 동기화하는 방법이 필요해서 기록합니다.
 
+### 주의👹
+- IntelliJ 계정으로 Sync를 진행하고 있다면 `Settings Repository`가 안보이는 경우가 있습니다.
+- Github로 동기화를 원하시면 IntelliJ Sync를 Off하고 진행하시면 됩니다. 🙌
 
 #### Settings repository 시작하기
-- `CMD + A`를 통해 `Settings repository`를 시작합니다.
+- `CMD + SHIFT + A`를 통해 `Settings repository`를 시작합니다.
 
 ![](/assets/posts/img/2019-08-16-20-41-09.png)
 
