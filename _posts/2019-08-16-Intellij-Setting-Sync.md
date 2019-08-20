@@ -24,30 +24,30 @@ date: 2019-08-16
 
 #### 설정 내용을 저장할 장소를 추가합니다.
 
-![](../assets/posts/img/2019-08-16-20-42-49.png)
+![](/assets/posts/img/2019-08-16-20-42-49.png)
 
 #### Github Token을 추가합니다.
 
-![](../assets/posts/img/2019-08-16-20-43-41.png)
+![](/assets/posts/img/2019-08-16-20-43-41.png)
 
 
 #### Github - Settings - Personal Access Tokens을 발급받습니다.
 
-![](../assets/posts/img/2019-08-16-20-44-30.png)
+![](/assets/posts/img/2019-08-16-20-44-30.png)
 
 
 #### repo 관련 모든 권한을 부여합니다.
 
-![](../assets/posts/img/2019-08-16-20-44-53.png)
+![](/assets/posts/img/2019-08-16-20-44-53.png)
 
 
 #### Github Repo 결과 화면
-![](../assets/posts/img/2019-08-16-20-50-47.png)
+![](/assets/posts/img/2019-08-16-20-50-47.png)
 
 
 #### Settings Repository가 없다면 Plugin에 다운을 받습니다.
 
-![](../assets/posts/img/2019-08-16-20-51-44.png)
+![](/assets/posts/img/2019-08-16-20-51-44.png)
 
 ## Reference
 - <https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository>
