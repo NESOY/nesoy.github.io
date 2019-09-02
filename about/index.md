@@ -28,10 +28,12 @@ layout: page
 ![Github Image](https://ghchart.rshah.org/nesoy)
 
 ### 2019
-- 2019.07.01 - now   :: **Kakao Corporation**
+- 2019.07.01 - now   :: [**Kakao Corporation**](https://www.kakaocorp.com)
+- 2019.08.29 - 08.29 :: 우아한 멀티모듈 With Spring, Gradle
+- 2019.08.29 - 08.30 :: If Kakao - [Day-1](https://nesoy.github.io/articles/2019-08/if-kakao-day1)::[Day-2](https://nesoy.github.io/articles/2019-09/if-kakao-day2)
 - 2019.07.25 - 07.25 :: [우아한 세계 - 우아한 형제들](https://nesoy.github.io/articles/2019-07/woowa-world-woowahan)
-- 2019.04.16 - 04.16 :: TOAST FORWARD - Spring Framework 애플리케이션 개발자를 위한 Spring Boot
-- 2018.01.08 - 05.27 :: **Ticket Monster Corporation - Service Lab**
+- 2019.04.16 - 04.16 :: [TOAST FORWARD - Spring Framework 애플리케이션 개발자를 위한 Spring Boot](https://nesoy.github.io/articles/2019-04/TOAST-FORWARD-SpringBoot)
+- 2018.01.08 - 05.27 :: [**TMON Corporation - Service Lab**](https://www.tmon.co.kr)
 
 ### 2018
 - 2018.11.29 - 11.29 :: [KOSSCON - 2018](https://nesoy.github.io/articles/2018-11/KOSSCON-2018)
@@ -74,6 +76,9 @@ layout: page
 -------
 
 ## Projects
+### Snak - News Service
+- https://github.com/snack-news/
+
 ### Nelp
 - Springboot. JPA. Sprint. Code Review. Github.
 - [Code](https://github.com/Nelp-dev/Nelp)
