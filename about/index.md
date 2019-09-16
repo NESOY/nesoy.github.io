@@ -15,12 +15,6 @@ layout: page
 - [Linkedin](https://www.linkedin.com/in/young-jae-kwon-3514b3141/)
 - [SlideShare](http://slideshare.net/YoungJaeKwon3)
 
-## Skills
-- **Program Language** :: Java, Python, Javascript, C, C++
-- **Web Framework** :: Spring, Express
-- **Database** :: Couchbase, Elastic Search, MySQL, MongoDB
-- **Others** :: Git, Github, AWS
-
 -------
 
 ## Activities
@@ -76,19 +70,19 @@ layout: page
 -------
 
 ## Projects
-### Snak - News Service
-- https://github.com/snack-news/
+#### Snak - News Service
+- <https://snak.news>
 
-### Nelp
+#### Nelp
 - Springboot. JPA. Sprint. Code Review. Github.
 - [Code](https://github.com/Nelp-dev/Nelp)
 
-### SoundCatcher - Embedded Streaming Server
+#### SoundCatcher - Embedded Streaming Server
 - Java. Http Server.
 - [Code](https://github.com/SCCasper)
 - [Video](https://www.youtube.com/watch?v=h2jTrTSD1wQ)
 
-### FingerKeyboard - Embedded Image processing KeyBoard
+#### FingerKeyboard - Embedded Image processing KeyBoard
 - Opencv. RaspberryPi
 - [Code](https://github.com/FingerKeyboard-jh-sm/FingerKeyboard)
 - [Video](https://www.youtube.com/watch?v=xI_Y875FghU)
