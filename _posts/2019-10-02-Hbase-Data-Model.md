@@ -25,6 +25,7 @@ date: 2019-10-02
 - Row들은 이름순으로 정렬되어 저장된다.
     - Row Key를 디자인 하는 것이 매우 중요하다.
     - [RowKey Design Guide](https://hbase.apache.org/book.html#rowkey.design)
+    
 ### Column
 - Column은 `Column Family`와 `Column Qualifier`로 구성되어 있고 구분자는 `:`를 사용한다.
 
