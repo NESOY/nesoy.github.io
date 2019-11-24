@@ -18,6 +18,8 @@ date: 2019-08-16
 ### 주의👹
 - IntelliJ 계정으로 Sync를 진행하고 있다면 `Settings Repository`가 안보이는 경우가 있습니다.
 - Github로 동기화를 원하시면 IntelliJ Sync를 Off하고 진행하시면 됩니다. 🙌
+- IntelliJ Global Data Source로 설정할시 DB 접속정보(host, port)가 노출될 수 있으니 주의바랍니다.
+- Github private Repository으로 진행하는 것을 추천합니다.
 
 #### Settings repository 시작하기
 - `CMD + SHIFT + A`를 통해 `Settings repository`를 시작합니다.
@@ -55,3 +57,4 @@ date: 2019-08-16
 ## Reference
 - <https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository>
 - <https://kwonnam.pe.kr/wiki/intellij_idea/config>
+- <https://anyjava.dev/wiki/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/>
