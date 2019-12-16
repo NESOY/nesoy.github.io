@@ -148,7 +148,8 @@ date: 2019-07-25
 - 너무 많은 변수들이 존재하므로..
     - 현지에서 직접하는 것을 추천
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/Bw5Tiu52qH84Wy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/skyizblue/ss-157812902" title="글로벌 서비스 개발하기 - 사례 중심 경험 공유" target="_blank">
+#### Slide
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/Bw5Tiu52qH84Wy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 ## 모바일앱의 글로벌 시장 진출 전략 101 - 이현정님
 
