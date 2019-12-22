@@ -103,6 +103,11 @@ coverage:
         bash <(curl -s https://codecov.io/bash)
 ```
 
+#### [Badge 생성하기](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#adding-a-workflow-status-badge-to-your-repository)
+- `https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg`
+- 특정 branch의 상태를 조건으로 걸 수 있다.
+  - `?branch=master`
+
 ## Gradle로 작성된 프로젝트 빌드하기
 ![](/assets/posts/img/2019-12-22-21-55-31.png)
 
