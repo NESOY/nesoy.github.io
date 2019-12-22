@@ -56,6 +56,7 @@ jobs:
 
 #### [외부 Actions도 재사용 가능하다](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepsuses)
 - <https://github.com/actions/>
+
 ```yml
 - name: Setup Node
   uses: actions/setup-node@v1
@@ -65,6 +66,7 @@ jobs:
 
 #### 변수 행렬화하여 사용 가능하다.
 - [JUnit5 Cross-version CI Example](https://github.com/junit-team/junit5/blob/master/.github/workflows/cross-version.yml)
+
 ```yml
 jobs:
   test:
@@ -91,7 +93,9 @@ jobs:
 
 #### Secret Key 사용 방법
 - `Settings - Secret`에 등록하여 사용하면 된다.
+
 ![](/assets/posts/img/2019-12-22-22-11-13.png)
+
 ```yml
 coverage:
     name: 'Coverage'
@@ -110,10 +114,10 @@ coverage:
 - 특정 branch의 상태를 조건으로 걸 수 있다.
   - `?branch=master`
 
-## Gradle로 작성된 프로젝트 빌드하기
+## Example
+#### Gradle로 작성된 프로젝트 빌드하기
 ![](/assets/posts/img/2019-12-22-21-55-31.png)
 
-#### gradle.yml
 ```yml
 name: Java CI
 
