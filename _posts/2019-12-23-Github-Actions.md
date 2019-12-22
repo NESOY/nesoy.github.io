@@ -91,9 +91,8 @@ jobs:
         npm test
 ```
 
-#### Secret Key 사용 방법
+#### [Secret Key 사용 방법](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
 - `Settings - Secret`에 등록하여 사용하면 된다.
-
 ![](/assets/posts/img/2019-12-22-22-11-13.png)
 
 ```yml
@@ -104,7 +103,7 @@ coverage:
     - name: Upload to Codecov.io
       shell: bash
       env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }} # 변수 사용하기
+        CODECOV_TOKEN: # ${{secrets.CODECOV_TOKEN}}로 사용하면 된다
       run: |
         bash <(curl -s https://codecov.io/bash)
 ```
