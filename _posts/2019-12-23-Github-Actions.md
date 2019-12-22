@@ -39,12 +39,14 @@ on:
 ```
 
 #### [다양한 OS 환경 지원한다](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/virtual-environments-for-github-hosted-runners)
+
 |Virtual environment | YAML workflow label |
 | --- | --- |
 | Windows Server 2019 | windows-latest |
 | Ubuntu 18.04 | ubuntu-latest or ubuntu-18.04 |
 | Ubuntu 16.04 | ubuntu-16.04 |
 | macOS Catalina 10.15	| macos-latest |
+
 ```yml
 jobs:
   my_job:
