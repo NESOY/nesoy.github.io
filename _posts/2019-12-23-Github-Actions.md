@@ -125,10 +125,10 @@ on: [push] # 조건
 
 jobs:
   build:
-    runs-on: ubuntu-latest # OS 명시
+    runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1 # 외부 Script 인용 가능
+    - uses: actions/checkout@v1
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
       with:
