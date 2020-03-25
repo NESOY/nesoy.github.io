@@ -19,8 +19,13 @@ date: 2019-08-12
     - 최대 Heap size
 
 #### `-Xms, -Xmx`를 어떻게 셋팅하는 것이 좋을까?
-- `-Xms, -Xmx`를 동일하게 셋팅하는 것을 추천.
-- Heap 사이즈를 변경하기 위해 런타임 기간동안 발생하는 불필요한 오버헤드를 줄일 수 있다.
+- ~~`-Xms, -Xmx`를 동일하게 셋팅하는 것을 추천.~~
+- ~~Heap 사이즈를 변경하기 위해 런타임 기간동안 발생하는 불필요한 오버헤드를 줄일 수 있다.~~
+- 과거의 JVM 기준으로 내려오는 설정방법이라는 의견이 있다.
+- 최신 JVM에서는 설정안하는 것을 추천한다고 하는데 테스트를 진행하고 확인해봐야 한다.
+- [Reference](https://blog.newrelic.com/technology/state-of-java/)
+> In very early versions of the adaptive sizing algorithms there may have been some advantage to running with this combination, but for modern workloads it’s almost always counterproductive. If you set this combination, the JVM is constrained in how it can resize and shape the heap, making it less responsive to sudden changes in traffic behavior or request rate.
+
 
 #### 그럼 Heap Size를 어느 정도까지 설정하는게 좋을까?
 - `32bit` 운영체제인 경우 최대 Heap Size는 `2^32 = 4GB`를 사용할 수 있다.
