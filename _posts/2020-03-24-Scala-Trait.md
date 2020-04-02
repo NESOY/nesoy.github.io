@@ -32,6 +32,7 @@ trait Iterator[A] { // Generic Type
 
 #### Example
 - extends 키워드를 사용해서 Class에 확장한다.
+
 ```scala
 trait Iterator[A] {
   def hasNext: Boolean

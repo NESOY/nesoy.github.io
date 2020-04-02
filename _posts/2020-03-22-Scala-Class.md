@@ -24,6 +24,7 @@ val user1 = new User // new를 하면 기본 생성자가 실행된다.
 
 #### Example - 생성자
 - 다른 많은 언어들과는 다르게 primary 생성자는 class signature로 선언되는 것을 볼 수 있다.
+
 ```scala
 class Point(var x: Int, var y: Int) {
 
@@ -42,6 +43,7 @@ println(point1)  // prints (2, 3)
 ```
 
 #### Example - 기본값 생성자
+
 ```scala
 class Point(var x: Int = 0, var y: Int = 0)
 
@@ -59,6 +61,7 @@ println(point2.y)  // prints 2
 
 
 #### Private Method, Member
+
 ```scala
 class Point {
   private var _x = 0
@@ -87,6 +90,7 @@ point1.y = 101 // prints the warning
 - Java와 매우 비슷하나 새로운 부분이 있어 적습니다.
 
 #### Scope Protection
+
 ```scala
 package society {
    package professional {
