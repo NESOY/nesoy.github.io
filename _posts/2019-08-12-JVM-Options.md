@@ -13,6 +13,8 @@ date: 2019-08-12
 ![No Image](/assets/logo/Java.jpg)
 
 ## JVM (Oracle) Options
+
+### -Xms, -Xmx
 - `-Xms`
     - JVM 시작시의 Heap size
 - `-Xmx`
@@ -35,6 +37,14 @@ date: 2019-08-12
   - 실제로 주소가 아닌 주소의 Offset을 8의 배수로 계산하여 가지기 때문에 최대 힙사이즈는 `4GB -> 32GB`로 증가하게 된다.
   - 최대 힙 사이즈가 `32GB`를 넘어서게 된다면 JVM은 `64bit 기반의 OOP`를 사용하게 된다.
   - 그렇기 때문에 ElasticSearch에서는 최대 HeapSize를 32GB 이하로 권장한다.
+
+### [JVM DNS Cache](https://docs.oracle.com/javase/8/docs/technotes/guides/net/properties.html#nct)
+- JVM 내부에서도 DNS Cache를 한다. DNS 변경에 바로 반영이 되려면 캐시를 없애는 편이 좋아보인다.
+- `networkaddress.cache.ttl`
+- `sun.net.inetaddr.ttl` 
+  - `-1` - 영속적인 캐시를 지원한다.
+  - `0` - 캐시를 없앤다.
+
 
 
 ## Reference
