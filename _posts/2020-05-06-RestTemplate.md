@@ -9,6 +9,8 @@ tags:
 date: 2020-05-06
 ---
 
+![](/assets/logo/spring.png)
+
 ## RestTemplate
 - Spring에서 제공하는 Rest Client
 - [현재는 Deprecated되어 `WebClient`로 가이드를 하고 있다.](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html)
@@ -26,6 +28,7 @@ date: 2020-05-06
 #### 어떻게 Connection Pool을 사용할 수 있을까?
 - [HttpClientBuilder Reference](https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/org/apache/http/impl/client/HttpClientBuilder.html)
 - [Keep Alive](https://multifrontgarden.tistory.com/249)
+
 ```java
 CloseableHttpClient httpClient = HttpClientBuilder.create()
     .setMaxConnTotal(120) // maxConnTotal은 연결을 유지할 최대 숫자
@@ -66,7 +69,9 @@ factory.setHttpClient(httpClient); // 동기실행에 사용될 HttpClient 세�
     .errorHandler(new RestResponseErrorHandler()) // ResponseErrorHandler interface
     .build();
 ```
+
 - `ResponseErrorHandler`를 상속받아도 되지만 `DefaultResponseErrorHandler`하면 쉽게 할 수 있다.
+
 ```java
  public class RestResponseErrorHandler extends DefaultResponseErrorHandler {
         @Override
