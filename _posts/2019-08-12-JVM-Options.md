@@ -21,13 +21,12 @@ date: 2019-08-12
     - 최대 Heap size
 
 #### `-Xms, -Xmx`를 어떻게 셋팅하는 것이 좋을까?
-- ~~`-Xms, -Xmx`를 동일하게 셋팅하는 것을 추천.~~
-- ~~Heap 사이즈를 변경하기 위해 런타임 기간동안 발생하는 불필요한 오버헤드를 줄일 수 있다.~~
+- `-Xms, -Xmx`를 동일하게 셋팅하는 것을 추천.
+- Heap 사이즈를 변경하기 위해 런타임 기간동안 발생하는 불필요한 오버헤드를 줄일 수 있다.
 - 과거의 JVM 기준으로 내려오는 설정방법이라는 의견이 있다.
 - 최신 JVM에서는 설정안하는 것을 추천한다고 하는데 테스트를 진행하고 확인해봐야 한다.
 - [Reference](https://blog.newrelic.com/technology/state-of-java/)
 > In very early versions of the adaptive sizing algorithms there may have been some advantage to running with this combination, but for modern workloads it’s almost always counterproductive. If you set this combination, the JVM is constrained in how it can resize and shape the heap, making it less responsive to sudden changes in traffic behavior or request rate.
-
 
 #### 그럼 Heap Size를 어느 정도까지 설정하는게 좋을까?
 - `32bit` 운영체제인 경우 최대 Heap Size는 `2^32 = 4GB`를 사용할 수 있다.
@@ -38,13 +37,25 @@ date: 2019-08-12
   - 최대 힙 사이즈가 `32GB`를 넘어서게 된다면 JVM은 `64bit 기반의 OOP`를 사용하게 된다.
   - 그렇기 때문에 ElasticSearch에서는 최대 HeapSize를 32GB 이하로 권장한다.
 
+#### 항상 Heap Size가 크다고 좋은것일까?
+- 같은 애플리케이션일 경우 2GB의 힙을 사용하는 경우가 8GB 크기의 힙을 사용하는 것보다 풀 GC에 걸리는 시간이 짧아 응답 반응성에 유리하다.
+- 하지만 8GB 힙을 사용하면 2GB보다 풀 GC 발생 간격이 그만큼 줄어들 것이고 내부 캐시를 사용하는 애플리케이션이라면 히트율을 높여 응답 반응성을 높일 수 있다.
+- 어느 것을 선택해도 Trade-off가 발생하기에 상황에 맞게 적절한 해결방법을 찾자.
+
 ### [JVM DNS Cache](https://docs.oracle.com/javase/8/docs/technotes/guides/net/properties.html#nct)
 - JVM 내부에서도 DNS Cache를 한다. DNS 변경에 바로 반영이 되려면 캐시를 없애는 편이 좋아보인다.
 - `networkaddress.cache.ttl`
-- `sun.net.inetaddr.ttl` 
+- `sun.net.inetaddr.ttl`
   - `-1` - 영속적인 캐시를 지원한다.
   - `0` - 캐시를 없앤다.
 
+### [JVM Server 모드](https://javapapers.com/core-java/jvm-server-vs-client-mode/)
+- `-client`
+  - JIT(Just in time) Compiler를 사용하기에 서버 시작 시간은 빨라지고 더 작은 메모리 사용량(foot-print)를 사용한다.
+  - 보통 GUI 시스템, 작은 시스템을 구동하는데 사용하기 좋다.
+- `-sever`
+  - client 모드보다 더 많은 최적화를 진행한다.
+  - 빠른 Operation이 (작은 메모리 사용량, 빠른 시작 시간)보다 더 중요한 상황에서 사용하면 적절하다.
 
 
 ## Reference
@@ -54,3 +65,4 @@ date: 2019-08-12
 - <https://www.baeldung.com/jvm-parameters>
 - <https://www.slipp.net/wiki/pages/viewpage.action?pageId=26641949>
 - <https://kwonnam.pe.kr/wiki/linux/performance>
+- <https://d2.naver.com/helloworld/184615>
