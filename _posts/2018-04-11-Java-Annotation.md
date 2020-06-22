@@ -16,6 +16,15 @@ date: 2018-04-11
 - 흔히 알고 있는 `@Override`, `@Deprecated`이 대표적인 예입니다.
 - AOP(Aspect Oriented Programing; 관심지향프로그래밍)을 편리하게 구성할 수 있습니다.
 
+#### Annotation의 특징은 뭘까?
+- 컴파일러에게 코드 문법 에러를 체크하도록 정보를 제공
+- 소프트웨어 개발 툴이 빌드나 배치 시 코드를 자동으로 생성할 수 있도록 정보를 제공
+- 어노테이션을 만들 때 용도를 분명하게 해야 한다.
+	- 소스상에서만 유지해야 할지
+	- 컴파일된 클래스에도 유지해야 할지
+	- 런타임 시에도 유지해야 할지를 지정해야 한다.
+
+
 ## Built-in Annotation
 
 #### @Override
@@ -39,6 +48,14 @@ date: 2018-04-11
 
 #### @Retention
 - 어노테이션의 Life Time입니다.
+- Class
+	- 바이트 코드 파일까지 어노테이션 정보를 유지한다.
+	- 하지만 리플렉션을 이용해서 어노테이션 정보를 얻을 수는 없다.
+- Runtime
+	- 바이트 코드 파일까지 어노테이션 정보를 유지하면서 리플렉션을 이용해서 런타임시에 어노테이션 정보를 얻을 수 있다.
+- Source
+	- Compile 이후로 삭제되는 형태
+- <https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/RetentionPolicy.html>
 
 #### @Documented
 - 문서에도 어노테이션의 정보가 표현됩니다.
@@ -58,7 +75,7 @@ date: 2018-04-11
 @Documented // 문서에 정보가 표현
 @Retention(RetentionPolicy.RUNTIME) // 컴파일 이후에도 JVM에 의해서 참조가 가능합니다
 @Retention(RetentionPolicy.CLASS)   // Compiler가 클래스를 참조할 때까지 유효합니다
-@Retention(RetentionPolicy.SOURCE)  // 컴파일 이후 이후 사라집니다
+@Retention(RetentionPolicy.SOURCE)  // 컴파일 이후 사라집니다
 @Target({
 		ElementType.PACKAGE, // 패키지 선언시
 		ElementType.TYPE, // 타입 선언시
@@ -180,3 +197,4 @@ public class Main {
 ## Reference
 - <http://www.nextree.co.kr/p5864/>
 - <http://jdm.kr/blog/216>
+- <https://yookeun.github.io/java/2017/01/13/java-annotation/>
