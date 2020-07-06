@@ -1,14 +1,24 @@
-## JDK, JVM, JRE에 대해
+## JVM, JRE, JDK에 대해
 ## JVM(Java Virtual Machine)
 - 컴파일된 자바 바이트 코드(.class)를 OS에 특화된 언어로 변환(인터프리터와 JIT 컴파일러)하여 실행해줍니다.
 - 바이트 코드를 실행하는 표준의 의미
     - https://docs.oracle.com/javase/specs/jvms/se11/html/
 - 이 표준을 구현한 구현체도 JVM
-    - Oracle, Amazon, Azul, AdoptOpenJDK
+    - Oracle, [Amazon](https://aws.amazon.com/ko/corretto/), Azul, AdoptOpenJDK
+- JVM의 종류는?
+    - Hotspot
+        - https://openjdk.java.net/groups/hotspot/docs/RuntimeOverview.html
+        - <https://www.oracle.com/technetwork/java/whitepaper-135217.html>
+        - <https://blog.naver.com/2feelus/220738480797>
+        - <https://sehun-kim.github.io/sehun/JVM/>
+    - openJ9
+        - https://kwonnam.pe.kr/wiki/java/openj9
+
 
 #### JRE
 - 자바 애플리케이션을 실행할 수 있도록 구성된 배포판
 - JVM을 포함하는 패키지로 볼 수 있고, JVM뿐만 아니라 자바 런타임 환경에서 사용하는 프로퍼티 세팅이나 리소스 파일을 가지고 있습니다.
+
 
 #### JDK
 - JRE + 개발에 필요한 툴들 포함한 패키지
@@ -21,12 +31,15 @@
     - javap
     - jconsole
     - <https://docs.oracle.com/javase/8/docs/technotes/tools/windows/toc.html>
+    - <https://docs.oracle.com/javase/8/docs/technotes/tools/>
 - 자바 9부터 모듈 시스템이 들어와서 이 모듈 시스템을 사용해서 JRE 비슷한 걸 만들 수 있다.(jlink)
 - 초보 개발자는 JRE만 받아서 javac를 실행하려는 실수를 한다.
 
 #### JIT Compiler
 - Just in time Compiler
 - <https://aboullaite.me/understanding-jit-compiler-just-in-time-compiler/>
+- <http://cr.openjdk.java.net/~vlivanov/talks/2015_JIT_Overview.pdf>
+- <https://www.slipp.net/wiki/display/SLS/%231+Java+Compiler>
 
 ## JVM 구조
 - 클래스 로더가 바이트 코드를 읽어서 메모리에 배치하고 이 코드가 실행될 때 스레드가 생성됩니다.
@@ -103,3 +116,4 @@
 - <https://www.geeksforgeeks.org/jvm-works-jvm-architecture/>
 - <https://dzone.com/articles/jvm-architecture-explained>
 - <https://blog.jamesdbloom.com/JVMInternals.html>
+- <https://engineering.linecorp.com/ko/blog/line-open-jdk/>
