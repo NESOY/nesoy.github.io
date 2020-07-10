@@ -117,3 +117,4 @@
 - <https://dzone.com/articles/jvm-architecture-explained>
 - <https://blog.jamesdbloom.com/JVMInternals.html>
 - <https://engineering.linecorp.com/ko/blog/line-open-jdk/>
+- <https://carolchen.me/blog/jits-intro/>
