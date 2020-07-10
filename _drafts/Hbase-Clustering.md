@@ -3,7 +3,7 @@
 - 데이터 동기화를 위해 WAL(write-ahead log)를 사용하고 있다.
 - Replication은 기본적으로 비동기로 동작한다.
     - 비동기로 동작하여 완벽한 동기화는 지원할 수 없다.
-    - 하지만 최종 목표는 eventual consistency을 지향하고 있다.
+    - Replication의 Goals는 eventual consistency을 지향하고 있다.
 
 - 데이터가 Source Cluster에서 Destination Cluster로 Replication될 때
     - 데이터에 Cluster ID를 부여하여 replication 순환을 방지한다.
