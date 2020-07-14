@@ -59,16 +59,6 @@ date: 2020-07-13
 - ClusterId는 Restart시 바뀌지 않기 의해서 파일시스템에 저장한다.
     - `zookeeper의 /hbase/bhaseid znode`
 
-
-![](/assets/posts/img/2020-07-10-15-37-28.png)
-
-- WAL에 저장한 이후 Region의 Memstore에 저장하고 클라이언트에게 성공 응답을 보낸다.
-    - Memstore란?
-        - 메모리 기반의 저장소
-        - 나중에 Flush라는 작업을 통해 Disk에 Write한다.
-
-![](/assets/posts/img/2020-07-10-15-40-45.png)
-
 #### Replication 과정에서 Key충돌이 나는 경우 어떻게 해결할까?
 - Cell이 변경 사항에는 Timestamp와 Version을 기반으로 가장 늦게 발생한 변경 사항이 반영이 된다.
 
