@@ -43,9 +43,9 @@ date: 2020-09-20
 ## Reference
 - <https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html>
 - <https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1>
-- https://rampart81.github.io/post/docker_image/
-- https://nolleh.tistory.com/131
-- https://www.44bits.io/ko/post/how-docker-image-work
-- https://iximiuz.com/en/posts/from-docker-container-to-bootable-linux-disk-image/
-- https://collabnix.com/understanding-docker-container-image/
-- https://judekim.tistory.com/15
+- <https://rampart81.github.io/post/docker_image/>
+- <https://nolleh.tistory.com/131>
+- <https://www.44bits.io/ko/post/how-docker-image-work>
+- <https://iximiuz.com/en/posts/from-docker-container-to-bootable-linux-disk-image/>
+- <https://collabnix.com/understanding-docker-container-image/>
+- <https://judekim.tistory.com/15>
