@@ -57,6 +57,17 @@ date: 2019-08-12
   - client 모드보다 더 많은 최적화를 진행한다.
   - 빠른 Operation이 (작은 메모리 사용량, 빠른 시작 시간)보다 더 중요한 상황에서 사용하면 적절하다.
 
+### `-XX:MaxPermSize=`, `-XX:PermSize=`
+- JVM 1.8 이전에는 Permanent영역이 존재하였다.
+  - 해당 영역은 Class의 Meta 정보, Method의 Meta 정보, Static변수, 상수 정보가 저장되는 공간
+  - 해당 기능은 많은 클래스들을 로드하는 경우 크기를 늘리는 것을 추천하고 있다.
+- 해당 기능은 1.8 이후로 Deprecated되었다.
+  - Native Memory 영역으로 이동하여 Metaspace영역으로 바뀌게 되었다.
+  - [JDK 8에서 Perm 영역은 왜 삭제됐을까](https://johngrib.github.io/wiki/java8-why-permgen-removed/)
+  - [Java 8 에서 사라진 maxPermSize, PermSize을 대체하는 옵션?](https://blog.voidmainvoid.net/184)
+
+
+
 
 ## Reference
 - <https://kwonnam.pe.kr/wiki/java/memory>
