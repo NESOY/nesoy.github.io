@@ -1,3 +1,14 @@
+---
+layout: post
+title: Docker Multi Stage란?
+excerpt: ''
+categories:
+- Docker
+tags:
+- Docker
+date: 2020-11-06
+---
+
 ## Docker Multi Stage란?
 > 컨테이너 이미지를 만들면서 빌드 등에는 필요하지만 최종 컨테이너 이미지에는 필요 없는 환경을 제거할 수 있도록 단계를 나누어서 기반 이미지를 만드는 방법
 
@@ -36,6 +47,7 @@ CMD ["./app"]
 
 - `build.sh`
     - Multi stage를 지원하기 전에는 이렇게 따로 스크립트를 작성해야 했습니다.
+
 ```bash
 #!/bin/sh
 echo Building alexellis2/href-counter:build
@@ -58,6 +70,7 @@ rm ./app
 
 #### Multi Stage가 등장하면서
 - 하나의 Dockerfile로 빌드 이미지와 실행 이미지를 분리할 수 있게 되어 훨씬 간편하게 이미지를 줄일 수 있게 되었습니다.
+    - 뿐만 아니라 배포 이미지의 용량이 줄어 빌드 시간이 감소하게 되었습니다.
 
 ```Dockerfile
 FROM golang:1.7.3 AS builder
