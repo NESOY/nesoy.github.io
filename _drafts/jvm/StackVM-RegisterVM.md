@@ -38,3 +38,4 @@
 - https://www.usenix.org/legacy/events/vee05/full_papers/p153-yunhe.pdf
 - https://markfaction.wordpress.com/2012/07/15/stack-based-vs-register-based-virtual-machine-architecture-and-the-dalvik-vm/
 - <http://blog.comprehend.in/2018/02/26/stack-VM-and-register-VM.html>
+- <https://stackoverflow.com/questions/2719469/why-is-the-jvm-stack-based-and-the-dalvik-vm-register-based>

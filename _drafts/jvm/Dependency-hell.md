@@ -1,14 +1,12 @@
-
 ## Dependency hell이란?
 - Java 진영에서는 Jar hell
 - .NET 진영에서는 dll hell
 
 
 ## Reference
-https://dzone.com/articles/what-is-jar-hell
-https://dzone.com/articles/solving-dependency-conflicts-in-maven
-https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
-https://docs.gradle.org/current/userguide/core_dependency_management.html
+- <https://dzone.com/articles/what-is-jar-hell>
+- <https://dzone.com/articles/solving-dependency-conflicts-in-maven>
+- <https://docs.gradle.org/current/userguide/core_dependency_management.html>
 https://docs.gradle.org/current/userguide/dependency_resolution.html#sec:conflict-resolution
 https://www.slideshare.net/gunheelee923519/the-jvm-internal
 https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/
