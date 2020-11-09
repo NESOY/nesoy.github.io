@@ -67,6 +67,10 @@ date: 2019-08-12
   - [Java 8 에서 사라진 maxPermSize, PermSize을 대체하는 옵션?](https://blog.voidmainvoid.net/184)
 
 
+### `-XX:UseContainerSupport`
+- JVM이 사용 가능한 CPU와 RAM을 즉 cgroup limits를 읽어들일 수 있게 하는 옵션이다.
+- 해당 옵션은 Java 8u191+ 이후로 Default로 변경되었다.
+  - <https://medium.com/adorsys/usecontainersupport-to-the-rescue-e77d6cfea712>
 
 
 ## Reference
