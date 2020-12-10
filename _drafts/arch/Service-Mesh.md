@@ -8,9 +8,9 @@ tags:
 -
 date: 2020-11-02
 ---
-## Service Mesh란?
-> 서비스 그물망
-Mesh - 그물망
+
+## Service Mesh가 등장하기 까지
+
 #### Background
 - 모놀리틱 구조라면?
     - 서비스를 배포하고
@@ -24,6 +24,10 @@ Mesh - 그물망
     - 많은 툴들을 추가적으로 설치하고, 많은 컴포넌트들을 설정해 넣어야 했습니다.
     - 모놀리스에서는 단일 스택 트레이스에 기록되지만
         - 마이크로 서비스는
+## Service Mesh란?
+> 서비스 그물망
+Mesh - 그물망
+
 
 #### Service Mesh의 등장
 - retry와 automatic failover를 통한 서비스간 리퀘스트의 안정적인 전달
