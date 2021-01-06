@@ -73,11 +73,20 @@ date: 2019-08-12
   - <https://medium.com/adorsys/usecontainersupport-to-the-rescue-e77d6cfea712>
 
 
+## JIT Compiler option
+### `-XX:CompileThreshold`
+- 특정 메소드가 일정 횟수 있상 실행되면 JIT Compiler가 native 코드로 컴파일한다.
+- 기본값은 1500 / 적정 수준 100 이상
+- 너무 작게 설정하면 컴파일 시간 증가
+- <https://www.javacodegeeks.com/2012/10/warming-up-your-jvm-superfast.html>
+
+
 ## Reference
 - <https://kwonnam.pe.kr/wiki/java/memory>
+- <https://kwonnam.pe.kr/wiki/java/performance>
+- <https://kwonnam.pe.kr/wiki/linux/performance>
 - [Elastic Search Memory Setting 가이드라인](https://www.elastic.co/guide/en/elasticsearch/guide/current/heap-sizing.html)
 - <https://brunch.co.kr/@alden/35>
 - <https://www.baeldung.com/jvm-parameters>
 - <https://www.slipp.net/wiki/pages/viewpage.action?pageId=26641949>
-- <https://kwonnam.pe.kr/wiki/linux/performance>
 - <https://d2.naver.com/helloworld/184615>
