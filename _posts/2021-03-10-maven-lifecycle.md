@@ -42,6 +42,7 @@ date: 2021-03-10
 
 #### Example pom.xml
 - `display:time`이라고 선언하면 해당 Plugin Goal은 `process-test-resources` Phase에 실행이 됩니다.
+
 ```xml
  <plugin>
    <groupId>com.mycompany.example</groupId>
@@ -57,8 +58,6 @@ date: 2021-03-10
    </executions>
  </plugin>
 ```
-
-
 
 ## Reference
 - <https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Build_Lifecycle_Basics>
