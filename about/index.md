@@ -5,7 +5,7 @@ layout: page
 
 ## YoungJae Kwon [Nesoy]
 - Seoul. South Korea.
-- Jr. **Back-end** Software Engineer
+- **Back-end** Software Engineer
 - [Working in Kakao Corporation](https://www.kakaocorp.com/)
 
 ## Links
@@ -21,6 +21,9 @@ layout: page
 ### Github
 ![Github Image](https://ghchart.rshah.org/nesoy)
 
+###
+### 2020
+- 2020.10.25 - 10.27 :: [ifkakao - Junit5를 시작하며](https://if.kakao.com/session/108)
 ### 2019
 - 2019.07.01 - now   :: [**Kakao Corporation**](https://www.kakaocorp.com)
 - 2019.11.19 - 11.19 :: [Pivotal Summit 2019 in Seoul](https://connect.pivotal.io/summit_2019_seoul)
