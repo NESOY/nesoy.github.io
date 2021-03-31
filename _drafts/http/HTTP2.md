@@ -1,13 +1,3 @@
----
-layout: post
-title: Http2에 대해
-excerpt: ''
-categories:
--
-tags:
--
-date: 2019-07-17
----
 ## 왜 HTTP/2가 등장하게 되었을까?
 - 기존 HTTP1.1는 응답을 받아야만 다음 요청을 보낼 수 있기 때문에 심각한 Latency가 발생
 - 조금 더 빠른 Web을 위해 구글에서 SPDY를 진행했습니다.
@@ -50,10 +40,6 @@ date: 2019-07-17
 
 ## nginX에서 http2 설정 추가하기
 
-
-## Books
-- HTTP 완벽가이드
-<iframe src="https://coupa.ng/bicXvq" width="120" height="240" frameborder="0" scrolling="no"></iframe>
 
 ## Reference
 - <https://developers.google.com/web/fundamentals/performance/http2/?hl=ko>

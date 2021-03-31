@@ -1,13 +1,3 @@
----
-layout: post
-title: HTTPS와 SSL
-excerpt: ''
-categories:
--
-tags:
--
-date: 2020-06-05
----
 ## HTTP vs HTTPS
 - Hypertext Transfer Protocol
 - Over Secure Socket Layer

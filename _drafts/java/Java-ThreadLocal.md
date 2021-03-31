@@ -1,18 +1,4 @@
----
-layout: post
-title: ThreadLocal이란?
-categories:
-  - Java
-excerpt: ' '
-tags:
-  - Java
-
-date: 2019-05-12
----
-
 ![No Image](/assets/logo/Java.jpg)
-
-
 
 ## How to work ThreadLocal?
 ### Create ThreadLocal

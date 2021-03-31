@@ -1,13 +1,3 @@
----
-layout: post
-title: RBAC이란?
-excerpt: ''
-categories:
-- RBAC
-tags:
-- RBAC
-date: 2020-01-31
----
 ## 들어가며
 > 누군가에게 허락된 자원이지만, 누군가에겐 허락되지 않는 자원인 경우 Software로 어떻게 관리할까?
 
