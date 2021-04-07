@@ -110,6 +110,7 @@ date: 2021-03-19
   - <https://maven.apache.org/guides/mini/guide-mirror-settings.html>
 
 - 아래의 예는 `https://repo.maven.apache.org/maven2/`로 등록된 plugin들을 `planetmirror.com`으로 mirror합니다.
+
 ```xml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
