@@ -90,3 +90,4 @@ date: 2019-08-12
 - <https://www.baeldung.com/jvm-parameters>
 - <https://www.slipp.net/wiki/pages/viewpage.action?pageId=26641949>
 - <https://d2.naver.com/helloworld/184615>
+- <https://javarevisited.blogspot.com/2011/11/hotspot-jvm-options-java-examples.html#axzz6y0J1fiSp>
