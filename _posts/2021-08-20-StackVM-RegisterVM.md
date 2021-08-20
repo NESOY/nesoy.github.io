@@ -1,3 +1,13 @@
+---
+layout: post
+title: StackVM, RegisterVM이란?
+excerpt: ''
+categories:
+- Java
+tags:
+- Java
+date: 2021-08-20
+---
 ## 들어가며
 - CPU는 Operand를 저장하는 위치에 따라 Register-Based VM, Stack-based VM 두
 가지로 나뉘게 된다.
