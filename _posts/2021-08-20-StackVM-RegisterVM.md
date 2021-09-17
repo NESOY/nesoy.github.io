@@ -57,9 +57,9 @@ MOV DS, AX // AX의 값은 DS로 이동된다.
 - 연산이 끝난 후 기존에 있던 스택프레임의 Operand값이 변경된 것을 확인할 수 있다.
 
 ## Reference
-- https://blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221292870568
-- https://www.usenix.org/legacy/events/vee05/full_papers/p153-yunhe.pdf
-- https://markfaction.wordpress.com/2012/07/15/stack-based-vs-register-based-virtual-machine-architecture-and-the-dalvik-vm/
+- <https://blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221292870568>
+- <https://www.usenix.org/legacy/events/vee05/full_papers/p153-yunhe.pdf>
+- <https://markfaction.wordpress.com/2012/07/15/stack-based-vs-register-based-virtual-machine-architecture-and-the-dalvik-vm/>
 - <http://blog.comprehend.in/2018/02/26/stack-VM-and-register-VM.html>
 - <https://stackoverflow.com/questions/2719469/why-is-the-jvm-stack-based-and-the-dalvik-vm-register-based>
 - <https://www.slideshare.net/ssusere3af56/how-to-implement-a-simple-dalvik-virtual-machine>

@@ -1,5 +1,10 @@
 ## Java Thread 모델에 대해
 
+#### Green Thread란?
+- JVM내에서 생성하는 쓰레드를 의미
+- Kernel Space 대신 User space에서 관리가 되는 Thread
+- Native Thread
+
 ## Reference
 - <https://stackoverflow.com/questions/5713142/green-threads-vs-non-green-threads>
 - <https://perfectacle.github.io/2019/03/10/green-thread-vs-native-thread/>
