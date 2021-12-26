@@ -1,0 +1,26 @@
+---
+layout: post
+title: du 명령어
+excerpt: ''
+categories:
+- Linux
+tags:
+- Linux
+date: 2021-12-26
+---
+## du 명령어
+>  The du utility displays the file system block usage for each file argument and for each directory in the file hierarchy rooted in each directory argument.  If no file is specified, the block usage of the hierarchy rooted in the current directory is displayed.
+
+- 디렉토리와 모든 하위 디렉토리의 용량을 표시
+
+#### Example
+- 선택한 디렉토리만의 용량을 표시
+
+```
+du -sh /something
+du -sh /something/* // 아래도 표기
+```
+
+
+## Reference
+- <https://www.manualfactory.net/10591>
