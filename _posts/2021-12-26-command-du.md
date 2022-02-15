@@ -22,6 +22,7 @@ du -sh /something/* // 아래도 표기
 ```
 
 - 가장 많은 용량을 차지하는 디렉토리 찾기
+
 ```
 du -h --max-depth=1 | sort -hr
 ```
