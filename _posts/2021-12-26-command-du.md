@@ -27,6 +27,10 @@ du -sh /something/* // 아래도 표기
 du -h --max-depth=1 | sort -hr
 ```
 
+- directory도 실제 용량을 표시
+```
+du -h --apparent-size
+```
 
 ## Reference
 - <https://www.manualfactory.net/10591>
