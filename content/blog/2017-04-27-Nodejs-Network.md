@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-04/Nodejs-Network
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## TCP Module
 - `var net = require('net');`

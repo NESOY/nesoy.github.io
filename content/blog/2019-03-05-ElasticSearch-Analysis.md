@@ -6,7 +6,7 @@ date: 2019-03-05
 aliases: 
   - ../articles/2019-03/ElasticSearch-Analysis
 ---
-![[Assets/logo/elastic.png]]
+![[assets/logo/elastic.png]]
 
 ## ElasticSearch의 분석(Analysis)이란?
 - 검색어를 추출하기 위한 프로세스
@@ -14,7 +14,7 @@ aliases:
 ### 분석은 어떻게 동작할까?
 
 #### Analyzer Pipeline
-![[Assets/posts/img/2019-03-04-21-22-10.png]]
+![[assets/posts/img/2019-03-04-21-22-10.png]]
 
 - 하나의 Analyzer는 Char Filter, Tokenizer, Token Filter를 저장하고 있는 하나의 배치 프로그램.
 - Custom Analyzer를 생성 추가 삭제가 가능하다.

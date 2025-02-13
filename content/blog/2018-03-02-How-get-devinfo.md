@@ -17,10 +17,10 @@ aliases:
 
 ### Star를 표시한 프로젝트
 - 제가 Follow하고 있는 [동희님](https://github.com/opklnm102)이 좋아하는 프로젝트 입니다.
-![[Assets/posts/20180302/2.png]]
+![[assets/posts/20180302/2.png]]
 
 - Github에서 가장 많은 star를 받은 프로젝트 위주로 볼 수 있습니다.
-![[Assets/posts/20180302/3.png]]
+![[assets/posts/20180302/3.png]]
 
 - [Nesoy Star](https://github.com/NESOY?tab=stars)
 - [Nesoy Following](https://github.com/NESOY?tab=following)
@@ -35,9 +35,9 @@ aliases:
 현재 저는 덕분에 수 많은 개발 블로그들을 등록하여 한 곳에서 편하게 읽고 있습니다.
 
 ### 현재 제가 구독하고 있는 블로그
-![[Assets/posts/20180302/4.png]]
+![[assets/posts/20180302/4.png]]
 ### 구독하고 있는 블로그의 새로운 글
-![[Assets/posts/20180302/5.png]]
+![[assets/posts/20180302/5.png]]
 
 ### 기업 기술 블로그
 #### 한국

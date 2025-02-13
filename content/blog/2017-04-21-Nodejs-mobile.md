@@ -8,7 +8,7 @@ aliases:
   - ../articles/2017-04/Nodejs-mobile
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## Mobile Server
 - 웹 + 모바일 지원 서비스 만들기
@@ -42,15 +42,15 @@ console.log('job', profile.job);
 
 - entry Obejct를 출력한 결과
 
-![[Assets/posts/20170421/1.PNG]]
+![[assets/posts/20170421/1.PNG]]
 
 - JSON으로 변환후 출력한 결과
 
-![[Assets/posts/20170421/2.PNG]]
+![[assets/posts/20170421/2.PNG]]
 
 - JSON을 파싱한 결과를 출력
 
-![[Assets/posts/20170421/3.PNG]]
+![[assets/posts/20170421/3.PNG]]
 
 ## XML
 - eXtensible Markup Language

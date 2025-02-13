@@ -5,7 +5,7 @@ aliases:
   - ../articles/2018-09/Intellij-Auto-Convention
 ---
 
-![[Assets/logo/Intellij.png]]
+![[assets/logo/Intellij.png]]
 
 
 ## 들어가며
@@ -18,11 +18,11 @@ aliases:
 - <https://plugins.jetbrains.com/plugin/7642-save-actions>
 
 
-![[Assets/posts/20180928/1.png]]
+![[assets/posts/20180928/1.png]]
 
 ## How to use? 🎮
 
-![[Assets/posts/20180928/2.png]]
+![[assets/posts/20180928/2.png]]
 
 ### Option
 - save가 발생할 경우에 Activate
@@ -36,7 +36,7 @@ aliases:
 
 ### 정렬이 필요없는 파일은 어떻게 하나요?
 
-![[Assets/posts/20180928/3.png]]
+![[assets/posts/20180928/3.png]]
 
 - exclude 파일에 추가하시면 됩니다.
 
@@ -46,7 +46,7 @@ aliases:
 ### 자동 import Setting
 - `Editor -> General -> Auto import`
 
-![[Assets/posts/20180928/4.png]]
+![[assets/posts/20180928/4.png]]
 
 - import 최적화 체크
 - 자동 import 옵션 체크
@@ -55,4 +55,4 @@ aliases:
 - `Editor -> Code Style -> Java`
 - import Layout
 
-![[Assets/posts/20180928/5.png]]
+![[assets/posts/20180928/5.png]]

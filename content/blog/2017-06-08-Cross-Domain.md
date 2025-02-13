@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-06/Cross-Domain
 ---
 
-![[Assets/logo/javascript.png]]
+![[assets/logo/javascript.png]]
 
 > API서버에서 받은 데이터를 Angular를 통해 데이터를 보여주려고 했지만 실패했다. 원인은 XMLHttpRequest cannot load http//localhost.com. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http//localhost.com is therefore not allowed access. 이였다. 크로스 도메인(Cross Domain)이란 이슈에 대해 정리하고 해결방안을 적기 위해 포스팅한다.
 
@@ -15,7 +15,7 @@ aliases:
 
 - Client에서 API서버에 비동기 통신을 하여 데이터를 가져오려고 하는데 문제가 발생했다.
 
-![[Assets/posts/20170608/1.PNG]]
+![[assets/posts/20170608/1.PNG]]
 
 
 ## 크로스 도메인(Cross Domain)
@@ -28,7 +28,7 @@ aliases:
 > 웹 페이지의 포트 번호와 API 서버의 포트가 다르므로 XMLHttpRequest cannot load라는 에러가 console에 출력된다.
 
 ## Solution
-![[Assets/posts/20170608/2.PNG]]
+![[assets/posts/20170608/2.PNG]]
 
 - 비동기 호출을 하는 서버에서 Header에 `Access-Control`관련 내용을 보내주면 해결이 된다.
 

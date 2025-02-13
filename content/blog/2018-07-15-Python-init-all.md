@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-07/Python-init-all
 ---
 
-![[Assets/logo/python.png]]
+![[assets/logo/python.png]]
 
 ## 들어가며
 > Python으로 개발하던 과정에서 패키지가 다른 경우 참조하지 못하는 문제가 발생하였고 그 과정에서 `__init__.py`를 통해 해결하였습니다. `__init__.py`에 정리하기 위해 작성합니다.
@@ -19,21 +19,21 @@ aliases:
 ### Example
 - src 디렉토리에 `todo.py`, tests 디렉토리에 `test_todo.py`가 존재하지만 pytest 결과 실패하였습니다.
 
-![[Assets/posts/20180715/1.png]]
+![[assets/posts/20180715/1.png]]
 
 #### Pylint 화면
 
-![[Assets/posts/20180715/2.png]]
+![[assets/posts/20180715/2.png]]
 
 #### Pytest 결과화면
 
-![[Assets/posts/20180715/3.png]]
+![[assets/posts/20180715/3.png]]
 
 ### __init__.py 생성 후 모습
-![[Assets/posts/20180715/4.png]]
+![[assets/posts/20180715/4.png]]
 
 #### Pytest 결과화면
-![[Assets/posts/20180715/5.png]]
+![[assets/posts/20180715/5.png]]
 
 
 

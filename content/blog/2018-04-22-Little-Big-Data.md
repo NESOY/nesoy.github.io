@@ -6,7 +6,7 @@ date: 2018-04-22
 aliases: 
   - ../articles/2018-04/Little-Big-Data
 ---
-![[Assets/posts/20180422/1.png]]
+![[assets/posts/20180422/1.png]]
 ## 정리.
 
 ## [LETS(Local Exchange and Trading System)](<http://www.seoulnpocenter.kr/bbs/board.php?bo_table=npo_aca&wr_id=22>)

@@ -5,7 +5,7 @@ aliases:
   - ../articles/2018-09/Couchbase-Mock
 ---
 
-![[Assets/logo/couchbase.png]]
+![[assets/logo/couchbase.png]]
 
 ## 들어가며
 - Couchbase Repository의 Test Code는 적재된 Data에 의존성이 매우 높았습니다.

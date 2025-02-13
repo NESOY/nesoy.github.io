@@ -28,7 +28,7 @@ aliases: [../articles/2021-05/variance]
 
 - 간단한 예를 들어보자.
 
-![[Assets/posts/img/2021-05-02-23-54-40.png]]
+![[assets/posts/img/2021-05-02-23-54-40.png]]
 
 - bird라는 클래스가 존재하고 하위에 duck, cuckoo, ostrich라는 클래스가 존재한다.
 - duck, cuckoo, ostrich는 `bird라는 고유의 특성`을 가지고 있으며 각자의 특성을 가지고 있다.
@@ -40,7 +40,7 @@ aliases: [../articles/2021-05/variance]
 - 이제 코드를 통해 이해해보자.
     - 아래의 그림은 Java의 Collection Subtyping 관계도를 표현한 것이다.
 
-![[Assets/posts/img/2021-05-13-00-12-00.png]]
+![[assets/posts/img/2021-05-13-00-12-00.png]]
 
 - `Cat <: Animal`의 관계일때
     - 그림을 보면 `List<Cat> <: List<Animal>`이 성립하지 않는 것을 확인할 수 있다.

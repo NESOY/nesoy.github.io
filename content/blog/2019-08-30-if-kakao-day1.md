@@ -6,7 +6,7 @@ date: 2019-08-30
 aliases: 
   - ../articles/2019-08/if-kakao-day1
 ---
-![[Assets/posts/img/2019-08-30-23-18-27.png]]
+![[assets/posts/img/2019-08-30-23-18-27.png]]
 
 ## 오픈소스 데이터베이스, 흐르는 은행 데이터에 빨대를 꽂아보다.
 > 성동찬님 - 카카오 뱅크
@@ -239,7 +239,7 @@ aliases:
 #### 개발 복잡도의 상관 관계
 - [Complex Product Design](https://pdfs.semanticscholar.org/1b1e/e4e8844100d2cec855c440ee8cd70c82ed3d.pdf)
 
-![[Assets/posts/img/2019-08-29-17-51-06.png]]
+![[assets/posts/img/2019-08-29-17-51-06.png]]
 
 - 제품 개발 복잡도의 세가지 요소
     - 요구사항

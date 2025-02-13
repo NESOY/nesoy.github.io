@@ -10,14 +10,14 @@ aliases:
 ## 매일 iPhone과 Airpod이 연결된 상태에서 Mac으로 연결하기 위해선?
 - 블루투스 -> Airpod -> 연결 버튼을 눌러야 합니다.
 
-![[Assets/posts/20180830/1.png]]
+![[assets/posts/20180830/1.png]]
 
 > 위 과정은 매우 간단하지만 하루에도 몇 번씩 일어납니다..ㅠㅠ
 
 ## 하루에도 몇 번씩이나 반복되는 이 행위를 간편하게 해봅시다.
 
 ### Script Editor를 실행합니다.
-![[Assets/posts/20180830/2.png]]
+![[assets/posts/20180830/2.png]]
 
 ### Script를 작성합니다.
 
@@ -49,22 +49,22 @@ end tell
 
 #### Airpod 이름을 작성할 때 주의할 점.
 
-![[Assets/posts/20180830/3.png]]
+![[assets/posts/20180830/3.png]]
 
 
 
 ### Script를 저장합니다.
 - Application으로 저장해야 합니다.
 
-![[Assets/posts/20180830/4.png]]
+![[assets/posts/20180830/4.png]]
 
 ### 접근 제어를 추가해 줍니다.
 
-![[Assets/posts/20180830/5.png]]
+![[assets/posts/20180830/5.png]]
 
 ### 이제 실행하면 쉽게 연결이 가능합니다.
 
-![[Assets/posts/20180830/6.png]]
+![[assets/posts/20180830/6.png]]
 
 
 ### 아주 좋군요 :)
@@ -74,7 +74,7 @@ end tell
 ### ETC
 - [BetterTouchTool](https://folivora.ai/)를 사용하면 단축키로도 쉽게 연결할 수 있습니다.
 
-![[Assets/posts/20180830/7.png]]
+![[assets/posts/20180830/7.png]]
 
 ## Reference
 - <https://medium.com/@secondfret/how-to-connect-your-airpods-to-your-mac-with-a-keyboard-shortcut-9d72e786993b>

@@ -26,7 +26,7 @@ aliases:
 	- Observer - Subject간의 서로 의존하는 상황
 	- 다양한 토픽들을 사용하려면 별도로 생성해야 하는 상황
 	
-![[Assets/posts/img/2021-09-17-16-34-41.png]]
+![[assets/posts/img/2021-09-17-16-34-41.png]]
 
 - 서로 의존하지 않기 위해 중간에 Message Broker를 추가하여 Pub-sub Pattern이 등장하게 된다.
 	- Pub, Sub 서로 의존하지 않아도 되는 상황

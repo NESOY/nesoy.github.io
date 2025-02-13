@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-01/Spring-annotation
 ---
 
-![[Assets/logo/spring.png]]
+![[assets/logo/spring.png]]
 
 # **Spring Annotation**
 - @Required, @Autowired, @Qulifier, @Resource

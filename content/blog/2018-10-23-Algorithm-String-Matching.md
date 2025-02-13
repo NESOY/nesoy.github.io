@@ -5,7 +5,7 @@ aliases:
   - ../articles/2018-10/Algorithm-String-Matching
 ---
 
-![[Assets/logo/algorithm.png]]
+![[assets/logo/algorithm.png]]
 
 ## 왜 우리는 String Matching Algorithm에 대해 고민할까?
 - String Matching은 우리가 평소에 자주 사용하는 기능입니다.
@@ -29,12 +29,12 @@ aliases:
     - 패턴 Hash값과 비교하여 시간 복잡도를 낮추는 알고리즘.
 - 특수한 Case를 제외하면 평균 수행시간이 좋아집니다.
 
-![[Assets/posts/20181023/3.png]]
+![[assets/posts/20181023/3.png]]
 
 #### 매번 문자열 전체를 가져와서 Hash값을 계산해야 하는가?
 - [호너(Horner)의 법칙](https://en.wikipedia.org/wiki/Horner%27s_method)을 사용하여 단순하게 구할 수 있습니다.
 
-![[Assets/posts/20181023/2.png]]
+![[assets/posts/20181023/2.png]]
 
 
 #### 문제점은 없을까요?
@@ -46,7 +46,7 @@ aliases:
 ### KMP(Knuth-Morris-Pratt) Algorithm
 - 패턴을 미리 계산하고 결과값을 배열에 저장 및 보조 함수로 활용하여 빠르게 전이하는 Algorithm
 
-![[Assets/posts/20181023/4.png]]
+![[assets/posts/20181023/4.png]]
 
 #### 문제점은 없을까요?
 - Pattern에서 prefix와 suffix가 Matching이 되는 부분이 많지 않다면 효율적이지 않습니다.

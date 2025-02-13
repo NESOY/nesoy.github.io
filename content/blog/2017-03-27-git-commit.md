@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-03/git-commit
 ---
 
-![[Assets/logo/git.png]]
+![[assets/logo/git.png]]
 
 ## 들어가며
 > 개발하는 과정에 있어 commit을 잘못하거나, 팀원들의 코드 리뷰를 통해 문제를 수정하고 다시 commit하는 과정에서 불필요한 commit들을 합치는 과정이 필요하다. git의 commit에 대한 명령어에 대해 기억하기 위해 포스팅을 한다.
@@ -67,7 +67,7 @@ $ git rebase -i HEAD~commit개수
 $ git rebase -i HEAD~commit개수
 ```
 
-![[Assets/posts/20170327/1.PNG]]
+![[assets/posts/20170327/1.PNG]]
 
 ```shell
 pick commit번호 commit내용
@@ -76,7 +76,7 @@ squash commit번호 commit내용 // 앞부분 원하는 command로 변경하기
 
 - 결과 확인하기
 
-![[Assets/posts/20170327/2.PNG]]
+![[assets/posts/20170327/2.PNG]]
 
 ## Reference
 - <https://backlogtool.com/git-guide/kr/stepup/stepup7_1.html>

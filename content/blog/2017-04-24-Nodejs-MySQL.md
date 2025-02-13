@@ -8,12 +8,12 @@ aliases:
   - ../articles/2017-04/Nodejs-MySQL
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## MySQL
 - `npm install mysql`
 
-![[Assets/posts/20170424/1.PNG]]
+![[assets/posts/20170424/1.PNG]]
 
 ### Connection(커넥션)
 - `mysql.createConnection(DATABASE_CONFIG)`
@@ -155,7 +155,7 @@ User.create({
 
 - 결과 화면
 
-![[Assets/posts/20170424/2.PNG]]
+![[assets/posts/20170424/2.PNG]]
 
 ### Model Read
 
@@ -169,7 +169,7 @@ User.findAll({
 }).then(resolved,rejected);
 ```
 
-![[Assets/posts/20170424/3.PNG]]
+![[assets/posts/20170424/3.PNG]]
 
 ### Model Update
 
@@ -183,7 +183,7 @@ User.update({
 }).then(resolved,rejected);
 ```
 
-![[Assets/posts/20170424/4.PNG]]
+![[assets/posts/20170424/4.PNG]]
 
 ### Model DELETE
 
@@ -195,4 +195,4 @@ User.destroy({
    }).then(resolved,rejected);
 ```
 
-![[Assets/posts/20170424/5.PNG]]
+![[assets/posts/20170424/5.PNG]]

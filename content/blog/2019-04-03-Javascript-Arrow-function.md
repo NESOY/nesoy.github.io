@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-04/Javascript-Arrow-function
 ---
 
-![[Assets/logo/javascript.png]]
+![[assets/logo/javascript.png]]
 ## Arrow function과 Binding에 대해
 ### Arrow Function이란?
 - ES6부터 적용된 문법입니다.

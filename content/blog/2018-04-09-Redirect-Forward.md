@@ -6,13 +6,13 @@ date: 2018-04-09
 aliases: 
   - ../articles/2018-04/Redirect-Forward
 ---
-![[Assets/posts/20180409/0.png]]
+![[assets/posts/20180409/0.png]]
 
 ## 들어가며
 > 예전에 Spring Project를 진행하면서 redirect와 forward차이점에 대해 궁금하였지만 지금에 와서야 차이점을 알게 되었고 정리하기 위해 작성합니다.
 
 ## Redirect란?
-![[Assets/posts/20180409/1.png]]
+![[assets/posts/20180409/1.png]]
 - Client가 Server에 Resource를 요청합니다.
 - Server는 상태값 3XX와 함께 Redirect 주소[Location]를 같이 보내게 됩니다.
 - Client는 새로운 주소값으로 다시 Resource를 요청합니다.
@@ -29,7 +29,7 @@ Location: nesoy.github.io
 - 다양한 Redirect 종류 : <https://developer.mozilla.org/ko/docs/Web/HTTP/Redirections>
 
 ## Forward란?
-![[Assets/posts/20180409/2.png]]
+![[assets/posts/20180409/2.png]]
 - Client가 Server에 Resource를 요청합니다.
 - Server는 Web Container(Tomcat, Jboss등)에 의해 LoginServlet에서 HelloServlet로 forward하게 됩니다.
     - 이때 객체 정보는 Request Scope, Session Scope, Page Scope를 통해 전달되게 됩니다.

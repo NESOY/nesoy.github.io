@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-01/Couchbase-CAS
 ---
 
-![[Assets/logo/couchbase.png]]
+![[assets/logo/couchbase.png]]
 
 
 ## CAS(Check & Set) 값이란?
@@ -18,7 +18,7 @@ aliases:
 
 ### Example
 
-![[Assets/posts/20190123/1.png]]
+![[assets/posts/20190123/1.png]]
 
 - Step 1 : 클라이언트 A가 문서를 읽습니다.
 - Step 2 : 클라이언트 A는 문서의 값을 **1 증가** 시킵니다.

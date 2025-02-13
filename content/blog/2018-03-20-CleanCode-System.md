@@ -6,7 +6,7 @@ date: 2018-03-20
 aliases: 
   - ../articles/2018-03/CleanCode-System
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 # 시스템(System)
 > 복잡성은 죽음이다. 개발자에게서 생기를 앗아가며, 제품을 계획하고 제작하고 테스트하기 어렵게 만든다.
@@ -40,13 +40,13 @@ public Service getService() {
 ### Main 분리
 
 아래의 그림처럼 생성과 관련된 코드는 모두 main이나 main이 호출하는 모듈로 옮기고 나머지 시스템은 모든 객체가 생성되었고 모든 의존성이 연결되었다고 가정하고 비즈니스 로직에 집중할 수 있다.
-![[Assets/posts/20180320/1.png]]
+![[assets/posts/20180320/1.png]]
 
 #### 팩토리(Factory)
 
 어떤 경우에는 생성에 관련된 부분을 애플리케이션이 결정할 필요가 있다. 그런 부분은 Factory Pattern을 사용하여 애플리케이션이 결정하지만 직접 생성하는 부분의 연관성을 제거한다.
 
-![[Assets/posts/20180320/2.png]]
+![[assets/posts/20180320/2.png]]
 
 #### 의존성 주입(Dependency Injection)
 제어 역전(Inversion of Control IOC)을 적용한 메커니즘이다. 인스턴스를 생성할 책임을 지는 `main`이나 특수 `컨테이너`를 사용한다.
@@ -135,7 +135,7 @@ public interface BankLocal extends java.ejb.EJBLocalObject {
 - 코드는 상당히 많으며 제법 복잡하다. -> 깨끗한 코드를 작성하기 어렵다.
 
 ## 순수 자바 AOP 프레임 워크
-![[Assets/posts/20180320/3.png]]
+![[assets/posts/20180320/3.png]]
 
 위의 그림을 코드로 표현하면 아래와 같다.
 

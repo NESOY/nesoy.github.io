@@ -18,7 +18,7 @@ aliases:
     - Reflection과 같은 실제로 메소드가 실행될때 로딩하는 것을 말한다.
 
 ### ClassLoader 과정에 대해
-![[Assets/posts/img/2020-11-05-19-48-23.png]]
+![[assets/posts/img/2020-11-05-19-48-23.png]]
 #### Loading
 - 클래스 로더가 .class 파일을 읽고, 그 내용에 따라 적절한 바이너리 데이터를 만들고 메소드 영역에 저장하는 행위
     - Loading하면서 JVM 스펙이 맞는지 확인

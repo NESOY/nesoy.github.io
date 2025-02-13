@@ -7,7 +7,7 @@ aliases:
   - ../articles/2020-03/Scala-Class
 ---
 
-![[Assets/logo/scala.png]]
+![[assets/logo/scala.png]]
 
 ## Class
 - Method, value, variables, types, objects, traits, class가 멤버로 존재할 수 있습니다.

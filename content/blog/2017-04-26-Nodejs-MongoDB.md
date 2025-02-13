@@ -8,7 +8,7 @@ aliases:
   - ../articles/2017-04/Nodejs-MongoDB
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## MongoDB
 - MongoDB install : <https://nesoy.github.io/articles/2017-04/MongoDB>
@@ -224,14 +224,14 @@ var Movie = mongoose.model('Movie', MovieScheme);
 ### Error 처리
 - mongoose v4 이상의 버전부터 mongoose의 save()와 쿼리같은 비동기 동작에서는 Promises/A+ conformant pomises를 반환하게 되어있다.
 
-![[Assets/posts/20170426/1.PNG]]
+![[assets/posts/20170426/1.PNG]]
 
 - `mongoose.Promise = global.Promise;` 추가하면 해결된다.
 
 ### `__v` 제거하기
 - `versionKey`가 Default로 들어간다.
 
-![[Assets/posts/20170426/2.PNG]]
+![[assets/posts/20170426/2.PNG]]
 
 ``` javascript
 var UserSchema = new mongoose.Schema({

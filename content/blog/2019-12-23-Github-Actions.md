@@ -14,10 +14,10 @@ aliases:
 - `.github/workflows` 아래에 action이 작성된 yml 파일을 추가하면 된다.
 
 #### Github의 Tab에 Action으로 확인할 수 있다.
-![[Assets/posts/img/2019-12-22-21-50-46.png]]
+![[assets/posts/img/2019-12-22-21-50-46.png]]
 
 #### 다양한 예제가 있어 참고하기 좋다.
-![[Assets/posts/img/2019-12-22-21-54-24.png]]
+![[assets/posts/img/2019-12-22-21-54-24.png]]
 
 #### [Event 지원](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows)
 ```yml
@@ -91,7 +91,7 @@ jobs:
 
 #### [Secret Key 사용 방법](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
 - `Settings - Secret`에 등록하여 사용하면 된다.
-![[Assets/posts/img/2019-12-22-22-11-13.png]]
+![[assets/posts/img/2019-12-22-22-11-13.png]]
 
 ```yml
 coverage:
@@ -113,7 +113,7 @@ coverage:
 
 ## Example
 #### Gradle로 작성된 프로젝트 빌드하기
-![[Assets/posts/img/2019-12-22-21-55-31.png]]
+![[assets/posts/img/2019-12-22-21-55-31.png]]
 
 ```yml
 name: Java CI

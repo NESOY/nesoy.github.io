@@ -7,13 +7,13 @@ aliases:
   - ../articles/2018-06/DDD-Transcation
 ---
 
-![[Assets/logo/ddd.png]]
+![[assets/logo/ddd.png]]
 
 ## 트랜잭션(Transaction)이란?
 - [Link](https://nesoy.github.io/articles/2018-05/Database-Transaction)
 
 ## Pessimistic Lock(선점 잠금)
-![[Assets/posts/20180628/1.png]]
+![[assets/posts/20180628/1.png]]
 - Thread1이 사용하는 Resource(자원)을 Lock(잠금)합니다.
 - Thread2는 Resource(자원)에 접근하려고 하면 unLock이 될 때까지 기다려야 합니다.
 
@@ -21,13 +21,13 @@ aliases:
 - Thread1이 Resource A를 잠그고 Resource B를 사용하기 위해 요청한 상황
 - Thread2이 Resource B를 잠그고 Resource A를 사용하기 위해 요청한 상황
 
-![[Assets/posts/20180628/5.png]]
+![[assets/posts/20180628/5.png]]
 
 ### 더 쉽게 설명하자면?
 - 서로가 가지고 있는 것을 놓지 않고 상대가 가진 것을 뺏기 위해 노력하지만.
 - 끝나지 않는 싸움입니다.
 
-![[Assets/posts/20180628/6.png]]
+![[assets/posts/20180628/6.png]]
 
 ### 이를 해결하기 위해선?
 - Timeout를 통해 무한 대기 상태를 방지하고 있습니다.
@@ -39,7 +39,7 @@ aliases:
 
 ## 선점 잠금으로 풀 수 없는 상황
 
-![[Assets/posts/20180628/2.png]]
+![[assets/posts/20180628/2.png]]
 
 - 운영자가 시스템에서 배송지를 가져옵니다.
 - 운영자가 상품을 배송하러 간 사이에 고객은 배송지를 변경하죠.
@@ -48,14 +48,14 @@ aliases:
 > 그러면 운영자는 고객의 최신 배송지가 아닌 예전의 배송지로 배송해버리는 문제가 발생합니다.
 
 ## Optimistic Lock(비선점 잠금)
-![[Assets/posts/20180628/3.png]]
+![[assets/posts/20180628/3.png]]
 
 - 변경한 데이터를 실제 DBMS에 반영하는 시점에 변경 가능 여부를 확인하는 방식입니다.
 - 데이터의 version 숫자를 부여합니다.
 - 데이터가 변경이 발생할 경우 요청 version번호와 시스템 version번호가 일치하는지 확인합니다.
 
 ## Passimistic Offline Lock(오프라인 선점 잠금)
-![[Assets/posts/20180628/4.png]]
+![[assets/posts/20180628/4.png]]
 
 - Application Level에서 Lock을 거는 방법으로 생각됩니다.
 - 한 사람이 블로그의 글을 수정하고 있다면.

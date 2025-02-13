@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-05/Functional-Programming
 ---
 
-![[Assets/logo/FP.png]]
+![[assets/logo/FP.png]]
 
 # 함수형 프로그래밍(Functional Programming)이란?
 ## Concept
@@ -52,7 +52,7 @@ aliases:
 ## 함수형 프로그래밍 사용하면 무엇을 얻을 수 있을까요?
 > "대입문의 사용을 포기하면 자유로운 동시성을 얻을 수 있다."
 
-![[Assets/posts/20180510/1.png]]
+![[assets/posts/20180510/1.png]]
 
 현재 우리는 많은 CPU를 가진 컴퓨터를 사용하고 있습니다. 그렇다고 일을 하나의 CPU에만 일을 시키지는 않죠. 어떻게 하면 컴퓨터의 모든 Cycle을 사용할 수 있을까?
 많은 프로세스가 동시에 하나의 메모리 값을 변경하는 경우를 방지하기 위해서 Semaphores라는 기술을 사용했지만 함수형 프로그래밍은 더 이상 기술을 사용하지 않아도 됩니다.

@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-08/JVM-Options
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 ## JVM (Oracle) Options
 

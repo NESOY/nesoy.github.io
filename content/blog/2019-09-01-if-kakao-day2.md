@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-09/if-kakao-day2
 ---
 
-![[Assets/posts/img/2019-08-30-23-18-27.png]]
+![[assets/posts/img/2019-08-30-23-18-27.png]]
 
 ## 밑바닥부터 시작하는 쇼핑 데이터 엔지니어링 고군 분투기
 > 전수현님

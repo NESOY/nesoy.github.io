@@ -11,13 +11,13 @@ aliases:
 
 #### Client가 한 두명인 경우에는 어떨까요?
 
-![[Assets/posts/20180602/1.png]]
+![[assets/posts/20180602/1.png]]
 
 -   Server는 여유롭게 사용자가 원하는 결과를 응답 해줄 수 있습니다.
 
 #### 하지만 Client가 한 두명이 아닌 수천만명이라면 어떨까요?
 
-![[Assets/posts/20180602/2.png]]
+![[assets/posts/20180602/2.png]]
 
 -   Server는 모든 사람들의 응답을 해주려고 노력하지만 결국엔 지치게 되어 동작을 멈추게 됩니다.
 
@@ -51,11 +51,11 @@ aliases:
 -   DSR(Dynamic Source Routing protocol)
     -   로드 밸런서 사용 시 서버에서 클라이언트로 되돌아가는 경우 목적지 주소를 스위치의 IP 주소가 아닌 클라이언트의 IP 주소로 전달해서 네트워크 스위치를 거치지 않고 바로 클라이언트를 찾아가는 개념입니다.
 
-![[Assets/posts/img/2019-07-10-16-39-38.png]]
+![[assets/posts/img/2019-07-10-16-39-38.png]]
 
 ### Architecture
 
-![[Assets/posts/20180602/3.png]]
+![[assets/posts/20180602/3.png]]
 
 ## 종류는 어떤 것이 있을까요?
 
@@ -72,18 +72,18 @@ aliases:
 -   Transport Layer(IP와 Port) Level에서 Load Balancing을 합니다.
 -   TCP, UDP
 
-![[Assets/posts/20180602/5.png]]
+![[assets/posts/20180602/5.png]]
 
 ### L7
 
 -   Application Layer(사용자의 Request) Level에서 Load Balancing을 합니다.
 -   HTTP, HTTPS, FTP
 
-![[Assets/posts/20180602/6.png]]
+![[assets/posts/20180602/6.png]]
 
 #### HTTP
 
-![[Assets/posts/20180602/4.png]]
+![[assets/posts/20180602/4.png]]
 
 -   `X-Forwarded-For`
     -   HTTP 또는 HTTPS 로드 밸런서를 사용할 때 클라이언트의 IP 주소를 식별하는 데 도움을 줍니다.
@@ -107,11 +107,11 @@ aliases:
 
 -   Load Balancer를 이중화하여 장애를 대비할 수 있습니다.
 
-![[Assets/posts/20180602/7.png]]
+![[assets/posts/20180602/7.png]]
 
 ### 장애가 났을 경우 시나리오
 
-![[Assets/posts/20180602/8.gif]]
+![[assets/posts/20180602/8.gif]]
 
 -   이중화된 Load Balancer들은 서로 Health Check를 합니다.
 -   Main Load Balancer가 동작하지 않으면 가상IP(VIP, Virtual IP)는 여분의 Load Balancer로 변경됩니다.

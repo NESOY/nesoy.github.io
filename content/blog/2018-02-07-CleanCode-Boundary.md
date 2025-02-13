@@ -6,7 +6,7 @@ date: 2018-02-07
 aliases: 
   - ../articles/2018-02/CleanCode-Boundary
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 # 경계
 > 어떤 식으로든 외부 코드를 우리 코드에 깔끔하게 통합해야만 한다.
@@ -192,7 +192,7 @@ public class LogTest {
 - "송신기"팀은 인터페이스를 제공하지 않았다. 하지만 저자는 "송신기"팀을 기다리는 대신 "원하는" 기능을 정의하고 `인터페이스`로 만들었다. [지정한 주파수를 이용해 이 스트림에서 들어오는 자료를 아날로그 신호로 전송하라]
 - 이렇게 인터페이스를 정의함으로써 메인 로직을 더 깔끔하게 짤 수 있었고 목표를 명확하게 나타낼 수 있었다.(참조 1)
 
-![[Assets/posts/20180207/adapterPattern.png]]
+![[assets/posts/20180207/adapterPattern.png]]
 
 ```java
 public interface Transimitter {

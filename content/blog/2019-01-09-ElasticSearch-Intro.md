@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-01/ElasticSearch-Intro
 ---
 
-![[Assets/logo/elastic.png]]
+![[assets/logo/elastic.png]]
 
 ## Node
 - 데이터를 색인하고 검색 기능을 수행하는 엘라스틱 서치의 단위 프로세스

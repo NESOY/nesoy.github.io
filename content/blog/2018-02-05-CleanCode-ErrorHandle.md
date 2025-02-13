@@ -6,7 +6,7 @@ date: 2018-02-05
 aliases: 
   - ../articles/2018-02/CleanCode-ErrorHandle
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 # 오류 처리
 

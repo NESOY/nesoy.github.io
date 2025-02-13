@@ -7,7 +7,7 @@ aliases:
   - ../articles/2020-09/Docker-image
 ---
 
-![[Assets/logo/docker.png]]
+![[assets/logo/docker.png]]
 
 #### Docker의 이미지는 무엇인가?
 - subicura님의 표현이 가장 이해하기 쉬웠다.
@@ -17,7 +17,7 @@ aliases:
     - 그리고 마지막으로 Container Layer가 존재하며 해당 변경 사항들을 기록하고 관리한다.
 
 #### 도커 이미지를 가지고 어떻게 OS위에 다른 OS, Application들을 동작하게 할 수 있을까?
-![[Assets/posts/img/2020-09-20-21-23-47.png]]
+![[assets/posts/img/2020-09-20-21-23-47.png]]
 
 - 리눅스 시스템이 시작될 때와 비슷한 이벤트들이 발생한다.
     - <https://nolleh.tistory.com/131>

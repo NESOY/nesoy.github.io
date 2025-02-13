@@ -33,7 +33,7 @@ MOV DS, AX // AX의 값은 DS로 이동된다.
     - SP가 다음 피연산자의 위치를 나타낸다.
     - 즉 스택에서 POP만 하면 다음 피연산자가 나오기 때문에 피연산자의 메모리를 기억할 필요가 없다.
 
-![[Assets/posts/img/2021-08-19-23-41-49.png]]
+![[assets/posts/img/2021-08-19-23-41-49.png]]
 
 #### Register-Based VM
 - Lua VM, Dalvik VM
@@ -49,7 +49,7 @@ MOV DS, AX // AX의 값은 DS로 이동된다.
 
 
 #### Java의 Example
-![[Assets/posts/img/2021-08-19-23-58-14.png]]
+![[assets/posts/img/2021-08-19-23-58-14.png]]
 - addAndPrint()에 대한 Stack Frame이 있고 1, 88.88이 존재한다.
 - addTwoTypes라는 메소드를 호출하면서 Stack Frame을 생성하고 local variable에 1, 88.88가 존재하게 된다.
 - 연산이 끝난 후 기존에 있던 스택프레임의 Operand값이 변경된 것을 확인할 수 있다.

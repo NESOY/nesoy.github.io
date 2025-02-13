@@ -8,7 +8,7 @@ aliases:
   - ../articles/2018-12/Junit-Rule
 ---
 
-![[Assets/logo/JUnit.png]]
+![[assets/logo/JUnit.png]]
 
 
 ## JUnit의 Rule이란?
@@ -38,7 +38,7 @@ public static class HasTempFolder {
 
 - 임시 장소에 저장되는 것을 확인할 수 있습니다.
 
-![[Assets/posts/20181231/1.png]]
+![[assets/posts/20181231/1.png]]
 
 ### ExternalResources Rule
 - 외부 Resource(DB Connection, File, Socket) 초기화 / 반환을 관리합니다.
@@ -86,7 +86,7 @@ public static class UsesErrorCollectorTwice {
 
 - Test를 진행하면서 발생했던 모든 Error 결과를 받아 볼 수 있습니다.
 
-![[Assets/posts/20181231/2.png]]
+![[assets/posts/20181231/2.png]]
 
 ### Verifier Rule
 - 테스트 자체를 검증하는 assert와는 다르게, 테스트 케이스 실행 후 만족해야하는 환경조건이나 Global조건(객체들의 종합 상태)을 검사하는데 사용됩니다.
@@ -189,7 +189,7 @@ public class WatchermanTest {
 
 - 테스트 정보를 남기는 코드를 분리하여 기록할 수 있습니다.
 
-![[Assets/posts/20181231/3.png]]
+![[assets/posts/20181231/3.png]]
 
 ### TestName
 - 테스트 메소드명을 얻을 수 있습니다.

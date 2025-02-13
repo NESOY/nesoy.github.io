@@ -6,7 +6,7 @@ date: 2018-03-30
 aliases: 
   - ../articles/2018-03/CleanCode-Emergence
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 
 # 창발성(Emergence)

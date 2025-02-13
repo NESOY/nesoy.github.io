@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-01/ElasticSearch-System-Architecture
 ---
 
-![[Assets/logo/elastic.png]]
+![[assets/logo/elastic.png]]
 
 ## Cluster와 Node
 - 하나의 Cluster는 여러 개의 Node로 구성
@@ -42,21 +42,21 @@ nested: IllegalArgumentException[can't add node {es-master}{KTKlgNlqllbkaw}{7QMJ
 
 
 #### Binding된 모습
-![[Assets/posts/20190122/1.png]]
+![[assets/posts/20190122/1.png]]
 
 - WARNING `discovery.zen.minimum_master_nodes`가 너무 작은게 원인
 
 ### [Split Brain이란?](https://www.elastic.co/guide/en/elasticsearch/reference/6.1/modules-node.html#split-brain)
 > `discovery.zen.minimum_master_nodes` 설정할 때 발생할 수 있는 이슈
 
-![[Assets/posts/20190122/2.png]]
+![[assets/posts/20190122/2.png]]
 
 - 마스터 후보 노드(master eligible node) 사이에 네트워크가 단절되었을 때
     - 각각의 마스터 후보 노드가 마스터 노드로 승격하여 두 개의 클러스터로 나뉘어 독립적으로 동작하는 현상
 - 양쪽 클러스터에서 각각 데이터 업데이트가 이루어지면 나중에 네트워크가 복구되어도?
     - 각각 마스터가 따로 존재하기 때문에 따로 운영되어 데이터 비동기 문제로 데이터의 손실 발생.
 
-![[Assets/posts/20190122/3.png]]
+![[assets/posts/20190122/3.png]]
 
 - 마스터 기능의 수행이 가능한 후보(master-eligible) 노드를 3(또는 그 이상의 홀수)개를 두어 Split Brain을 예방
     - `discovery.zen.minimum_master_nodes`설정 : (master_eligible_nodes / 2) + 1
@@ -85,7 +85,7 @@ discovery.zen.ping.unicast.host: ["192.168.1.10", "192.168.1.11"]
 
 ## [Hot-warm Architecture](https://www.elastic.co/blog/hot-warm-architecture)
 
-![[Assets/posts/20190122/4.png]]
+![[assets/posts/20190122/4.png]]
 
 ### Master nodes
 - Cluster당 3개의 Master Node를 구성하면 다른 유형의 Node의 GC영향을 받지 않으므로 안정성과 복구를 높일 수 있다.

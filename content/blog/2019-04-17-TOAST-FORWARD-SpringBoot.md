@@ -90,7 +90,7 @@ java -jar target/edu-springboot-simpleweb-application-2.1.3-SNAPSHOT.jar
 - @SpringBootApplication에 포함
 - Spring Boot VER 2.1.2
 
-![[Assets/posts/img/2019-04-17-15-38-14.png]]
+![[assets/posts/img/2019-04-17-15-38-14.png]]
 
 - `@Import(AutoConfigurationImportSelector.class)`를 통해 자동설정을 찾고 설정한다.
 
@@ -110,11 +110,11 @@ protected List<String> getCandidateConfigurations(AnnotationMetadata metadata,
 - `META-INF/spring.factories` 파일 위치
     - Spring Boot가 애플리케이션 타입을 유추할때 사용할 @Configuration 클래스를 spring.factories 파일에 정의해 둔 것
 
-![[Assets/posts/img/2019-04-17-15-41-33.png]]
+![[assets/posts/img/2019-04-17-15-41-33.png]]
 
 - SpringFactoriesLoader의 Fatories Resource Location
 
-![[Assets/posts/img/2019-04-17-15-43-54.png]]
+![[assets/posts/img/2019-04-17-15-43-54.png]]
 
 
 ### `META-INF/spring.factories`에 기술된 Bean 을 다 생성될까?

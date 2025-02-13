@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-05/Database-Shard
 ---
 
-![[Assets/logo/database.jpg]]
+![[assets/logo/database.jpg]]
 
 
 # 왜 샤딩(Sharding)이 필요할까요?
@@ -15,14 +15,14 @@ aliases:
 
 ## Vertical Partitioning
 
-![[Assets/posts/20180222/6.png]]
+![[assets/posts/20180222/6.png]]
 
 - 도메인에 따라 쉽게 분리할 수 있습니다.
 - 도메인에 영향을 많이 받기 때문에 대부분 `application level`에서 CRUD를 구현합니다.
 
 # 샤딩(Sharding)이란?
 
-![[Assets/posts/20180222/5.png]]
+![[assets/posts/20180222/5.png]]
 
 - 같은 테이블 스키마를 가진 데이터를 다수의 데이터베이스에 분산하여 저장하는 방법을 의미합니다.
 - `application level`에서도 가능하지만 **database level**에서도 가능합니다.
@@ -51,7 +51,7 @@ aliases:
 
 ### Hash Sharding
 
-![[Assets/posts/20180530/1.png]]
+![[assets/posts/20180530/1.png]]
 
 - Shard Key : Database id를 Hashing 하여 결정합니다.
     - Hash크기는 Cluster안에 있는 Node개수로 정하게 됩니다.
@@ -67,7 +67,7 @@ aliases:
 
 ### Dynamic Sharding
 
-![[Assets/posts/20180530/2.png]]
+![[assets/posts/20180530/2.png]]
 
 - Naming 그대로 Dynamic으로 바꿀 수 있다.
 - Locator Service를 통해 Shard Key를 얻습니다.
@@ -88,7 +88,7 @@ aliases:
 
 ### Entity Group
 
-![[Assets/posts/20180530/3.png]]
+![[assets/posts/20180530/3.png]]
 
 - 위의 Hash Sharding과 Dynamic Sharding은 Key-Value 형태를 지원하기 위해 나온 방법입니다.
 
@@ -110,7 +110,7 @@ aliases:
 ## Pitfall에 대해
 > Logical Shard는 반드시 Sigle Node안에 있어야 합니다.
 
-![[Assets/posts/20180530/4.png]]
+![[assets/posts/20180530/4.png]]
 
 - Dynamic Sharding을 진행하게 된다면 작업량을 효과적으로 줄일 수 있습니다.
 - HotSpot을 찾고 Sharding을 진행합니다.

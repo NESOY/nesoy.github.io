@@ -52,7 +52,7 @@ brew cask install iterm2
 ## 테마적용하기
 - snazzy 테마
 
-![[Assets/posts/20180113/snazzy.png]]
+![[assets/posts/20180113/snazzy.png]]
 
 - 파일명 : `Snazzy.itermcolors`
 - 내용 : [Link](https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/master/Snazzy.itermcolors)
@@ -61,7 +61,7 @@ brew cask install iterm2
 - `⌘ + ,`로 환경설정에 들어간 이후에 `Profiles`에 들어갑니다.
 - `Color Presets`에 `Snazzy`를 추가합니다.
 
-![[Assets/posts/20180113/color.png]]
+![[assets/posts/20180113/color.png]]
 
 ## 추가설정
 - 타이틀바 배경색 어둡게 변경
@@ -140,10 +140,10 @@ source ~/.bashrc   # or source ~/.zshrc
 ```
 
 ## 적용 전 모습
-![[Assets/posts/20180113/pre-scm-breeze.png]]
+![[assets/posts/20180113/pre-scm-breeze.png]]
 ## 적용 후 모습
 - 번호로 관리할 수 있는 장점이 있다.
-![[Assets/posts/20180113/scm-breeze.png]]
+![[assets/posts/20180113/scm-breeze.png]]
 
 # Reference
 - <https://subicura.com/2017/11/22/mac-os-development-environment-setup.html>

@@ -19,7 +19,7 @@ aliases:
 
 ### 1. Blocking I/O Model
 
-![[Assets/posts/20170127/Blocking.jpg]]
+![[assets/posts/20170127/Blocking.jpg]]
 
 - Blocking I/O Model 에서는 **System Call이 끝날때까지 프로그램은 대기해야 하고 System Call이 완료가 되면 그때야 Return 한다.**
 
@@ -29,7 +29,7 @@ aliases:
 
 ### 2. Non-Blocking I/O Model
 
-![[Assets/posts/20170127/Non-Blocking.jpg]]
+![[assets/posts/20170127/Non-Blocking.jpg]]
 
 - Non-Blocking I/O Model 에서는 **System Call이 완료되지 않아도 대기하지 않고 Return 해버린다.**
 
@@ -45,13 +45,13 @@ aliases:
 
 ### 3. Synchronous
 
-![[Assets/posts/20170127/Synchronous.jpg]]
+![[assets/posts/20170127/Synchronous.jpg]]
 
 - Synchronous 에서는 **System Call이 끝날때까지 기다리고 결과물을 가져온다.**
 
 ### 4. Asynchronous
 
-![[Assets/posts/20170127/ASynchronous.jpg]]
+![[assets/posts/20170127/ASynchronous.jpg]]
 
 - Asynchronous 에서는 **System Call이 완료되지 않아도 나중에 완료가 되면 그때 결과물을 가져온다.**
 

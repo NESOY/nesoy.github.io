@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-04/Nodejs-fileUpload
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## Multipart 요청
 - ex) 사진 올리기, 글과 사진 올리기
@@ -19,7 +19,7 @@ aliases:
 - 파크 인코딩
 - 파트 내 정보
 
-![[Assets/posts/20170420/1.PNG]]
+![[assets/posts/20170420/1.PNG]]
 
 ### HTML form Tag
 
@@ -96,7 +96,7 @@ req.on('end',function(){
 
 - 이름 설정을 안할시 파일 이름
 
-![[Assets/posts/20170420/2.PNG]]
+![[assets/posts/20170420/2.PNG]]
 
 ### 파일 업로드 서비스
 - 파일 업로드(formidable) - 임시 폴더

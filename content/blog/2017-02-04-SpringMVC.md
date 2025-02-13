@@ -8,7 +8,7 @@ aliases:
   - ../articles/2017-02/SpringMVC
 ---
 
-![[Assets/logo/spring.png]]
+![[assets/logo/spring.png]]
 
 > Intellij에서 Spring MVC를 이용하여 Hello World를 띄우기 까지 매우 많은 삽질을 통해 해결했다. 많은 이들이 포스팅을 통해서 삽질을 그나마 줄일 수 있다면 좋겠다.
 
@@ -16,26 +16,26 @@ aliases:
 
 - New Project - Maven - Create from archetype(해제하기)
 
-![[Assets/posts/20170204/1.PNG]]
+![[assets/posts/20170204/1.PNG]]
 
 ## Project SpringMVC Framework 추가하기
 
 - Add Framework Support
 
-![[Assets/posts/20170204/2.PNG]]
+![[assets/posts/20170204/2.PNG]]
 
 - Spring - Spring MVC 체크하기
 
-![[Assets/posts/20170204/3.PNG]]
+![[assets/posts/20170204/3.PNG]]
 
 ## Spring MVC Library 다운로드 완료 후 Project 모습
-![[Assets/posts/20170204/4.PNG]]
+![[assets/posts/20170204/4.PNG]]
 
 ## web.xml 변경하기
 - servlet-mapping의 url-pattern변경하기 : ``` *.form -> / ```
 - 변경 전 web.xml
 
-![[Assets/posts/20170204/5.PNG]]
+![[assets/posts/20170204/5.PNG]]
 
 - 변경 후 web.xml
 
@@ -68,7 +68,7 @@ aliases:
 
 - Project Structure - Artifacts에 들어간다.
 
-![[Assets/posts/20170204/18.PNG]]
+![[assets/posts/20170204/18.PNG]]
 
 ### Available Elements 아래에 있는 Library를 더블 클릭한다.
 - Spring-4.3.6-RELEASE to artifact
@@ -76,7 +76,7 @@ aliases:
 
 ### 옮겨진 모습
 
-![[Assets/posts/20170204/19.PNG]]
+![[assets/posts/20170204/19.PNG]]
 
 
 ## dispatcher-servlet.xml에 추가하기
@@ -110,7 +110,7 @@ aliases:
 
 - New - Directory
 
-![[Assets/posts/20170204/6.PNG]]
+![[assets/posts/20170204/6.PNG]]
 
 - index.jsp
 
@@ -139,7 +139,7 @@ aliases:
 
 - New - Directory
 
-![[Assets/posts/20170204/7.PNG]]
+![[assets/posts/20170204/7.PNG]]
 
 ```java
 package Controller;
@@ -164,19 +164,19 @@ public class controller {
 
 - Run - Edit Configuration
 
-![[Assets/posts/20170204/8.PNG]]
+![[assets/posts/20170204/8.PNG]]
 
 - Tomcat Server 추가하기
 
-![[Assets/posts/20170204/9.PNG]]
+![[assets/posts/20170204/9.PNG]]
 
 - Warning 나오면 Fix 버튼누르기
 
-![[Assets/posts/20170204/10.PNG]]
+![[assets/posts/20170204/10.PNG]]
 
 - war exploded로 추가하여 설정한 모습
 
-![[Assets/posts/20170204/11.PNG]]
+![[assets/posts/20170204/11.PNG]]
 
 ## Error 1 : web.xml의 ApplicationContext.xml 빨간 글씨가 발생하여 tomcat 실행 X
 ### 원인
@@ -186,47 +186,47 @@ public class controller {
 - 아래는 경로 재설정을 설명한 것이다.
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 
-![[Assets/posts/20170204/12.PNG]]
+![[assets/posts/20170204/12.PNG]]
 
 ### WEB-INF 경로 잡아주기
 
 - Open Module Settings에 들어간다.
 
-![[Assets/posts/20170204/13.PNG]]
+![[assets/posts/20170204/13.PNG]]
 
 - Modules - web - Web Resource Directory가 빨간 글씨가 된 걸 확인할 수 있다.
 
-![[Assets/posts/20170204/14.PNG]]
+![[assets/posts/20170204/14.PNG]]
 
 - 경로 다시 잡아 주기
 
-![[Assets/posts/20170204/15.PNG]]
+![[assets/posts/20170204/15.PNG]]
 
 - 해결 된 모습
 
-![[Assets/posts/20170204/16.PNG]]
+![[assets/posts/20170204/16.PNG]]
 
 ## Error 2 : Tomcat 오류 - RMI TCP Connection
 
 - 만약 이 에러가 보인다면 아래와 같이 따라하자.
 
-![[Assets/posts/20170204/17.PNG]]
+![[assets/posts/20170204/17.PNG]]
 
 ### 해결 방법 : Library 집어넣기.
 
 - Project Structure - Artifacts에 들어간다.
 
-![[Assets/posts/20170204/18.PNG]]
+![[assets/posts/20170204/18.PNG]]
 
 - **Available Elements 아래에 있는 Library를 더블 클릭한다.**
 
 - 옮겨진 모습
 
-![[Assets/posts/20170204/19.PNG]]
+![[assets/posts/20170204/19.PNG]]
 
 ## 모든 에러를 통과한 후 실행하기
 
 > 깔끔하게 성공된 모습을 볼 수 있다.
 
-![[Assets/posts/20170204/20.PNG]]
+![[assets/posts/20170204/20.PNG]]
 

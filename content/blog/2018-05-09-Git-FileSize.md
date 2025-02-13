@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-05/Git-FileSize
 ---
 
-![[Assets/logo/git.png]]
+![[assets/logo/git.png]]
 
 ## 문제
 - git push를 하는 도중에 파일 크기가 `1MB`를 넘어선다면 아래와 같은 Error log를 볼 수 있습니다.

@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-08/DDD-Architecture
 ---
 
-![[Assets/logo/ddd.png]]
+![[assets/logo/ddd.png]]
 
 # 아키텍처 개요
 ## 네 개의 영역
@@ -27,7 +27,7 @@ aliases:
 
 ## Layer Architecture
 
-![[Assets/posts/20180812/1.png]]
+![[assets/posts/20180812/1.png]]
 
 - 도메인의 복잡도에 따라 응용과 도메인을 분리하기도 하고 한 계층으로 합치기도 한다.
 - 상위 계층에서 하위 계층으로 의존만 존재하고 하위 계층은 상위 계층에 의존하지 않는다.
@@ -39,7 +39,7 @@ aliases:
 
 ## DIP(Dependency Injection Principle)
 
-![[Assets/posts/20180812/2.png]]
+![[assets/posts/20180812/2.png]]
 
 - Low Abstract Module이 High Abstract Module에 의존하도록 바꾼다.
 - 추상화한 interface에 있다.
@@ -48,7 +48,7 @@ aliases:
 
 ### 잘못된 DIP Example
 
-![[Assets/posts/20180812/3.png]]
+![[assets/posts/20180812/3.png]]
 
 #### 어떠한 점이 잘못되었을까?
 - CaculateDiscountService가 저수준으로 정의된 RuleEngine에 의존적이다.
@@ -58,7 +58,7 @@ aliases:
 
 ### 다시 정의한 DIP Example
 
-![[Assets/posts/20180812/4.png]]
+![[assets/posts/20180812/4.png]]
 - CaculateDiscountService는 도메인 관점으로 재정의된 RuleEngine에 의존한다.
 
 

@@ -8,7 +8,7 @@ aliases:
   - ../articles/2017-04/Nodejs-npm
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## npm ( Node Package Modules )
 - 확장 모듈(패키지) 검색
@@ -88,11 +88,11 @@ aliases:
 - 소스코드 수정 후 자동 재시작. 매우 편하다.
 - 설치 : 글로벌로 설치 `npm install -g nodemon`
 
-![[Assets/posts/20170417/1.PNG]]
+![[assets/posts/20170417/1.PNG]]
 
 - 실행방법 : `nodemon app.js`
 
-![[Assets/posts/20170417/2.PNG]]
+![[assets/posts/20170417/2.PNG]]
 
 ## 모듈 만들기
 - 소스 코드 분리

@@ -7,7 +7,7 @@ aliases:
   - ../articles/2020-10/Jvm-Jre-Jdk
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 ## JVM, JRE, JDK에 대해
 ### JVM(Java Virtual Machine)

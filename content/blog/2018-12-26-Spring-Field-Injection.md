@@ -5,10 +5,10 @@ aliases:
   - ../articles/2018-12/Spring-Field-Injection
 ---
 
-![[Assets/logo/spring.png]]
+![[assets/logo/spring.png]]
 
 ## 왜(Why) Spring은 Field Injection보다 Constructor Injection을 권장할까?
-![[Assets/posts/20181226/1.png]]
+![[assets/posts/20181226/1.png]]
 
 ### Constructor Injection를 통해 얻는 장점은 무엇이 있을까?
 - Component를 변경이 불가능한 `immutable 상태`로 선언이 가능합니다.
@@ -37,19 +37,19 @@ public class NesoyService {
 #### Component에 null을 대입한다면..?
 - 변경이 가능하기에 NullPointException이 발생할 가능성이 있습니다.
 
-![[Assets/posts/20181226/2.png]]
+![[assets/posts/20181226/2.png]]
 
 #### Constructor Injection으로 개선한다면..?
 - final 키워드를 통해 immutable한 상태로 유지할 수 있습니다.
 - 따라서 주입된 component는 변경이 불가능합니다.
 
-![[Assets/posts/20181226/3.png]]
+![[assets/posts/20181226/3.png]]
 
 
 #### @Autowired 제거하기
 - 생성자가 하나인 경우 `@Autowired`를 제거해도 DI가 가능합니다.
 
-![[Assets/posts/20181226/4.png]]
+![[assets/posts/20181226/4.png]]
 
 
 ## Reference

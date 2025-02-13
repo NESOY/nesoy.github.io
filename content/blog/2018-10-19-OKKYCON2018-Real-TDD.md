@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-10/OKKYCON2018-Real-TDD
 ---
 
-![[Assets/posts/20181019/1.png]]
+![[assets/posts/20181019/1.png]]
 
 ## 테스트하기 쉬운 코드로 개발하기 - 정진욱님
 

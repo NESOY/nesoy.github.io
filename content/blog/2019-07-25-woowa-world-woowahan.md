@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-07/woowa-world-woowahan
 ---
 
-![[Assets/posts/img/2019-07-26-00-35-48.png]]
+![[assets/posts/img/2019-07-26-00-35-48.png]]
 
 ## 글로벌 서비스 개발하기 - 고명석님
 - 아이온 게임 개발 경험

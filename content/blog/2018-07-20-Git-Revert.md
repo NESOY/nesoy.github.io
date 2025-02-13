@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-07/Git-Revert
 ---
 
-![[Assets/logo/git.png]]
+![[assets/logo/git.png]]
 
 ## 들어가며
 > commit을 하고 push한 이후 작업이 잘못되었음을 깨닫고 원래 상태로 돌아가고 싶은 경우, local에서는 reset 사용하면 해결되지만 이미 remote repository에 반영된 경우에 충돌을 피하기 위해 revert라는 기능을 알게 되어 정리합니다.
@@ -18,22 +18,22 @@ aliases:
 
 ## Example
 #### 1. Source 모습
-![[Assets/posts/20180720/1.png]]
+![[assets/posts/20180720/1.png]]
 
 #### 2. 내용 추가합니다.
-![[Assets/posts/20180720/2.png]]
+![[assets/posts/20180720/2.png]]
 
 #### 3. Commit Log를 확인하고 push 했는데..
-![[Assets/posts/20180720/3.png]]
+![[assets/posts/20180720/3.png]]
 
 #### 4. 뭔가 잘못되었다.. 아.. Second Commit 상태로 돌아가고 싶다.
-![[Assets/posts/20180720/4.png]]
+![[assets/posts/20180720/4.png]]
 
 #### 5. git revert가 반영된 Commit Log
-![[Assets/posts/20180720/5.png]]
+![[assets/posts/20180720/5.png]]
 
 #### 6. revert가 반영된 Source 모습
-![[Assets/posts/20180720/6.png]]
+![[assets/posts/20180720/6.png]]
 
 ### 대만족 :)
 ![[assets/emoticon/satisfy.jpg]]

@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-07/LINE-Developers-Meetup
 ---
 
-![[Assets/posts/20180713/1.png]]
+![[assets/posts/20180713/1.png]]
 
 # Central Dogma - 송민우님
 > LINE's Git-based highly-available service configuration repository

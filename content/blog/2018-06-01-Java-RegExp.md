@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-06/Java-RegExp
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 # 정규식 표현(Regular Expression)이란?
 

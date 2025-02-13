@@ -6,7 +6,7 @@ date: 2018-02-09
 aliases: 
   - ../articles/2018-02/CleanCode-UnitTest
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 # 단위테스트(Unit Test)
 지난 10년 동안 우리 분야는 눈부신 성장을 이뤘다. 1997년만 해도 TDD(Test Driven Development)라는 개념을 아무도 몰랐다. 우리들 대다수에게 단위 테스트란 자기 프로그램이 '돌아간다'는 사실만 확인하는 일회성 코드에 불과했다.

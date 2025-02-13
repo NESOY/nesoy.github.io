@@ -7,11 +7,11 @@ aliases:
   - ../articles/2018-05/Java-Exception
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 # Exception에 대해
 
-![[Assets/posts/20180502/1.png]]
+![[assets/posts/20180502/1.png]]
 
 ## Error와 Exception이란?
 ### Error
@@ -32,11 +32,11 @@ aliases:
 #### Example
 - 간단한 FileReader를 선언했지만 Exception 처리를 컴파일 단계에서 요구하고 있습니다.
 
-![[Assets/posts/20180502/2.png]]
+![[assets/posts/20180502/2.png]]
 
 - Exception 처리를 한 코드 모습입니다.
 
-![[Assets/posts/20180502/3.png]]
+![[assets/posts/20180502/3.png]]
 
 ### UnChecked Exception
 - 반드시 예외를 처리하지 않아도 됩니다.
@@ -48,11 +48,11 @@ aliases:
 - 크기가 10인 int배열을 선언하고 값이 없지만 8번째와 11번째에 접근하려고 합니다.
 - 하지만 컴파일 단계에서는 아무런 요구사항이 없습니다.
 
-![[Assets/posts/20180502/4.png]]
+![[assets/posts/20180502/4.png]]
 
 - 실제로 Running을 하게 되면 ArrayIndexOutOfBoundException이 발생합니다.
 
-![[Assets/posts/20180502/5.png]]
+![[assets/posts/20180502/5.png]]
 
 
 ## 예외 처리 방법

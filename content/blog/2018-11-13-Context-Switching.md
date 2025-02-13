@@ -28,7 +28,7 @@ aliases:
 - 다음 실행할 Task의 PCB 정보를 읽어 Register에 적재하고 CPU가 이전에 진행했던 과정을 연속적으로 수행을 할 수 있습니다.
 
 ### PCB(Process Control block) 구조
-![[Assets/posts/20181113/1.png]]
+![[assets/posts/20181113/1.png]]
 - Process State : 프로세스 상태(Create, Ready, Running, waiting, terminated)
 - Process Counter : 다음 실행할 명령어의 주소값
 - CPU Registers: accumulator, index register, stack pointers, general purpose registers.
@@ -37,37 +37,37 @@ aliases:
 ### Example
 - i에 10을 넣고 Context Switching을 발생시키고 20넣고 Context Switching을 발생시키는 과정입니다.
 
-![[Assets/posts/20181113/2.png]]
+![[assets/posts/20181113/2.png]]
 
 - `yield()`를 호출하여 CPU를 양보하여 Context Switching이 발생하게됩니다.
 
-![[Assets/posts/20181113/3.png]]
+![[assets/posts/20181113/3.png]]
 
 - Context Switching을 위해 PC, SP값을 Stack에 저장하게 됩니다.
 
-![[Assets/posts/20181113/4.png]]
+![[assets/posts/20181113/4.png]]
 
 - 현재 PC값과 SP값을 System Call `yield()`로 조정합니다.
-![[Assets/posts/20181113/5.png]]
+![[assets/posts/20181113/5.png]]
 
 - context Switching을 진행하기 위해 PC값을 변경합니다.
-![[Assets/posts/20181113/6.png]]
+![[assets/posts/20181113/6.png]]
 
 - 이전의 Task의 PC값과 SP값을 PCB에 담아 저장합니다.
-![[Assets/posts/20181113/7.png]]
+![[assets/posts/20181113/7.png]]
 
 - Context 저장을 완료한 다음 Process X를 실행하게 됩니다.
-![[Assets/posts/20181113/9.png]]
+![[assets/posts/20181113/9.png]]
 
 - Process X가 진행이 완료되고 다시 Context Switch가 발생하게 된다면 이전 Process로 돌아올 준비를 합니다.
 
-![[Assets/posts/20181113/10.png]]
+![[assets/posts/20181113/10.png]]
 
 - Stack에 담긴 PC, SP를 읽어 다시 CPU에 적재합니다.
-![[Assets/posts/20181113/11.png]]
+![[assets/posts/20181113/11.png]]
 
 - 다시 돌아온 Context지만 다시 `yield()`를 발생시켰기 때문에 위 과정을 다시 반복진행합니다.
-![[Assets/posts/20181113/12.png]]
+![[assets/posts/20181113/12.png]]
 
 
 ## Context Switching Cost

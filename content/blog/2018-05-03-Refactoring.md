@@ -6,7 +6,7 @@ date: 2018-05-03
 aliases: 
   - ../articles/2018-05/Refactoring
 ---
-![[Assets/posts/20180503/refactoring.jpg]]
+![[assets/posts/20180503/refactoring.jpg]]
 
 # 리팩토링이란 무엇인가?
 - 외부 동작을 바꾸지 않으면서 내부 구조를 개선하는 방법입니다.

@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-06/Java-volatile
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 # Java volatile이란?
 - `volatile` keyword는 Java 변수를 Main Memory에 저장하겠다라는 것을 명시하는 것입니다.
@@ -17,7 +17,7 @@ aliases:
 
 ## 왜(Why) 필요할까요?
 
-![[Assets/posts/20180609/1.png]]
+![[assets/posts/20180609/1.png]]
 
 - `volatile` 변수를 사용하고 있지 않는 MultiThread 어플리케이션에서는 Task를 수행하는 동안 `성능 향상`을 위해 Main Memory에서 읽은 변수 값을 CPU Cache에 저장하게 됩니다.
 - 만약에 Multi Thread환경에서 `Thread가 변수 값을 읽어올 때` 각각의 CPU Cache에 저장된 값이 다르기 때문에 `변수 값 불일치 문제`가 발생하게 됩니다.
@@ -38,7 +38,7 @@ public class SharedObject {
 Thread-1은 counter값을 증가시키고 있지만 CPU Cache에만 반영되어있고 실제로 Main Memory에는 반영이 되지 않았습니다.
 그렇기 때문에 Thread-2는 count값을 계속 읽어오지만 0을 가져오는 문제가 발생합니다.
 
-![[Assets/posts/20180609/2.png]]
+![[assets/posts/20180609/2.png]]
 
 
 ## 어떻게(How) 해결할까요?
@@ -63,7 +63,7 @@ public class SharedObject {
 - 두 개의 Thread가 1을 추가하는 연산을 하여 최종결과가 2가 되어야 하는 상황이지만?
     - 각각 결과를 Main Memory에 반영하게 된다면 1만 남는 상황이 발생하게 됩니다.
 
-![[Assets/posts/20180609/3.png]]
+![[assets/posts/20180609/3.png]]
 
 
 - 하나의 Thread가 아닌 여러 Thread가 write하는 상황에서는 적합하지 않습니다.

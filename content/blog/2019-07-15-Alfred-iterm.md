@@ -10,7 +10,7 @@ aliases:
 ## Alfred에서 iTerm 명령어 바로 실행하기
 - Alfred에서 매번 iTerm 실행 후 명령어를 치는 것이 귀찮아 찾아보니 좋은 Script가 있어 공유합니다.
 
-![[Assets/posts/img/2019-07-15-20-17-03.png]]
+![[assets/posts/img/2019-07-15-20-17-03.png]]
 
 
 ### iTerm 실행 Script를 복사하여 붙여넣어보자
@@ -69,9 +69,9 @@ end alfred_script
 
 ### 실행하기
 - `Prefix`와 함께 원하는 명령어를 작성하고 엔터를 치면 터미널이 활성화되는 것을 확인할 수 있습니다.
-![[Assets/posts/img/2019-07-15-20-22-15.png]]
+![[assets/posts/img/2019-07-15-20-22-15.png]]
 
 #### 터미널 실행 후 화면
-![[Assets/posts/img/2019-07-15-20-22-37.png]]
+![[assets/posts/img/2019-07-15-20-22-37.png]]
 
 ## Reference

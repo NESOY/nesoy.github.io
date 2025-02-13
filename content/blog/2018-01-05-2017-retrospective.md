@@ -15,13 +15,13 @@ aliases:
 처음에는 나도 많은 글을 적어 많이 찾아오는 블로그가 되고 싶었다. 현재는 지금은 많은 글 보다는 좋은 글을 쓰고 싶은 마음이 더 커졌다. 다양한 기업, 개인 블로그의 글을 읽을 수록 그들의 생각을 배울 수 있었기 때문이다. 앞으로는 나의 생각을 공유하는 글을 많이 쓰도록 노력해야겠다.
 
 ## 조회수 성장세
-![[Assets/posts/20180105/blog.png]]
+![[assets/posts/20180105/blog.png]]
 
 ## 통계
-![[Assets/posts/20180105/blog2.png]]
+![[assets/posts/20180105/blog2.png]]
 
 ## 인기 글
-![[Assets/posts/20180105/blog3.png]]
+![[assets/posts/20180105/blog3.png]]
 
 인기 글은 역시나 `setting`하는 글이다.
 

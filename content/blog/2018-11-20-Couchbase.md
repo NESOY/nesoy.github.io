@@ -7,12 +7,12 @@ aliases:
   - ../articles/2018-11/Couchbase
 ---
 
-![[Assets/logo/couchbase.png]]
+![[assets/logo/couchbase.png]]
 
 
 ## High - Level Deployment Architecture
 
-![[Assets/posts/20181120/1.png]]
+![[assets/posts/20181120/1.png]]
 
 - Couchbase는 JSON 문서, Binary Data를 저장할 수 있습니다.
 - Couchbase는 저장할 문서는 다른 서버로 Replication을 진행합니다.
@@ -22,7 +22,7 @@ aliases:
 - 각각의 bucket은 논리적인 1024개의 vBucket으로 구성되어 있습니다.
 - 1024개의 vBucket은 Cluster와 Mapping 정보를 가지고 있습니다.
 
-![[Assets/posts/20181120/2.png]]
+![[assets/posts/20181120/2.png]]
 
 - CRC32 Hash Function을 사용하여 해당 Cluster-Node 정보를 얻습니다.
     - 해당 Cluster-Node를 통해 문서를 Couchbase에 저장하게 됩니다.
@@ -39,7 +39,7 @@ aliases:
 
 ### Data flow - Client
 
-![[Assets/posts/20181120/3.png]]
+![[assets/posts/20181120/3.png]]
 
 1. 사용자가 원하는 document에 값을 변경하는 Event를 진행합니다.
 2. Application은 Set Operation을 실행합니다.
@@ -50,7 +50,7 @@ aliases:
 - Couchbase Server는 문서 단위로 변경이 진행됩니다.
 - 다음은 Couchbase Server가 Request를 받고 문서를 작성하는 과정입니다.
 
-![[Assets/posts/20181120/4.png]]
+![[assets/posts/20181120/4.png]]
 
 1. 모든 Server는 각각의 Object-managed cache를 가지고 있습니다.
 - 클라이언트는 문서를 Cache에 작성하고 서버는 클라이언트에게 Confirm 메시지를 보냅니다.
@@ -63,7 +63,7 @@ aliases:
 4. Disk에 작성이 완료된 문서는 XDCR을 진행하거나 Index를 생성하는 작업을 진행합니다.
 
 ### Server 구성요소
-![[Assets/posts/20181120/5.png]]
+![[assets/posts/20181120/5.png]]
 
 ### Data Manager
 - Data manager는 Application의 데이터의 저장과 조회에 응답해주는 역할입니다.
@@ -76,7 +76,7 @@ aliases:
 - 모든 Couchbase Server는 Multi Threaded로 이루어진 Object-Managed Cache를 가지고 있습니다.
 - 메모리기반으로 접근하기 때문에 빠른 응답을 기대할 수 있습니다.
 
-![[Assets/posts/20181120/6.png]]
+![[assets/posts/20181120/6.png]]
 
 - HashTable은 Couchbase의 partition들의 정보를 가지고 있습니다.
 - Hashtable 정보는 파티션안에 있는 각각의 문서의 Document ID, Metadata를 동기화 하고 있습니다. 상황에 따라 Content를 가지고 있는 경우도 있습니다.

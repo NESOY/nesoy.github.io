@@ -7,7 +7,7 @@ aliases:
   - ../articles/2020-07/Hbase-Replication
 ---
 
-![[Assets/logo/hbase.png]]
+![[assets/logo/hbase.png]]
 
 ## Hbase Replication에 대해
 #### 기본적인 Replication 특징에 대해
@@ -21,7 +21,7 @@ aliases:
 #### [Hbase 데이터 변경에서 Cluster Replication이 되기까지](https://hbase.apache.org/book.html#_life_of_a_wal_edit)
 - Cluster Replication 전체적인 모습은 다음과 같다.
 
-![[Assets/posts/img/2020-07-10-16-12-39.png]]
+![[assets/posts/img/2020-07-10-16-12-39.png]]
 
 - Client가 Hbase에게 데이터 변경(Put, Delete)을 요청하면 특정 Region Node의 WAL 파일안에 WALEdit 형태로 기록된다.
 

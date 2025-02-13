@@ -13,13 +13,13 @@ Window에 Jekyll설치하기 : <https://nesoy.github.io/articles/2016-12/Install
 
 # **Jekyll Github에 올리기**
 
-![[Assets/posts/20161228/jekyll_logo.png]]
+![[assets/posts/20161228/jekyll_logo.png]]
 
 ## 1. Github Repository 생성
 
 - #### Github아이디.github.io
 
-![[Assets/posts/20161229/github_repository.PNG]]
+![[assets/posts/20161229/github_repository.PNG]]
 
 ## 2. Jekyll Blog 디렉토리에서 Git 명령어
 
@@ -34,7 +34,7 @@ Window에 Jekyll설치하기 : <https://nesoy.github.io/articles/2016-12/Install
 ## 3. 접속해보기
   - #### http://Github아이디.github.io
 
-![[Assets/posts/20161229/github_nesoy.PNG]]
+![[assets/posts/20161229/github_nesoy.PNG]]
 
 
 # **Jekyll 테마적용하기**
@@ -43,13 +43,13 @@ Window에 Jekyll설치하기 : <https://nesoy.github.io/articles/2016-12/Install
 
 - #### [http://jekyllthemes.org/](http://jekyllthemes.org/)
 
-![[Assets/posts/20161229/jekyll_themes.PNG]]
+![[assets/posts/20161229/jekyll_themes.PNG]]
 
 ## 2. 원하는 Theme 고르기
 
 - #### 테마 다운로드
 
-![[Assets/posts/20161229/jekyll_themes2.PNG]]
+![[assets/posts/20161229/jekyll_themes2.PNG]]
 
 ## 3. 압축풀고 Jekyll Github에 올리기
 

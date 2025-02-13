@@ -83,7 +83,7 @@ aliases:
 
 
 ## Graph를 해석해 볼까요?
-![[Assets/posts/20180822/1.png]]
+![[assets/posts/20180822/1.png]]
 
 ### 포화점(Saturation Point)
 - 시스템은 언제나 처리에 한계가 있으므로 어느 순간에 더 이상 증가하지 않고 그래프가 꺽이게 됩니다.

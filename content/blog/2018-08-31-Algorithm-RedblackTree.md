@@ -5,12 +5,12 @@ aliases:
   - ../articles/2018-08/Algorithm-RedblackTree
 ---
 
-![[Assets/logo/algorithm.png]]
+![[assets/logo/algorithm.png]]
 
 ## RedBlack Tree 왜(Why) 생긴 것일까요?
 > 7,6,5,4,3,2,1 순서대로 삽입해서 이진탐색 트리(Binary Search Tree)를 만들어 보면 어떨까요?
 
-![[Assets/posts/20180831/1.png]]
+![[assets/posts/20180831/1.png]]
 
 - 위의 그림과 같이 한쪽으로 치우친 Tree가 완성됩니다.
 
@@ -23,7 +23,7 @@ aliases:
 ## RedBlack Tree란?
 - 각 노드에 색깔을 저장하는 공간을 추가하여 색깔을 기준으로 균형을 맞추는 트리입니다.
 
-![[Assets/posts/20180831/2.png]]
+![[assets/posts/20180831/2.png]]
 
 ### RedBlack Tree Rule
 - 모든 노드는 RED이거나 BLACK이다.
@@ -35,7 +35,7 @@ aliases:
 #### NIL을 하나의 객체로 관리한다면?
 - 하나의 Node로 관리하기 때문에 메모리를 절약할 수 있습니다.
 
-![[Assets/posts/20180831/3.png]]
+![[assets/posts/20180831/3.png]]
 
 ### RedBlack Tree Insert
 - 삽입되는 모든 노드의 색깔은 RED로 시작합니다.
@@ -44,7 +44,7 @@ aliases:
 
 #### Step 1 : Insert 8
 
-![[Assets/posts/20180831/4.png]]
+![[assets/posts/20180831/4.png]]
 
 - 루트는 흑색인 규칙에 따라 8을 블랙으로 변경됩니다.
 
@@ -52,15 +52,15 @@ aliases:
 
 #### Step 2 : Insert 18
 
-![[Assets/posts/20180831/5.png]]
+![[assets/posts/20180831/5.png]]
 
 #### Step 3 : Insert 5
 
-![[Assets/posts/20180831/6.png]]
+![[assets/posts/20180831/6.png]]
 
 #### Step 4 : Insert 15
 
-![[Assets/posts/20180831/7.png]]
+![[assets/posts/20180831/7.png]]
 
 - `RED 노드가 연속적으로 나올 수 없다` 규칙을 위반했습니다.
 - 연속된 RED가 나오게 된다면 이를 해결하기 위해 두 가지 해결방법을 사용하고 있습니다.
@@ -78,7 +78,7 @@ aliases:
 
 #### Step 5 : Insert 17
 
-![[Assets/posts/20180831/8.png]]
+![[assets/posts/20180831/8.png]]
 
 - 삽입된 노드의 부모의 형제 색깔이 NULL이기 때문에 Restructuring으로 진행합니다.
   - 삽입된 노드, 부모, 부모의 부모(Grand Parent) 오름차순으로 정렬합니다.
@@ -89,7 +89,7 @@ aliases:
 
 #### Step 6 : Insert 25
 
-![[Assets/posts/20180831/9.png]]
+![[assets/posts/20180831/9.png]]
 
 - `RED 노드가 연속적으로 나올 수 없다` 규칙을 위반했습니다.
 - 삽입된 노드의 부모의 형제 색깔이 RED인 경우에 해당됩니다.
@@ -100,7 +100,7 @@ aliases:
 
 #### Step 7 : Insert 40
 
-![[Assets/posts/20180831/10.png]]
+![[assets/posts/20180831/10.png]]
 
 - 삽입된 노드의 부모의 형제 색깔이 NULL이기 때문에 Restructuring으로 진행합니다.
   - 삽입된 노드, 부모, 부모의 부모(Grand Parent) 오름차순으로 정렬합니다.
@@ -110,7 +110,7 @@ aliases:
 
 #### Step 7 : Insert 80
 
-![[Assets/posts/20180831/11.png]]
+![[assets/posts/20180831/11.png]]
 
 - `RED 노드가 연속적으로 나올 수 없다` 규칙을 위반했습니다.
 - 삽입된 노드의 부모의 형제 색깔이 RED인 경우에 해당됩니다.

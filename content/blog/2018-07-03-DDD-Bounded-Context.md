@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-07/DDD-Bounded-Context
 ---
 
-![[Assets/logo/ddd.png]]
+![[assets/logo/ddd.png]]
 
 
 # 도메인 모델과 Bounded Context
@@ -39,15 +39,15 @@ aliases:
 - Bounded Context는 모델의 경계를 결정하며 한 개의 Bounded Context는 논리적으로 한 개의 모델을 갖는다.
 - 팀 조직 구조에 따라 결정되기도 한다.
 
-![[Assets/posts/20180703/3.png]]
+![[assets/posts/20180703/3.png]]
 
 ### 하나의 도메인 안에 2개의 Bounded Context
 
-![[Assets/posts/20180703/1.png]]
+![[assets/posts/20180703/1.png]]
 
 ### 두개의 도메인 안에 1개의 Bounded Context
 
-![[Assets/posts/20180703/2.png]]
+![[assets/posts/20180703/2.png]]
 
 ### 주의할 점.
 - 하위 Domain의 모델이 뒤섞이지 않도록 하는 것이다.
@@ -83,7 +83,7 @@ aliases:
   - 추천 시스템 : 상품에 대한 추천 점수와 같은 추천에 필요한 정보를 담고있다.
   - 카테고리 시스템 : 카테고리 정보와 같은 카테고리에 필요한 정보를 담고있다.
 
-![[Assets/posts/20180703/4.png]]
+![[assets/posts/20180703/4.png]]
 
 - 제공하는 측에서 클라이언트를 제공해야 한다.
   - 사용하는 측에선 입맛에 맞게 변환하는 작업이 필요하다.
@@ -99,7 +99,7 @@ aliases:
   - XML, JSON 형태와 같은 데이터를 저장하는 형태
 
 ### [손상 방지 계층(Anticorruption Layer)](https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer)
-![[Assets/posts/20180703/5.png]]
+![[assets/posts/20180703/5.png]]
 
 - 위 그림 처럼 하나의 Layer를 추가해서 외부에 인터페이스 변경에도 기존 도메인의 영향도를 낮출 수 있다.
 

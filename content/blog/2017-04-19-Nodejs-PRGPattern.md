@@ -8,7 +8,7 @@ aliases:
   - ../articles/2017-04/Nodejs-PRGPattern
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## Post 요청
 - 메시지 바디(entity)로 요청 정보 전달
@@ -70,11 +70,11 @@ This is the epilogue. It is also to be ignored.
 
 - `form` 요청 후 성공 코드를 보내면 다시 `form` 요청하여 중복되는 요청 문제가 발생
 
-![[Assets/posts/20170419/1.PNG]]
+![[assets/posts/20170419/1.PNG]]
 
 - `form` 요청 후 `redirect`로 `GET`으로 다시 웹페이지를 받으면 중복되는 요청 문제를 해결
 
-![[Assets/posts/20170419/2.PNG]]
+![[assets/posts/20170419/2.PNG]]
 
 - `Nodejs` Example Code
 

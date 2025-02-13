@@ -9,7 +9,7 @@ aliases:
   - ../articles/2017-03/Session-Cookie
 ---
 
-![[Assets/logo/web.jpg]]
+![[assets/logo/web.jpg]]
 
 # 쿠키(Cookie)
 ## 배경
@@ -64,11 +64,11 @@ Third-Party Cookie | 방문한 도메인과 다른 도메인의 쿠키 보통 �
 ## 쿠키(Cookie) 살펴보기
 
 - Cookie를 이용한 Server-Client 흐름
-![[Assets/posts/20170317/2.PNG]]
+![[assets/posts/20170317/2.PNG]]
 
 - `www.google.com`에 대한 Cookie Header 모습
-![[Assets/posts/20170317/3.PNG]]
-![[Assets/posts/20170317/4.PNG]]
+![[assets/posts/20170317/3.PNG]]
+![[assets/posts/20170317/4.PNG]]
 
 #### 쿠키(Cookie) 단점
 
@@ -77,7 +77,7 @@ Third-Party Cookie | 방문한 도메인과 다른 도메인의 쿠키 보통 �
 
 # 세션(HTTP Session)
 
-![[Assets/posts/20170317/5.PNG]]
+![[assets/posts/20170317/5.PNG]]
 
 ## 배경
 

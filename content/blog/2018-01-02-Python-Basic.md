@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-01/Python-Basic
 ---
 
-![[Assets/posts/20180102/python-logo.png]]
+![[assets/posts/20180102/python-logo.png]]
 # 문법
 ## if
 ```python

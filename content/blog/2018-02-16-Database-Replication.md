@@ -6,13 +6,13 @@ date: 2018-02-16
 aliases: 
   - ../articles/2018-02/Database-Replication
 ---
-![[Assets/logo/database.jpg]]
+![[assets/logo/database.jpg]]
 
 # Replication
 ## 배경
 아주 단순한 Database를 구성할때에는 아래의 그림처럼 하나의 서버와 하나의 Database를 구성하게 된다.
 
-![[Assets/posts/20180216/1.png]]
+![[assets/posts/20180216/1.png]]
 
 하지만 사용자는 점점 많아지고 Database는 많은 Query를 처리하기엔 너무 힘든 상황이 오게 된다.
 
@@ -22,7 +22,7 @@ Query의 대부분을 차지하는 `Select`를 어느 정도 해결하기 위해
 - 두 개의 이상의 DBMS 시스템을 `Mater / Slave`로 나눠서 동일한 데이터를 저장하는 방식이다.
 
 ## 방식
-![[Assets/posts/20180216/2.png]]
+![[assets/posts/20180216/2.png]]
 
 `Master DBMS`에는 데이터의 수정사항을 반영만하고 Replication을 하여 `Slave DBMS`에 실제 데이터를 복사한다.
 
@@ -36,7 +36,7 @@ Query의 대부분을 차지하는 `Select`를 어느 정도 해결하기 위해
 - Mixed : 기본적으로 Statement Based로 진행하면서 필요에 따라 Row Based를 사용한다.
 
 ## Replication 장점.
-![[Assets/posts/20180216/3.png]]
+![[assets/posts/20180216/3.png]]
 
 언급했던 것처럼 Query의 대부분은 `Select`가 차지하고 있다.
 

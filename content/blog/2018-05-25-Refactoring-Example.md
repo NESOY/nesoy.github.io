@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-05/Refactoring-Example
 ---
 
-![[Assets/posts/20180503/refactoring.jpg]]
+![[assets/posts/20180503/refactoring.jpg]]
 
 ## Extract Method
 > 그룹으로 함께 묶을 수 있는 코드 조각이 있으면 코드의 목적이 잘 드러나도록 메소드의 이름을 지어 별도의 메소드로 뽑아낸다.

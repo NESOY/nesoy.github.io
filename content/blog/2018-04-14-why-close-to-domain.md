@@ -15,27 +15,27 @@ aliases:
 ## 일반 사용자 로그인에 대한 요구사항
 - `/login`이라는 Request가 들어오게 되면 `userLoginController`가 요청을 받아 `User` 모델을 읽어 id와 비밀번호를 확인하는 작업을 Controller에 작성했습니다.
 
-![[Assets/posts/20180414/2.png]]
+![[assets/posts/20180414/2.png]]
 
 ## 관리자 로그인에 대한 요구사항
 - 로그인의 서비스가 필요한 Controller가 관리자 로그인[`/admin`]에서도 필요한 것 같습니다. 그래서 로그인 하는 로직을 `adminController`에서도 작성을 합니다.
 
-![[Assets/posts/20180414/3.png]]
+![[assets/posts/20180414/3.png]]
 
 ## Login 로직의 중복
 - `userLoginController`과 `adminController`에서도 로그인하는 로직이 중복되는 것을 확인할 수 있습니다. 그렇기 때문에 `LoginService`를 만들어 각 Controller에 있는 로그인 로직을 추출하여 Service로 이동시킵니다.
 
-![[Assets/posts/20180414/4.png]]
+![[assets/posts/20180414/4.png]]
 
 ## 블랙유저 리스트에 대한 요구사항
 - 블랙유저 리스트를 로그인에서 제외하고 싶은 요구사항이 생겼습니다. 로그인하는 로직에 `BlackUser`의 모델을 읽어 로그인에서 제외하고 싶은 로직을 추가하였습니다.
 
-![[Assets/posts/20180414/5.png]]
+![[assets/posts/20180414/5.png]]
 
 ## Vip유저에 대한 요구사항
 - Vip유저를 로그인에서 정보를 추가하고 싶은 요구사항이 생겼습니다. 로그인하는 로직에 `VipUser`의 모델을 읽어 로그인에서 `isVip=true`를 추가해서 넘겨줍니다.
 
-![[Assets/posts/20180414/6.png]]
+![[assets/posts/20180414/6.png]]
 
 위의 과정에서 볼 수 있듯이 Service Layer는 다양한 Model(Domain)을 읽어 제공합니다. 복잡한 서비스는 더 많은 Model을 읽어 서비스를 제공하기 때문에 Service 로직의 복잡도가 매우 높아집니다. 복잡도가 증가하면 유지보수와 테스트하기 힘든 상황이 발생하고 결국엔 유연하지 못한 Software가 됩니다.
 
@@ -50,7 +50,7 @@ aliases:
 ## 계층형 패턴(Layered Pattern)이란?
 > 위의 그림을 이해하는 데 도움이 될 계층형 패턴(Layered Pattern)입니다.
 
-![[Assets/posts/20180414/1.png]]
+![[assets/posts/20180414/1.png]]
 
 - Component를 추상화 수준에 따라 계층단위로 분류하고 각 계층의 Component는 상위 계층의 Component에 의해 사용되는 패턴입니다.
 - `프레젠테이션 계층 (Presentation layer)` - UI 계층 (UI layer)

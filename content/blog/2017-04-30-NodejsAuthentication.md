@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-04/NodejsAuthentication
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## 쿠키
 - 쿠키에 대한 BLOG : <https://nesoy.github.io/articles/2017-03/Session-Cookie>

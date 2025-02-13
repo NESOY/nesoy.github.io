@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-02/Spring-request-lifecycle-part-1
 ---
 
-![[Assets/logo/spring.png]]
+![[assets/logo/spring.png]]
 
 
 ## 들어가며
@@ -16,29 +16,29 @@ aliases:
 - 아래는 이 글을 작성하는데 많은 도움을 얻은 글입니다.
     - [SpringMVC 시작 - woniper님](https://blog.woniper.net/366)
 
-![[Assets/posts/img/2019-02-18-20-20-08.png]]
+![[assets/posts/img/2019-02-18-20-20-08.png]]
 
 ## DispatcherServlet 구조
 
-![[Assets/posts/img/2019-02-19-13-41-06.png]]
+![[assets/posts/img/2019-02-19-13-41-06.png]]
 
 
 ## [Servlet#service](https://github.com/javaee/servlet-spec/blob/master/src/main/java/javax/servlet/Servlet.java#L153)
 
-![[Assets/posts/img/2019-02-19-13-44-53.png]]
+![[assets/posts/img/2019-02-19-13-44-53.png]]
 
 - WAS(Tomcat)은 Servlet의 service를 실행하게 됩니다.
 
 ## [GenericServlet#service](https://github.com/javaee/servlet-spec/blob/master/src/main/java/javax/servlet/GenericServlet.java#L277)
 
-![[Assets/posts/img/2019-02-18-21-58-48.png]]
+![[assets/posts/img/2019-02-18-21-58-48.png]]
 
 - Servlet Interface를 가진 Abstract Class
 - 실제 구현체인 HttpServlet을 봐야 이해가 가능합니다.
 
 ## [HttpServlet#service](https://github.com/javaee/servlet-spec/blob/master/src/main/java/javax/servlet/http/HttpServlet.java#L635)
 
-![[Assets/posts/img/2019-02-18-22-01-15.png]]
+![[assets/posts/img/2019-02-18-22-01-15.png]]
 
 - HTTP Method에 맞는 do{HttpMethod} 함수를 호출하게 됩니다.
 
@@ -49,13 +49,13 @@ aliases:
 
 #### [Default HttpServlet#doGet은 어떻게 동작할까?](https://github.com/javaee/servlet-spec/blob/master/src/main/java/javax/servlet/http/HttpServlet.java#L167)
 
-![[Assets/posts/img/2019-02-19-22-54-11.png]]
+![[assets/posts/img/2019-02-19-22-54-11.png]]
 
 - Error Message만 반환하는 것을 볼 수 있습니다.
 
 ## [FrameworkServlet#service](https://github.com/spring-projects/spring-framework/blob/master/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java#L874)
 
-![[Assets/posts/img/2019-02-19-14-01-53.png]]
+![[assets/posts/img/2019-02-19-14-01-53.png]]
 
 - HttpMethod가 Patch와 null인 경우 `FrameworkServlet#processRequest`
 - 그 외에는 super.service 즉 `HttpServlet#service`를 호출합니다.
@@ -66,22 +66,22 @@ aliases:
 
 #### 테스트 케이스 : NesoyServlet#doGet이 호출이 될까?
 
-![[Assets/posts/img/2019-02-19-23-26-46.png]]
+![[assets/posts/img/2019-02-19-23-26-46.png]]
 
 #### Test 결과값
 
-![[Assets/posts/img/2019-02-19-23-27-40.png]]
+![[assets/posts/img/2019-02-19-23-27-40.png]]
 
 
 ## [FrameworkServlet#doGet](https://github.com/spring-projects/spring-framework/blob/master/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java#L874)
 
-![[Assets/posts/img/2019-02-18-22-01-46.png]]
+![[assets/posts/img/2019-02-18-22-01-46.png]]
 
 - `FrameworkServlet#processRequest`로 전달하는 것을 확인할 수 있습니다.
 
 ## [FrameworkServlet#processRequest](https://github.com/spring-projects/spring-framework/blob/master/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java#L987)
 
-![[Assets/posts/img/2019-02-19-23-34-48.png]]
+![[assets/posts/img/2019-02-19-23-34-48.png]]
 
 - final로 선언되어 있어 변경이 불가능합니다.
 - Javadoc에 `doService`는 Template Method라는 정보가 있습니다.
@@ -105,7 +105,7 @@ aliases:
 
 #### [2. FrameworkServlet#doService](https://github.com/spring-projects/spring-framework/blob/master/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java#L1177)
 
-![[Assets/posts/img/2019-02-18-22-02-39.png]]
+![[assets/posts/img/2019-02-18-22-02-39.png]]
 
 - 실제 구현은 `DispatcherServlet#doService`를 봐야합니다.
 

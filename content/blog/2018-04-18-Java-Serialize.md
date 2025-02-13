@@ -7,7 +7,7 @@ aliases:
   - ../articles/2018-04/Java-Serialize
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 # 들어가며
 > 예전에 네트워크 통신을 할때 Serialize에 대해 공부를 한 경험이 있지만 지식의 부족함을 느끼고 조사하여 결과를 정리합니다.
@@ -92,7 +92,7 @@ public static void main(String[] args){
 
 
 ## 다른 Format의 직렬화
-![[Assets/posts/20180418/1.png]]
+![[assets/posts/20180418/1.png]]
 
 - 직렬화방법에는 여러 Format이 존재합니다.
     - 표형태의 다량의 데이터를 직렬화할때는 CSV형태

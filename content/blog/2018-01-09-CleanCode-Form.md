@@ -6,7 +6,7 @@ date: 2018-01-09
 aliases: 
   - ../articles/2018-01/CleanCode-Form
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 # 형식 맞추기
 > 프로그래머라면 형식을 깔끔하게 맞춰 코드를 짜야 한다. 코드 형식을 맞추기 위한 간단한 규칙을 정하고 그 규칙을 착실히 따라야 한다.

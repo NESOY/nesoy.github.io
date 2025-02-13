@@ -5,7 +5,7 @@ aliases:
   - ../articles/2018-09/Algorithm-MultiThread
 ---
 
-![[Assets/logo/algorithm.png]]
+![[assets/logo/algorithm.png]]
 
 ## 직렬 알고리즘(Serial Algorithm)
 - 명령을 한 번에 하나만 실행하는 Single Processor 컴퓨터에 적합한 알고리즘입니다.
@@ -16,12 +16,12 @@ aliases:
 ## Computer Architecture
 ### Shared Memory
 
-![[Assets/posts/20180914/1.png]]
+![[assets/posts/20180914/1.png]]
 
 ### Distributed Memory
 - 프로세서마다 메모리를 가져 다른 프로세서의 메모리를 사용하려면 프로세서끼리 명확한 메시지를 보내야 합니다.
 
-![[Assets/posts/20180914/2.png]]
+![[assets/posts/20180914/2.png]]
 
 ## 정적 스레딩(Static Threading)
 - 대부분의 응용 프로그램에서 계산하는 동안 스레드를 유지시키는데 이런 방법을 `정적`이라고 부릅니다.
@@ -37,14 +37,14 @@ aliases:
 
 ### Example - 피보나치 수
 
-![[Assets/posts/20180914/3.png]]
+![[assets/posts/20180914/3.png]]
 
 ### Nested Parallelism
 - 중첩된 병렬성은 서브 루틴이 여러번 반복되는 것을 허용합니다.
 - 호출자가 서브 루틴의 계산 결과를 반복 진행하는 것을 허용합니다.
 
 
-![[Assets/posts/20180914/4.png]]
+![[assets/posts/20180914/4.png]]
 
 ```
 P-FIB(n)
@@ -65,7 +65,7 @@ P-FIB(n)
 - 루프를 반복적으로 동시에 실행할 수 있다는 점을 제외하면 일반 for-loop와 동일합니다.
 - 컴파일러는 각 `parallel for` 루프를 중첩된 병렬성 계산으로 이용하는 분할-정복 서브 루틴을 이용할 수 있습니다.
 
-![[Assets/posts/20180914/5.png]]
+![[assets/posts/20180914/5.png]]
 
 ```
 MAT-VEC(A,x)
@@ -85,7 +85,7 @@ MAT-VEC(A,x)
 ### DAG(Directed acyclic graph)
 - 그래프에 사이클이 없는게 특징.
 
-![[Assets/posts/20180914/8.png]]
+![[assets/posts/20180914/8.png]]
 
 - [Khan Academy - Graph](https://ko.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
 - [Wiki](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
@@ -96,7 +96,7 @@ MAT-VEC(A,x)
 
 ### Work Stealing
 
-![[Assets/posts/20180914/10.png]]
+![[assets/posts/20180914/10.png]]
 
 
 ## Race Condition
@@ -109,7 +109,7 @@ RACE-EXAMPLE()
     print x
 ```
 
-![[Assets/posts/20180914/6.png]]
+![[assets/posts/20180914/6.png]]
 
 ### ADD Process - Assembly language
 1. x를 메모리로부터 프로세서의 하나의 Register로 읽어들입니다.
@@ -126,7 +126,7 @@ RACE-EXAMPLE()
 - [Mutex](https://en.wikipedia.org/wiki/Mutual_exclusion), Lock, [Semaphore](https://en.wikipedia.org/wiki/Semaphore_%28programming%29)와 같은 기법을 사용해서 동기화를 진행합니다.
 - [Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
 
-![[Assets/posts/20180914/9.png]]
+![[assets/posts/20180914/9.png]]
 
 - 재귀적으로 호출을 하게 된다면?
     - 이들은 서로 독립적이여야 합니다.
@@ -137,7 +137,7 @@ RACE-EXAMPLE()
 ## 병렬 프로그래밍이 과연 답일까요?
 ### Amdahl's Law
 
-![[Assets/posts/20180914/7.png]]
+![[assets/posts/20180914/7.png]]
 
 > 실제 프로세서나 노드 수를 많이 늘린다고 해도, 어느 수준 이상에서는 속도 향상을 기대할 수 없다.
 

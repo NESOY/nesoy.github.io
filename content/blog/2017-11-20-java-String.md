@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-11/java-String
 ---
 
-![[Assets/logo/Java.jpg]]
+![[assets/logo/Java.jpg]]
 
 > 특정한 문자열을 계속적으로 더하여 결과 값을 가져오는 문제를 풀고 있었다. 시간 초과가 발생하여 문제를 찾아보니 사용했던 문자열 Class에 대한 문제였다. 각 문자열 Class에 차이를 이해하고 문제를 해결하여 포스팅을 한다.
 
@@ -87,7 +87,7 @@ public class Main {
 ```
 
 ### Result
-![[Assets/posts/20171120/result.png]]
+![[assets/posts/20171120/result.png]]
 - `String`이 많은 연산을 하게되면 확연하게 느린 것을 확인할 수 있다.
 
 

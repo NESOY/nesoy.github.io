@@ -7,7 +7,7 @@ aliases:
   - ../articles/2017-01/Spring-AOP
 ---
 
-![[Assets/logo/spring.png]]
+![[assets/logo/spring.png]]
 
 # **Spring AOP**
 

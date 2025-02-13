@@ -7,7 +7,7 @@ aliases:
   - ../articles/2019-05/Database-Transaction-isolation
 ---
 
-![[Assets/logo/database.jpg]]
+![[assets/logo/database.jpg]]
 
 ## 트랜잭션의 격리 수준(isolation)이란?
 - 동시에 여러 트랜잭션이 처리될 때
@@ -24,7 +24,7 @@ aliases:
 - 정합성에 문제가 많은 격리 수준이기 때문에 사용하지 않는 것을 권장한다.
 - 아래의 그림과 같이 `Commit`이 되지 않는 상태지만 `Update`된 값을 다른 트랜잭션에서 읽을 수 있다.
 
-![[Assets/posts/img/2019-05-08-21-09-02.png]]
+![[assets/posts/img/2019-05-08-21-09-02.png]]
 
 
 
@@ -38,10 +38,10 @@ aliases:
 
 - 실제 테이블 값을 가져오는 것이 아니라 Undo 영역에 백업된 레코드에서 값을 가져온다.
 
-![[Assets/posts/img/2019-05-08-21-18-08.png]]
+![[assets/posts/img/2019-05-08-21-18-08.png]]
 
 #### 그렇다면 READ COMMITTED는 문제가 없을까?
-![[Assets/posts/img/2019-05-08-21-25-41.png]]
+![[assets/posts/img/2019-05-08-21-25-41.png]]
 - `트랜잭션-1`이 Commit한 이후 아직 끝나지 않는 `트랜잭션-2`가 다시 테이블 값을 읽으면 값이 변경됨을 알 수 있다.
 - 하나의 트랜잭션내에서 똑같은 SELECT 쿼리를 실행했을 때는 항상 같은 결과를 가져와야 하는 `REPEATABLE READ`의 정합성에 어긋난다.
 - 이러한 문제는 주로 입금, 출금 처리가 진행되는 금전적인 처리에서 주로 발생한다.
@@ -54,7 +54,7 @@ aliases:
   - Undo에 백업된 레코드가 많아지면 MySQL 서버의 처리 성능이 떨어질 수 있다.
 - 이러한 변경방식은 [MVCC(Multi Version Concurrency Control)](https://en.wikipedia.org/wiki/Multiversion_concurrency_control)라고 부른다.
 
-![[Assets/posts/img/2019-05-08-21-52-08.png]]
+![[assets/posts/img/2019-05-08-21-52-08.png]]
 
 
 #### 그렇다면 REPEATABLE READ는 문제가 없을까?
@@ -62,7 +62,7 @@ aliases:
   - 다른 트랜잭션에서 수행한 변경 작업에 의해 레코드가 보였다가 안 보였다가 하는 현상
   - 이를 방지하기 위해서는 쓰기 잠금을 걸어야 한다.
 
-![[Assets/posts/img/2019-05-08-22-14-18.png]]
+![[assets/posts/img/2019-05-08-22-14-18.png]]
 
 
 #### SERIALIZABLE

@@ -6,10 +6,10 @@ date: 2018-05-09
 aliases: 
   - ../articles/2018-05/Next-With-Google
 ---
-![[Assets/posts/20180509/1.png]]
+![[assets/posts/20180509/1.png]]
 ## MSA 진실 혹은 거짓 - 이정운님
 ### What is MSA?
-![[Assets/posts/20180509/2.png]]
+![[assets/posts/20180509/2.png]]
 - [Monolithic Architecture](https://en.wikipedia.org/wiki/Monolithic_application)
     - 단일 프로세스
     - 변경주기가 하나로 묶여있음
@@ -43,7 +43,7 @@ aliases:
         - Dead Star
         - 어떻게 이 MSA를 **효율적**으로 관리할 것인가?
 
-    ![[Assets/posts/20180509/3.png]]
+    ![[assets/posts/20180509/3.png]]
 
 - Service Framework
     - [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/)
@@ -84,7 +84,7 @@ aliases:
 - MSA가 정답일까요?
     - 정답은 아니다.
     - [마틴 파울러의 MSA Trade-Offs](https://martinfowler.com/articles/microservice-trade-offs.html)
-    ![[Assets/posts/20180509/4.png]]
+    ![[assets/posts/20180509/4.png]]
         - 성능이 좋지않다.
         - 정확성이 좋지않다.
         - 관리하기 어려움.

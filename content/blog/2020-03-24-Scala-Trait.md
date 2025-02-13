@@ -7,7 +7,7 @@ aliases:
   - ../articles/2020-03/Scala-Trait
 ---
 
-![[Assets/logo/scala.png]]
+![[assets/logo/scala.png]]
 
 ## Traits이란?
 - 인터페이스와 필드를 공유하는데 사용됩니다.

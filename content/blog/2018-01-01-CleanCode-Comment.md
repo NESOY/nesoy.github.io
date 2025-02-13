@@ -6,7 +6,7 @@ date: 2018-01-01
 aliases: 
   - ../articles/2018-01/CleanCode-Comment
 ---
-![[Assets/posts/20171211/cleancode.jpg]]
+![[assets/posts/20171211/cleancode.jpg]]
 
 > 주석은 기껏해야 필요악이다.
 

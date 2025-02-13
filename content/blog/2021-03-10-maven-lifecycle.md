@@ -11,7 +11,7 @@ aliases:
 > 매번 Maven을 사용하지만 언제나 깊게 이해하지 못하고 사용하는거 같아서 정리합니다. :)
 
 ## Maven의 Life Cycle에 대해
-![[Assets/posts/img/2021-03-10-22-35-14.png]]
+![[assets/posts/img/2021-03-10-22-35-14.png]]
 
 - Maven에서는 크게 3가지의 LifeCycle을 제공합니다.
     - Clean

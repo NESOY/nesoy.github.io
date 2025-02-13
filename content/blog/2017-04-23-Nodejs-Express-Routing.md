@@ -8,7 +8,7 @@ aliases:
   - ../articles/2017-04/Nodejs-Express-Routing
 ---
 
-![[Assets/posts/20170413/1.PNG]]
+![[assets/posts/20170413/1.PNG]]
 
 ## Routing
 - 클라이언트의 요청을 미들웨어로 분배
