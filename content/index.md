@@ -7,3 +7,4 @@ description: 저는 NESOY 입니다. 🌲
 # Hello World 🌲
 - [[blog]]
 - [[essay]]
+- [[About]]
