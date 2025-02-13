@@ -13,7 +13,7 @@ export const sharedPageComponents: SharedLayout = {
         repoId: 'MDEwOlJlcG9zaXRvcnk3NzUxOTM5NQ==',
         category: 'Comments',
         categoryId: 'DIC_kwDOBJ7aI84Cmt2C',
-        mapping: 'pathname'
+        mapping: 'number'
       }
     }),
   ],
