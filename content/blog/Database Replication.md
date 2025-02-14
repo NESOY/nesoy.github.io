@@ -2,7 +2,7 @@
 aliases: [../articles/2018-02/Database-Replication]
 date: 2018-02-16
 tags: [Database]
-title: Database의 리플리케이션(Replication)
+title: Database Replication
 ---
 # Database Replication
 ## 배경
