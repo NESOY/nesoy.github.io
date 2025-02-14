@@ -1,6 +1,7 @@
 ---
 aliases: []
-description: 저는 NESOY 입니다. 🌲
+comments: true
+description: 
 tags: []
 title: NESOY
 ---
