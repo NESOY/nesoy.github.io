@@ -39,7 +39,23 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.RecentNotes({ showTags: false , limit: 10})),
+    Component.DesktopOnly(Component.Explorer({sortFn: (a, b) => {
+      if (a.file && b.file) {
+        const dateA = a.file.frontmatter?.published ? new Date(a.file.frontmatter.published) : new Date(0);
+        const dateB = b.file.frontmatter?.published ? new Date(b.file.frontmatter.published) : new Date(0);
+    
+        return dateB.getTime() - dateA.getTime();
+      }
+    
+      if (!a.file && !b.file) {
+        return a.displayName.localeCompare(b.displayName, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        });
+      }
+    
+      return a.file ? 1 : -1;
+    }})),
   ],
   right: [
     Component.Graph(),
@@ -56,7 +72,25 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer({sortFn: (a, b) => {
+      if (a.file && b.file) {
+        const dateA = a.file.frontmatter?.published ? new Date(a.file.frontmatter.published) : new Date(0);
+        const dateB = b.file.frontmatter?.published ? new Date(b.file.frontmatter.published) : new Date(0);
+    
+        return dateB.getTime() - dateA.getTime();
+      }
+    
+      if (!a.file && !b.file) {
+        return a.displayName.localeCompare(b.displayName, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        });
+      }
+    
+      return a.file ? 1 : -1;
+    }})),
+  ],
+  right: [
     Component.DesktopOnly(Component.RecentNotes({ showTags: false , limit: 10})),
   ],
-  right: [],
 }
