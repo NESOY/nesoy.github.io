@@ -1,10 +1,12 @@
 ---
-tags: []
 aliases: []
-title: 안녕하세요
 description: 저는 NESOY 입니다. 🌲
+tags: []
+title: NESOY
 ---
-# Hello World 🌲
+
+
+# Index
 - [[blog]]
 - [[essay]]
-- [[About]]
+- [[about]]

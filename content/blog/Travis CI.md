@@ -1,14 +1,10 @@
 ---
-title: Travis-CI 시작하기
-tags:
-  - DevOps
-  - Travis-CI
+aliases: [../articles/2017-01/travis-ci]
 date: 2017-01-05
-aliases: 
-  - ../articles/2017-01/travis-ci
+tags: [DevOps, Travis-CI]
+title: Travis CI
 ---
-
-# **Travis-CI**
+# Travis CI
 ![[assets/posts/20170105/travis-ci.jpg]]
 
 - Travis-CI는 루비로 작성된 오픈 소스 기반의 CI(Continuous Integration)
@@ -17,23 +13,23 @@ aliases:
 
 ## Getting Started
 
-#### 1. 프로젝트 fork하기
+### 1. 프로젝트 Fork하기
 
 - [https://github.com/plaindocs/travis-broken-example](https://github.com/plaindocs/travis-broken-example)
 
-#### 2. Travis-CI 회원가입하기
+### 2. Travis-CI 회원가입하기
 
 - <https://travis-ci.org/auth>
 
 ![[assets/posts/20170105/travis-ci-signup.PNG]]
 
-#### 3. Github Repositories 엑세스 권한 활성화 시키기
+### 3. Github Repositories 엑세스 권한 활성화 시키기
 
 - [https://travis-ci.org/profile](https://travis-ci.org/profile)
 
 ![[assets/posts/20170105/travis-ci-start1.PNG]]
 
-#### 4. .travis.yml 확인하기
+### 4. .travis.yml 확인하기
 
 {% highlight yml %}
 language: php
@@ -49,7 +45,7 @@ script: phpunit Test.php
 
   ![[assets/posts/20170105/travis-ci-start2.PNG]]
 
-#### 5. NewUser.txt에 이름 넣고 push하여 Travis CI 작동시켜보기
+### 5. NewUser.txt에 이름 넣고 Push하여 Travis CI 작동시켜보기
 - 이름 작성하기
 
 ![[assets/posts/20170105/travis-ci-start3.PNG]]
@@ -76,7 +72,7 @@ $ git push
 ![[assets/posts/20170105/travis-ci-start6.PNG]]
 
 
-#### 6. Test.php 수정하고 push하여 Travis CI 작동시켜보기
+### 6. Test.php 수정하고 Push하여 Travis CI 작동시켜보기
 
 - Test.php 수정하기
 
@@ -95,7 +91,6 @@ $ git push
 
 ![[assets/posts/20170105/travis-ci-start8.PNG]]
 
-## 참조
-<http://nnoco.tistory.com/227>
-
-<https://docs.travis-ci.com/user/for-beginners>
+## Reference
+- http://nnoco.tistory.com/227
+- https://docs.travis-ci.com/user/for-beginners

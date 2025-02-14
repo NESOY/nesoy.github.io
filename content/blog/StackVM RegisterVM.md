@@ -1,11 +1,12 @@
 ---
-title: StackVM, RegisterVM이란?
+aliases:
+  - ../articles/2021-08/StackVM-RegisterVM
+date: 2021-08-20
 tags:
   - Java
-date: 2021-08-20
-aliases: 
-  - ../articles/2021-08/StackVM-RegisterVM
+title: StackVM, RegisterVM
 ---
+# StackVM과 RegisterVM
 ## 들어가며
 - CPU는 Operand를 저장하는 위치에 따라 Register-Based VM, Stack-based VM 두
 가지로 나뉘게 된다.
@@ -14,7 +15,7 @@ aliases:
 MOV DS, AX // AX의 값은 DS로 이동된다.
 ```
 
-#### Stack Based VM
+### Stack Based VM
 - JAVA VM, .NET CLR
     - 대다수의 VM이 스택 기반으로 이루어져 있다.
 - 동작방법은 다음과 같다.
@@ -35,7 +36,7 @@ MOV DS, AX // AX의 값은 DS로 이동된다.
 
 ![[assets/posts/img/2021-08-19-23-41-49.png]]
 
-#### Register-Based VM
+### Register-Based VM
 - Lua VM, Dalvik VM
     - 피연산자가 CPU의 레지스터에 저장된다.
     - PUSH & POP 연산자가 없다.
@@ -48,7 +49,7 @@ MOV DS, AX // AX의 값은 DS로 이동된다.
     - 피연산자의 주소를 명시해줘야 하므로 평균적으로 길 수 밖에 없다.
 
 
-#### Java의 Example
+### Java의 Example
 ![[assets/posts/img/2021-08-19-23-58-14.png]]
 - addAndPrint()에 대한 Stack Frame이 있고 1, 88.88이 존재한다.
 - addTwoTypes라는 메소드를 호출하면서 Stack Frame을 생성하고 local variable에 1, 88.88가 존재하게 된다.

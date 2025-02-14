@@ -1,12 +1,10 @@
 ---
-title: Redux란?
-tags:
-  - Redux
+aliases: [../articles/2019-02/Redux]
 date: 2019-02-26
-aliases: 
-  - ../articles/2019-02/Redux
+tags: [Redux]
+title: Redux
 ---
-
+# Redux
 ![[assets/logo/redux.png]]
 
 ## 왜 Flux가 등장하게 되었을까?
@@ -68,7 +66,7 @@ aliases:
 ## 왜 Redux가 등장하게 되었을까?
 ![[assets/posts/img/2019-02-26-11-16-58.png]]
 
-#### Component의 State값이 변경되고 다른 부모를 가진 Component에 이를 반영해야 한다면?
+### Component의 State값이 변경되고 다른 부모를 가진 Component에 이를 반영해야 한다면?
 - 상위 Component를 통해 변경사항을 전파를 해야 합니다.
 - Component간의 결합도가 매우 높아지는 문제가 발생합니다.
 - [React에서 Redux를 시작하기 전 배워야 할 8가지](https://edykim.com/ko/post/learn-react-before-using-redux/)

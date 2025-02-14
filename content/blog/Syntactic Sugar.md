@@ -1,9 +1,8 @@
 ---
 title: Syntatic Sugar
 date: 2019-12-04
-aliases: [../articles/2019-12/Syntactic-sugar]
-category:
-  - "[[2018 생각 정리]]"
+aliases:
+  - ../articles/2019-12/Syntactic-sugar
 ---
 # Syntatic Sugar
 - 프로그래밍 언어 차원에서 제공되는 논리적으로 간결하게 표현하는 것

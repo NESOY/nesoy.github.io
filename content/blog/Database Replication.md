@@ -1,14 +1,10 @@
 ---
-title: Database의 리플리케이션(Replication)이란?
-tags:
-  - Database
+aliases: [../articles/2018-02/Database-Replication]
 date: 2018-02-16
-aliases: 
-  - ../articles/2018-02/Database-Replication
+tags: [Database]
+title: Database의 리플리케이션(Replication)
 ---
-![[assets/logo/database.jpg]]
-
-# Replication
+# Database Replication
 ## 배경
 아주 단순한 Database를 구성할때에는 아래의 그림처럼 하나의 서버와 하나의 Database를 구성하게 된다.
 

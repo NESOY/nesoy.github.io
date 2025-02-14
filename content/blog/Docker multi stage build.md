@@ -1,13 +1,10 @@
 ---
-title: Docker Multi Stage란?
-tags:
-  - Docker
+aliases: [../articles/2020-11/Docker-multi-stage-build]
 date: 2020-11-06
-aliases: 
-  - ../articles/2020-11/Docker-multi-stage-build
+tags: [Docker]
+title: Docker Multi Stage
 ---
-
-## Docker Multi Stage란?
+# Docker Multi Stage
 > 컨테이너 이미지를 만들면서 빌드 등에는 필요하지만 최종 컨테이너 이미지에는 필요 없는 환경을 제거할 수 있도록 단계를 나누어서 기반 이미지를 만드는 방법
 
 ## Background
@@ -16,7 +13,7 @@ aliases:
 - 각각의 Instruction들은 Dockerfile 하나의 Layer로 추가가 되기 때문에 여러가지 최적화가 필요했습니다.
 - Docker Image를 가볍게 만들기 위해 나온 방법이 Multi Stage 방식입니다.
 
-#### Multi Stage build 방식이 나오기 전에
+### Multi Stage Build 방식이 나오기 전에
 - builder-pattern을 활용했습니다.
     - 하나의 Dockerfile이 아닌 두 가지의 Dockerfile을 유지하는 것입니다.
 
@@ -66,7 +63,7 @@ rm ./app
 ```
 
 
-#### Multi Stage가 등장하면서
+### Multi Stage가 등장하면서
 - 하나의 Dockerfile로 빌드 이미지와 실행 이미지를 분리할 수 있게 되어 훨씬 간편하게 이미지를 줄일 수 있게 되었습니다.
     - 뿐만 아니라 배포 이미지의 용량이 줄어 빌드 시간이 감소하게 되었습니다.
 

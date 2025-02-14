@@ -1,12 +1,10 @@
 ---
-title: Couchbase는 어떻게 동작하는가?
-tags:
-  - Couchbase
+aliases: [../articles/2018-11/Couchbase]
 date: 2018-11-20
-aliases: 
-  - ../articles/2018-11/Couchbase
+tags: [Couchbase]
+title: Couchbase는 어떻게 동작하는가?
 ---
-
+# Couchbase
 ![[assets/logo/couchbase.png]]
 
 
@@ -37,7 +35,7 @@ aliases:
     - connection은 Streaming Update를 위해 유지합니다.
 - 모든 Couchbase의 Cluster와 Client은 Cluster Map을 공유하게 됩니다.
 
-### Data flow - Client
+### Data Flow - Client
 
 ![[assets/posts/20181120/3.png]]
 
@@ -46,7 +44,7 @@ aliases:
 3. Couchbase Client는 문서 Key Hashing값을 통해 문서를 저장할 Server를 찾습니다.
 4. Couchbase Server는 문서를 복사하고 Memory에 Caching합니다. 그리고 비동기적으로 Disk에 저장하게 됩니다.
 
-### Data flow - Server
+### Data Flow - Server
 - Couchbase Server는 문서 단위로 변경이 진행됩니다.
 - 다음은 Couchbase Server가 Request를 받고 문서를 작성하는 과정입니다.
 

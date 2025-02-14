@@ -1,11 +1,10 @@
 ---
-title: Maven의 Settings에 대해
-tags:
-  - Maven
+aliases: [../articles/2021-03/maven-settings]
 date: 2021-03-19
-aliases: 
-  - ../articles/2021-03/maven-settings
+tags: [Maven]
+title: Maven의 Settings에 대해
 ---
+# 2021-03-19-maven-settings
 
 ## 들어가며
 - Maven에서 자주 마주치는 설정 파일인 `settings.xml`이 있습니다.

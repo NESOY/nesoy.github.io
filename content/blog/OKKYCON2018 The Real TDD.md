@@ -1,12 +1,10 @@
 ---
-title: OKKY The Real TDD 후기
-tags:
-  - Review
+aliases: [../articles/2018-10/OKKYCON2018-Real-TDD]
 date: 2018-10-18
-aliases: 
-  - ../articles/2018-10/OKKYCON2018-Real-TDD
+tags: [Review]
+title: OKKY The Real TDD 후기
 ---
-
+# OKKYCON2018 The Real TDD
 ![[assets/posts/20181019/1.png]]
 
 ## 테스트하기 쉬운 코드로 개발하기 - 정진욱님
@@ -64,7 +62,7 @@ aliases:
     Assert.Notnull(actual);
 }
 ```
-#### TDD로 code를 작성할 때 주의할 점.
+#### TDD로 Code를 작성할 때 주의할 점.
 - 테스트를 만족하는 만큼만 코드를 작성하자.
     - 그 이상 코드를 작성하게 되면 테스트로 커버할 수 없다.
     - 즉 코드의 변경되는 부분을 놓칠 수 있다.

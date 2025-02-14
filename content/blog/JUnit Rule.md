@@ -1,10 +1,10 @@
 ---
-title: JUnit의 Rule이란?
+title: JUnit Rule
 tags:
   - Testing
   - JUnit
 date: 2018-12-31
-aliases: 
+aliases:
   - ../articles/2018-12/Junit-Rule
 ---
 

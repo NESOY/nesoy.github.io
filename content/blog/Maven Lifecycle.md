@@ -1,12 +1,10 @@
 ---
-title: Maven의 Life Cycle에 대해
-tags:
-  - Maven
+aliases: [../articles/2021-03/maven-lifecycle]
 date: 2021-03-10
-aliases: 
-  - ../articles/2021-03/maven-lifecycle
+tags: [Maven]
+title: Maven의 Life Cycle에 대해
 ---
-
+# Maven Lifecycle
 ## 들어가며
 > 매번 Maven을 사용하지만 언제나 깊게 이해하지 못하고 사용하는거 같아서 정리합니다. :)
 
@@ -31,14 +29,14 @@ aliases:
 
 - Phase에 Goal들을 바인딩하기 위해서는 Plugin을 추가해야 합니다.
 
-#### Example CLI
+### Example CLI
 - `mvn clean dependency:copy-dependencies package`
     - `clean` phase에 바인딩된 Goal을 실행합니다.
     - 그리고 `dependency:copy-dependencies` Goal를 실행합니다.
     - `package` phase에 바인딩된 Goal을 실행합니다.
 
 
-#### Example pom.xml
+### Example pom.xml
 - `display:time`이라고 선언하면 해당 Plugin Goal은 `process-test-resources` Phase에 실행이 됩니다.
 
 ```xml

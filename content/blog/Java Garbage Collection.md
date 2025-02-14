@@ -1,14 +1,13 @@
 ---
-title: Java Garbage Collection에 대해
-tags:
-  - Java
+aliases: [../articles/2021-06/Java-Garbage-Collection]
 date: 2021-06-24
-aliases: 
-  - ../articles/2021-06/Java-Garbage-Collection
+tags: [Java]
+title: Java Garbage Collection
 ---
+# Java Garbage Collection
 ## Garbage Collector
 
-#### GC Log Rotate
+### GC Log Rotate
 - `-XX:+UseGCLogFileRotation`
     - default : false
 - `-XX:NumberOfGCLogFiles`

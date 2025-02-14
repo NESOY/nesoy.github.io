@@ -1,6 +1,6 @@
 ---
 title: 
-comments: 
+comments: false
 aliases: 
 tags: 
 date: 

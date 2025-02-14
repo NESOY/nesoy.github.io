@@ -1,18 +1,14 @@
 ---
-title: Helm이란?
-tags:
-  - k8s
+aliases: [../articles/2020-11/helm]
 date: 2020-11-18
-aliases: 
-  - ../articles/2020-11/helm
+tags: [k8s]
+title: Helm
 ---
-
-![[assets/logo/helm.png]]
-
+# Helm
 ## [Helm이란?](https://helm.sh/)
 - 여러가지 k8s yaml들을 package로 관리하고 싶을때 사용하는 도구이다.
 
-#### Concept
+### Concept
 - Chart
     - Kubernetes의 Resource를 생성하기 위한 모든 것이 정의 된 것
     - (homebrew formula, apt dpkg, yum rpm file과 동일한 컨셉)
@@ -21,7 +17,7 @@ aliases:
 - Release
     - Chart를 통해 Kubernetes의 Resource로 instance화 한 것
 
-#### Helm Getting Started
+### Helm Getting Started
 - Helm 설치하기
 ```
 brew install helm
@@ -48,7 +44,7 @@ helm ls
 helm uninstall smiling-penguin
 ```
 
-#### Helm Chart에 대해
+### Helm Chart에 대해
 - Helm Create 생성
 
 ```

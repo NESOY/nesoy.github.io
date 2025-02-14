@@ -1,20 +1,17 @@
 ---
-title: kustomize란?
-tags:
-  - k8s
+aliases: [../articles/2021-01/kustomize]
 date: 2021-01-07
-aliases: 
-  - ../articles/2021-01/kustomize
+tags: [k8s]
+title: kustomize란?
 ---
-
-## Kustomize란?
+# Command Kustomize
 > Kustomize provides a solution for customizing Kubernetes resource configuration free from templates and DSLs.
 - kubernetes resource 설정들을 customize할 수 있는 도구이다.
 
-### HelloWorld Example
+## Example
 - 아래의 예시는 <https://github.com/kubernetes-sigs/kustomize/tree/master/examples/helloWorld>에서 확인할 수 있다.
 
-#### File Structure
+### File Structure
 ```
 .
 └── base
@@ -24,7 +21,7 @@ aliases:
     └── service.yaml
 ```
 
-#### base/kustomization.yaml 내용을 보면?
+### base/kustomization.yaml 내용을 보면?
 ```
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
@@ -41,12 +38,12 @@ resources:
 - configMap.yaml
 ```
 
-#### How to use?
+### How to Use?
 ```
 kustomize build base
 ```
 
-#### 결과는 어떻게 나왔을까?
+### 결과는 어떻게 나왔을까?
 - 공통 Label이 추가된 것을 확인할 수 있다.
 
 ```
@@ -78,13 +75,13 @@ metadata:
     ...
 ```
 
-## Base & Overlay에 대해
+# Base & Overlay에 대해
 - Kustomize는 Base를 기준으로 Overlay의 내용을 추가 할 수 있다.
 
-### Overlay Example
+## Overlay Example
 - Staging과 production이 존재한다.
 
-#### File Structure
+### File Structure
 ```
 .
 ├── base
@@ -101,7 +98,7 @@ metadata:
         └── map.yaml
 ```
 
-#### staging/kustomization.yaml 내용을 보면?
+### staging/kustomization.yaml 내용을 보면?
 ```
 namePrefix: staging-
 commonLabels:
@@ -115,7 +112,7 @@ patchesStrategicMerge:
 - map.yaml
 ```
 
-#### stage/map.yaml 내용을 보면?
+### stage/map.yaml 내용을 보면?
 ```
 apiVersion: v1
 kind: ConfigMap
@@ -126,12 +123,12 @@ data:
   enableRisky: "true"
 ```
 
-#### How to use?
+### How to Use?
 ```
 kustomize build $OVERLAYS/staging
 ```
 
-#### 결과는 어떻게 나왔을까?
+### 결과는 어떻게 나왔을까?
 - ConfigMap은 `base/configmap.yaml` 내용 대신 `overlays/staging/map.yaml` 내용이 교체된 것을 확인할 수 있다.
 ```
 apiVersion: v1
@@ -173,7 +170,7 @@ metadata:
     ...
 ```
 
-#### 그렇다면 `base/configmap.yaml`에 `overlays/staging/map.yaml` 겹치지 않는 필드를 추가하면?
+### 그렇다면 `base/configmap.yaml`에 `overlays/staging/map.yaml` 겹치지 않는 필드를 추가하면?
 - `base/configmap.yaml`에 this-nesoy값을 추가하고 빌드를 해보았다.
 ```
 apiVersion: v1
@@ -186,7 +183,7 @@ data:
   this: "nesoy" # -> ❤️
 ```
 
-#### 결과는?
+### 결과는?
 - 값이 없다면 base값이 노출되는 것을 확인할 수 있다.
 ```
 apiVersion: v1
@@ -207,6 +204,6 @@ metadata:
 
 - 이외에도 다양한 Syntax가 존재해서 활용하면 좋을거 같다.
 
-## Reference
+# Reference
 - <https://kustomize.io/>
 - <https://kubectl.docs.kubernetes.io/references/kustomize/>

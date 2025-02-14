@@ -1,11 +1,10 @@
 ---
-title: Jib이란?
-tags:
-  - Docker
+aliases: [../articles/2020-11/Jib]
 date: 2020-11-23
-aliases: 
-  - ../articles/2020-11/Jib
+tags: [Docker]
+title: Jib
 ---
+# Jib
 ![[assets/posts/img/2020-11-23-23-27-40.png]]
 
 ## 왜 Jib는 등장하게 되었는가?
@@ -34,7 +33,7 @@ aliases:
 - 플러그인 적용하고. jib를 실행하면 된다.
 - 마치 Container의 `compiler`와 같은 역할이라고 볼 수 있다.
 
-#### Goals
+### Goals
 - Fast
     - 어플리케이션을 Multiple Layer로 분리하여 이미지를 빌드한다.
     - 변경된 사항만 이미지 빌드에 반영되기 때문에 아주 빠르다.
@@ -45,7 +44,7 @@ aliases:
     - Docker Image를 Maven, Gradle와 같은 빌드 툴을 통해 만들 수 있다.
     - 더이상 Dockerfile이나 Docker build/push와 같은 액션이 필요없게 된다.
 
-#### Jib Base Image는?
+### Jib Base Image는?
 - 실행환경에 필요한 부분만 들고 있다.
     - 표준 Linux distribution에 포함된 shell과 같은 프로그램은 없다.
 - <https://github.com/GoogleContainerTools/distroless>
@@ -67,10 +66,10 @@ gradle jibDockerBuild - Docker daemon를 활용한 빌드
 - 다양한 옵션들이 있다.
     - <https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin#extended-usage>
 
-#### Multi Module Example
+### Multi Module Example
 - <https://github.com/GoogleContainerTools/jib/tree/master/examples/multi-module>
 
-#### Jib를 사용하면서 겪었던 문제들
+### Jib를 사용하면서 겪었던 문제들
 - jib에서 만드는 컨테이너 이미지에 *를 사용함으로써 classpath ordering이 바뀌게될 수 있는 상황 -> 최신 버젼을 사용하면 해결된다.(java version 11 up)
     - https://github.com/GoogleContainerTools/jib/issues/2733
 

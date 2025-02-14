@@ -1,14 +1,10 @@
 ---
-title: Intellij Maven
-tags:
-  - Java
-  - Intellij
-  - Maven
+aliases: [../articles/2017-01/Maven]
 date: 2017-01-11
-aliases: 
-  - ../articles/2017-01/Maven
+tags: [Intellij, Java, Maven]
+title: Maven
 ---
-# Maven 이란?
+# Maven
 ![[assets/posts/20170111/maven.PNG]]
 
 > **자바 프로젝트의 빌드를 자동화 해주는 Build Tool**
@@ -135,10 +131,10 @@ aliases:
 - install : 패키징한 파일을 로컬 저장소에 배포 (USER_HOEM/.m2/)
 - deploy : 패키징한 파일을 원격 저장소에 배포 (nexus 혹은 maven central 저장소)
 
-### clean 라이프 사이클
+### Clean 라이프 사이클
 - clean : 메이븐 빌드를 통하여 생성된 모든 산출물을 삭제
 
-### site 라이프 사이클
+### Site 라이프 사이클
 - site : 메이븐 설정파일 정보를 활용하여 프로젝트에 대한 문서 사이트를 생성
 - site-deploy : 생성한 문서 사이트를 설정되어 있는 서버에 배포
 
@@ -151,11 +147,11 @@ aliases:
 
 ![[assets/posts/20170111/2.PNG]]
 
-### project 설정
+### Project 설정
 
 ![[assets/posts/20170111/3.PNG]]
 
-### project Structure 모습
+### Project Structure 모습
 
 ![[assets/posts/20170111/4.PNG]]
 
@@ -164,12 +160,12 @@ aliases:
 ![[assets/posts/20170111/5.PNG]]
 
 ## Intellij Maven Life Cycle
-### 실행하고 싶은 lifecycle을 더블클릭하면 실행이 된다.
+### 실행하고 싶은 Lifecycle을 더블클릭하면 실행이 된다.
 ![[assets/posts/20170111/lifecycle.PNG]]
 
 
-## issue
-### import가 잘 안되어 있는 경우
+## Issue
+### Import가 잘 안되어 있는 경우
 - `.m2/repository` 로컬 저장소에서 실제 확인하기 -> 없으면 중앙 원격 저장소에 라이브러리 확인하기
 
 ### 경로 설정에 매우 민감하다.

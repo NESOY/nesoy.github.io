@@ -1,16 +1,14 @@
 ---
-title: Hbase Replication에 대해
-tags:
-  - HBase
+aliases: [../articles/2020-07/Hbase-Replication]
 date: 2020-07-13
-aliases: 
-  - ../articles/2020-07/Hbase-Replication
+tags: [HBase]
+title: Hbase Replication에 대해
 ---
-
+# Hbase Replication
 ![[assets/logo/hbase.png]]
 
 ## Hbase Replication에 대해
-#### 기본적인 Replication 특징에 대해
+### 기본적인 Replication 특징에 대해
 - Push 방식을 사용하며 Source Cluster에서 Destination Cluster 방향으로 동작한다.
     - directional replication 뿐만 아니라 bi-directional replication도 지원한다.
 - Cluster간의 데이터 동기화를 위해 [WAL(write-ahead log)](https://en.wikipedia.org/wiki/Write-ahead_logging)를 사용하고 있다.
@@ -18,7 +16,7 @@ aliases:
     - 비동기로 동작하기 때문에 Cluster간의 완벽한 동기화는 지원할 수 없다.
     - Replication의 Goals는 eventual consistency을 지향하고 있다.
 
-#### [Hbase 데이터 변경에서 Cluster Replication이 되기까지](https://hbase.apache.org/book.html#_life_of_a_wal_edit)
+### [Hbase 데이터 변경에서 Cluster Replication이 되기까지](https://hbase.apache.org/book.html#_life_of_a_wal_edit)
 - Cluster Replication 전체적인 모습은 다음과 같다.
 
 ![[assets/posts/img/2020-07-10-16-12-39.png]]
@@ -48,16 +46,16 @@ aliases:
     - 그리고 변경 사항들을 몇번이고 전송한다.
 
 
-#### WALEdit이란?
+### WALEdit이란?
 - 하나의 Transaction을 나타내는 Object
 - 하나 이상의 변경 작업을 가지고 있을 수 있다.
 
-#### ClusterId(UUID)이란?
+### ClusterId(UUID)이란?
 - 모든 HBase Cluster는 UUID 형태로 HBase에 의해 자동으로 생성된 ClusterId를 가지고 있다.
 - ClusterId는 Restart시 바뀌지 않기 의해서 파일시스템에 저장한다.
     - `zookeeper의 /hbase/bhaseid znode`
 
-#### Replication 과정에서 Key충돌이 나는 경우 어떻게 해결할까?
+### Replication 과정에서 Key충돌이 나는 경우 어떻게 해결할까?
 - Cell이 변경 사항에는 Timestamp와 Version을 기반으로 가장 늦게 발생한 변경 사항이 반영이 된다.
 
 
