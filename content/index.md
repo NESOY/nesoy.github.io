@@ -1,6 +1,6 @@
 ---
 aliases: []
-comments: true
+comments: 
 description: 
 tags: []
 title: NESOY
