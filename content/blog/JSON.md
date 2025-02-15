@@ -1,18 +1,15 @@
 ---
-title: JSON이란 무엇일까??
+aliases:
+  - ../articles/2017-02/JSON
+date: 2017-02-08
 tags:
   - JSON
   - Web
-date: 2017-02-08
-aliases: 
-  - ../articles/2017-02/JSON
+title: JSON
+description:
 ---
-
-![[assets/logo/web.jpg]]
-
+# JSON
 > 지난 번 포스팅에서 Restful API관하여 자세히 알아보다가 공개된 OPEN API 대부분 JSON을 활용하여 데이터를 주고 받는 다는 것을 알았다. 위 포스팅에서는 JSON의 개념과 어떠한 형식에 대해 좀 더 자세히 알아보고 JSON에 관련된 Library가 무엇이 있는지 알아본다.
-
-![[assets/posts/20170208/json.PNG]]
 
 ## 1. JSON(JavaScript Object Notation)이란?
 - JSON은 경량(Lightweight)의 DATA-교환 형식
@@ -22,7 +19,7 @@ aliases:
 
 ## 2. JSON(JavaScript Object Notation) 형식
 
-#### 2.1 name-value 형식의 쌍(pair)
+### 2.1 Name-value 형식의 쌍(pair)
 - 여러 가지 언들에서 object, hashtable, struct로 실현되었다.
 - { String key :  String Value}
 
@@ -34,7 +31,7 @@ aliases:
 }
 ```
 
-#### 2.2 값들의 순서화된 리스트 형식
+### 2.2 값들의 순서화된 리스트 형식
 - 여러 가지 언어들에서 배열(Array), 리스트(List)로 실현되었다.
 - [ value1, value2, ..... ]
 
@@ -52,7 +49,7 @@ aliases:
 - Jackson : <https://github.com/FasterXML/jackson>
 - **Spring Framework** 를 사용하여 예시를 들어보이겠다.
 
-#### 3.1 Maven의 pom.xml의 추가하기
+### 3.1 Maven의 pom.xml의 추가하기
 - Jackson이라고 치면 가장 위에 보이는 Jackson Databind를 선택한다.
 
 ![[assets/posts/20170208/1.PNG]]
@@ -65,7 +62,7 @@ aliases:
 </dependency>
 ```
 
-#### 3.2 @ResponseBody를 사용하여 JSON형태로 응답하기
+### 3.2 @ResponseBody를 사용하여 JSON형태로 응답하기
 - Controller를 통해 View로 넘어가지 않고 데이터(*JSON OR XML*)를 넘겨 줄 수 있다.
 - Spring 3.1에서부터 <mvc:annotation-driven></mvc:annotation-driven>을 사용하면 HttpMessageConverter가 자동으로 등록된다.
 - **@ResponseBody** : Return 값은 View를 통해서 출력되는 것이 아니라 HTTP Response Body에 직접쓰여진다.
@@ -92,7 +89,7 @@ public Map getUserList(){
 }
 ```
 
-#### 3.3 서버를 작동시켜 확인해보기.
+### 3.3 서버를 작동시켜 확인해보기.
 - RequestMapping된 주소인 `http://localhost:8080/users` 확인해보자.
 
 - 결과 모습 : 잘 도착했지만 보기가 불편하다.
@@ -100,14 +97,9 @@ public Map getUserList(){
 ![[assets/posts/20170208/2.PNG]]
 
 
-#### 3.4 PostMan을 통해 예쁘게 보자.
-
-![[assets/posts/20170208/postman.PNG]]
-
+### 3.4 PostMan을 통해 예쁘게 보자.
 - Postman이라는 크롬 앱을 통해 예쁘게 볼 수도 있고 다양한 테스트도 가능하다.
-
 - Download : <https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop>
-
 - 결과 모습 : 예쁜 모습으로 볼 수 있다.
 
 ![[assets/posts/20170208/3.PNG]]

@@ -1,15 +1,11 @@
 ---
-title: Database의 파티셔닝(Partitioning)이란?
-tags:
-  - Database
+aliases: [../articles/2018-02/Database-Partitioning]
 date: 2018-02-22
-aliases: 
-  - ../articles/2018-02/Database-Partitioning
+description: Database Partitioning에 대해 알아보자.
+tags: [Database]
+title: Database Partitioning
 ---
-
-![[assets/logo/database.jpg]]
-
-# Partitioning
+# Database Partitioning
 
 ## 배경
 
@@ -42,14 +38,14 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 
 ## Partitioning 범위
 
-### Range partitioning
+### Range Partitioning
 - 연속적인 숫자나 날짜 기준으로 Partitioning 한다.
 - 손쉬운 관리 기법 제공 에 따른 관리 시간의 단축할 수 있다.
 - ex) 우편번호, 일별, 월별, 분기별 등 의 데이터에 적합하다.
 
 ![[assets/posts/20180222/2.png]]
 
-### List partitioning
+### List Partitioning
 - 특정 Partition에 저장 될 Data에 대한 명시적 제어 가능하다.
 - 분포도가 비슷 하며, 많은 SQL에서 해당 Column의 조건이 많이 들어오는 경우 유용하다.
 - Multi-Column Partition Key 제공하기 힘들다.
@@ -57,13 +53,13 @@ VLDB(Very Large DBMS)`전체 DB가 하나의 DBMS에 다 들어가기 힘들어�
 
 ![[assets/posts/20180222/3.png]]
 
-### Composite partitioning
+### Composite Partitioning
 - Composite Partition은 Partition의 Sub-Partitioning 을 말한다.
 - 큰 파티션에 대한 I/O 요청을 여러 partition으로 분산할 수 있다.
 - Range Partitioning 할 수 있는 Column이 있지만, Partitioning 결과 생성된 Partition이 너무 커서 효과적으로 관리할 수 없을 때 유용하다.
 - Range-list, Range-Hash
 
-### Hash partitioning
+### Hash Partitioning
 - Partition Key의 Hash값에 의한 Partitioning (균등한 데이터 분할 가능)
 - Select시 조건과 무관하게 병렬 Degree 제공 (질의 성능 향상)
 - 특정 Data가 어느 Hash Partition에 있는지 판단 불가
