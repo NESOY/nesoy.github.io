@@ -1,11 +1,13 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 interface Options {
-    client: string
+    clientId: string,
+    slotId: String
 }
 
 const defaultOptions: Options = {
-    client: "ca-pub-1829817529831781",
+    clientId: "ca-pub-1829817529831781",
+    slotId: "7543380157"
 }
 
 export default ((opts: Options) => {
@@ -14,13 +16,13 @@ export default ((opts: Options) => {
             <div>
                 <script 
                     async 
-                    src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${opts.client}`}
+                    src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${opts.clientId}`}
                     crossorigin="anonymous">
                 </script>
                 <ins class="adsbygoogle"
                     style="display:block"
-                    data-ad-client={`${opts.client}`}
-                    data-ad-slot="7543380157"
+                    data-ad-client={`${opts.clientId}`}
+                    data-ad-slot={`${opts.slotId}`}
                     data-ad-format="auto"
                     data-full-width-responsive="true"></ins>
                 <script>
@@ -29,6 +31,5 @@ export default ((opts: Options) => {
             </div>
         )
     }
-
     return Adsense
 }) satisfies QuartzComponentConstructor<Options>

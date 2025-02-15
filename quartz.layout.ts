@@ -8,7 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.DesktopOnly(
       Component.Adsense({
-        client:"ca-pub-1829817529831781"
+        clientId: "ca-pub-1829817529831781",
+        slotId: "7543380157"
       })
     ),
     Component.Comments({
