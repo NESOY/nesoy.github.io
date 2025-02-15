@@ -6,9 +6,11 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.Adsense({
-      client:"ca-pub-1829817529831781"
-    }),
+    Component.DesktopOnly(
+      Component.Adsense({
+        client:"ca-pub-1829817529831781"
+      })
+    ),
     Component.Comments({
       provider: 'giscus',
       options: {
