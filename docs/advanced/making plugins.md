@@ -99,8 +99,6 @@ export const Latex: QuartzTransformerPlugin<Options> = (opts?: Options) => {
             },
           ],
         }
-      } else {
-        return {}
       }
     },
   }
