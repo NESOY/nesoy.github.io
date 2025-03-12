@@ -4,6 +4,7 @@ import { FullSlug, joinSegments } from "./path"
 interface FileTrieData {
   slug: string
   title: string
+  filePath: string
 }
 
 export class FileTrieNode<T extends FileTrieData = ContentDetails> {
@@ -11,6 +12,10 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
   children: Array<FileTrieNode<T>>
 
   private slugSegments: string[]
+  // prefer showing the file path segment over the slug segment
+  // so that folders that dont have index files can be shown as is
+  // without dashes in the slug
+  private fileSegmentHint?: string
   private displayNameOverride?: string
   data: T | null
 
@@ -23,7 +28,10 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
   }
 
   get displayName(): string {
-    return this.displayNameOverride ?? this.data?.title ?? this.slugSegment ?? ""
+    const nonIndexTitle = this.data?.title === "index" ? undefined : this.data?.title
+    return (
+      this.displayNameOverride ?? nonIndexTitle ?? this.fileSegmentHint ?? this.slugSegment ?? ""
+    )
   }
 
   set displayName(name: string) {
@@ -69,6 +77,9 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
       // recursive case, we are not at the end of the path
       const child =
         this.children.find((c) => c.slugSegment === segment) ?? this.makeChild(path, undefined)
+
+      const fileParts = file.filePath.split("/")
+      child.fileSegmentHint = fileParts.at(-path.length)
       child.insert(path.slice(1), file)
     }
   }
