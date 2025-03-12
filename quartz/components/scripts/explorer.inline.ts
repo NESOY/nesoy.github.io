@@ -259,15 +259,17 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   await setupExplorer(currentSlug)
 
   // if mobile hamburger is visible, collapse by default
-  for (const explorer of document.getElementsByClassName("mobile-explorer")) {
-    if (explorer.checkVisibility()) {
+  for (const explorer of document.getElementsByClassName("explorer")) {
+    const mobileExplorer = explorer.querySelector(".mobile-explorer")
+    if (!mobileExplorer) return
+
+    if (mobileExplorer.checkVisibility()) {
       explorer.classList.add("collapsed")
       explorer.setAttribute("aria-expanded", "false")
     }
-  }
 
-  const hiddenUntilDoneLoading = document.querySelector(".mobile-explorer")
-  hiddenUntilDoneLoading?.classList.remove("hide-until-loaded")
+    mobileExplorer.classList.remove("hide-until-loaded")
+  }
 })
 
 function setFolderState(folderElement: HTMLElement, collapsed: boolean) {
