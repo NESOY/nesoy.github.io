@@ -266,7 +266,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-  const hiddenUntilDoneLoading = document.querySelector("#mobile-explorer")
+  const hiddenUntilDoneLoading = document.querySelector(".mobile-explorer")
   hiddenUntilDoneLoading?.classList.remove("hide-until-loaded")
 })
 
