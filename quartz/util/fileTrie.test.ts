@@ -31,6 +31,17 @@ describe("FileTrie", () => {
       trie.add(data)
       assert.strictEqual(trie.children[0].displayName, "Test Title")
     })
+
+    test("should be able to set displayName", () => {
+      const data = {
+        title: "Test Title",
+        slug: "test",
+      }
+
+      trie.add(data)
+      trie.children[0].displayName = "Modified"
+      assert.strictEqual(trie.children[0].displayName, "Modified")
+    })
   })
 
   describe("add", () => {
@@ -120,6 +131,27 @@ describe("FileTrie", () => {
 
       assert.strictEqual(trie.children[0].displayName, "Modified")
       assert.strictEqual(trie.children[1].displayName, "Modified")
+    })
+
+    test("map over folders should work", () => {
+      const data1 = { title: "Test1", slug: "test1" }
+      const data2 = { title: "Test2", slug: "a/b/test2" }
+
+      trie.add(data1)
+      trie.add(data2)
+
+      trie.map((node) => {
+        if (node.isFolder) {
+          node.displayName = `Folder: ${node.displayName}`
+        } else {
+          node.displayName = `File: ${node.displayName}`
+        }
+      })
+
+      assert.strictEqual(trie.children[0].displayName, "File: Test1")
+      assert.strictEqual(trie.children[1].displayName, "Folder: a")
+      assert.strictEqual(trie.children[1].children[0].displayName, "Folder: b")
+      assert.strictEqual(trie.children[1].children[0].children[0].displayName, "File: Test2")
     })
   })
 

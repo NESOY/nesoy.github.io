@@ -11,6 +11,7 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
   children: Array<FileTrieNode<T>>
 
   private slugSegments: string[]
+  private displayNameOverride?: string
   data: T | null
 
   constructor(segments: string[], data?: T) {
@@ -18,10 +19,15 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
     this.slugSegments = segments
     this.data = data ?? null
     this.isFolder = false
+    this.displayNameOverride = undefined
   }
 
   get displayName(): string {
-    return this.data?.title ?? this.slugSegment ?? ""
+    return this.displayNameOverride ?? this.data?.title ?? this.slugSegment ?? ""
+  }
+
+  set displayName(name: string) {
+    this.displayNameOverride = name
   }
 
   get slug(): FullSlug {
