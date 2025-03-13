@@ -105,6 +105,10 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           containsIndex = true
         }
 
+        if (file.data.slug?.endsWith("/index")) {
+          continue
+        }
+
         const externalResources = pageResources(pathToRoot(slug), file.data, resources)
         const componentData: QuartzComponentProps = {
           ctx,
