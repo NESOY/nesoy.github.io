@@ -161,7 +161,7 @@ async function setupExplorer(currentSlug: FullSlug) {
     // Get folder state from local storage
     const storageTree = localStorage.getItem("fileTree")
     const serializedExplorerState = storageTree && opts.useSavedState ? JSON.parse(storageTree) : []
-    const oldIndex = new Map(
+    const oldIndex = new Map<string, boolean>(
       serializedExplorerState.map((entry: FolderState) => [entry.path, entry.collapsed]),
     )
 
@@ -186,10 +186,14 @@ async function setupExplorer(currentSlug: FullSlug) {
 
     // Get folder paths for state management
     const folderPaths = trie.getFolderPaths()
-    currentExplorerState = folderPaths.map((path) => ({
-      path,
-      collapsed: oldIndex.get(path) === true,
-    }))
+    currentExplorerState = folderPaths.map((path) => {
+      const previousState = oldIndex.get(path)
+      return {
+        path,
+        collapsed:
+          previousState === undefined ? opts.folderDefaultState === "collapsed" : previousState,
+      }
+    })
 
     const explorerUl = explorer.querySelector(".explorer-ul")
     if (!explorerUl) continue
