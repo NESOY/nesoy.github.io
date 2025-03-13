@@ -234,7 +234,7 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         for (const fontFile of fontFiles) {
           const res = await fetch(fontFile.url)
           if (!res.ok) {
-            throw new Error(`failed to fetch font ${fontFile.filename}`)
+            throw new Error(`Failed to fetch font ${fontFile.filename}`)
           }
 
           const buf = await res.arrayBuffer()

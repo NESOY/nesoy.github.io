@@ -3,12 +3,13 @@ import { FontWeight, SatoriOptions } from "satori/wasm"
 import { GlobalConfiguration } from "../cfg"
 import { QuartzPluginData } from "../plugins/vfile"
 import { JSXInternal } from "preact/src/jsx"
-import { FontSpecification, ThemeKey } from "./theme"
+import { FontSpecification, getFontSpecificationName, ThemeKey } from "./theme"
 import path from "path"
 import { QUARTZ } from "./path"
 import { formatDate, getDate } from "../components/Date"
 import readingTime from "reading-time"
 import { i18n } from "../i18n"
+import chalk from "chalk"
 
 const defaultHeaderWeight = [700]
 const defaultBodyWeight = [400]
@@ -26,29 +27,38 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
   const headerFontName = typeof headerFont === "string" ? headerFont : headerFont.name
   const bodyFontName = typeof bodyFont === "string" ? bodyFont : bodyFont.name
 
-  // Fetch fonts for all weights
-  const headerFontPromises = headerWeights.map((weight) => fetchTtf(headerFontName, weight))
-  const bodyFontPromises = bodyWeights.map((weight) => fetchTtf(bodyFontName, weight))
+  // Fetch fonts for all weights and convert to satori format in one go
+  const headerFontPromises = headerWeights.map(async (weight) => {
+    const data = await fetchTtf(headerFontName, weight)
+    if (!data) return null
+    return {
+      name: headerFontName,
+      data,
+      weight,
+      style: "normal" as const,
+    }
+  })
 
-  const [headerFontData, bodyFontData] = await Promise.all([
+  const bodyFontPromises = bodyWeights.map(async (weight) => {
+    const data = await fetchTtf(bodyFontName, weight)
+    if (!data) return null
+    return {
+      name: bodyFontName,
+      data,
+      weight,
+      style: "normal" as const,
+    }
+  })
+
+  const [headerFonts, bodyFonts] = await Promise.all([
     Promise.all(headerFontPromises),
     Promise.all(bodyFontPromises),
   ])
 
-  // Convert fonts to satori font format and return
+  // Filter out any failed fetches and combine header and body fonts
   const fonts: SatoriOptions["fonts"] = [
-    ...headerFontData.map((data, idx) => ({
-      name: headerFontName,
-      data,
-      weight: headerWeights[idx],
-      style: "normal" as const,
-    })),
-    ...bodyFontData.map((data, idx) => ({
-      name: bodyFontName,
-      data,
-      weight: bodyWeights[idx],
-      style: "normal" as const,
-    })),
+    ...headerFonts.filter((font): font is NonNullable<typeof font> => font !== null),
+    ...bodyFonts.filter((font): font is NonNullable<typeof font> => font !== null),
   ]
 
   return fonts
@@ -61,10 +71,11 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
  * @returns `.ttf` file of google font
  */
 export async function fetchTtf(
-  fontName: string,
+  rawFontName: string,
   weight: FontWeight,
-): Promise<Buffer<ArrayBufferLike>> {
-  const cacheKey = `${fontName.replaceAll(" ", "-")}-${weight}`
+): Promise<Buffer<ArrayBufferLike> | undefined> {
+  const fontName = rawFontName.replaceAll(" ", "+")
+  const cacheKey = `${fontName}-${weight}`
   const cacheDir = path.join(QUARTZ, ".quartz-cache", "fonts")
   const cachePath = path.join(cacheDir, cacheKey)
 
@@ -87,20 +98,19 @@ export async function fetchTtf(
   const match = urlRegex.exec(css)
 
   if (!match) {
-    throw new Error("Could not fetch font")
+    console.log(
+      chalk.yellow(
+        `\nWarning: Failed to fetch font ${rawFontName} with weight ${weight}, got ${cssResponse.statusText}`,
+      ),
+    )
+    return
   }
 
   // fontData is an ArrayBuffer containing the .ttf file data
   const fontResponse = await fetch(match[1])
   const fontData = Buffer.from(await fontResponse.arrayBuffer())
-
-  try {
-    await fs.mkdir(cacheDir, { recursive: true })
-    await fs.writeFile(cachePath, fontData)
-  } catch (error) {
-    console.warn(`Failed to cache font: ${error}`)
-    // Continue even if caching fails
-  }
+  await fs.mkdir(cacheDir, { recursive: true })
+  await fs.writeFile(cachePath, fontData)
 
   return fontData
 }
@@ -173,7 +183,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   { colorScheme }: UserOpts,
   title: string,
   description: string,
-  fonts: SatoriOptions["fonts"],
+  _fonts: SatoriOptions["fonts"],
   fileData: QuartzPluginData,
 ) => {
   const fontBreakPoint = 32
@@ -192,6 +202,8 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
 
   // Get tags if available
   const tags = fileData.frontmatter?.tags ?? []
+  const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
+  const headerFont = getFontSpecificationName(cfg.theme.typography.header)
 
   return (
     <div
@@ -202,7 +214,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
         width: "100%",
         backgroundColor: cfg.theme.colors[colorScheme].light,
         padding: "2.5rem",
-        fontFamily: fonts[1].name,
+        fontFamily: bodyFont,
       }}
     >
       {/* Header Section */}
@@ -227,7 +239,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
             display: "flex",
             fontSize: 32,
             color: cfg.theme.colors[colorScheme].gray,
-            fontFamily: fonts[1].name,
+            fontFamily: bodyFont,
           }}
         >
           {cfg.baseUrl}
@@ -246,7 +258,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
           style={{
             margin: 0,
             fontSize: useSmallerFont ? 64 : 72,
-            fontFamily: fonts[0].name,
+            fontFamily: headerFont,
             fontWeight: 700,
             color: cfg.theme.colors[colorScheme].dark,
             lineHeight: 1.2,
