@@ -117,9 +117,8 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 
       return graph
     },
-    async emit(ctx, content, _resources) {
+    async *emit(ctx, content, _resources) {
       const cfg = ctx.cfg.configuration
-      const emitted: FilePath[] = []
       const linkIndex: ContentIndexMap = new Map()
       for (const [tree, file] of content) {
         const slug = file.data.slug!
@@ -142,25 +141,21 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }
 
       if (opts?.enableSiteMap) {
-        emitted.push(
-          await write({
-            ctx,
-            content: generateSiteMap(cfg, linkIndex),
-            slug: "sitemap" as FullSlug,
-            ext: ".xml",
-          }),
-        )
+        yield write({
+          ctx,
+          content: generateSiteMap(cfg, linkIndex),
+          slug: "sitemap" as FullSlug,
+          ext: ".xml",
+        })
       }
 
       if (opts?.enableRSS) {
-        emitted.push(
-          await write({
-            ctx,
-            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
-            slug: (opts?.rssSlug ?? "index") as FullSlug,
-            ext: ".xml",
-          }),
-        )
+        yield write({
+          ctx,
+          content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
+          slug: (opts?.rssSlug ?? "index") as FullSlug,
+          ext: ".xml",
+        })
       }
 
       const fp = joinSegments("static", "contentIndex") as FullSlug
@@ -175,16 +170,12 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         }),
       )
 
-      emitted.push(
-        await write({
-          ctx,
-          content: JSON.stringify(simplifiedIndex),
-          slug: fp,
-          ext: ".json",
-        }),
-      )
-
-      return emitted
+      yield write({
+        ctx,
+        content: JSON.stringify(simplifiedIndex),
+        slug: fp,
+        ext: ".json",
+      })
     },
     externalResources: (ctx) => {
       if (opts?.enableRSS) {

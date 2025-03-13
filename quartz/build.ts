@@ -250,15 +250,25 @@ async function partialRebuildFromEntrypoint(
         ([_node, vfile]) => !toRemove.has(vfile.data.filePath!),
       )
 
-      const emittedFps = await emitter.emit(ctx, files, staticResources)
-
-      if (ctx.argv.verbose) {
-        for (const file of emittedFps) {
-          console.log(`[emit:${emitter.name}] ${file}`)
+      const emitted = await emitter.emit(ctx, files, staticResources)
+      if (Symbol.asyncIterator in emitted) {
+        // Async generator case
+        for await (const file of emitted) {
+          emittedFiles++
+          if (ctx.argv.verbose) {
+            console.log(`[emit:${emitter.name}] ${file}`)
+          }
+        }
+      } else {
+        // Array case
+        emittedFiles += emitted.length
+        if (ctx.argv.verbose) {
+          for (const file of emitted) {
+            console.log(`[emit:${emitter.name}] ${file}`)
+          }
         }
       }
 
-      emittedFiles += emittedFps.length
       continue
     }
 
@@ -280,15 +290,24 @@ async function partialRebuildFromEntrypoint(
         .filter((file) => !toRemove.has(file))
         .map((file) => contentMap.get(file)!)
 
-      const emittedFps = await emitter.emit(ctx, upstreamContent, staticResources)
-
-      if (ctx.argv.verbose) {
-        for (const file of emittedFps) {
-          console.log(`[emit:${emitter.name}] ${file}`)
+      const emitted = await emitter.emit(ctx, upstreamContent, staticResources)
+      if (Symbol.asyncIterator in emitted) {
+        // Async generator case
+        for await (const file of emitted) {
+          emittedFiles++
+          if (ctx.argv.verbose) {
+            console.log(`[emit:${emitter.name}] ${file}`)
+          }
+        }
+      } else {
+        // Array case
+        emittedFiles += emitted.length
+        if (ctx.argv.verbose) {
+          for (const file of emitted) {
+            console.log(`[emit:${emitter.name}] ${file}`)
+          }
         }
       }
-
-      emittedFiles += emittedFps.length
     }
   }
 
