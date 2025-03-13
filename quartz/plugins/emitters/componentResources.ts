@@ -86,7 +86,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.afterDOMLoaded.push(`
       const gtagScript = document.createElement("script")
       gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=${tagId}"
-      gtagScript.async = true
+      gtagScript.defer = true
       document.head.appendChild(gtagScript)
 
       window.dataLayer = window.dataLayer || [];
@@ -121,7 +121,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       umamiScript.src = "${cfg.analytics.host ?? "https://analytics.umami.is"}/script.js"
       umamiScript.setAttribute("data-website-id", "${cfg.analytics.websiteId}")
       umamiScript.setAttribute("data-auto-track", "false")
-      umamiScript.async = true
+      umamiScript.defer = true
       document.head.appendChild(umamiScript)
 
       document.addEventListener("nav", () => {
@@ -132,7 +132,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.afterDOMLoaded.push(`
       const goatcounterScript = document.createElement("script")
       goatcounterScript.src = "${cfg.analytics.scriptSrc ?? "https://gc.zgo.at/count.js"}"
-      goatcounterScript.async = true
+      goatcounterScript.defer = true
       goatcounterScript.setAttribute("data-goatcounter",
         "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count")
       document.head.appendChild(goatcounterScript)
@@ -173,14 +173,13 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       const cabinScript = document.createElement("script")
       cabinScript.src = "${cfg.analytics.host ?? "https://scripts.withcabin.com"}/hello.js"
       cabinScript.defer = true
-      cabinScript.async = true
       document.head.appendChild(cabinScript)
     `)
   } else if (cfg.analytics?.provider === "clarity") {
     componentResources.afterDOMLoaded.push(`
       const clarityScript = document.createElement("script")
       clarityScript.innerHTML= \`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      t=l.createElement(r);t.defer=1;t.src="https://www.clarity.ms/tag/"+i;
       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "${cfg.analytics.projectId}");\`
       document.head.appendChild(clarityScript)
