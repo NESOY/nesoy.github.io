@@ -6,8 +6,9 @@ import { JSXInternal } from "preact/src/jsx"
 import { FontSpecification, ThemeKey } from "./theme"
 import path from "path"
 import { QUARTZ } from "./path"
-import { formatDate } from "../components/Date"
-import { getDate } from "../components/Date"
+import { formatDate, getDate } from "../components/Date"
+import readingTime from "reading-time"
+import { i18n } from "../i18n"
 
 const defaultHeaderWeight = [700]
 const defaultBodyWeight = [400]
@@ -183,6 +184,12 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   const rawDate = getDate(cfg, fileData)
   const date = rawDate ? formatDate(rawDate, cfg.locale) : null
 
+  // Calculate reading time
+  const { minutes } = readingTime(fileData.text ?? "")
+  const readingTimeText = i18n(cfg.locale).components.contentMeta.readingTime({
+    minutes: Math.ceil(minutes),
+  })
+
   // Get tags if available
   const tags = fileData.frontmatter?.tags ?? []
 
@@ -287,11 +294,12 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
           borderTop: `1px solid ${cfg.theme.colors[colorScheme].lightgray}`,
         }}
       >
-        {/* Left side - Date */}
+        {/* Left side - Date and Reading Time */}
         <div
           style={{
             display: "flex",
             alignItems: "center",
+            gap: "2rem",
             color: cfg.theme.colors[colorScheme].gray,
             fontSize: 28,
           }}
@@ -314,6 +322,20 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
               {date}
             </div>
           )}
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <svg
+              style={{ marginRight: "0.5rem" }}
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            {readingTimeText}
+          </div>
         </div>
 
         {/* Right side - Tags */}

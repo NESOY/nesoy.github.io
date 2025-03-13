@@ -22,7 +22,7 @@ export class QuartzLogger {
         readline.cursorTo(process.stdout, 0)
         process.stdout.write(`${this.spinnerChars[this.spinnerIndex]} ${this.spinnerText}`)
         this.spinnerIndex = (this.spinnerIndex + 1) % this.spinnerChars.length
-      }, 100)
+      }, 20)
     }
   }
 

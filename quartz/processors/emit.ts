@@ -26,7 +26,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
             if (ctx.argv.verbose) {
               console.log(`[emit:${emitter.name}] ${file}`)
             } else {
-              log.updateText(`Emitting output files: ${chalk.gray(file)}`)
+              log.updateText(`Emitting output files: ${emitter.name} -> ${chalk.gray(file)}`)
             }
           }
         } else {
@@ -36,7 +36,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
             if (ctx.argv.verbose) {
               console.log(`[emit:${emitter.name}] ${file}`)
             } else {
-              log.updateText(`Emitting output files: ${chalk.gray(file)}`)
+              log.updateText(`Emitting output files: ${emitter.name} -> ${chalk.gray(file)}`)
             }
           }
         }
