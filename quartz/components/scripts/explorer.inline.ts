@@ -134,9 +134,9 @@ function createFolderNode(
   }
 
   for (const child of node.children) {
-    const childNode = child.data
-      ? createFileNode(currentSlug, child)
-      : createFolderNode(currentSlug, child, opts)
+    const childNode = child.isFolder
+      ? createFolderNode(currentSlug, child, opts)
+      : createFileNode(currentSlug, child)
     ul.appendChild(childNode)
   }
 

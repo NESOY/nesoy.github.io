@@ -1,6 +1,7 @@
 import test, { describe, beforeEach } from "node:test"
 import assert from "node:assert"
 import { FileTrieNode } from "./fileTrie"
+import { FullSlug } from "./path"
 
 interface TestData {
   title: string
@@ -189,6 +190,42 @@ describe("FileTrie", () => {
           ["a/b-with-space/test2", data2],
         ],
       )
+    })
+  })
+
+  describe("fromEntries", () => {
+    test("nested", () => {
+      const trie = FileTrieNode.fromEntries([
+        ["index" as FullSlug, { title: "Root", slug: "index", filePath: "index.md" }],
+        [
+          "folder/file1" as FullSlug,
+          { title: "File 1", slug: "folder/file1", filePath: "folder/file1.md" },
+        ],
+        [
+          "folder/index" as FullSlug,
+          { title: "Folder Index", slug: "folder/index", filePath: "folder/index.md" },
+        ],
+        [
+          "folder/file2" as FullSlug,
+          { title: "File 2", slug: "folder/file2", filePath: "folder/file2.md" },
+        ],
+        [
+          "folder/folder2/index" as FullSlug,
+          {
+            title: "Subfolder Index",
+            slug: "folder/folder2/index",
+            filePath: "folder/folder2/index.md",
+          },
+        ],
+      ])
+
+      assert.strictEqual(trie.children.length, 1)
+      assert.strictEqual(trie.children[0].slug, "folder/index")
+      assert.strictEqual(trie.children[0].children.length, 3)
+      assert.strictEqual(trie.children[0].children[0].slug, "folder/file1")
+      assert.strictEqual(trie.children[0].children[1].slug, "folder/file2")
+      assert.strictEqual(trie.children[0].children[2].slug, "folder/folder2/index")
+      assert.strictEqual(trie.children[0].children[2].children.length, 0)
     })
   })
 
