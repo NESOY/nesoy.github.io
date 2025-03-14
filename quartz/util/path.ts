@@ -247,7 +247,7 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
 }
 
 // path helpers
-function isFolderPath(fplike: string): boolean {
+export function isFolderPath(fplike: string): boolean {
   return (
     fplike.endsWith("/") ||
     endsWith(fplike, "index") ||

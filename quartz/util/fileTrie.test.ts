@@ -229,6 +229,58 @@ describe("FileTrie", () => {
     })
   })
 
+  describe("findNode", () => {
+    test("should find root node with empty path", () => {
+      const data = { title: "Root", slug: "index", filePath: "index.md" }
+      trie.add(data)
+      const found = trie.findNode([])
+      assert.strictEqual(found, trie)
+    })
+
+    test("should find node at first level", () => {
+      const data = { title: "Test", slug: "test", filePath: "test.md" }
+      trie.add(data)
+      const found = trie.findNode(["test"])
+      assert.strictEqual(found?.data, data)
+    })
+
+    test("should find nested node", () => {
+      const data = {
+        title: "Nested",
+        slug: "folder/subfolder/test",
+        filePath: "folder/subfolder/test.md",
+      }
+      trie.add(data)
+      const found = trie.findNode(["folder", "subfolder", "test"])
+      assert.strictEqual(found?.data, data)
+
+      // should find the folder and subfolder indexes too
+      assert.strictEqual(
+        trie.findNode(["folder", "subfolder", "index"]),
+        trie.children[0].children[0],
+      )
+      assert.strictEqual(trie.findNode(["folder", "index"]), trie.children[0])
+    })
+
+    test("should return undefined for non-existent path", () => {
+      const data = { title: "Test", slug: "test", filePath: "test.md" }
+      trie.add(data)
+      const found = trie.findNode(["nonexistent"])
+      assert.strictEqual(found, undefined)
+    })
+
+    test("should return undefined for partial path", () => {
+      const data = {
+        title: "Nested",
+        slug: "folder/subfolder/test",
+        filePath: "folder/subfolder/test.md",
+      }
+      trie.add(data)
+      const found = trie.findNode(["folder"])
+      assert.strictEqual(found?.data, null)
+    })
+  })
+
   describe("getFolderPaths", () => {
     test("should return all folder paths", () => {
       const data1 = {
