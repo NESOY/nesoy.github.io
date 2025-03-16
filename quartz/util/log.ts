@@ -35,7 +35,7 @@ export class QuartzLogger {
         const truncated = truncate(output, columns)
         process.stdout.write(truncated)
         this.spinnerIndex = (this.spinnerIndex + 1) % this.spinnerChars.length
-      }, 20)
+      }, 50)
     }
   }
 

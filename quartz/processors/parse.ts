@@ -172,7 +172,7 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
       workerType: "thread",
     })
     const errorHandler = (err: any) => {
-      console.error(`${err}`.replace(/^error:\s*/i, ""))
+      console.error(err)
       process.exit(1)
     }
 
@@ -201,7 +201,7 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
 
     const markdownToHtmlPromises: WorkerPromise<ProcessedContent[]>[] = []
     processedFiles = 0
-    for (const [mdChunk, _] of mdResults) {
+    for (const mdChunk of mdResults) {
       markdownToHtmlPromises.push(pool.exec("processHtml", [serializableCtx, mdChunk]))
     }
     const results: ProcessedContent[][] = await Promise.all(

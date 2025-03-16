@@ -1,7 +1,7 @@
 import { QuartzEmitterPlugin } from "../types"
 import { i18n } from "../../i18n"
 import { unescapeHTML } from "../../util/escape"
-import { FullSlug, getFileExtension } from "../../util/path"
+import { FullSlug, getFileExtension, joinSegments, QUARTZ } from "../../util/path"
 import { ImageOptions, SocialImageOptions, defaultImage, getSatoriFonts } from "../../util/og"
 import sharp from "sharp"
 import satori, { SatoriOptions } from "satori"
@@ -10,6 +10,8 @@ import { Readable } from "stream"
 import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
 import { QuartzPluginData } from "../vfile"
+import fs from "node:fs/promises"
+import chalk from "chalk"
 
 const defaultOptions: SocialImageOptions = {
   colorScheme: "lightMode",
@@ -28,7 +30,25 @@ async function generateSocialImage(
   userOpts: SocialImageOptions,
 ): Promise<Readable> {
   const { width, height } = userOpts
-  const imageComponent = userOpts.imageStructure(cfg, userOpts, title, description, fonts, fileData)
+  const iconPath = joinSegments(QUARTZ, "static", "icon.png")
+  let iconBase64: string | undefined = undefined
+  try {
+    const iconData = await fs.readFile(iconPath)
+    iconBase64 = `data:image/png;base64,${iconData.toString("base64")}`
+  } catch (err) {
+    console.warn(chalk.yellow(`Warning: Could not find icon at ${iconPath}`))
+  }
+
+  const imageComponent = userOpts.imageStructure({
+    cfg,
+    userOpts,
+    title,
+    description,
+    fonts,
+    fileData,
+    iconBase64,
+  })
+
   const svg = await satori(imageComponent, {
     width,
     height,
