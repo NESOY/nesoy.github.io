@@ -4,10 +4,12 @@ import { unescapeHTML } from "../../util/escape"
 import { FullSlug, getFileExtension } from "../../util/path"
 import { ImageOptions, SocialImageOptions, defaultImage, getSatoriFonts } from "../../util/og"
 import sharp from "sharp"
-import satori from "satori"
+import satori, { SatoriOptions } from "satori"
 import { loadEmoji, getIconCode } from "../../util/emoji"
 import { Readable } from "stream"
 import { write } from "./helpers"
+import { BuildCtx } from "../../util/ctx"
+import { QuartzPluginData } from "../vfile"
 
 const defaultOptions: SocialImageOptions = {
   colorScheme: "lightMode",
@@ -42,6 +44,41 @@ async function generateSocialImage(
   return sharp(Buffer.from(svg)).webp({ quality: 40 })
 }
 
+async function processOgImage(
+  ctx: BuildCtx,
+  fileData: QuartzPluginData,
+  fonts: SatoriOptions["fonts"],
+  fullOptions: SocialImageOptions,
+) {
+  const cfg = ctx.cfg.configuration
+  const slug = fileData.slug!
+  const titleSuffix = cfg.pageTitleSuffix ?? ""
+  const title =
+    (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+  const description =
+    fileData.frontmatter?.socialDescription ??
+    fileData.frontmatter?.description ??
+    unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
+
+  const stream = await generateSocialImage(
+    {
+      title,
+      description,
+      fonts,
+      cfg,
+      fileData,
+    },
+    fullOptions,
+  )
+
+  return write({
+    ctx,
+    content: stream,
+    slug: `${slug}-og-image` as FullSlug,
+    ext: ".webp",
+  })
+}
+
 export const CustomOgImagesEmitterName = "CustomOgImages"
 export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = (userOpts) => {
   const fullOptions = { ...defaultOptions, ...userOpts }
@@ -58,39 +95,23 @@ export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = 
       const fonts = await getSatoriFonts(headerFont, bodyFont)
 
       for (const [_tree, vfile] of content) {
-        // if this file defines socialImage, we can skip
-        if (vfile.data.frontmatter?.socialImage !== undefined) {
-          continue
+        if (vfile.data.frontmatter?.socialImage !== undefined) continue
+        yield processOgImage(ctx, vfile.data, fonts, fullOptions)
+      }
+    },
+    async *partialEmit(ctx, _content, _resources, changeEvents) {
+      const cfg = ctx.cfg.configuration
+      const headerFont = cfg.theme.typography.header
+      const bodyFont = cfg.theme.typography.body
+      const fonts = await getSatoriFonts(headerFont, bodyFont)
+
+      // find all slugs that changed or were added
+      for (const changeEvent of changeEvents) {
+        if (!changeEvent.file) continue
+        if (changeEvent.file.data.frontmatter?.socialImage !== undefined) continue
+        if (changeEvent.type === "add" || changeEvent.type === "change") {
+          yield processOgImage(ctx, changeEvent.file.data, fonts, fullOptions)
         }
-
-        const slug = vfile.data.slug!
-        const titleSuffix = cfg.pageTitleSuffix ?? ""
-        const title =
-          (vfile.data.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
-        const description =
-          vfile.data.frontmatter?.socialDescription ??
-          vfile.data.frontmatter?.description ??
-          unescapeHTML(
-            vfile.data.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description,
-          )
-
-        const stream = await generateSocialImage(
-          {
-            title,
-            description,
-            fonts,
-            cfg,
-            fileData: vfile.data,
-          },
-          fullOptions,
-        )
-
-        yield write({
-          ctx,
-          content: stream,
-          slug: `${slug}-og-image` as FullSlug,
-          ext: ".webp",
-        })
       }
     },
     externalResources: (ctx) => {
