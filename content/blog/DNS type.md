@@ -1,14 +1,14 @@
 ---
-title: DNS Type에 대해
+title: DNS Type
 tags:
   - Infra
   - DNS
 date: 2020-06-04
-aliases: 
+aliases:
   - /articles/2020-06/DNS-type
 ---
-
-#### A record
+# DNS type
+## A record
 - domain name에 하나의 IP Address가 있음을 의미
 - 하나의 도메인(서브나 루트 포함)에 해당하는 IP 주소의 값을 가지고 있습니다.
 
@@ -17,7 +17,7 @@ nesoy.github.io -> 123.456.789.123 // 해당 도메인 IP 주소
 google.com -> 987.654.321.123     // 해당 도메인 IP 주소
 ```
 
-#### CNAME
+## CNAME
 - Canonical Name
 - 하나의 도메인에 다른 이름을 부여하는 방식을 의미
 

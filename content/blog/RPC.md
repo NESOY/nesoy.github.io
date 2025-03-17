@@ -1,12 +1,12 @@
 ---
-title: RPC란?
+title: RPC
 tags:
   - OS
 date: 2019-07-09
-aliases: 
+aliases:
   - /articles/2019-07/RPC
 ---
-
+# RPC
 ## 왜 RPC가 등장하게 되었을까?
 
 > `어떻게 하면 분산 네트워크 컴퓨터 환경에서 프로그래밍을 쉽게 할 수 있을까?`
