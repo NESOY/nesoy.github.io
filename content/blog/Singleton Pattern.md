@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-01/Singleton-Pattern]
+aliases: [/articles/2017-01/Singleton-Pattern]
 date: 2017-01-13
 tags: []
 title: Singleton Pattern(싱글턴 패턴)

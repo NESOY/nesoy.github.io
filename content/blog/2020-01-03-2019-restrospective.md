@@ -4,7 +4,7 @@ tags:
   - Retrospective
 date: 2020-01-03
 aliases: 
-  - ../articles/2020-01/2019-restrospective
+  - /articles/2020-01/2019-restrospective
 ---
 
 ## 왜 회고하는가?

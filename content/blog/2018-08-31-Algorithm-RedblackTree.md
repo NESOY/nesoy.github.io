@@ -2,7 +2,7 @@
 title: RedBlack Tree에 대해
 date: 2018-08-31
 aliases: 
-  - ../articles/2018-08/Algorithm-RedblackTree
+  - /articles/2018-08/Algorithm-RedblackTree
 ---
 
 ![[assets/logo/algorithm.png]]

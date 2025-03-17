@@ -4,7 +4,7 @@ tags:
   - Scala
 date: 2020-04-02
 aliases: 
-  - ../articles/2020-04/Scala-Tuple
+  - /articles/2020-04/Scala-Tuple
 ---
 
 ![[assets/logo/scala.png]]

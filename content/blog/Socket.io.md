@@ -1,6 +1,6 @@
 ---
 aliases:
-  - ../articles/2017-04/Socket.io
+  - /articles/2017-04/Socket.io
 date: 2017-04-28
 tags:
   - NodeJs

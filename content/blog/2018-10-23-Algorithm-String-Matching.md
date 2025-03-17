@@ -2,7 +2,7 @@
 title: String Matching Algorithm에 대해
 date: 2018-10-23
 aliases: 
-  - ../articles/2018-10/Algorithm-String-Matching
+  - /articles/2018-10/Algorithm-String-Matching
 ---
 
 ![[assets/logo/algorithm.png]]

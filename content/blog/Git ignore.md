@@ -1,7 +1,9 @@
 ---
-aliases: [../articles/2017-01/Git-Ignore]
+aliases:
+  - /articles/2017-01/Git-Ignore
 date: 2017-01-26
-tags: [Git]
+tags:
+  - Git
 title: Git .gitignore 적용하기
 ---
 # **Git .gitignore File 적용하기**

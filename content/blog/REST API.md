@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-02/REST]
+aliases: [/articles/2017-02/REST]
 date: 2017-02-06
 tags: [REST, Web]
 title: REST API

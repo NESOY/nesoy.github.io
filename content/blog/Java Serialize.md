@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-04/Java-Serialize]
+aliases: [/articles/2018-04/Java-Serialize]
 date: 2018-04-18
 tags: [Java]
 title: Java의 직렬화(Serialize)란?

@@ -4,7 +4,7 @@ tags:
   - Github
 date: 2019-11-18
 aliases: 
-  - ../articles/2019-11/Github-suggestion
+  - /articles/2019-11/Github-suggestion
 ---
 ![[assets/logo/github.png]]
 

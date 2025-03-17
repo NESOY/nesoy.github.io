@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2019-07-26
 aliases: 
-  - ../articles/2019-07/Intellij-Infinitest
+  - /articles/2019-07/Intellij-Infinitest
 ---
 
 ## 들어가며

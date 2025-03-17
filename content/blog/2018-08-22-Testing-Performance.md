@@ -4,7 +4,7 @@ tags:
   - Testing
 date: 2018-08-22
 aliases: 
-  - ../articles/2018-08/Testing-Performance
+  - /articles/2018-08/Testing-Performance
 ---
 
 ## 들어가며

@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2021-10/command-awk]
+aliases: [/articles/2021-10/command-awk]
 date: 2021-10-28
 tags: [Linux]
 title: awk 명령어

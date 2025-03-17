@@ -4,7 +4,7 @@ tags:
   - CleanCode
 date: 2018-01-09
 aliases: 
-  - ../articles/2018-01/CleanCode-Form
+  - /articles/2018-01/CleanCode-Form
 ---
 ![[assets/posts/20171211/cleancode.jpg]]
 

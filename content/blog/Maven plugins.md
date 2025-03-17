@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2021-03/maven-plugins]
+aliases: [/articles/2021-03/maven-plugins]
 date: 2021-03-31
 tags: [Maven]
 title: Maven Plugins에 대해

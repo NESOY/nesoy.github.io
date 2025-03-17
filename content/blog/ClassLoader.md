@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-11/ClassLoader]
+aliases: [/articles/2020-11/ClassLoader]
 date: 2020-11-05
 tags: [Java]
 title: ClassLoader

@@ -5,7 +5,7 @@ tags:
   - Design Pattern
 date: 2017-04-19
 aliases: 
-  - ../articles/2017-04/Nodejs-PRGPattern
+  - /articles/2017-04/Nodejs-PRGPattern
 ---
 
 ![[assets/posts/20170413/1.PNG]]

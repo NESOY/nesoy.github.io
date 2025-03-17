@@ -4,7 +4,7 @@ tags:
   - 개발환경
 date: 2018-08-30
 aliases: 
-  - ../articles/2018-08/Mac-Airpod
+  - /articles/2018-08/Mac-Airpod
 ---
 
 ## 매일 iPhone과 Airpod이 연결된 상태에서 Mac으로 연결하기 위해선?

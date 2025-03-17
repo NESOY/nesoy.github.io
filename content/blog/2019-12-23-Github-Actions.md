@@ -4,7 +4,7 @@ tags:
   - Github
 date: 2019-12-23
 aliases: 
-  - ../articles/2019-12/Github-Actions
+  - /articles/2019-12/Github-Actions
 ---
 ## [Github Action이란?](https://blog.outsider.ne.kr/1412)
 - 개발과정에서 발생하는 워크플로우를 자동화할 수 있는 도구

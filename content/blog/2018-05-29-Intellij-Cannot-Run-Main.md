@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2018-05-29
 aliases: 
-  - ../articles/2018-05/Intellij-Cannot-Run-Main
+  - /articles/2018-05/Intellij-Cannot-Run-Main
 ---
 
 ![[assets/logo/Intellij.png]]

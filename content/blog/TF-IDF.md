@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-11/tf-idf]
+aliases: [/articles/2017-11/tf-idf]
 date: 2017-11-07
 tags: [NLP]
 title: TF-IDF(Term Frequency - Inverse Document Frequency)

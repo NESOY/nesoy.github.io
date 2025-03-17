@@ -4,8 +4,8 @@ tags:
   - Jekyll
   - Github
 date: 2017-01-03
-aliases: 
-  - ../articles/2017-01/blog-search
+aliases:
+  - /articles/2017-01/blog-search
 ---
 
 # **구글 네이버에 블로그 글 등록하기**

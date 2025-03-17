@@ -4,7 +4,7 @@ tags:
   - Spring
 date: 2017-01-18
 aliases: 
-  - ../articles/2017-01/Spring-AOP
+  - /articles/2017-01/Spring-AOP
 ---
 
 ![[assets/logo/spring.png]]

@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-07/Hbase-Replication]
+aliases: [/articles/2020-07/Hbase-Replication]
 date: 2020-07-13
 tags: [HBase]
 title: Hbase Replication에 대해

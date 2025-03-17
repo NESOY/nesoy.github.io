@@ -4,7 +4,7 @@ tags:
   - Review
 date: 2019-08-30
 aliases: 
-  - ../articles/2019-08/if-kakao-day1
+  - /articles/2019-08/if-kakao-day1
 ---
 ![[assets/posts/img/2019-08-30-23-18-27.png]]
 

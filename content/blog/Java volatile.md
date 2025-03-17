@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-06/Java-volatile]
+aliases: [/articles/2018-06/Java-volatile]
 date: 2018-06-09
 tags: [Java]
 title: Java volatile

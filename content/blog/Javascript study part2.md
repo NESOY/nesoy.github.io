@@ -4,7 +4,7 @@ tags:
   - Javascript
 date: 2017-01-03
 aliases: 
-  - ../articles/2017-01/javascript-study2
+  - /articles/2017-01/javascript-study2
 ---
 
 # **Javascript**

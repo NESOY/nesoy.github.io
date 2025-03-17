@@ -1,7 +1,7 @@
 ---
 title: Java의 HashMap에 대해
 date: 2018-08-07
-aliases: [../articles/2018-08/Algorithm-HashTable]
+aliases: [/articles/2018-08/Algorithm-HashTable]
 ---
 # HashTable
 > 가장 자주 사용하는 자료구조인 HashMap에 대해 더 깊이 이해하기 위해 작성합니다.

@@ -4,7 +4,7 @@ tags:
   - DDD
 date: 2018-07-02
 aliases: 
-  - ../articles/2018-07/DDD-Bounded-Context
+  - /articles/2018-07/DDD-Bounded-Context
 ---
 
 ![[assets/logo/ddd.png]]

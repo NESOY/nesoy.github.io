@@ -5,7 +5,7 @@ tags:
   - Servlet
 date: 2017-01-08
 aliases: 
-  - ../articles/2017-01/servlet-annotation
+  - /articles/2017-01/servlet-annotation
 ---
 
 # **Servlet Annotation**

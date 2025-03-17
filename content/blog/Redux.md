@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2019-02/Redux]
+aliases: [/articles/2019-02/Redux]
 date: 2019-02-26
 tags: [Redux]
 title: Redux

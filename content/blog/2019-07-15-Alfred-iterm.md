@@ -4,7 +4,7 @@ tags:
   - 개발환경
 date: 2019-07-15
 aliases: 
-  - ../articles/2019-07/Alfred-iterm
+  - /articles/2019-07/Alfred-iterm
 ---
 
 ## Alfred에서 iTerm 명령어 바로 실행하기

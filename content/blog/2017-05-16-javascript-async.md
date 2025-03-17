@@ -4,7 +4,7 @@ tags:
   - Javascript
 date: 2017-05-16
 aliases: 
-  - ../articles/2017-05/javascript-async
+  - /articles/2017-05/javascript-async
 ---
 
 ## Arrow function expression (=>)

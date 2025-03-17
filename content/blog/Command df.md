@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-10/command-df]
+aliases: [/articles/2020-10/command-df]
 date: 2020-10-06
 tags: [Linux]
 title: df 명령어

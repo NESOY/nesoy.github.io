@@ -4,7 +4,7 @@ tags:
   - Javascript
 date: 2019-04-03
 aliases: 
-  - ../articles/2019-04/Javascript-Arrow-function
+  - /articles/2019-04/Javascript-Arrow-function
 ---
 
 ![[assets/logo/javascript.png]]

@@ -4,7 +4,7 @@ tags:
   - Python
 date: 2018-01-02
 aliases: 
-  - ../articles/2018-01/Python-Basic
+  - /articles/2018-01/Python-Basic
 ---
 
 ![[assets/posts/20180102/python-logo.png]]

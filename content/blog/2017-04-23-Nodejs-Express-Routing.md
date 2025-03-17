@@ -5,7 +5,7 @@ tags:
   - Express
 date: 2017-04-23
 aliases: 
-  - ../articles/2017-04/Nodejs-Express-Routing
+  - /articles/2017-04/Nodejs-Express-Routing
 ---
 
 ![[assets/posts/20170413/1.PNG]]

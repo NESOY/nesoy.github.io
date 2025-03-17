@@ -4,7 +4,7 @@ tags:
   - Programming
 date: 2018-05-10
 aliases: 
-  - ../articles/2018-05/Functional-Programming
+  - /articles/2018-05/Functional-Programming
 ---
 
 ![[assets/logo/FP.png]]

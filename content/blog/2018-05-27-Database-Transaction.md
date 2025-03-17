@@ -4,7 +4,7 @@ tags:
   - Database
 date: 2018-05-27
 aliases: 
-  - ../articles/2018-05/Database-Transaction
+  - /articles/2018-05/Database-Transaction
 ---
 
 ![[assets/logo/database.jpg]]

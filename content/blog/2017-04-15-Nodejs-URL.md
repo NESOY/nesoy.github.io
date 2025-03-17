@@ -3,8 +3,8 @@ title: NodeJs의 Stream, URL, QueryString, Cluster
 tags:
   - NodeJs
 date: 2017-04-15
-aliases: 
-  - ../articles/2017-04/Nodejs-URL
+aliases:
+  - /articles/2017-04/Nodejs-URL
 ---
 ![[assets/posts/20170413/1.PNG]]
 

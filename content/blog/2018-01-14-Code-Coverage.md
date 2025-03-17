@@ -4,7 +4,7 @@ tags:
   - Testing
 date: 2018-01-14
 aliases: 
-  - ../articles/2018-01/Code-Coverage
+  - /articles/2018-01/Code-Coverage
 ---
 
 > Testing shows the presence, not the absence of bugs

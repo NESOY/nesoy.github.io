@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2018-06-15
 aliases: 
-  - ../articles/2018-06/Intellij-search-ignore-testcode
+  - /articles/2018-06/Intellij-search-ignore-testcode
 ---
 
 

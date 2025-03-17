@@ -4,7 +4,7 @@ tags:
   - MongoDB
 date: 2017-04-02
 aliases: 
-  - ../articles/2017-04/MongoDB
+  - /articles/2017-04/MongoDB
 ---
 
 ![[assets/posts/20170402/1.PNG]]

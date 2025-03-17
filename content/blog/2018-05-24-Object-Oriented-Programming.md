@@ -4,7 +4,7 @@ tags:
   - Programming
 date: 2018-05-24
 aliases: 
-  - ../articles/2018-05/Object-Oriented-Programming
+  - /articles/2018-05/Object-Oriented-Programming
 ---
 
 ![[assets/logo/oop.png]]

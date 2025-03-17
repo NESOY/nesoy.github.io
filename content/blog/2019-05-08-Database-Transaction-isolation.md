@@ -4,7 +4,7 @@ tags:
   - Database
 date: 2019-05-08
 aliases: 
-  - ../articles/2019-05/Database-Transaction-isolation
+  - /articles/2019-05/Database-Transaction-isolation
 ---
 
 ![[assets/logo/database.jpg]]

@@ -4,7 +4,7 @@ tags:
   - Java
 date: 2018-04-11
 aliases: 
-  - ../articles/2018-04/Java-Annotation
+  - /articles/2018-04/Java-Annotation
 ---
 
 ![[assets/logo/Java.jpg]]

@@ -5,7 +5,7 @@ tags:
   - Mac
 date: 2018-01-13
 aliases: 
-  - ../articles/2018-01/Mac-Terminal
+  - /articles/2018-01/Mac-Terminal
 ---
 
 # Homebrew

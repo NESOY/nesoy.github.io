@@ -4,7 +4,7 @@ tags:
   - Review
 date: 2019-07-25
 aliases: 
-  - ../articles/2019-07/woowa-world-woowahan
+  - /articles/2019-07/woowa-world-woowahan
 ---
 
 ![[assets/posts/img/2019-07-26-00-35-48.png]]

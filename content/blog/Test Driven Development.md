@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-01/TDD]
+aliases: [/articles/2017-01/TDD]
 date: 2017-01-31
 tags: [Engineering, JUnit, Software, TDD]
 title: 

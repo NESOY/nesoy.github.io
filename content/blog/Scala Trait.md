@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-03/Scala-Trait]
+aliases: [/articles/2020-03/Scala-Trait]
 date: 2020-03-24
 tags: [Scala]
 title: 

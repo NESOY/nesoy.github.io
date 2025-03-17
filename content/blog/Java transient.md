@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-06/Java-transient]
+aliases: [/articles/2018-06/Java-transient]
 date: 2018-06-10
 tags: [Java]
 title: Java transient이란?

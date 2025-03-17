@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-01/Spring-annotation]
+aliases: [/articles/2017-01/Spring-annotation]
 date: 2017-01-16
 tags: [Spring]
 title: Spring Annotation(@Required,@Autowired,@Qulifier,@Resource)

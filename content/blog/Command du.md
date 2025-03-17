@@ -2,7 +2,7 @@
 title: du 명령어
 date: 2021-12-26
 aliases:
-  - ../articles/2021-12/command-du
+  - /articles/2021-12/command-du
 ---
 # Command du
 >  The du utility displays the file system block usage for each file argument and for each directory in the file hierarchy rooted in each directory argument.  If no file is specified, the block usage of the hierarchy rooted in the current directory is displayed.

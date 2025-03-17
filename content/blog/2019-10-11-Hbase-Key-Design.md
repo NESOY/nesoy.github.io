@@ -4,7 +4,7 @@ tags:
   - Hbase
 date: 2019-10-11
 aliases: 
-  - ../articles/2019-10/Hbase-Key-Design
+  - /articles/2019-10/Hbase-Key-Design
 ---
 
 ![[assets/logo/hbase.png]]

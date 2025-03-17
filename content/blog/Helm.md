@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-11/helm]
+aliases: [/articles/2020-11/helm]
 date: 2020-11-18
 tags: [k8s]
 title: Helm

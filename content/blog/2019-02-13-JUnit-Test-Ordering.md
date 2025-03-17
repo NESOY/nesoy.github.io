@@ -5,7 +5,7 @@ tags:
   - JUnit
 date: 2019-02-13
 aliases: 
-  - ../articles/2019-02/JUnit-Test-Ordering
+  - /articles/2019-02/JUnit-Test-Ordering
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-03/Selenium]
+aliases: [/articles/2017-03/Selenium]
 date: 2017-03-31
 tags: [Selenium, Spring, Testing, Web]
 title: Selenium을 이용하여 스프링(Spring) Test하기

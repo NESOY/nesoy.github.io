@@ -4,7 +4,7 @@ tags:
   - gradle
 date: 2020-03-18
 aliases: 
-  - ../articles/2020-03/grdle-filter-subproject
+  - /articles/2020-03/grdle-filter-subproject
 ---
 
 ## 들어가며

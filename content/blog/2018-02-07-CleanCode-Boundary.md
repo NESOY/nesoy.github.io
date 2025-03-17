@@ -4,7 +4,7 @@ tags:
   - CleanCode
 date: 2018-02-07
 aliases: 
-  - ../articles/2018-02/CleanCode-Boundary
+  - /articles/2018-02/CleanCode-Boundary
 ---
 ![[assets/posts/20171211/cleancode.jpg]]
 

@@ -5,7 +5,7 @@ tags:
   - Coveralls
 date: 2018-04-08
 aliases: 
-  - ../articles/2018-04/Coveralls
+  - /articles/2018-04/Coveralls
 ---
 
 # CoverAlls

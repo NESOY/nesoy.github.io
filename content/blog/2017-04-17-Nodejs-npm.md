@@ -4,8 +4,8 @@ tags:
   - NodeJs
   - npm
 date: 2017-04-17
-aliases: 
-  - ../articles/2017-04/Nodejs-npm
+aliases:
+  - /articles/2017-04/Nodejs-npm
 ---
 
 ![[assets/posts/20170413/1.PNG]]

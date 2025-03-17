@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-04/Nodejs-MySQL]
+aliases: [/articles/2017-04/Nodejs-MySQL]
 date: 2017-04-24
 tags: [MySQL, NodeJs]
 title: Nodejs MySQL 연결하기

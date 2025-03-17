@@ -4,7 +4,7 @@ tags:
   - CleanCode
 date: 2018-03-30
 aliases: 
-  - ../articles/2018-03/CleanCode-Emergence
+  - /articles/2018-03/CleanCode-Emergence
 ---
 ![[assets/posts/20171211/cleancode.jpg]]
 

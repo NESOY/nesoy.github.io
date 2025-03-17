@@ -4,7 +4,7 @@ tags:
   - Python
 date: 2018-07-15
 aliases: 
-  - ../articles/2018-07/Python-init-all
+  - /articles/2018-07/Python-init-all
 ---
 
 ![[assets/logo/python.png]]

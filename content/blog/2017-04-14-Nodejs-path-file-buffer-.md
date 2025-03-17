@@ -5,8 +5,8 @@ tags:
   - Web
   - Javascript
 date: 2017-04-14
-aliases: 
-  - ../articles/2017-04/Nodejs-path-file-buffer-
+aliases:
+  - /articles/2017-04/Nodejs-path-file-buffer-
 ---
 ![[assets/posts/20170413/1.PNG]]
 

@@ -4,7 +4,7 @@ tags:
   - DDD
 date: 2018-06-28
 aliases: 
-  - ../articles/2018-06/DDD-Transcation
+  - /articles/2018-06/DDD-Transcation
 ---
 
 ![[assets/logo/ddd.png]]

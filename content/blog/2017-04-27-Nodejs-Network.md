@@ -4,7 +4,7 @@ tags:
   - NodeJs
 date: 2017-04-27
 aliases: 
-  - ../articles/2017-04/Nodejs-Network
+  - /articles/2017-04/Nodejs-Network
 ---
 
 ![[assets/posts/20170413/1.PNG]]

@@ -2,7 +2,7 @@
 title: Javascript Study
 date: 2016-12-30
 aliases: 
-  - ../articles/2016-12/javascript-study
+  - /articles/2016-12/javascript-study
 ---
 
 # **Javascript**

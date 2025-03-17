@@ -4,7 +4,7 @@ tags:
   - Web
 date: 2017-06-08
 aliases: 
-  - ../articles/2017-06/Cross-Domain
+  - /articles/2017-06/Cross-Domain
 ---
 
 ![[assets/logo/javascript.png]]

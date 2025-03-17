@@ -4,7 +4,7 @@ tags:
   - OS
 date: 2019-06-04
 aliases: 
-  - ../articles/2019-06/OS-Busy-Waiting
+  - /articles/2019-06/OS-Busy-Waiting
 ---
 
 ![[assets/logo/os.jpg]]

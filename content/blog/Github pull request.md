@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-01/GitPullRequest]
+aliases: [/articles/2017-01/GitPullRequest]
 date: 2017-01-12
 tags: [Git]
 title: GitHub Pull Request 따라하기

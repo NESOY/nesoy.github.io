@@ -4,7 +4,7 @@ tags:
   - OS
 date: 2018-09-13
 aliases: 
-  - ../articles/2018-09/OS-Concurrency-Parallelism
+  - /articles/2018-09/OS-Concurrency-Parallelism
 ---
 
 ![[assets/logo/os.jpg]]

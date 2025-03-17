@@ -4,7 +4,7 @@ tags:
   - OS
 date: 2018-11-13
 aliases: 
-  - ../articles/2018-11/Context-Switching
+  - /articles/2018-11/Context-Switching
 ---
 ## 들어가며
 > 면접에서 받았던 질문에 대해 정리하고 조금 더 자세하게 알기 위해 작성합니다.

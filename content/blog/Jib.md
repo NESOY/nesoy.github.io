@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-11/Jib]
+aliases: [/articles/2020-11/Jib]
 date: 2020-11-23
 tags: [Docker]
 title: Jib

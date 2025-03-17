@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2018-04-15
 aliases: 
-  - ../articles/2018-04/Intellij-grepcode
+  - /articles/2018-04/Intellij-grepcode
 ---
 
 ![[assets/logo/Intellij.png]]

@@ -4,7 +4,7 @@ tags:
   - Java
 date: 2018-07-16
 aliases: 
-  - ../articles/2018-07/Java-Handling-Exception
+  - /articles/2018-07/Java-Handling-Exception
 ---
 
 ![[assets/logo/Java.jpg]]

@@ -4,7 +4,7 @@ tags:
   - Database
 date: 2019-10-01
 aliases: 
-  - ../articles/2019-10/Column-Oriented-DBMS
+  - /articles/2019-10/Column-Oriented-DBMS
 ---
 
 ![[assets/logo/database.jpg]]

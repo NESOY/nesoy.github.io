@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-04/Nodejs-BasicModule]
+aliases: [/articles/2017-04/Nodejs-BasicModule]
 date: 2017-04-13
 tags: [NodeJs]
 title: NodeJs의 Basic Module(기본 모듈)

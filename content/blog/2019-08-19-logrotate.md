@@ -4,7 +4,7 @@ tags:
   - Linux
 date: 2019-08-19
 aliases: 
-  - ../articles/2019-08/logrotate
+  - /articles/2019-08/logrotate
 ---
 
 ## 들어가며

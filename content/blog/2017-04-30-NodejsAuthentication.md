@@ -4,7 +4,7 @@ tags:
   - NodeJs
 date: 2017-04-30
 aliases: 
-  - ../articles/2017-04/NodejsAuthentication
+  - /articles/2017-04/NodejsAuthentication
 ---
 
 ![[assets/posts/20170413/1.PNG]]

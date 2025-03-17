@@ -5,7 +5,7 @@ tags:
   - JSON
 date: 2017-04-21
 aliases: 
-  - ../articles/2017-04/Nodejs-mobile
+  - /articles/2017-04/Nodejs-mobile
 ---
 
 ![[assets/posts/20170413/1.PNG]]

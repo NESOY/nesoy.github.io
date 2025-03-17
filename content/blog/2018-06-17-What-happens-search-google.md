@@ -4,7 +4,7 @@ tags:
   - Web
 date: 2018-06-17
 aliases: 
-  - ../articles/2018-06/What-happens-search-google
+  - /articles/2018-06/What-happens-search-google
 ---
 
 ![[assets/logo/web.jpg]]

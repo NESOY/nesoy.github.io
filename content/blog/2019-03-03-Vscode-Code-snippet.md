@@ -4,7 +4,7 @@ tags:
   - Vscode
 date: 2019-03-03
 aliases: 
-  - ../articles/2019-03/Vscode-Code-snippet
+  - /articles/2019-03/Vscode-Code-snippet
 ---
 
 ## Vscode Code Snippet 설정하기

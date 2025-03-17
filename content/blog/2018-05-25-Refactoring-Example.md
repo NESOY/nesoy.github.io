@@ -4,7 +4,7 @@ tags:
   - Refactoring
 date: 2018-05-25
 aliases: 
-  - ../articles/2018-05/Refactoring-Example
+  - /articles/2018-05/Refactoring-Example
 ---
 
 ![[assets/posts/20180503/refactoring.jpg]]

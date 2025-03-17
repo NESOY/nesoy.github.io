@@ -4,7 +4,7 @@ tags:
   - Git
 date: 2018-07-20
 aliases: 
-  - ../articles/2018-07/Git-Revert
+  - /articles/2018-07/Git-Revert
 ---
 
 ![[assets/logo/git.png]]

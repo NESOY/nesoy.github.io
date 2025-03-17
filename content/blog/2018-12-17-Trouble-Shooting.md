@@ -4,7 +4,7 @@ tags:
   - Software Engineering
 date: 2018-12-17
 aliases: 
-  - ../articles/2018-12/Trouble-Shooting
+  - /articles/2018-12/Trouble-Shooting
 ---
 
 ## 들어가며

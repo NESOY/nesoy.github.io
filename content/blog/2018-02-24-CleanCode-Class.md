@@ -3,8 +3,8 @@ title: Clean Code - 클래스(Class)
 tags:
   - CleanCode
 date: 2018-02-24
-aliases: 
-  - ../articles/2018-02/CleanCode-Class
+aliases:
+  - /articles/2018-02/CleanCode-Class
 ---
 ![[assets/posts/20171211/cleancode.jpg]]
 

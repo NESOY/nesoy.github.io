@@ -4,7 +4,7 @@ tags:
   - Design Pattern
 date: 2019-05-10
 aliases: 
-  - ../articles/2019-05/GRASP-Pattern
+  - /articles/2019-05/GRASP-Pattern
 ---
 
 ![[assets/logo/design-pattern.jpg]]

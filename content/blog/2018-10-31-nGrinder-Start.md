@@ -2,7 +2,7 @@
 title: nGrinder 시작하기
 date: 2018-10-31
 aliases: 
-  - ../articles/2018-10/nGrinder-Start
+  - /articles/2018-10/nGrinder-Start
 ---
 
 ## nGrinder의 구성요소는?

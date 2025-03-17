@@ -4,7 +4,7 @@ tags:
   - 개발환경
 date: 2020-01-08
 aliases: 
-  - ../articles/2020-01/Iterm2-Command
+  - /articles/2020-01/Iterm2-Command
 ---
 
 ## Iterm2에서 동시에 명령어 실행하기

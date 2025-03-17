@@ -4,7 +4,7 @@ tags:
   - Java
 date: 2018-06-01
 aliases: 
-  - ../articles/2018-06/Java-RegExp
+  - /articles/2018-06/Java-RegExp
 ---
 
 ![[assets/logo/Java.jpg]]

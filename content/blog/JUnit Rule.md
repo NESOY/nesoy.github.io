@@ -5,7 +5,7 @@ tags:
   - JUnit
 date: 2018-12-31
 aliases:
-  - ../articles/2018-12/Junit-Rule
+  - /articles/2018-12/Junit-Rule
 ---
 
 ![[assets/logo/JUnit.png]]

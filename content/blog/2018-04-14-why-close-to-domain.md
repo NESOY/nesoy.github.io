@@ -4,7 +4,7 @@ tags:
   - Design Pattern
 date: 2018-04-14
 aliases: 
-  - ../articles/2018-04/why-close-to-domain
+  - /articles/2018-04/why-close-to-domain
 ---
 # 들어가며
 > MVC는 알고 있었지만 Service에 대한 존재의 이유. 비즈니스 로직이 Model(Domain)에 가까울 수록 좋다고 듣기는 했지만 왜 그런지에 대해 이해하기 힘들었습니다. '자바 웹 프로그래밍 Next Step'이라는 책을 통해 이해를 하였고 정리하기 위해 블로그를 씁니다.

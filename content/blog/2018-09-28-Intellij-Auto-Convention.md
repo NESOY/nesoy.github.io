@@ -2,7 +2,7 @@
 title: Intellij Code Convention 자동화하기
 date: 2018-09-28
 aliases: 
-  - ../articles/2018-09/Intellij-Auto-Convention
+  - /articles/2018-09/Intellij-Auto-Convention
 ---
 
 ![[assets/logo/Intellij.png]]

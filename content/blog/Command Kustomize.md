@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2021-01/kustomize]
+aliases: [/articles/2021-01/kustomize]
 date: 2021-01-07
 tags: [k8s]
 title: kustomize란?

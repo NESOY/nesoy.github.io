@@ -5,7 +5,7 @@ tags:
   - Design Pattern
 date: 2017-02-17
 aliases: 
-  - ../articles/2017-02/Front-Controller
+  - /articles/2017-02/Front-Controller
 ---
 
 > SPring을 기반한 MVC Project를 활용하여 하던 중에 Pattern에 대해 궁금증을 가지고 찾아보았다. Front Controller Pattern에 대해 자세히 알게 되어 이번 포스팅에 적어 좀 더 자세히 기억하려고 한다. 또한 이번 포스팅에는 요새 포스팅을 많이 못한 점에 대해 반성하는 의미도 있다. 1 Day : 1 Commit을 지켜보자.

@@ -4,7 +4,7 @@ tags:
   - 개발환경
 date: 2018-02-10
 aliases: 
-  - ../articles/2018-02/Safari-Developer-Tool
+  - /articles/2018-02/Safari-Developer-Tool
 ---
 
 > Web개발을 하는 부분에 있어 개발자 도구가 많은 도움이 되었다. Mac과 아이폰을 통해 실제

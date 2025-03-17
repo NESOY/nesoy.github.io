@@ -4,7 +4,7 @@ tags:
   - Spring
 date: 2019-02-19
 aliases: 
-  - ../articles/2019-02/Spring-request-lifecycle-part-1
+  - /articles/2019-02/Spring-request-lifecycle-part-1
 ---
 
 ![[assets/logo/spring.png]]

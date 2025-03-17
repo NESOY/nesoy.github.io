@@ -5,7 +5,7 @@ tags:
   - Express
 date: 2017-04-22
 aliases: 
-  - ../articles/2017-04/Nodejs-Express
+  - /articles/2017-04/Nodejs-Express
 ---
 
 ![[assets/posts/20170413/1.PNG]]

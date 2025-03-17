@@ -4,7 +4,7 @@ tags:
   - Git
 date: 2018-05-09
 aliases: 
-  - ../articles/2018-05/Git-FileSize
+  - /articles/2018-05/Git-FileSize
 ---
 
 ![[assets/logo/git.png]]

@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-05/Docker]
+aliases: [/articles/2020-05/Docker]
 date: 2020-05-25
 tags: [docker]
 title: Docker

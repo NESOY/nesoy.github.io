@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-11/Couchbase]
+aliases: [/articles/2018-11/Couchbase]
 date: 2018-11-20
 tags: [Couchbase]
 title: Couchbase는 어떻게 동작하는가?

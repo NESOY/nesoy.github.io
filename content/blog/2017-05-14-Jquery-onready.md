@@ -4,7 +4,7 @@ tags:
   - jQuery
 date: 2017-05-14
 aliases: 
-  - ../articles/2017-05/Jquery-onready
+  - /articles/2017-05/Jquery-onready
 ---
 
 > read()와 load()의 차이점을 알기 위해선 Browser Process를 이해해야 정확하게 언제 호출되는지 알 수 있기 때문에 먼저 Browser Process에 대해 설명하겠습니다.

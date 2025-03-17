@@ -4,7 +4,7 @@ tags:
   - 개발환경
 date: 2019-11-10
 aliases: 
-  - ../articles/2019-11/editorconfig
+  - /articles/2019-11/editorconfig
 ---
 ![[assets/posts/img/2019-11-10-21-02-28.png]]
 

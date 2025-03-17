@@ -4,7 +4,7 @@ tags:
   - NodeJs
 date: 2017-05-17
 aliases: 
-  - ../articles/2017-05/Nodejs-email
+  - /articles/2017-05/Nodejs-email
 ---
 
 ![[assets/posts/20170413/1.PNG]]

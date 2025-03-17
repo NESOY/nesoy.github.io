@@ -4,7 +4,7 @@ tags:
   - NodeJs
 date: 2017-04-18
 aliases: 
-  - ../articles/2017-04/Nodejs-callback
+  - /articles/2017-04/Nodejs-callback
 ---
 
 ![[assets/posts/20170413/1.PNG]]

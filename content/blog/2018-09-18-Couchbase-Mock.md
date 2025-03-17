@@ -2,7 +2,7 @@
 title: Couchbase Mock으로 쉽게 테스트하기
 date: 2018-09-18
 aliases: 
-  - ../articles/2018-09/Couchbase-Mock
+  - /articles/2018-09/Couchbase-Mock
 ---
 
 ![[assets/logo/couchbase.png]]

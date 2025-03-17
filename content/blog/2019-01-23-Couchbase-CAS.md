@@ -4,7 +4,7 @@ tags:
   - Couchbase
 date: 2019-01-23
 aliases: 
-  - ../articles/2019-01/Couchbase-CAS
+  - /articles/2019-01/Couchbase-CAS
 ---
 
 ![[assets/logo/couchbase.png]]

@@ -5,7 +5,7 @@ tags:
   - Python
 date: 2017-10-21
 aliases: 
-  - ../articles/2017-10/Django-Start
+  - /articles/2017-10/Django-Start
 ---
 
 ![[assets/posts/20171021/django.png]]

@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2021-12/if-kakao-2021]
+aliases: [/articles/2021-12/if-kakao-2021]
 date: 2021-12-16
 tags: [Review]
 title: ifkakao 2021

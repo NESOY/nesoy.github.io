@@ -4,7 +4,7 @@ tags:
   - Web
 date: 2018-04-09
 aliases: 
-  - ../articles/2018-04/Redirect-Forward
+  - /articles/2018-04/Redirect-Forward
 ---
 ![[assets/posts/20180409/0.png]]
 

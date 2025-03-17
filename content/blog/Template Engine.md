@@ -3,8 +3,8 @@ title: 웹 템플릿 엔진(Template Engine) 이란?
 tags:
   - Web
 date: 2017-03-06
-aliases: 
-  - ../articles/2017-03/web-template
+aliases:
+  - /articles/2017-03/web-template
 ---
 
 ![[assets/logo/web.jpg]]

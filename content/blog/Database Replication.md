@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-02/Database-Replication]
+aliases: [/articles/2018-02/Database-Replication]
 date: 2018-02-16
 tags: [Database]
 title: Database Replication

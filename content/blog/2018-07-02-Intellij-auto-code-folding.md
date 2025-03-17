@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2018-07-02
 aliases: 
-  - ../articles/2018-07/Intellij-auto-code-folding
+  - /articles/2018-07/Intellij-auto-code-folding
 ---
 
 ![[assets/logo/Intellij.png]]

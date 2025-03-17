@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2018-03-28
 aliases: 
-  - ../articles/2018-03/Intellij-Theme
+  - /articles/2018-03/Intellij-Theme
 ---
 ![[assets/logo/Intellij.png]]
 

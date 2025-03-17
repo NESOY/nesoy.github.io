@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-11/Dependency-Mechanism]
+aliases: [/articles/2020-11/Dependency-Mechanism]
 date: 2020-11-02
 tags: [Maven]
 title: Dependency Mechanism

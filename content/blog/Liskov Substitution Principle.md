@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-03/LSP]
+aliases: [/articles/2018-03/LSP]
 date: 2018-03-06
 tags: [Design, Pattern]
 title: Liskov Substitution Principle

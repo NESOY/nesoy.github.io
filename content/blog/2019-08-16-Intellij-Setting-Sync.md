@@ -4,7 +4,7 @@ tags:
   - Intellij
 date: 2019-08-16
 aliases: 
-  - ../articles/2019-08/Intellij-Setting-Sync
+  - /articles/2019-08/Intellij-Setting-Sync
 ---
 
 ![[assets/logo/Intellij.png]]

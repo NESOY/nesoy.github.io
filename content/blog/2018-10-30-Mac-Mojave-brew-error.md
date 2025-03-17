@@ -2,7 +2,7 @@
 title: Mac 모하비 brew 에러 해결하기
 date: 2018-10-30
 aliases: 
-  - ../articles/2018-10/Mac-Mojave-brew-error
+  - /articles/2018-10/Mac-Mojave-brew-error
 ---
 
 

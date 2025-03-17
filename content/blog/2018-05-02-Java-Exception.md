@@ -4,7 +4,7 @@ tags:
   - Java
 date: 2018-05-02
 aliases: 
-  - ../articles/2018-05/Java-Exception
+  - /articles/2018-05/Java-Exception
 ---
 
 ![[assets/logo/Java.jpg]]

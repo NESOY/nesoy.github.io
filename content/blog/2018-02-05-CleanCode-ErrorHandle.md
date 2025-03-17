@@ -4,7 +4,7 @@ tags:
   - CleanCode
 date: 2018-02-05
 aliases: 
-  - ../articles/2018-02/CleanCode-ErrorHandle
+  - /articles/2018-02/CleanCode-ErrorHandle
 ---
 ![[assets/posts/20171211/cleancode.jpg]]
 

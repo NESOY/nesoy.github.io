@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2021-03/maven-settings]
+aliases: [/articles/2021-03/maven-settings]
 date: 2021-03-19
 tags: [Maven]
 title: Maven의 Settings에 대해

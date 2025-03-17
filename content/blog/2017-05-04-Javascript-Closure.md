@@ -4,7 +4,7 @@ tags:
   - Javascript
 date: 2017-05-04
 aliases: 
-  - ../articles/2017-05/Javascript-Closure
+  - /articles/2017-05/Javascript-Closure
 ---
 
 ![[assets/logo/javascript.png]]

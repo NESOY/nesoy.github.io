@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-01/Synchronized]
+aliases: [/articles/2017-01/Synchronized]
 date: 2017-01-27
 tags: [OS]
 title: Synchronous(동기) Vs Asynchronous(비동기)

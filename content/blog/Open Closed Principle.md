@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-01/OCP]
+aliases: [/articles/2018-01/OCP]
 date: 2018-01-08
 tags: []
 title: 

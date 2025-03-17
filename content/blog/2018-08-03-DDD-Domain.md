@@ -4,7 +4,7 @@ tags:
   - DDD
 date: 2018-08-03
 aliases: 
-  - ../articles/2018-08/DDD-Domain
+  - /articles/2018-08/DDD-Domain
 ---
 
 ![[assets/logo/ddd.png]]

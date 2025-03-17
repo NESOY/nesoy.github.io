@@ -4,7 +4,7 @@ tags:
   - Database
 date: 2018-05-30
 aliases: 
-  - ../articles/2018-05/Database-Shard
+  - /articles/2018-05/Database-Shard
 ---
 
 ![[assets/logo/database.jpg]]

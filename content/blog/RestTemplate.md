@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-05/RestTemplate]
+aliases: [/articles/2020-05/RestTemplate]
 date: 2020-05-06
 tags: [Spring]
 title: RestTemplate

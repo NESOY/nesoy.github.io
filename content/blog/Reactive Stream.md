@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2021-09/Reactive-Stream]
+aliases: [/articles/2021-09/Reactive-Stream]
 date: 2021-09-17
 tags: [reactive]
 title: Reactive Stream

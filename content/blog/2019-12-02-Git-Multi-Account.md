@@ -4,7 +4,7 @@ tags:
   - Git
 date: 2019-12-02
 aliases: 
-  - ../articles/2019-12/Git-Multi-Account
+  - /articles/2019-12/Git-Multi-Account
 ---
 
 ## Git 계정 여러개 사용하기

@@ -5,7 +5,7 @@ tags:
   - Git
 date: 2017-01-14
 aliases: 
-  - ../articles/2017-01/Intellj-Git
+  - /articles/2017-01/Intellj-Git
 ---
 ![[assets/logo/Intellij.png]]
 

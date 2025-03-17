@@ -4,7 +4,7 @@ tags:
   - DevOps
 date: 2018-06-02
 aliases: 
-  - ../articles/2018-06/Load-Balancer
+  - /articles/2018-06/Load-Balancer
 ---
 
 ## 왜 Load Balancer가 필요한가요?

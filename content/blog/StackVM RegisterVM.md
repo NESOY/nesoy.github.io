@@ -1,6 +1,6 @@
 ---
 aliases:
-  - ../articles/2021-08/StackVM-RegisterVM
+  - /articles/2021-08/StackVM-RegisterVM
 date: 2021-08-20
 tags:
   - Java

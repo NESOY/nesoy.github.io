@@ -4,7 +4,7 @@ tags:
   - NodeJs
 date: 2017-04-20
 aliases: 
-  - ../articles/2017-04/Nodejs-fileUpload
+  - /articles/2017-04/Nodejs-fileUpload
 ---
 
 ![[assets/posts/20170413/1.PNG]]

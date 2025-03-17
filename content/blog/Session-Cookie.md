@@ -6,7 +6,7 @@ tags:
   - Cookie
 date: 2017-03-17
 aliases: 
-  - ../articles/2017-03/Session-Cookie
+  - /articles/2017-03/Session-Cookie
 ---
 
 ![[assets/logo/web.jpg]]

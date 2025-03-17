@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-04/Spotless]
+aliases: [/articles/2020-04/Spotless]
 date: 2020-04-22
 tags: [Spotless]
 title: Spotless

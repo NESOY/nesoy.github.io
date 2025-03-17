@@ -4,7 +4,7 @@ tags:
   - Java
 date: 2018-06-26
 aliases: 
-  - ../articles/2018-06/Java-equals-hashcode
+  - /articles/2018-06/Java-equals-hashcode
 ---
 
 

@@ -4,8 +4,8 @@ tags:
   - Spring
   - Intellij
 date: 2017-02-05
-aliases: 
-  - ../articles/2017-02/SpringMVC
+aliases:
+  - /articles/2017-02/SpringMVC
 ---
 
 ![[assets/logo/spring.png]]

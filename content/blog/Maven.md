@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-01/Maven]
+aliases: [/articles/2017-01/Maven]
 date: 2017-01-11
 tags: [Intellij, Java, Maven]
 title: Maven

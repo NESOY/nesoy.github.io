@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-05/Base64-Encode]
+aliases: [/articles/2020-05/Base64-Encode]
 date: 2020-05-11
 tags: [Encode]
 title: Base64 Encoding

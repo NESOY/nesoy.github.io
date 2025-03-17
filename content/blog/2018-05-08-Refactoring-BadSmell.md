@@ -4,7 +4,7 @@ tags:
   - Refactoring
 date: 2018-05-08
 aliases: 
-  - ../articles/2018-05/Refactoring-BadSmell
+  - /articles/2018-05/Refactoring-BadSmell
 ---
 
 ![[assets/posts/20180503/refactoring.jpg]]

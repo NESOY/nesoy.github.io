@@ -2,7 +2,7 @@
 title: Spring Field Injection에 대해
 date: 2018-12-26
 aliases: 
-  - ../articles/2018-12/Spring-Field-Injection
+  - /articles/2018-12/Spring-Field-Injection
 ---
 
 ![[assets/logo/spring.png]]

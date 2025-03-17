@@ -4,7 +4,7 @@ tags:
   - ElasticSearch
 date: 2019-01-22
 aliases: 
-  - ../articles/2019-01/ElasticSearch-System-Architecture
+  - /articles/2019-01/ElasticSearch-System-Architecture
 ---
 
 ![[assets/logo/elastic.png]]

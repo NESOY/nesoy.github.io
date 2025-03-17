@@ -2,7 +2,7 @@
 title: Multi Thread Algorithm에 대해
 date: 2018-09-14
 aliases: 
-  - ../articles/2018-09/Algorithm-MultiThread
+  - /articles/2018-09/Algorithm-MultiThread
 ---
 
 ![[assets/logo/algorithm.png]]

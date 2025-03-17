@@ -4,7 +4,7 @@ tags:
   - Scala
 date: 2020-03-22
 aliases: 
-  - ../articles/2020-03/Scala-Class
+  - /articles/2020-03/Scala-Class
 ---
 
 ![[assets/logo/scala.png]]

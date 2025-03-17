@@ -4,7 +4,7 @@ tags:
   - Review
 date: 2018-04-22
 aliases: 
-  - ../articles/2018-04/Little-Big-Data
+  - /articles/2018-04/Little-Big-Data
 ---
 ![[assets/posts/20180422/1.png]]
 ## 정리.

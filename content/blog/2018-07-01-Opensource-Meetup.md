@@ -4,7 +4,7 @@ tags:
   - Review
 date: 2018-07-01
 aliases: 
-  - ../articles/2018-07/Opensource-Meetup
+  - /articles/2018-07/Opensource-Meetup
 ---
 
 ![[assets/posts/20180701/1.png]]

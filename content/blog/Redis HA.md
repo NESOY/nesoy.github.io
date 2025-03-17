@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2020-05/Redis-HA]
+aliases: [/articles/2020-05/Redis-HA]
 date: 2020-05-12
 tags: [Redis]
 title: Redis HA(RHA)에 대해

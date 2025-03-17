@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-02/Database-Partitioning]
+aliases: [/articles/2018-02/Database-Partitioning]
 date: 2018-02-22
 description: Database Partitioning에 대해 알아보자.
 tags: [Database]

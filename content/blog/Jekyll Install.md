@@ -2,7 +2,7 @@
 title: Jekyll 설치하기
 date: 2016-12-28
 aliases: 
-  - ../articles/2016-12/Install-Jekyll
+  - /articles/2016-12/Install-Jekyll
 ---
 # Jekyll 설치하기(Window)
 ![[assets/posts/20161228/jekyll_logo.png]]

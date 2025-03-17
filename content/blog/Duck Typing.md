@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2018-02/Duck-Typing]
+aliases: [/articles/2018-02/Duck-Typing]
 date: 2018-02-06
 tags: [Programming]
 title: 덕 타이핑(Duck Typing)

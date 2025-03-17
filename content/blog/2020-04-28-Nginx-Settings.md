@@ -4,7 +4,7 @@ tags:
   - Nginx
 date: 2020-04-28
 aliases: 
-  - ../articles/2020-04/Nginx-Settings
+  - /articles/2020-04/Nginx-Settings
 ---
 ![[assets/logo/nginx.png]]
 ## Nginx 설정에 대하여

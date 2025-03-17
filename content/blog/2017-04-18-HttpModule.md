@@ -3,8 +3,8 @@ title: NodeJs의 HttpServer
 tags:
   - NodeJs
 date: 2017-04-18
-aliases: 
-  - ../articles/2017-04/HttpModule
+aliases:
+  - /articles/2017-04/HttpModule
 ---
 
 ![[assets/posts/20170413/1.PNG]]

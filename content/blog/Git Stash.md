@@ -1,5 +1,5 @@
 ---
-aliases: [../articles/2017-03/Git-Stash]
+aliases: [/articles/2017-03/Git-Stash]
 date: 2017-03-01
 tags: [Git]
 title: Git Pull 충돌 오류시 해결방법

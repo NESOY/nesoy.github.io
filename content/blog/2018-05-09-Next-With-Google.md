@@ -3,8 +3,9 @@ title: Next With Google 후기.
 tags:
   - Review
 date: 2018-05-09
-aliases: 
-  - ../articles/2018-05/Next-With-Google
+aliases:
+  - /articles/2018-05/Next-With-Google
+category: "[[Kubectl]]"
 ---
 ![[assets/posts/20180509/1.png]]
 ## MSA 진실 혹은 거짓 - 이정운님

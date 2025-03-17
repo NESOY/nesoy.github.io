@@ -4,7 +4,7 @@ tags:
   - Review
 date: 2018-07-13
 aliases: 
-  - ../articles/2018-07/LINE-Developers-Meetup
+  - /articles/2018-07/LINE-Developers-Meetup
 ---
 
 ![[assets/posts/20180713/1.png]]
