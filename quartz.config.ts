@@ -20,7 +20,6 @@ const config: QuartzConfig = {
     baseUrl: "nesoy.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
