@@ -39,7 +39,7 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
           if (opts.priority.includes("git")) {
             try {
               repo = Repository.discover(ctx.argv.directory)
-              repositoryWorkdir = repo.workdir() ?? ""
+              repositoryWorkdir = repo.workdir() ?? ctx.argv.directory
             } catch (e) {
               console.log(
                 chalk.yellow(`\nWarning: couldn't find git repository for ${ctx.argv.directory}`),
