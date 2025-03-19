@@ -2,6 +2,7 @@ import fs from "fs"
 import { Repository } from "@napi-rs/simple-git"
 import { QuartzTransformerPlugin } from "../types"
 import chalk from "chalk"
+import path from "path"
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -34,9 +35,11 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
       return [
         () => {
           let repo: Repository | undefined = undefined
+          let repositoryWorkdir: string
           if (opts.priority.includes("git")) {
             try {
               repo = Repository.discover(ctx.argv.directory)
+              repositoryWorkdir = repo.workdir() ?? ""
             } catch (e) {
               console.log(
                 chalk.yellow(`\nWarning: couldn't find git repository for ${ctx.argv.directory}`),
@@ -62,7 +65,8 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 published ||= file.data.frontmatter.published as MaybeDate
               } else if (source === "git" && repo) {
                 try {
-                  modified ||= await repo.getFileLatestModifiedDateAsync(fullFp)
+                  const relativePath = path.relative(repositoryWorkdir, fullFp)
+                  modified ||= await repo.getFileLatestModifiedDateAsync(relativePath)
                 } catch {
                   console.log(
                     chalk.yellow(
