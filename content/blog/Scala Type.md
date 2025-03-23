@@ -1,10 +1,8 @@
 ---
-title: Scala의 타입에 대해
-tags:
-  - Scala
+aliases: [/articles/2020-03/Scala-Type]
 date: 2020-03-21
-aliases: 
-  - /articles/2020-03/Scala-Type
+tags: [Scala]
+title: Scala의 타입에 대해
 ---
 
 ## Scala Type에 대해

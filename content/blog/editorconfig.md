@@ -1,10 +1,8 @@
 ---
-title: EditorConfig란?
-tags:
-  - 개발환경
+aliases: [/articles/2019-11/editorconfig]
 date: 2019-11-10
-aliases: 
-  - /articles/2019-11/editorconfig
+tags: [개발환경]
+title: EditorConfig란?
 ---
 ![[assets/posts/img/2019-11-10-21-02-28.png]]
 

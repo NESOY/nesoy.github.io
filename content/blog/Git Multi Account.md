@@ -1,12 +1,9 @@
 ---
-title: Git 계정 여러개 사용하기
-tags:
-  - Git
+aliases: [/articles/2019-12/Git-Multi-Account]
 date: 2019-12-02
-aliases: 
-  - /articles/2019-12/Git-Multi-Account
+tags: [Git]
+title: Git 계정 여러개 사용하기
 ---
-
 ## Git 계정 여러개 사용하기
 
 #### Global Git config 확인 하기

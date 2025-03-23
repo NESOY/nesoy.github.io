@@ -1,16 +1,9 @@
 ---
-title: JUnit Rule
-tags:
-  - Testing
-  - JUnit
+aliases: [/articles/2018-12/Junit-Rule]
 date: 2018-12-31
-aliases:
-  - /articles/2018-12/Junit-Rule
+tags: [JUnit, Testing]
+title: JUnit Rule
 ---
-
-![[assets/logo/JUnit.png]]
-
-
 ## JUnit의 Rule이란?
 - Rule은 테스트 클래스에서 동작 방식을 재정의 하거나 쉽게 추가하는 것을 가능하게 합니다.
 - 사용자는 기존의 Rule을 재사용하거나 확장하는 것이 가능합니다.

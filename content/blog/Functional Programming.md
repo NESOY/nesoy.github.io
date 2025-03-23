@@ -1,14 +1,9 @@
 ---
-title: 함수형 프로그래밍(Functional Programming)이란?
-tags:
-  - Programming
+aliases: [/articles/2018-05/Functional-Programming]
 date: 2018-05-10
-aliases: 
-  - /articles/2018-05/Functional-Programming
+tags: [Programming]
+title: 함수형 프로그래밍(Functional Programming)이란?
 ---
-
-![[assets/logo/FP.png]]
-
 # 함수형 프로그래밍(Functional Programming)이란?
 ## Concept
 > Avoids changing State and Mutable data

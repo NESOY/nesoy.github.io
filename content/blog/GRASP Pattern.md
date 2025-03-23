@@ -1,15 +1,9 @@
 ---
-title: GRASP Pattern이란?
-tags:
-  - Design Pattern
+aliases: [/articles/2019-05/GRASP-Pattern]
 date: 2019-05-10
-aliases: 
-  - /articles/2019-05/GRASP-Pattern
+tags: [Design Pattern]
+title: GRASP Pattern이란?
 ---
-
-![[assets/logo/design-pattern.jpg]]
-
-
 ## GRASP Pattern이란?
 - General Responsibility Assignment Software Patterns
 - Object-Oriented 디자인의 핵심은 각 객체에 책임을 부여하는 것.

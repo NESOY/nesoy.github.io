@@ -1,10 +1,8 @@
 ---
-title: GSLB
-tags:
-  - DevOps
+aliases: [/articles/2020-01/GSLB]
 date: 2020-01-09
-aliases:
-  - /articles/2020-01/GSLB
+tags: [DevOps]
+title: GSLB
 ---
 # GSLB
 - DNS 기반의 로드밸런싱 서비스

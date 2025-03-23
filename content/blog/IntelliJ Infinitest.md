@@ -1,10 +1,8 @@
 ---
-title: Intellij 테스트 자동 실행하기
-tags:
-  - Intellij
+aliases: [/articles/2019-07/Intellij-Infinitest]
 date: 2019-07-26
-aliases: 
-  - /articles/2019-07/Intellij-Infinitest
+tags: [Intellij]
+title: Intellij 테스트 자동 실행하기
 ---
 
 ## 들어가며

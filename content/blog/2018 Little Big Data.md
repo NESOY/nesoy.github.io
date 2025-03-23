@@ -1,13 +1,11 @@
 ---
-title: Little Big Data 후기.
-tags:
-  - Review
+aliases: [/articles/2018-04/Little-Big-Data]
 date: 2018-04-22
-aliases: 
-  - /articles/2018-04/Little-Big-Data
+tags: [Review]
+title: Little Big Data 후기.
 ---
 ![[assets/posts/20180422/1.png]]
-## 정리.
+## 정리
 
 ## [LETS(Local Exchange and Trading System)](<http://www.seoulnpocenter.kr/bbs/board.php?bo_table=npo_aca&wr_id=22>)
 - 서로를 연결하는 배움과 지식의 품앗이 시스템
@@ -16,7 +14,7 @@ aliases:
     - 내가 오늘 알려줄 수 있는 것
     - 내가 오늘 배움을 나눈 것
 
-## 내용.
+## 내용
 - 한국어 자연어 처리의 어려움
 - 한국어 자연어 처리는 PreProcessing가 80% 이상
 - 문제 정의를 잘 하는 것이 모델을 구현하는 것보다 중요.
@@ -72,7 +70,7 @@ aliases:
 - 내가 사용하고 있는 자연어 처리 라이브러리가 어떻게 자연어 데이터를 사용하고 있는지?
 - 내가 어떠한 형태의 한국어를 분석하고 있는지?
 
-### 문제에 대한 정의 중요성.
+### 문제에 대한 정의 중요성
 - 요구사항에 대한 정의가 명확하지 않으면 원하는 결과가 나오지 않을 가능성이 높다.
 - 회사가 커지면 커질수록 문제에 대한 이해와 요구사항을 정의하는게 중요하다.
 - 문제를 어떻게 정의할 것인가?
@@ -80,7 +78,7 @@ aliases:
     - 이런 Case에는 어떻게 할 것인지?
 - 요구하는 사람이 원하는 것을 충족하는 게 가장 중요하다.
 
-### 데이터 정제의 중요성.
+### 데이터 정제의 중요성
 - 엄청나게 많은 Feature를 상대로 의미있는 데이터를 뽑아내기 위해선?
     - Peta 크기보다 더 많은 Data와 엄청난 Computing이 필요하다.
     - 구글 정도의 데이터 크기와 Computing이면 가능할지도?

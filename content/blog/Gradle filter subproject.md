@@ -1,10 +1,8 @@
 ---
-title: Gradle Empty directory 제외하기
-tags:
-  - gradle
+aliases: [/articles/2020-03/grdle-filter-subproject]
 date: 2020-03-18
-aliases: 
-  - /articles/2020-03/grdle-filter-subproject
+tags: [gradle]
+title: Gradle Empty directory 제외하기
 ---
 # Gradle Empty directory 제외하기
 ## 들어가며

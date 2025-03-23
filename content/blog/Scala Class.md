@@ -1,10 +1,8 @@
 ---
-title: Scala의 클래스에 대해
-tags:
-  - Scala
+aliases: [/articles/2020-03/Scala-Class]
 date: 2020-03-22
-aliases: 
-  - /articles/2020-03/Scala-Class
+tags: [Scala]
+title: Scala의 클래스에 대해
 ---
 ## Class
 - Method, value, variables, types, objects, traits, class가 멤버로 존재할 수 있습니다.
