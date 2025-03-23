@@ -1,1 +1,8 @@
-{}
+{
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "theme": "moonstone",
+  "showViewHeader": true,
+  "showRibbon": false,
+  "translucency": false
+}
