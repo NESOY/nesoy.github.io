@@ -4,7 +4,7 @@ date: 2017-01-31
 tags: [Engineering, JUnit, Software, TDD]
 title: 
 ---
-# **TDD(Test-driven Development) 테스트 주도 개발방법론**
+# TDD(Test-driven Development) 테스트 주도 개발방법론
 
 > 각종 Community에서 개발 프로세스가 TDD가 언급이 되었고 예전에 소프트웨어 개발 프로세스 중에 배웠던 TDD에 대해 깊이 있게 몰랐기 때문에 명확하게 정의를 하고 앞으로 개발 방법을 TDD로 바꾸려고 노력하기 위해 Posting을 해보려고 한다.
 

@@ -7,8 +7,6 @@ aliases:
   - /articles/2020-03/Scala-Type
 ---
 
-![[assets/logo/scala.png]]
-
 ## Scala Type에 대해
 ![[assets/posts/img/2020-03-21-17-36-32.png]]
 

@@ -1,13 +1,12 @@
 ---
-title: GSLB란?
+title: GSLB
 tags:
   - DevOps
 date: 2020-01-09
-aliases: 
+aliases:
   - /articles/2020-01/GSLB
 ---
-
-## GSLB란?
+# GSLB
 - DNS 기반의 로드밸런싱 서비스
 - 헬스 체크 모니터링, 레이턴시 기반 등등 많은 기능이 포함된 DNS
 

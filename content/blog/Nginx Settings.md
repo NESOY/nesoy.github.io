@@ -6,8 +6,7 @@ date: 2020-04-28
 aliases: 
   - /articles/2020-04/Nginx-Settings
 ---
-![[assets/logo/nginx.png]]
-## Nginx 설정에 대하여
+# Nginx 설정에 대하여
 #### [server_tokens](http://nginx.org/en/docs/http/ngx_http_core_module.html#server_tokens)
 - Nginx의 Version을 Response에 명시하지 않도록 하는 옵션
 - [Reference](https://goodgid.github.io/Nginx-Option-Server-Tokens/)

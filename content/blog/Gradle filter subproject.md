@@ -6,7 +6,7 @@ date: 2020-03-18
 aliases: 
   - /articles/2020-03/grdle-filter-subproject
 ---
-
+# Gradle Empty directory 제외하기
 ## 들어가며
 - Gradle로 Multi Module 프로젝트를 구성하며 겪은 문제입니다.
 - `subprojects`를 사용하면 하위 모든 프로젝트에 적용하는데 비어있는 Directory에도 적용되어 빌드가 안되는 문제점이 있습니다.

@@ -7,8 +7,6 @@ date: 2017-01-14
 aliases: 
   - /articles/2017-01/Intellj-Git
 ---
-![[assets/logo/Intellij.png]]
-
 # **Intellij Git 연동하기**
 
 - Intellij에서 해당 Project를 Version 관리를 위해 Git을 연동하는 과정을 설명하겠습니다.

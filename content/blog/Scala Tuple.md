@@ -1,9 +1,9 @@
 ---
-title: Scala의 Tuple에 대해
+title: Scala Tuple
 tags:
   - Scala
 date: 2020-04-02
-aliases: 
+aliases:
   - /articles/2020-04/Scala-Tuple
 ---
 

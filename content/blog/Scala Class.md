@@ -6,9 +6,6 @@ date: 2020-03-22
 aliases: 
   - /articles/2020-03/Scala-Class
 ---
-
-![[assets/logo/scala.png]]
-
 ## Class
 - Method, value, variables, types, objects, traits, class가 멤버로 존재할 수 있습니다.
 - class 이름은 항상 대문자로 시작해야 합니다.
