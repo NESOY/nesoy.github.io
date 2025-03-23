@@ -1,6 +1,24 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+export const sortByRecentDate: Options["sortFn"] = (a, b) => {
+  if (!a.isFolder && !b.isFolder) {
+    const dateA = a.data.frontmatter?.date ? new Date(a.data.frontmatter.published) : new Date(0);
+    const dateB = b.data.frontmatter?.date ? new Date(b.data.frontmatter.published) : new Date(0);
+
+    return dateB.getTime() - dateA.getTime();
+  }
+
+  if (a.isFolder && b.isFolder) {
+    return a.displayName.localeCompare(b.displayName, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    });
+  }
+
+  return a.data ? 1 : -1;
+}
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -52,7 +70,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+   Component.DesktopOnly(Component.Explorer({sortFn: sortByRecentDate})),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -76,7 +94,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.Explorer({sortFn: sortByRecentDate})),
   ],
   right: [],
 }
