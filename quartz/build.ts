@@ -21,6 +21,7 @@ import { getStaticResourcesFromPlugins } from "./plugins"
 import { randomIdNonSecure } from "./util/random"
 import { ChangeEvent } from "./plugins/types"
 import { minimatch } from "minimatch"
+import { FileTrieNode } from "./util/fileTrie"
 
 type ContentMap = Map<
   FilePath,
