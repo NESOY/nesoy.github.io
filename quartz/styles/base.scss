@@ -556,6 +556,7 @@ video {
 div:has(> .overflow) {
   display: flex;
   max-height: 100%;
+  overflow-y: hidden;
 }
 
 ul.overflow,
