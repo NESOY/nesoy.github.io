@@ -65,11 +65,18 @@ ul,
   }
 }
 
-article > mjx-container.MathJax {
-  display: flex;
-  > svg {
-    margin-left: auto;
-    margin-right: auto;
+article {
+  > mjx-container.MathJax,
+  blockquote > div > mjx-container.MathJax {
+    display: flex;
+    > svg {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  blockquote > div > mjx-container.MathJax > svg {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
