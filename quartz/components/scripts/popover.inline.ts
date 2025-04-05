@@ -82,8 +82,11 @@ async function mouseEnterHandler(
       const contents = await response.text()
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
-      // strip all IDs from elements to prevent duplicates
-      html.querySelectorAll("[id]").forEach((el) => el.removeAttribute("id"))
+      // prepend all IDs inside popovers to prevent duplicates
+      html.querySelectorAll("[id]").forEach((el) => {
+        const targetID = `popover-${el.id}`
+        el.id = targetID
+      })
       const elts = [...html.getElementsByClassName("popover-hint")]
       if (elts.length === 0) return
 
@@ -94,7 +97,8 @@ async function mouseEnterHandler(
   link.appendChild(popoverElement)
 
   if (hash !== "") {
-    const heading = popoverInner.querySelector(hash) as HTMLElement | null
+    const targetAnchor = hash.startsWith("#popover") ? hash : `#popover-${hash.slice(1)}`
+    const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
     if (heading) {
       // leave ~12px of buffer when scrolling to a heading
       popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
