@@ -50,6 +50,8 @@ ul.toc-content {
   position: relative;
   margin: 0.5rem 0;
   padding: 0;
+  height: 5rem;
+  overscroll-behavior: contain;
 
   list-style: none;
   & > li > a {
