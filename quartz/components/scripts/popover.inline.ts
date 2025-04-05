@@ -12,7 +12,7 @@ async function mouseEnterHandler(
   clearActivePopover()
 
   const link = this
-  link.id = `backlink-${randomIdNonSecure()}`
+  const id = randomIdNonSecure()
   if (link.dataset.noPopover === "true") {
     return
   }
@@ -27,8 +27,8 @@ async function mouseEnterHandler(
     })
   }
 
-  const prevPopoverElement = document.getElementById(`popover-${link.id.split("-")[1]}`)
-  const hasAlreadyBeenFetched = () => !!prevPopoverElement
+  const prevPopoverElement = document.getElementById(`popover-${id}`)
+  const hasAlreadyBeenFetched = () => !!document.getElementById(`popover-${id}`)
 
   // dont refetch if there's already a popover
   if (hasAlreadyBeenFetched()) {
@@ -91,7 +91,7 @@ async function mouseEnterHandler(
       normalizeRelativeURLs(html, targetUrl)
       // prepend all IDs inside popovers to prevent duplicates
       html.querySelectorAll("[id]").forEach((el) => {
-        const targetID = `popover-${el.id}`
+        const targetID = `popover-internal-${el.id}`
         el.id = targetID
       })
       const elts = [...html.getElementsByClassName("popover-hint")]
@@ -101,12 +101,12 @@ async function mouseEnterHandler(
   }
 
   setPosition(popoverElement)
-  popoverElement.id = `popover-${link.id.split("-")[1]}`
-  popoverElement?.classList.add("active-popover")
+  popoverElement.id = `popover-${id}`
+  popoverElement.classList.add("active-popover")
   document.body.appendChild(popoverElement)
 
   if (hash !== "") {
-    const targetAnchor = hash.startsWith("#popover") ? hash : `#popover-${hash.slice(1)}`
+    const targetAnchor = `#popover-internal-${hash.slice(1)}`
     const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
     if (heading) {
       // leave ~12px of buffer when scrolling to a heading
