@@ -23,7 +23,7 @@ async function mouseEnterHandler(
       middleware: [inline({ x: clientX, y: clientY }), shift(), flip()],
     })
     Object.assign(popoverElement.style, {
-      transform: `translate(${x}px, ${y}px)`,
+      transform: `translate(${x.toFixed()}px, ${y.toFixed()}px)`,
     })
   }
 
