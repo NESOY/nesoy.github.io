@@ -117,11 +117,7 @@ async function mouseEnterHandler(
 
 function clearActivePopover() {
   const allPopoverElements = document.querySelectorAll(".popover")
-  if (allPopoverElements) {
-    allPopoverElements.forEach((popoverElement) =>
-      popoverElement.classList.remove("active-popover"),
-    )
-  }
+  allPopoverElements.forEach((popoverElement) => popoverElement.classList.remove("active-popover"))
 }
 
 document.addEventListener("nav", () => {
