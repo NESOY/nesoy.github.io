@@ -1,7 +1,6 @@
 import { computePosition, flip, inline, shift } from "@floating-ui/dom"
 import { normalizeRelativeURLs } from "../../util/path"
 import { fetchCanonical } from "./util"
-import { randomIdNonSecure } from "../../util/random"
 
 const p = new DOMParser()
 
@@ -25,6 +24,7 @@ async function mouseEnterHandler(
   }
 
   function showPopover(popoverElement: HTMLElement) {
+    clearActivePopover()
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
 
@@ -42,7 +42,7 @@ async function mouseEnterHandler(
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
-  const popoverId = `popover-${link.dataset.slug ?? randomIdNonSecure()}`
+  const popoverId = `popover-${link.pathname}`
   const prevPopoverElement = document.getElementById(popoverId)
   const hasAlreadyBeenFetched = () => !!document.getElementById(popoverId)
 
@@ -117,10 +117,10 @@ function clearActivePopover() {
 }
 
 document.addEventListener("nav", () => {
-  const links = [...document.getElementsByClassName("internal")] as HTMLAnchorElement[]
+  const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
   for (const link of links) {
-    link.addEventListener("mouseleave", clearActivePopover)
     link.addEventListener("mouseenter", mouseEnterHandler)
+    link.addEventListener("mouseleave", clearActivePopover)
     window.addCleanup(() => {
       link.removeEventListener("mouseenter", mouseEnterHandler)
       link.removeEventListener("mouseleave", clearActivePopover)
