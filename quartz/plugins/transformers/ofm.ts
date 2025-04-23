@@ -222,7 +222,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 let [rawFp, rawHeader, rawAlias] = capture
                 const fp = rawFp?.trim() ?? ""
                 const anchor = rawHeader?.trim() ?? ""
-                const alias = rawAlias?.slice(1).trim() ?? ""
+                const alias: string | undefined = rawAlias?.slice(1).trim()
 
                 // embed cases
                 if (value.startsWith("!")) {
