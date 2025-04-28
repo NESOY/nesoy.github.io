@@ -32,6 +32,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectName: YOUR_PROJECT_NAME
-          deploymentName: Preview
+          projectName: quartz
+          deploymentName: Branch Preview
           directory: ${{ steps.preview-build-artifact.outputs.download-path }}
