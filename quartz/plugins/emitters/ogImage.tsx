@@ -1,7 +1,7 @@
 import { QuartzEmitterPlugin } from "../types"
 import { i18n } from "../../i18n"
 import { unescapeHTML } from "../../util/escape"
-import { FullSlug, getFileExtension, joinSegments, QUARTZ } from "../../util/path"
+import { FullSlug, getFileExtension, isAbsoluteURL, joinSegments, QUARTZ } from "../../util/path"
 import { ImageOptions, SocialImageOptions, defaultImage, getSatoriFonts } from "../../util/og"
 import sharp from "sharp"
 import satori, { SatoriOptions } from "satori"
@@ -11,7 +11,7 @@ import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
 import { QuartzPluginData } from "../vfile"
 import fs from "node:fs/promises"
-import chalk from "chalk"
+import { styleText } from "util"
 
 const defaultOptions: SocialImageOptions = {
   colorScheme: "lightMode",
@@ -36,7 +36,7 @@ async function generateSocialImage(
     const iconData = await fs.readFile(iconPath)
     iconBase64 = `data:image/png;base64,${iconData.toString("base64")}`
   } catch (err) {
-    console.warn(chalk.yellow(`Warning: Could not find icon at ${iconPath}`))
+    console.warn(styleText("yellow", `Warning: Could not find icon at ${iconPath}`))
   }
 
   const imageComponent = userOpts.imageStructure({
@@ -55,8 +55,9 @@ async function generateSocialImage(
     fonts,
     loadAdditionalAsset: async (languageCode: string, segment: string) => {
       if (languageCode === "emoji") {
-        return `data:image/svg+xml;base64,${btoa(await loadEmoji(getIconCode(segment)))}`
+        return await loadEmoji(getIconCode(segment))
       }
+
       return languageCode
     },
   })
@@ -144,13 +145,19 @@ export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = 
         additionalHead: [
           (pageData) => {
             const isRealFile = pageData.filePath !== undefined
-            const userDefinedOgImagePath = pageData.frontmatter?.socialImage
+            let userDefinedOgImagePath = pageData.frontmatter?.socialImage
+
+            if (userDefinedOgImagePath) {
+              userDefinedOgImagePath = isAbsoluteURL(userDefinedOgImagePath)
+                ? userDefinedOgImagePath
+                : `https://${baseUrl}/static/${userDefinedOgImagePath}`
+            }
+
             const generatedOgImagePath = isRealFile
               ? `https://${baseUrl}/${pageData.slug!}-og-image.webp`
               : undefined
             const defaultOgImagePath = `https://${baseUrl}/static/og-image.png`
             const ogImagePath = userDefinedOgImagePath ?? generatedOgImagePath ?? defaultOgImagePath
-
             const ogImageMimeType = `image/${getFileExtension(ogImagePath) ?? "png"}`
             return (
               <>
