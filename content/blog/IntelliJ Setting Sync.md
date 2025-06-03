@@ -4,9 +4,7 @@ date: 2019-08-16
 tags: [Intellij]
 title: Intellij Setting 동기화하기
 ---
-
-![[assets/logo/Intellij.png]]
-
+# Intellij Setting 동기화하기
 ## 들어가며
 > 회사 컴퓨터, 개인 컴퓨터의 설정이 매번 달라 동기화하는 방법이 필요해서 기록합니다.
 

@@ -4,11 +4,7 @@ date: 2018-05-02
 tags: [Java]
 title: Java 예외(Exception)에 대해
 ---
-
-![[assets/logo/Java.jpg]]
-
-# Exception에 대해
-
+# Java 예외(Exception)에 대해
 ![[assets/posts/20180502/1.png]]
 
 ## Error와 Exception이란?

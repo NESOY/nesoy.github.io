@@ -4,9 +4,7 @@ date: 2018-06-28
 tags: [DDD]
 title: DDD - Aggregate Transaction 관리
 ---
-
-![[assets/logo/ddd.png]]
-
+# DDD - Aggregate Transaction 관리
 ## 트랜잭션(Transaction)이란?
 - [Link](https://nesoy.github.io/articles/2018-05/Database-Transaction)
 

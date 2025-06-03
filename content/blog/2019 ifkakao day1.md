@@ -1,11 +1,13 @@
 ---
-title: if kakao day 1 후기
+aliases:
+  - /articles/2019-08/if-kakao-day1
+date: 2019-08-30
 tags:
   - Review
-date: 2019-08-30
-aliases: 
-  - /articles/2019-08/if-kakao-day1
+  - Kakao
+title: if kakao day 1 후기
 ---
+# 2019 if kakao day 1 후기
 ![[assets/posts/img/2019-08-30-23-18-27.png]]
 
 ## 오픈소스 데이터베이스, 흐르는 은행 데이터에 빨대를 꽂아보다.

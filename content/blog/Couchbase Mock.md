@@ -3,9 +3,7 @@ aliases: [/articles/2018-09/Couchbase-Mock]
 date: 2018-09-18
 title: Couchbase Mock으로 쉽게 테스트하기
 ---
-
-![[assets/logo/couchbase.png]]
-
+# Couchbase Mock으로 쉽게 테스트하기
 ## 들어가며
 - Couchbase Repository의 Test Code는 적재된 Data에 의존성이 매우 높았습니다.
 

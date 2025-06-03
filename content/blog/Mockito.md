@@ -3,10 +3,7 @@ aliases: [/articles/2018-09/Mockito]
 date: 2018-09-17
 title: Mockito란?
 ---
-
-![[assets/logo/mockito.png]]
-
-## Mockito란?
+# Mockito란?
 - 단위 테스트를 위한 Java mocking framework입니다.
 
 ## How to install? 🧐

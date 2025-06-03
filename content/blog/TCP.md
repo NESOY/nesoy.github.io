@@ -3,9 +3,7 @@ aliases: [/articles/2018-10/TCP]
 date: 2018-10-10
 title: TCP에 대해
 ---
-
-![[assets/logo/network.jpg]]
-
+# TCP에 대해
 ## 들어가며
 > 과거 면접 과정에서 받았던 TCP 질문에 대해 다시 회고하고 알게된 내용을 정리합니다.
 

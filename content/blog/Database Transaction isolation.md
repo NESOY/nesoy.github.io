@@ -1,14 +1,10 @@
 ---
-title: 트랜잭션의 격리 수준(isolation Level)이란?
-tags:
-  - Database
+aliases: [/articles/2019-05/Database-Transaction-isolation]
 date: 2019-05-08
-aliases: 
-  - /articles/2019-05/Database-Transaction-isolation
+tags: [Database]
+title: 트랜잭션의 격리 수준(isolation Level)이란?
 ---
-
-![[assets/logo/database.jpg]]
-
+# 트랜잭션의 격리 수준(isolation Level)이란?
 ## 트랜잭션의 격리 수준(isolation)이란?
 - 동시에 여러 트랜잭션이 처리될 때
   - 특정 트랜잭션이 다른 트랜잭션에서 변경하거나 조회하는 데이터를 볼 수 있도록 허용할지 말지를 결정하는 것.

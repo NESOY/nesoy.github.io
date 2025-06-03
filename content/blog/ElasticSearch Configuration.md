@@ -4,9 +4,7 @@ date: 2019-01-12
 tags: [ElasticSearch]
 title: Elastic Search 설정
 ---
-
-![[assets/logo/elastic.png]]
-
+# Elastic Search 설정
 ## [Elastic Search Config](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 ![[assets/posts/20190112/1.png]]
 

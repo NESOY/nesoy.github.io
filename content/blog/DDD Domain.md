@@ -1,14 +1,9 @@
 ---
-title: DDD - Domain
-tags:
-  - DDD
+aliases: [/articles/2018-08/DDD-Domain]
 date: 2018-08-03
-aliases: 
-  - /articles/2018-08/DDD-Domain
+tags: [DDD]
+title: DDD - Domain
 ---
-
-![[assets/logo/ddd.png]]
-
 # 도메인 모델 시작
 - 도메인 모델은 기본적으로 도메인 자체를 이해하기 위한 개념 모델
 - 개념 모델과 구현 모델은 서로 다른 것이지만 구현 모델이 개념 모델을 최대한 따르도록 할 수는 있다.

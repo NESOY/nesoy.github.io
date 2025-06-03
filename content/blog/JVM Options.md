@@ -1,16 +1,11 @@
 ---
-title: JVM Option 설정에 대하여
-tags:
-  - Java
+aliases: [/articles/2019-08/JVM-Options]
 date: 2019-08-12
-aliases: 
-  - /articles/2019-08/JVM-Options
+tags: [Java]
+title: JVM Options
 ---
-
-![[assets/logo/Java.jpg]]
-
+# JVM Option 설정에 대하여
 ## JVM (Oracle) Options
-
 ### -Xms, -Xmx
 - `-Xms`
     - JVM 시작시의 Heap size

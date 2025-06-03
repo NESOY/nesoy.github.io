@@ -1,15 +1,10 @@
 ---
-title: SpringMVC Request Life Cycle에 대해 - PART 1
-tags:
-  - Spring
+aliases: [/articles/2019-02/Spring-request-lifecycle-part-1]
 date: 2019-02-19
-aliases: 
-  - /articles/2019-02/Spring-request-lifecycle-part-1
+tags: [Spring]
+title: SpringMVC Request Life Cycle에 대해 - PART 1
 ---
-
-![[assets/logo/spring.png]]
-
-
+# SpringMVC Request Life Cycle에 대해 - PART 1
 ## 들어가며
 > SpringMVC에서 Request가 들어오면 어떠한 과정을 거치는지 정리하기 위해 작성합니다.
 

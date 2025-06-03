@@ -4,9 +4,7 @@ date: 2018-06-17
 tags: [Web]
 title: Browser에서 Google.com을 검색하면 무슨 일이 발생하나요?
 ---
-
-![[assets/logo/web.jpg]]
-
+# Browser에서 Google.com을 검색하면 무슨 일이 발생하나요?
 ## 들어가며
 > 예전에 받았던 면접 질문들을 회고하고 보다 깊이 있게 이해하기 위해 정리합니다.
 

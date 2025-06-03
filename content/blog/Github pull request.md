@@ -4,11 +4,7 @@ date: 2017-01-12
 tags: [Git]
 title: GitHub Pull Request 따라하기
 ---
-
-![[assets/logo/git.png]]
-
-# **GitHub Pull Request 따라하기**
-
+# GitHub Pull Request 따라하기
 ## 1. 원하는 Project Fork하기
 - #### 프로젝트의 저장소를 본인 계정의 저장소로 Fork 합니다.
 

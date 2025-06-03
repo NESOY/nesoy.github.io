@@ -1,11 +1,8 @@
 ---
-title: Jekyll Github에 올리기 & 테마 적용하기
-tags:
-  - Jekyll
-  - Github
+aliases: [/articles/2016-12/github-Jekyll 1]
 date: 2016-12-29
-aliases: 
-  - /articles/2016-12/github-Jekyll 1
+tags: [Github, Jekyll]
+title: Jekyll Github에 올리기 & 테마 적용하기
 ---
 > 아래 포스팅을 따라 하기 전에 Window에 Jekyll 설치하기에 관한 Posting을 읽어보시면 좋을 듯 합니다.
 
@@ -58,5 +55,5 @@ Window에 Jekyll설치하기 : <https://nesoy.github.io/articles/2016-12/Install
 ## 4. 접속해보기
   - #### http://Github아이디.github.io
 
-## 참조
-  - #### 동영상 <https://www.youtube.com/watch?v=T_ZhqkshtKk>
+## Reference
+- https://www.youtube.com/watch?v=T_ZhqkshtKk

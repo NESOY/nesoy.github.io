@@ -1,15 +1,11 @@
 ---
-title: Javascript Study4
-tags:
-  - Javascript
+aliases: [/articles/2017-01/javascript-study4]
 date: 2017-01-05
-aliases: 
-  - /articles/2017-01/javascript-study4
+tags: [Javascript]
+title: Javascript Study4
 ---
 
 # **Javascript**
-![[assets/logo/javascript.png]]
-
 - #### Function 타입
   - 함수는 객체이다.
   - 오버로딩은 없다.

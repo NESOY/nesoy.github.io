@@ -3,8 +3,7 @@ aliases: [/articles/2018-08/Algorithm-RedblackTree]
 date: 2018-08-31
 title: RedBlack Tree에 대해
 ---
-![[assets/logo/algorithm.png]]
-
+# RedBlack Tree에 대해
 ## RedBlack Tree 왜(Why) 생긴 것일까요?
 > 7,6,5,4,3,2,1 순서대로 삽입해서 이진탐색 트리(Binary Search Tree)를 만들어 보면 어떨까요?
 

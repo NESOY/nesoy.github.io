@@ -4,9 +4,7 @@ date: 2018-07-15
 tags: [Python]
 title: Python의 __init__, __all__ 란?
 ---
-
-![[assets/logo/python.png]]
-
+# Python의 __init__, __all__ 란?
 ## 들어가며
 > Python으로 개발하던 과정에서 패키지가 다른 경우 참조하지 못하는 문제가 발생하였고 그 과정에서 `__init__.py`를 통해 해결하였습니다. `__init__.py`에 정리하기 위해 작성합니다.
 

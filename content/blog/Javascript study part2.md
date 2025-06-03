@@ -1,14 +1,11 @@
 ---
-title: Javascript Study2
-tags:
-  - Javascript
+aliases: [/articles/2017-01/javascript-study2]
 date: 2017-01-03
-aliases: 
-  - /articles/2017-01/javascript-study2
+tags: [Javascript]
+title: Javascript Study2
 ---
 
 # **Javascript**
-![[assets/logo/javascript.png]]
 
 ## 3. 언어의 기초
 

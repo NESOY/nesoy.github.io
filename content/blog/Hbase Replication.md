@@ -5,8 +5,6 @@ tags: [HBase]
 title: Hbase Replication에 대해
 ---
 # Hbase Replication
-![[assets/logo/hbase.png]]
-
 ## Hbase Replication에 대해
 ### 기본적인 Replication 특징에 대해
 - Push 방식을 사용하며 Source Cluster에서 Destination Cluster 방향으로 동작한다.

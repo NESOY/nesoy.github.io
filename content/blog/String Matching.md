@@ -3,9 +3,7 @@ aliases: [/articles/2018-10/Algorithm-String-Matching]
 date: 2018-10-23
 title: String Matching Algorithm에 대해
 ---
-
-![[assets/logo/algorithm.png]]
-
+# String Matching Algorithm에 대해
 ## 왜 우리는 String Matching Algorithm에 대해 고민할까?
 - String Matching은 우리가 평소에 자주 사용하는 기능입니다.
     - 매우 간단하게 구현할 수 있습니다.

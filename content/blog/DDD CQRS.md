@@ -4,11 +4,7 @@ date: 2018-07-19
 tags: [DDD]
 title: DDD - CQRS
 ---
-
-![[assets/logo/ddd.png]]
-
-# CQRS(Command and Query Responsibility Segregation) Pattern
-
+# DDD - CQRS
 ## 왜 등장하게 되었을까요?
 ![[assets/posts/20180719/1.png]]
 

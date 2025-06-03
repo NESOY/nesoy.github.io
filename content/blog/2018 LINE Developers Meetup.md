@@ -1,10 +1,13 @@
 ---
-aliases: [/articles/2018-07/LINE-Developers-Meetup]
+aliases:
+  - /articles/2018-07/LINE-Developers-Meetup
 date: 2018-07-13
-tags: [Review]
+tags:
+  - Review
+  - Line
 title: LINE Developers Meetup - Server tech 후기
 ---
-
+# LINE Developers Meetup - Server tech 후기
 ![[assets/posts/20180713/1.png]]
 
 # Central Dogma - 송민우님

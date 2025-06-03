@@ -2,8 +2,9 @@
 aliases: [/articles/2018-04/Little-Big-Data]
 date: 2018-04-22
 tags: [Review]
-title: Little Big Data 후기.
+title: Little Big Data 후기
 ---
+# 2018 Little Big Data 후기
 ![[assets/posts/20180422/1.png]]
 ## 정리
 
@@ -96,4 +97,4 @@ title: Little Big Data 후기.
 > 세상은 대단한 사람들이 너무 많고 언제나 나의 부족함을 느낀다. 개발자가 과연 개발만 하는 사람인가? 지금은 문제해결을 하기 위해 소프트웨어를 사용하는 사람으로 볼 수 있을 것 같다.
 
 ## Reference
-- <https://zzsza.github.io/etc/2018/04/21/little-big-data/>
+- https://zzsza.github.io/etc/2018/04/21/little-big-data/

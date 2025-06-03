@@ -1,14 +1,10 @@
 ---
-title: Column Oriented DBMS란?
-tags:
-  - Database
+aliases: [/articles/2019-10/Column-Oriented-DBMS]
 date: 2019-10-01
-aliases: 
-  - /articles/2019-10/Column-Oriented-DBMS
+tags: [Database]
+title: Column Oriented DBMS란?
 ---
-
-![[assets/logo/database.jpg]]
-
+# Column Oriented DBMS
 ## 왜 Column-Oriented DBMS이 등장하게 되었을까?
 - 기존의 Relational DBMS는 Row형으로 데이터를 저장한다.
 

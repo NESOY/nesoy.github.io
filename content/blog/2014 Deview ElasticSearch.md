@@ -1,12 +1,13 @@
 ---
-aliases: [/articles/2019-01/Deview2014-ElasticSearch]
+aliases:
+  - /articles/2019-01/Deview2014-ElasticSearch
 date: 2019-01-25
-tags: [ElasticSearch]
+tags:
+  - ElasticSearch
+  - Deview
 title: Deview 2014 - Elastic Search 성능 최적화
 ---
-
-![[assets/logo/elastic.png]]
-
+# 2014 Deview ElasticSearch
 ## ElasticSearch 이해와 성능 최적화 - 정호욱님
 ### ElasticSearch 이해
 #### ElasticSearch란?

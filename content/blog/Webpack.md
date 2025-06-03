@@ -1,14 +1,10 @@
 ---
-title: Webpack이란?
-tags:
-  - Webpack
+aliases: [/articles/2019-02/Webpack]
 date: 2019-02-25
-aliases: 
-  - /articles/2019-02/Webpack
+tags: [Webpack]
+title: Webpack이란?
 ---
-
-![[assets/logo/webpack.png]]
-
+# Webpack
 ## 왜 Webpack이 등장하게 되었을까?
 - 규모가 있는 System에서는 많은 Javascript가 존재하게 됩니다. 이 많은 Javascript 파일을 하나의 파일로 관리하기엔 어려움이 있습니다.
 

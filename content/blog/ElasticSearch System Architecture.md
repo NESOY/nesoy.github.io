@@ -1,14 +1,10 @@
 ---
-title: Elastic Search 시스템 구조
-tags:
-  - ElasticSearch
+aliases: [/articles/2019-01/ElasticSearch-System-Architecture]
 date: 2019-01-22
-aliases: 
-  - /articles/2019-01/ElasticSearch-System-Architecture
+tags: [ElasticSearch]
+title: Elastic Search 시스템 구조
 ---
-
-![[assets/logo/elastic.png]]
-
+# Elastic Search 시스템 구조
 ## Cluster와 Node
 - 하나의 Cluster는 여러 개의 Node로 구성
 - 클러스터명만 같게 유지하고 프로세스만 실행하면 시스템의 확장이 가능

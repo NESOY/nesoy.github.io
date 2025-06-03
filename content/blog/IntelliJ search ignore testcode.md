@@ -4,10 +4,7 @@ date: 2018-06-15
 tags: [Intellij]
 title: Intellij 검색에서 Test Code 제외하기
 ---
-
-
-![[assets/logo/Intellij.png]]
-
+# Intellij 검색에서 Test Code 제외하기
 ## 문제 정의
 
 ![[assets/posts/20180615/1.PNG]]

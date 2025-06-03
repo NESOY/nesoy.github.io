@@ -4,9 +4,7 @@ date: 2018-05-24
 tags: [Programming]
 title: 객체 지향 프로그래밍(Object-Oriented Programming)이란?
 ---
-
-![[assets/logo/oop.png]]
-
+# 객체 지향 프로그래밍(Object-Oriented Programming)이란?
 ## 객체 지향 프로그래밍(Object-Oriented Programming)이란?
 ### 추상화(Abstraction)
 추상화는 주제 영역(Subject Domain Area)내에서 시스템에 참여 시키고자 하는 대상에 대한 관심점(a point of concern)의 표현방법이다. 다만, **있는 그대로 풀어내는 것이 아니라, 모듈의 단위를 결정하기 위한 '단어'를 정하는 것**이다. 추상화 단계에서 속성(attribute)과 행위(Behavior)를 분리해 내는 방식은 추상화 혼란을 일으키기 쉽기 때문에, 명백하다 생각되는 경우를 제외하고는 관계(relation)를 통해 속성과 행위를 찾아내는 방식을 선호한다.

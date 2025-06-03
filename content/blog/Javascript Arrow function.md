@@ -1,14 +1,10 @@
 ---
-title: Javascript Arrow function과 Binding에 대해
-tags:
-  - Javascript
+aliases: [/articles/2019-04/Javascript-Arrow-function]
 date: 2019-04-03
-aliases: 
-  - /articles/2019-04/Javascript-Arrow-function
+tags: [Javascript]
+title: Javascript Arrow function과 Binding에 대해
 ---
-
-![[assets/logo/javascript.png]]
-## Arrow function과 Binding에 대해
+# Arrow function과 Binding에 대해
 ### Arrow Function이란?
 - ES6부터 적용된 문법입니다.
 - `() => {}`로 표기

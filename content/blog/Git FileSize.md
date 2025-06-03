@@ -4,9 +4,7 @@ date: 2018-05-09
 tags: [Git]
 title: Git push 파일 크기 에러 해결하기
 ---
-
-![[assets/logo/git.png]]
-
+# Git push 파일 크기 에러 해결하기
 ## 문제
 - git push를 하는 도중에 파일 크기가 `1MB`를 넘어선다면 아래와 같은 Error log를 볼 수 있습니다.
 

@@ -4,6 +4,7 @@ date: 2018-05-09
 tags: [Review]
 title: 2018 Next With Google 후기
 ---
+# 2018 Next With Google 후기
 ![[assets/posts/20180509/1.png]]
 ## MSA 진실 혹은 거짓 - 이정운님
 ### What is MSA?

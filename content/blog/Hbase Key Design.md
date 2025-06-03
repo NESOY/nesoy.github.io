@@ -1,14 +1,10 @@
 ---
-title: Hbase Key Design에 대해
-tags:
-  - Hbase
+aliases: [/articles/2019-10/Hbase-Key-Design]
 date: 2019-10-11
-aliases: 
-  - /articles/2019-10/Hbase-Key-Design
+tags: [Hbase]
+title: Hbase Key Design에 대해
 ---
-
-![[assets/logo/hbase.png]]
-
+# Hbase Key Design에 대해
 ## 들어가며
 - Hbase를 활용하기 위해서는 Key 설계가 무엇보다 중요하다.
 - Hbase는 어떻게 저장이 되고 어떻게 설계하는게 좋은지 이해하기 위해 작성한다.

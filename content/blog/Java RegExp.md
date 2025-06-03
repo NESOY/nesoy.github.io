@@ -5,8 +5,6 @@ tags: [Java]
 title: Java 정규식 표현(Regular Expression)에 대해
 ---
 
-![[assets/logo/Java.jpg]]
-
 # 정규식 표현(Regular Expression)이란?
 
 ## 문법

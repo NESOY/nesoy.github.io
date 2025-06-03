@@ -4,9 +4,7 @@ date: 2018-04-15
 tags: [Intellij]
 title: Intellij Grep Console Plugin
 ---
-
-![[assets/logo/Intellij.png]]
-
+# Intellij Grep Console Plugin
 > Intellij로 개발하는 과정에서 Log Framework를 사용하여 Debug Msg를 보게 되었습니다. 특정 Msg를 보고 싶었는데 어려움이 있었고 Console의 특정 Msg를 Grep하는 Plugin을 찾아 공유합니다.
 
 ![[assets/posts/20180415/6.png]]

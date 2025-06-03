@@ -1,11 +1,8 @@
 ---
-title: DNS Type
-tags:
-  - Infra
-  - DNS
+aliases: [/articles/2020-06/DNS-type]
 date: 2020-06-04
-aliases:
-  - /articles/2020-06/DNS-type
+tags: [DNS, Infra]
+title: DNS Type
 ---
 # DNS type
 ## A record

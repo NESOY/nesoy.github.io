@@ -4,9 +4,7 @@ date: 2018-07-16
 tags: [Java]
 title: Java 예외 처리(Handling Exception)에 대해
 ---
-
-![[assets/logo/Java.jpg]]
-
+# Java 예외 처리(Handling Exception)에 대해
 ## Exception catch 무시하지 않기
 - catch에서 아무 코드도 없는건 바람직하지 않습니다.
 - `Connection.close()`와 같은 이해하기 쉬운 코드는 괜찮습니다.

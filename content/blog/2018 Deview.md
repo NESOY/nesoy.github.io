@@ -1,10 +1,10 @@
 ---
 aliases: [/articles/2018-10/Deview-2018]
 date: 2018-10-11
-tags: [Review]
+tags: [Deview, Review]
 title: Deview 2018 후기
 ---
-
+# 2018 Deview
 ![[assets/posts/20181011/1.png]]
 
 ## 지난 1년간의 웨일 브라우저와 그 미래 - 김효님

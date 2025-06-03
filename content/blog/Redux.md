@@ -5,8 +5,6 @@ tags: [Redux]
 title: Redux
 ---
 # Redux
-![[assets/logo/redux.png]]
-
 ## 왜 Flux가 등장하게 되었을까?
 ### 기존의 MVC 아키텍처
 ![[assets/posts/img/2019-02-27-12-27-34.png]]

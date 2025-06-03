@@ -1,12 +1,10 @@
 ---
-title: Javascript Study
+aliases: [/articles/2016-12/javascript-study]
 date: 2016-12-30
-aliases: 
-  - /articles/2016-12/javascript-study
+title: Javascript Study
 ---
 
 # **Javascript**
-![[assets/logo/javascript.png]]
 
 ## 1. Javascript 구성요소
 ![[assets/posts/20161230/javascript_element.png]]

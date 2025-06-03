@@ -1,14 +1,10 @@
 ---
-title: Elastic Search를 시작하며
-tags:
-  - ElasticSearch
+aliases: [/articles/2019-01/ElasticSearch-Intro]
 date: 2019-01-09
-aliases: 
-  - /articles/2019-01/ElasticSearch-Intro
+tags: [ElasticSearch]
+title: Elastic Search를 시작하며
 ---
-
-![[assets/logo/elastic.png]]
-
+# Elastic Search를 시작하며
 ## Node
 - 데이터를 색인하고 검색 기능을 수행하는 엘라스틱 서치의 단위 프로세스
 - 기존 노드에 새 노드를 실행해 연결하는 것으로 쉽게 시스템을 확장할 수 있다.

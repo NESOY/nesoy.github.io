@@ -8,7 +8,6 @@ aliases:
 ---
 
 # **Javascript**
-![[assets/logo/javascript.png]]
 
 ## 5. 참조 타입
 - #### 객체 리터럴 표기법

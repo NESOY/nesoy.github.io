@@ -1,15 +1,10 @@
 ---
-title: Couchbase의 CAS란?
-tags:
-  - Couchbase
+aliases: [/articles/2019-01/Couchbase-CAS]
 date: 2019-01-23
-aliases: 
-  - /articles/2019-01/Couchbase-CAS
+tags: [Couchbase]
+title: Couchbase의 CAS란?
 ---
-
-![[assets/logo/couchbase.png]]
-
-
+# Couchbase의 CAS
 ## CAS(Check & Set) 값이란?
 > Optimistic Concurrency Control
 

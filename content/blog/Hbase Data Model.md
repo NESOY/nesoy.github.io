@@ -1,14 +1,10 @@
 ---
-title: Hbase Data Model에 대해
-tags:
-  - Hbase
+aliases: [/articles/2019-10/Hbase-Data-Model]
 date: 2019-10-02
-aliases: 
-  - /articles/2019-10/Hbase-Data-Model
+tags: [Hbase]
+title: Hbase Data Model에 대해
 ---
-
-![[assets/logo/hbase.png]]
-
+# Hbase Data Model에 대해
 ## Hbase Data Model에 대해
 ![[assets/posts/img/2019-10-02-13-39-21.png]]
 - Hbase는 Data를 Table 형태로 저장한다.

@@ -1,16 +1,10 @@
 ---
-title: Spring AOP
-tags:
-  - Spring
+aliases: [/articles/2017-01/Spring-AOP]
 date: 2017-01-18
-aliases: 
-  - /articles/2017-01/Spring-AOP
+tags: [Spring]
+title: Spring AOP
 ---
-
-![[assets/logo/spring.png]]
-
 # **Spring AOP**
-
 ## AOP(Aspect Oriented Programming)이란?
 
 > ### 기능을 핵심 Bussiness Logic과 공통 Module로 구분하고, 핵심 Logic에 영향을 미치지 않고 사이사이에 공통 Module(Security, Logging, Transaction)을 효과적으로 끼워넣도록 하는 개발 방법이다.

@@ -4,10 +4,8 @@ date: 2018-08-12
 tags: [DDD]
 title: DDD - Architecture
 ---
-
-![[assets/logo/ddd.png]]
-
-# 아키텍처 개요
+# DDD - Architecture
+## 아키텍처 개요
 ## 네 개의 영역
 - 표현
 - 응용

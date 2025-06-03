@@ -5,9 +5,6 @@ tags: [DDD]
 title: DDD - Event
 ---
 
-![[assets/logo/ddd.png]]
-
-
 # 이벤트
 ## 이벤트가 왜(Why) 필요할까요?
 ### Example

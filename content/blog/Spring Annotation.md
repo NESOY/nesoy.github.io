@@ -5,8 +5,6 @@ tags: [Spring]
 title: Spring Annotation(@Required,@Autowired,@Qulifier,@Resource)
 ---
 
-![[assets/logo/spring.png]]
-
 # **Spring Annotation**
 - @Required, @Autowired, @Qulifier, @Resource
 

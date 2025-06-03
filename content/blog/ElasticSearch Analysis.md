@@ -1,13 +1,10 @@
 ---
-title: ElasticSearch - 분석
-tags:
-  - ElasticSearch
+aliases: [/articles/2019-03/ElasticSearch-Analysis]
 date: 2019-03-05
-aliases: 
-  - /articles/2019-03/ElasticSearch-Analysis
+tags: [ElasticSearch]
+title: ElasticSearch - 분석
 ---
-![[assets/logo/elastic.png]]
-
+# ElasticSearch - 분석
 ## ElasticSearch의 분석(Analysis)이란?
 - 검색어를 추출하기 위한 프로세스
 

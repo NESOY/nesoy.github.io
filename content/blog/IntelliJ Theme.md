@@ -1,13 +1,9 @@
 ---
-title: Intellij 테마(Theme) 적용하기
-tags:
-  - Intellij
+aliases: [/articles/2018-03/Intellij-Theme]
 date: 2018-03-28
-aliases: 
-  - /articles/2018-03/Intellij-Theme
+tags: [Intellij]
+title: Intellij 테마(Theme) 적용하기
 ---
-![[assets/logo/Intellij.png]]
-
 # Intellij Material Theme 적용하기
 
 ## 결과화면

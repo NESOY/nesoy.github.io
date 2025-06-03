@@ -4,9 +4,7 @@ date: 2018-07-20
 tags: [Git]
 title: Git Revert란?
 ---
-
-![[assets/logo/git.png]]
-
+# Git Revert란?
 ## 들어가며
 > commit을 하고 push한 이후 작업이 잘못되었음을 깨닫고 원래 상태로 돌아가고 싶은 경우, local에서는 reset 사용하면 해결되지만 이미 remote repository에 반영된 경우에 충돌을 피하기 위해 revert라는 기능을 알게 되어 정리합니다.
 

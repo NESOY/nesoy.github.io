@@ -4,13 +4,10 @@ date: 2018-05-27
 tags: [Database]
 title: Database의 트랜잭션(Transaction)이란?
 ---
-
-![[assets/logo/database.jpg]]
-
-# 트랜잭션(Transaction)이란?
+# Database의 트랜잭션(Transaction)이란?
+## 트랜잭션(Transaction)이란?
 - 트랜잭션(Transaction)은 데이터베이스의 완전성을 보장하기 위한 것입니다.
 - 상태를 변화시키기 해서 수행하는 **하나의 작업의 단위**를 뜻합니다.
-
 
 ## 특징(ACID)
 ### 원자성 (Atomicity)

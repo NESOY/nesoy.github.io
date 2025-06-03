@@ -6,7 +6,7 @@ description:
 tags: [Review]
 title: KOSSCON - 2018 후기
 ---
-
+# KOSSCON - 2018 후기
 ![[assets/posts/20181130/1.png]]
 
 ## Streaming 101 - 임정택님

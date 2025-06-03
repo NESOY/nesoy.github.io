@@ -1,14 +1,10 @@
 ---
-title: Scala Tuple
-tags:
-  - Scala
+aliases: [/articles/2020-04/Scala-Tuple]
 date: 2020-04-02
-aliases:
-  - /articles/2020-04/Scala-Tuple
+tags: [Scala]
+title: Scala Tuple
 ---
-
-![[assets/logo/scala.png]]
-
+# Scala Tuple
 ## Tuple란?
 - 고정된 크기의 elements를 포함하는 value라고 표현한다.
 - immutable한 성격을 가지고 있다.

@@ -3,10 +3,7 @@ aliases: [/articles/2018-09/Intellij-Auto-Convention]
 date: 2018-09-28
 title: Intellij Code Convention 자동화하기
 ---
-
-![[assets/logo/Intellij.png]]
-
-
+# Intellij Code Convention 자동화하기
 ## 들어가며
 > 개발을 하면 Line 자동 정렬, import 자동 정렬 등등 매번 해줘야 하지만.. 귀찮으니 자동화해주는 plugin과 setting을 공유합니다. :D
 

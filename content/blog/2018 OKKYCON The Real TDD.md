@@ -4,7 +4,7 @@ date: 2018-10-18
 tags: [Review]
 title: 2018 OKKY The Real TDD 후기
 ---
-# OKKYCON2018 The Real TDD
+# 2018 OKKY The Real TDD 후기
 ![[assets/posts/20181019/1.png]]
 
 ## 테스트하기 쉬운 코드로 개발하기 - 정진욱님

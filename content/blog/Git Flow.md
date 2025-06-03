@@ -4,9 +4,7 @@ date: 2018-09-04
 title: Git-flow에 대해
 ---
 
-
-![[assets/logo/git.png]]
-
+# Git-flow에 대해
 ## Git-Flow란?
 - git-flow는 전략적으로 관리하는 Git을 쉽고 편하게 도와주는 도구입니다 :)
 

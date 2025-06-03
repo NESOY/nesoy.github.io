@@ -4,10 +4,7 @@ date: 2018-11-20
 tags: [Couchbase]
 title: Couchbase는 어떻게 동작하는가?
 ---
-# Couchbase
-![[assets/logo/couchbase.png]]
-
-
+# Couchbase는 어떻게 동작하는가?
 ## High - Level Deployment Architecture
 
 ![[assets/posts/20181120/1.png]]

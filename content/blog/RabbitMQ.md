@@ -4,11 +4,7 @@ date: 2019-02-14
 tags: [MessageQueue, RabbitMQ]
 title: RabbitMQ에 대해
 ---
-
-
-![[assets/logo/RabbitMQ.png]]
-
-
+# RabbitMQ에 대해
 ## [RabbitMQ란?](http://www.rabbitmq.com/)
 - AMQP (Advanced Message Queueing Protocol) 메세지 브로커 소프트웨어(message broker software) 오픈소스입니다.
 - AMQP -> 표준MQ 프로토콜

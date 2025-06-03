@@ -4,10 +4,7 @@ date: 2017-03-27
 tags: [Git]
 title: Git 커밋(Commit)을 쉽게 다루어 보자
 ---
-# Git Commit
-
-![[assets/logo/git.png]]
-
+# Git 커밋(Commit)을 쉽게 다루어 보자
 ## 들어가며
 > 개발하는 과정에 있어 commit을 잘못하거나, 팀원들의 코드 리뷰를 통해 문제를 수정하고 다시 commit하는 과정에서 불필요한 commit들을 합치는 과정이 필요하다. git의 commit에 대한 명령어에 대해 기억하기 위해 포스팅을 한다.
 

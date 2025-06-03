@@ -1,12 +1,10 @@
 ---
-title: Multi Thread Algorithm에 대해
+aliases: [/articles/2018-09/Algorithm-MultiThread]
 date: 2018-09-14
-aliases: 
-  - /articles/2018-09/Algorithm-MultiThread
+tags: [Algorithm]
+title: Multi Thread Algorithm에 대해
 ---
-
-![[assets/logo/algorithm.png]]
-
+# Multi Thread Algorithm에 대해
 ## 직렬 알고리즘(Serial Algorithm)
 - 명령을 한 번에 하나만 실행하는 Single Processor 컴퓨터에 적합한 알고리즘입니다.
 

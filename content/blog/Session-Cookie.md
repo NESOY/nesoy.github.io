@@ -1,16 +1,9 @@
 ---
-title: 쿠키(Cookie) 그리고 세션(Session)
-tags:
-  - Web
-  - Session
-  - Cookie
+aliases: [/articles/2017-03/Session-Cookie]
 date: 2017-03-17
-aliases: 
-  - /articles/2017-03/Session-Cookie
+tags: [Cookie, Session, Web]
+title: 쿠키(Cookie) 그리고 세션(Session)
 ---
-
-![[assets/logo/web.jpg]]
-
 # 쿠키(Cookie)
 ## 배경
 - 로그인을 통해 볼 수 있는 서비스. 장바구니 서비스. 등등 클라이언트가 정보를 유지하는 Stateful한 성격의 서비스가 점점 많아졌습니다.

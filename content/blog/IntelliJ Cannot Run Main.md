@@ -4,10 +4,7 @@ date: 2018-05-29
 tags: [Intellij]
 title: Intellij에서 메인(Main)이 실행되지 않을 경우 해결방법.
 ---
-
-![[assets/logo/Intellij.png]]
-
-
+# Intellij에서 메인(Main)이 실행되지 않을 경우 해결방법.
 ## 문제 정의
 - Github, Bitbucket을 통해 Source Code 공유하게 됩니다.
 - 공유하는 부분에 있어 .gitignore을 통해 IDE 설정파일을 제외합니다.

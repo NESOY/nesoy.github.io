@@ -4,10 +4,8 @@ date: 2018-04-11
 tags: [Java]
 title: Java Annotation이란?
 ---
-
-![[assets/logo/Java.jpg]]
-
-# Annotation
+# Java Annotation이란?
+## Annotation
 - Java 5부터 등장한 기능입니다.
 - 흔히 알고 있는 `@Override`, `@Deprecated`이 대표적인 예입니다.
 - AOP(Aspect Oriented Programing; 관심지향프로그래밍)을 편리하게 구성할 수 있습니다.
