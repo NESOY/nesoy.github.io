@@ -1,5 +1,7 @@
 {
   "vimMode": true,
   "promptDelete": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content"
 }
