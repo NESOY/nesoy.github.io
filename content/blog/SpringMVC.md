@@ -1,15 +1,10 @@
 ---
-title: Intellij에서 Spring MVC 시작하기
-tags:
-  - Spring
-  - Intellij
+aliases: [/articles/2017-02/SpringMVC]
 date: 2017-02-05
-aliases:
-  - /articles/2017-02/SpringMVC
+tags: [IntelliJ, Spring]
+title: Intellij에서 Spring MVC 시작하기
 ---
-
-![[assets/logo/spring.png]]
-
+# SpringMVC
 > Intellij에서 Spring MVC를 이용하여 Hello World를 띄우기 까지 매우 많은 삽질을 통해 해결했다. 많은 이들이 포스팅을 통해서 삽질을 그나마 줄일 수 있다면 좋겠다.
 
 ## Intellij Maven Project 만들기

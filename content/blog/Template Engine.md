@@ -1,10 +1,8 @@
 ---
-title: 웹 템플릿 엔진(Template Engine) 이란?
-tags:
-  - Web
+aliases: [/articles/2017-03/web-template]
 date: 2017-03-06
-aliases:
-  - /articles/2017-03/web-template
+tags: [Web]
+title: 웹 템플릿 엔진(Template Engine) 이란?
 ---
 
 ![[assets/logo/web.jpg]]
@@ -53,6 +51,5 @@ aliases:
 
 ![[assets/posts/20170306/3.PNG]]
 
-## 참조
-
+## Reference
 - <https://en.wikipedia.org/wiki/Web_template_system>

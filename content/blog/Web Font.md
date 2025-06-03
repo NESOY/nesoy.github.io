@@ -4,10 +4,8 @@ date: 2017-10-07
 tags: [Web]
 title: 한글 웹 폰트 적용하기
 ---
-
-![[assets/logo/web.jpg]]
-
-## Web Font 적용하기.
+# Web Font
+## Web Font 적용하기
 ### Example Html Code
 - <https://developers.google.com/fonts/docs/getting_started>
 
@@ -38,8 +36,6 @@ title: 한글 웹 폰트 적용하기
 #### 적용 후 모습
 ![[assets/posts/20171007/2.PNG]]
 
-
-
 ## Reference
-- <https://developers.google.com/fonts/docs/getting_started>
-- <https://fonts.google.com/earlyaccess>
+- https://developers.google.com/fonts/docs/getting_started
+- https://fonts.google.com/earlyaccess
