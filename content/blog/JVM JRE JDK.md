@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2020-10/Jvm-Jre-Jdk]
+comments: false
 date: 2020-10-05
+description: 
 tags: [Java]
 title: JVM, JRE, JDK에 대해
 ---

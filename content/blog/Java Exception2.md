@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-05/Java-Exception]
+comments: false
 date: 2018-05-02
+description: 
 tags: [Java]
 title: Java 예외(Exception)에 대해
 ---

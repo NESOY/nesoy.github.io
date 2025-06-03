@@ -1,6 +1,9 @@
 ---
 aliases: [/articles/2018-09/Couchbase-Mock]
+comments: false
 date: 2018-09-18
+description: 
+tags: [Couchbase]
 title: Couchbase Mock으로 쉽게 테스트하기
 ---
 # Couchbase Mock으로 쉽게 테스트하기

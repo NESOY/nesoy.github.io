@@ -1,14 +1,13 @@
 ---
 aliases: [/articles/2018-01/CleanCode-Comment]
+comments: false
 date: 2018-01-01
+description: 
 tags: [CleanCode]
 title: Clean Code - 주석(Comment)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
-> 주석은 기껏해야 필요악이다.
-
 # 주석(Comment)
+> 주석은 기껏해야 필요악이다.
 
 ## 주석은 나쁜 코드를 보완하지 못한다.
 코드에 주석을 추가하는 일반적인 이유는 코드 품질이 나쁘기 때문이다. 깔끔하고 주석이 거의 없는 코드가, 복잡하고 어수선하며 주석이 많이 달린 코드보다 훨씬 좋다. 주석으로 설명하려 애쓰는 대신에 그 난장판을 깨끗이 치우는 데 시간을 보내라!

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-02/SpringMVC]
+comments: false
 date: 2017-02-05
+description: 
 tags: [IntelliJ, Spring]
 title: Intellij에서 Spring MVC 시작하기
 ---

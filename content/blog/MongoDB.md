@@ -1,14 +1,12 @@
 ---
-title: MAC OS에서 MongoDB 설치하기
-tags:
-  - MongoDB
+aliases: [/articles/2017-04/MongoDB]
+comments: false
 date: 2017-04-02
-aliases: 
-  - /articles/2017-04/MongoDB
+description: 
+tags: [MongoDB]
+title: MAC OS에서 MongoDB 설치하기
 ---
-
-![[assets/posts/20170402/1.PNG]]
-
+# MongoDB
 ### 1. Homebrew 설치
 - `ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"`
 

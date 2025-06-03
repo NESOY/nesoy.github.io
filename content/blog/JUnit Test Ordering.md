@@ -1,13 +1,14 @@
 ---
 aliases: [/articles/2019-02/JUnit-Test-Ordering]
+comments: false
 date: 2019-02-13
+description: 
 tags: [JUnit, Testing]
 title: JUnit Test 순서 제어하기
 ---
+# JUnit Test 순서 제어하기
 ## 들어가며
 - JUnit Test case들이 랜덤하게 진행하기보단 특정한 순서대로 진행하는 방법이 있어 작성합니다.
-
-
 
 ## JUnit Test 순서 제어하기
 

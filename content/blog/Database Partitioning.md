@@ -1,12 +1,12 @@
 ---
 aliases: [/articles/2018-02/Database-Partitioning]
+comments: false
 date: 2018-02-22
 description: Database Partitioning에 대해 알아보자.
 tags: [Database]
 title: Database Partitioning
 ---
 # Database Partitioning
-
 ## 배경
 
 ![[assets/posts/20180222/1.png]]

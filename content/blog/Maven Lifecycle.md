@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2021-03/maven-lifecycle]
+comments: false
 date: 2021-03-10
+description: 
 tags: [Maven]
 title: Maven의 Life Cycle에 대해
 ---

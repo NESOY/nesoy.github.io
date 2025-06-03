@@ -1,15 +1,12 @@
 ---
-title: NodeJs의 path, File, Buffer
-tags:
-  - NodeJs
-  - Web
-  - Javascript
+aliases: [/articles/2017-04/Nodejs-path-file-buffer-]
+comments: false
 date: 2017-04-14
-aliases:
-  - /articles/2017-04/Nodejs-path-file-buffer-
+description: 
+tags: [Javascript, NodeJs, Web]
+title: NodeJs의 path, File, Buffer
 ---
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 path, File, Buffer
 ## 경로 다루기
 ### path
 

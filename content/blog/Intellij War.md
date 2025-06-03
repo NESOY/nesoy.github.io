@@ -1,7 +1,11 @@
 ---
-aliases: [/articles/2017-01/Intellij-War]
+aliases:
+  - /articles/2017-01/Intellij-War
+comments: false
 date: 2017-01-10
-tags: [Intellij]
+description: 
+tags:
+  - IntelliJ
 title: Intellij War 추출하기
 ---
 # **Intellij War 추출하기**

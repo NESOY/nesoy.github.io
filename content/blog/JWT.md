@@ -1,12 +1,12 @@
 ---
-title: JWT에 대해
-tags:
-  - JWT
-  - Security
+aliases: [/articles/2020-03/JWT]
+comments: false
 date: 2020-03-03
-aliases: 
-  - /articles/2020-03/JWT
+description: 
+tags: [JWT, Security]
+title: JWT에 대해
 ---
+# JWT에 대해
 ## JWT(JSON Web Tokens)이란?
 - 두 개체에서 JSON 객체를 사용하여 가볍고 정보를 안전성 있게 전달하는 방식
 - <https://tools.ietf.org/html/rfc7519>

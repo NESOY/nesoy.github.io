@@ -1,7 +1,11 @@
 ---
-aliases: [/articles/2019-08/Intellij-Setting-Sync]
+aliases:
+  - /articles/2019-08/Intellij-Setting-Sync
+comments: false
 date: 2019-08-16
-tags: [Intellij]
+description: 
+tags:
+  - IntelliJ
 title: Intellij Setting 동기화하기
 ---
 # Intellij Setting 동기화하기

@@ -1,13 +1,11 @@
 ---
-title: Coveralls 시작하기
-tags:
-  - DevOps
-  - Coveralls
+aliases: [/articles/2018-04/Coveralls]
+comments: false
 date: 2018-04-08
-aliases: 
-  - /articles/2018-04/Coveralls
+description: 
+tags: [Coveralls, DevOps]
+title: Coveralls 시작하기
 ---
-
 # CoverAlls
 ![[assets/posts/20180408/coveralls.png]]
 - [Code Coverage](https://nesoy.github.io/articles/2018-01/Code-Coverage)를 제공해주는 Web Service

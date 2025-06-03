@@ -1,15 +1,12 @@
 ---
-title: NodeJs의 Post요청, PRG 패턴
-tags:
-  - NodeJs
-  - Design Pattern
+aliases: [/articles/2017-04/Nodejs-PRGPattern]
+comments: false
 date: 2017-04-19
-aliases: 
-  - /articles/2017-04/Nodejs-PRGPattern
+description: 
+tags: [DesignPattern, NodeJs]
+title: NodeJs의 Post요청, PRG 패턴
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 Post요청, PRG 패턴
 ## Post 요청
 - 메시지 바디(entity)로 요청 정보 전달
 - 바디 분석 필요

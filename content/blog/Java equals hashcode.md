@@ -1,10 +1,11 @@
 ---
 aliases: [/articles/2018-06/Java-equals-hashcode]
+comments: false
 date: 2018-06-26
+description: 
 tags: [Java]
 title: Java equals()와 hashCode()에 대해
 ---
-
 # Java equals()와 hashCode()에 대해
 ## equals()
 - 두 객체의 `내용이 같은지` 확인하는 Method입니다.

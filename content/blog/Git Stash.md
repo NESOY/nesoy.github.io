@@ -1,10 +1,10 @@
 ---
-title: Git Pull 충돌 오류시 해결방법
-aliases:
-  - /articles/2017-03/Git-Stash
+aliases: [/articles/2017-03/Git-Stash]
+comments: false
 date: 2017-03-01
-tags:
-  - Git
+description: 
+tags: [Git]
+title: Git Pull 충돌 오류시 해결방법
 ---
 # Git Stash
 ## 들어가며

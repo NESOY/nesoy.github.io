@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-06/DDD-Transcation]
+comments: false
 date: 2018-06-28
+description: 
 tags: [DDD]
 title: DDD - Aggregate Transaction 관리
 ---

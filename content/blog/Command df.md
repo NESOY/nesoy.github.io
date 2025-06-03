@@ -1,12 +1,12 @@
 ---
 aliases: [/articles/2020-10/command-df]
+comments: false
 date: 2020-10-06
-tags: [Linux]
+description: 
+tags: [Command, Linux]
 title: df 명령어
 ---
-# Command Df
-
-## Df 명령어
+# Df 명령어
 > display free disk space(파일 시스템의 남은 용량을 보여준다)
 -  May 8, 1995에 개발되었다.
 

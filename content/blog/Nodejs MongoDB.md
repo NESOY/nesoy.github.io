@@ -1,15 +1,12 @@
 ---
-title: Nodejs MongoDB 연결하기, Mongoose
-tags:
-  - NodeJs
-  - MongoDB
+aliases: [/articles/2017-04/Nodejs-MongoDB]
+comments: false
 date: 2017-04-26
-aliases: 
-  - /articles/2017-04/Nodejs-MongoDB
+description: 
+tags: [MongoDB, NodeJs]
+title: Nodejs MongoDB 연결하기, Mongoose
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# Nodejs MongoDB 연결하기, Mongoose
 ## MongoDB
 - MongoDB install : <https://nesoy.github.io/articles/2017-04/MongoDB>
 

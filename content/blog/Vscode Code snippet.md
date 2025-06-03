@@ -1,10 +1,10 @@
 ---
-title: Vscode Code Snippets 설정하기
-tags:
-  - Vscode
+aliases: [/articles/2019-03/Vscode-Code-snippet]
+comments: false
 date: 2019-03-03
-aliases: 
-  - /articles/2019-03/Vscode-Code-snippet
+description: 
+tags: [Vscode]
+title: Vscode Code Snippets 설정하기
 ---
 # Vscode Code Snippet 설정하기
 ### Code - Preference -> User Snippets

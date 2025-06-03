@@ -1,8 +1,10 @@
 ---
 aliases: [/articles/2017-11/tf-idf]
+comments: false
 date: 2017-11-07
+description: 
 tags: [NLP]
-title: TF-IDF(Term Frequency - Inverse Document Frequency)
+title: TF-IDF(Term Frequency - Inverse Document Frequency) 란?
 ---
 # TF-IDF(Term Frequency - Inverse Document Frequency) 란?
 - TF(단어 빈도, term frequency)는 특정한 단어가 `문서 내에 얼마나 자주 등장하는지를 나타내는 값`. 이 값이 `높을수록 문서에서 중요`하다고 생각할 수 있다.

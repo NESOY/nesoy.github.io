@@ -1,12 +1,12 @@
 ---
-title: Jekyll 설치하기
+aliases: [/articles/2016-12/Install-Jekyll]
+comments: false
 date: 2016-12-28
-aliases: 
-  - /articles/2016-12/Install-Jekyll
+description: 
+tags: [Jekyll]
+title: Jekyll 설치하기
 ---
 # Jekyll 설치하기(Window)
-![[assets/posts/20161228/jekyll_logo.png]]
-
 ## Jekyll
 
 - #### Jekyll은 여러 형태의 텍스트와 소스들로 구성 정적 파일들을 웹사이트로 생성시켜주는 툴.

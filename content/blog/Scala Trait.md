@@ -1,8 +1,10 @@
 ---
 aliases: [/articles/2020-03/Scala-Trait]
+comments: false
 date: 2020-03-24
+description: 
 tags: [Scala]
-title: 
+title: Scala Trait
 ---
 # Scala Trait
 - 인터페이스와 필드를 공유하는데 사용됩니다.

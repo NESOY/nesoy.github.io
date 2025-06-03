@@ -1,12 +1,12 @@
 ---
 aliases: [/articles/2017-01/javascript-study3]
+comments: false
 date: 2017-01-04
+description: 
 tags: [Javascript]
 title: Javascript Study3
 ---
-
-# **Javascript**
-
+# Javascript
 ## 5. 참조 타입
 - #### 객체 리터럴 표기법
   - ##### Property가 여러 개 쓸 때 가독성을 확보하는 용도로 사용

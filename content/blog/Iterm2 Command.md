@@ -1,13 +1,12 @@
 ---
-title: Iterm2에서 동시에 명령어 실행하기
-tags:
-  - 개발환경
+aliases: [/articles/2020-01/Iterm2-Command]
+comments: false
 date: 2020-01-08
-aliases: 
-  - /articles/2020-01/Iterm2-Command
+description: 
+tags: [개발환경]
+title: Iterm2에서 동시에 명령어 실행하기
 ---
-
-## Iterm2에서 동시에 명령어 실행하기
+# Iterm2에서 동시에 명령어 실행하기
 - `command + Shift + i`를 누르면 경고창이 뜬다.
 - 확인을 누르면 왼쪽에 버튼 모양이 생기는 것을 확인할 수 있다.
 

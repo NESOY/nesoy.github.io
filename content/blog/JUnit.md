@@ -1,7 +1,13 @@
 ---
-aliases: [/articles/2017-02/JUnit]
+aliases:
+  - /articles/2017-02/JUnit
+comments: false
 date: 2017-02-01
-tags: [JUnit, Testing]
+description: 
+tags:
+  - JUnit
+  - Testing
+  - Java
 title: JUnit
 ---
 # JUnit

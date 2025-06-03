@@ -1,15 +1,16 @@
 ---
 aliases: [/articles/2018-05/Database-Shard]
+comments: false
 date: 2018-05-30
+description: 
 tags: [Database]
 title: Database의 샤딩(Sharding)이란?
 ---
 # Database의 샤딩(Sharding)이란?
-# 왜 샤딩(Sharding)이 필요할까요?
+## 왜 샤딩(Sharding)이 필요할까요?
 - 파티셔닝과 동일함으로 Link를 추가합니다. [Link](https://nesoy.github.io/articles/2018-02/Database-Partitioning)
 
 ## Vertical Partitioning
-
 ![[assets/posts/20180222/6.png]]
 
 - 도메인에 따라 쉽게 분리할 수 있습니다.

@@ -1,6 +1,9 @@
 ---
 aliases: [/articles/2018-09/Mockito]
+comments: false
 date: 2018-09-17
+description: 
+tags: [Mockito]
 title: Mockito란?
 ---
 # Mockito란?

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-06/What-happens-search-google]
+comments: false
 date: 2018-06-17
+description: 
 tags: [Web]
 title: Browser에서 Google.com을 검색하면 무슨 일이 발생하나요?
 ---

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-09/Algorithm-MultiThread]
+comments: false
 date: 2018-09-14
+description: 
 tags: [Algorithm]
 title: Multi Thread Algorithm에 대해
 ---

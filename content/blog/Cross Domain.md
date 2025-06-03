@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-06/Cross-Domain]
+comments: false
 date: 2017-06-08
+description: 
 tags: [Web]
 title: 크로스 도메인(Cross Domain) 이슈
 ---

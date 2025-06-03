@@ -1,9 +1,9 @@
 ---
-aliases:
-  - /articles/2020-11/helm
+aliases: [/articles/2020-11/helm]
+comments: false
 date: 2020-11-18
-tags:
-  - Kubernetes
+description: 
+tags: [Command, Kubernetes]
 title: Helm
 ---
 # Helm

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2020-02/mysql-datetime-timestamp]
+comments: false
 date: 2020-02-22
+description: 
 tags: [MySQL]
 title: MySQL Datetime, Timestamp 차이에 대해
 ---

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2020-11/ClassLoader]
+comments: false
 date: 2020-11-05
+description: 
 tags: [Java]
 title: ClassLoader
 ---

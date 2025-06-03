@@ -1,11 +1,11 @@
 ---
 aliases: [/articles/2018-04/CleanCode-ConCurrency]
+comments: false
 date: 2018-04-22
+description: 
 tags: [CleanCode]
 title: Clean Code - 동시성(Concurrency)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
 # 동시성(Concurrency)
 
 > “Objects are abstractions of processing. Threads are abstractions of schedule.” — James O. Coplien

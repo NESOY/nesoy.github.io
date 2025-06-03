@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-07/Java-Handling-Exception]
+comments: false
 date: 2018-07-16
+description: 
 tags: [Java]
 title: Java 예외 처리(Handling Exception)에 대해
 ---

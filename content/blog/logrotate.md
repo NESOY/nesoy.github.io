@@ -1,9 +1,12 @@
 ---
 aliases: [/articles/2019-08/logrotate]
+comments: false
 date: 2019-08-19
+description: 
 tags: [Linux]
 title: logrotate란?
 ---
+# logrotate란?
 ## 들어가며
 > 서비스 운영 중에서 `접속, 에러로그`를 어떻게 관리할까? 고민이 되었고 찾아보니 `logrotate`를 알게 되어 정리하기 위해 작성합니다.
 

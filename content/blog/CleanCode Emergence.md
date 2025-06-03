@@ -1,14 +1,11 @@
 ---
-title: Clean Code - 창발성(Emergence)
-tags:
-  - CleanCode
+aliases: [/articles/2018-03/CleanCode-Emergence]
+comments: false
 date: 2018-03-30
-aliases: 
-  - /articles/2018-03/CleanCode-Emergence
+description: 
+tags: [CleanCode]
+title: Clean Code - 창발성(Emergence)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
-
 # 창발성(Emergence)
 - 창발성이란 단순한 결합이 복잡한 결과를 나타내는 것을 의미.
 - 인간의 뇌를 예로 들면 하나의 뉴런은 인식능력이 없지만 수십억개의 뉴런이 결합하게 되면 자기 인식이 발생하는 현상을 말하는 것.

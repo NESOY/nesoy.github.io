@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2018-07/Intellij-auto-code-folding]
+comments: false
 date: 2018-07-02
-tags: [Intellij]
+description: 
+tags: [IntelliJ]
 title: Intellij 자동 코드 접기(Auto Code Folding) 해제하기
 ---
 # Intellij 자동 코드 접기(Auto Code Folding) 해제하기

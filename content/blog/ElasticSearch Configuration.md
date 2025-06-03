@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-01/ElasticSearch-Configuration]
+comments: false
 date: 2019-01-12
+description: 
 tags: [ElasticSearch]
 title: Elastic Search 설정
 ---

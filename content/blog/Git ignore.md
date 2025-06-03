@@ -1,13 +1,12 @@
 ---
-aliases:
-  - /articles/2017-01/Git-Ignore
+aliases: [/articles/2017-01/Git-Ignore]
+comments: false
 date: 2017-01-26
-tags:
-  - Git
+description: 
+tags: [Git]
 title: Git .gitignore 적용하기
 ---
 # **Git .gitignore File 적용하기**
-
 ## .gitignore이란?
 > Project에 원하지 않는 Backup File이나 Log File , 혹은 컴파일 된 파일들을 Git에서 제외시킬수 있는 설정 File이다.
 

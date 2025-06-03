@@ -1,9 +1,9 @@
 ---
-aliases:
-  - /articles/2020-11/Docker-multi-stage-build
+aliases: [/articles/2020-11/Docker-multi-stage-build]
+comments: false
 date: 2020-11-06
-tags:
-  - Docker
+description: 
+tags: [Docker]
 title: Docker Multi Stage
 ---
 # Docker Multi Stage

@@ -1,16 +1,12 @@
 ---
-title: Clean Code - 클래스(Class)
-tags:
-  - CleanCode
+aliases: [/articles/2018-02/CleanCode-Class]
+comments: false
 date: 2018-02-24
-aliases:
-  - /articles/2018-02/CleanCode-Class
+description: 
+tags: [CleanCode]
+title: Clean Code - 클래스(Class)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
 # 클래스(Class)
-
-
 ## 클래스 체계
 - `public static` 변수
 - `private static` 변수

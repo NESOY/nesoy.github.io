@@ -1,13 +1,16 @@
 ---
-title: TOAST FORWARD - "Spring Framework 애플리케이션 개발자를 위한 Spring Boot"
+aliases:
+  - /articles/2019-04/TOAST-FORWARD-SpringBoot
+comments: false
+date: 2019-04-17
+description: 
 tags:
   - Review
   - Spring
-date: 2019-04-17
-aliases: 
-  - /articles/2019-04/TOAST-FORWARD-SpringBoot
+  - NHN
+title: TOAST FORWARD - "Spring Framework 애플리케이션 개발자를 위한 Spring Boot"
 ---
-
+# TOAST FORWARD - "Spring Framework 애플리케이션 개발자를 위한 Spring Boot"
 ## Spring Framework 애플리케이션 개발자를 위한 Spring Boot
 ### Spring Boot의 시작과 목표
 - JIRA : <https://github.com/spring-projects/spring-framework/issues/14521>

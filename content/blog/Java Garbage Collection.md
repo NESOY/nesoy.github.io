@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2021-06/Java-Garbage-Collection]
+comments: false
 date: 2021-06-24
+description: 
 tags: [Java]
 title: Java Garbage Collection
 ---

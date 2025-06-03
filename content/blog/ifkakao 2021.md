@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2021-12/if-kakao-2021]
+comments: false
 date: 2021-12-16
-tags: [Review]
+description: 
+tags: [Kakao, Review]
 title: ifkakao 2021
 ---
-# 2021-12-16-if-kakao-2021
+# ifkakao 2021
 ## [Thing for Post Cloud Native](https://if.kakao.com/session/34)
 - [CMMI(Capability Maturity Model Integration)](https://www.ciokorea.com/news/37632)
 - Level 4

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-01/ElasticSearch-Intro]
+comments: false
 date: 2019-01-09
+description: 
 tags: [ElasticSearch]
 title: Elastic Search를 시작하며
 ---

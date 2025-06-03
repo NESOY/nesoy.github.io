@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-02/Spring-request-lifecycle-part-1]
+comments: false
 date: 2019-02-19
+description: 
 tags: [Spring]
 title: SpringMVC Request Life Cycle에 대해 - PART 1
 ---

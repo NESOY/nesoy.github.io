@@ -1,15 +1,12 @@
 ---
-title: Servlet Annotation
-tags:
-  - Java
-  - Servlet
+aliases: [/articles/2017-01/servlet-annotation]
+comments: false
 date: 2017-01-08
-aliases: 
-  - /articles/2017-01/servlet-annotation
+description: 
+tags: [Java, Servlet]
+title: Servlet Annotation
 ---
-
 # **Servlet Annotation**
-
 Servlet을 공부하던 중에 index.html에서 action의 DoLogin을 호출하는 경우가 있었다.
 
 ``` html

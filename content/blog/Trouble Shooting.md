@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2018-12/Trouble-Shooting]
+comments: false
 date: 2018-12-17
-tags: [Software Engineering]
+description: 
+tags: [Engineering, Software]
 title: Trouble Shooting에 대하여
 ---
-
+# Trouble Shooting에 대하여
 ## 들어가며
 - 서버를 운영하면서 갑자기 문제가 발생하게 되는 경우 어느 부분부터 확인해야 좋을까?
     - 여러 부분을 체계적이지 않게 확인해왔던 지난 날을 회고하고,

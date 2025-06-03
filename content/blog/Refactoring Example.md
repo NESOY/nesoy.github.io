@@ -1,12 +1,12 @@
 ---
 aliases: [/articles/2018-05/Refactoring-Example]
+comments: false
 date: 2018-05-25
+description: 
 tags: [Refactoring]
 title: Refactoring - 예시[Example]
 ---
-
-![[assets/posts/20180503/refactoring.jpg]]
-
+# Refactoring Example
 ## Extract Method
 > 그룹으로 함께 묶을 수 있는 코드 조각이 있으면 코드의 목적이 잘 드러나도록 메소드의 이름을 지어 별도의 메소드로 뽑아낸다.
 

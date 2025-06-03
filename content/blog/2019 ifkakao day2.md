@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-09/if-kakao-day2]
+comments: false
 date: 2019-09-01
+description: 
 tags: [Kakao, Review]
 title: if kakao day 2 후기
 ---

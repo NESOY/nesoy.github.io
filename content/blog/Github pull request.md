@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-01/GitPullRequest]
+comments: false
 date: 2017-01-12
+description: 
 tags: [Git]
 title: GitHub Pull Request 따라하기
 ---

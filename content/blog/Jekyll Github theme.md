@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2016-12/github-Jekyll 1]
+comments: false
 date: 2016-12-29
+description: 
 tags: [Github, Jekyll]
 title: Jekyll Github에 올리기 & 테마 적용하기
 ---
@@ -9,9 +11,6 @@ title: Jekyll Github에 올리기 & 테마 적용하기
 Window에 Jekyll설치하기 : <https://nesoy.github.io/articles/2016-12/Install-Jekyll>
 
 # **Jekyll Github에 올리기**
-
-![[assets/posts/20161228/jekyll_logo.png]]
-
 ## 1. Github Repository 생성
 
 - #### Github아이디.github.io

@@ -1,10 +1,11 @@
 ---
 aliases: [/articles/2017-01/javascript-study4]
+comments: false
 date: 2017-01-05
+description: 
 tags: [Javascript]
 title: Javascript Study4
 ---
-
 # **Javascript**
 - #### Function 타입
   - 함수는 객체이다.

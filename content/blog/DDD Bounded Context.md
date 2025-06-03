@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-07/DDD-Bounded-Context]
+comments: false
 date: 2018-07-02
+description: 
 tags: [DDD]
 title: DDD - Bounded Context
 ---

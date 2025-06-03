@@ -1,6 +1,9 @@
 ---
 aliases: [/articles/2018-09/Intellij-Auto-Convention]
+comments: false
 date: 2018-09-28
+description: 
+tags: [IntelliJ]
 title: Intellij Code Convention 자동화하기
 ---
 # Intellij Code Convention 자동화하기

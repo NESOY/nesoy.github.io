@@ -1,11 +1,12 @@
 ---
 aliases: [/articles/2017-04/Nodejs-URL]
+comments: false
 date: 2017-04-15
+description: 
 tags: [NodeJs]
 title: NodeJs의 Stream, URL, QueryString, Cluster
 ---
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 Stream, URL, QueryString, Cluster
 ## 스트림(Stream)
 ### 스트림 : 데이터의 전송 흐름
 - 콘솔 입력/출력

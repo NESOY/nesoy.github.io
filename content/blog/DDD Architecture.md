@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-08/DDD-Architecture]
+comments: false
 date: 2018-08-12
+description: 
 tags: [DDD]
 title: DDD - Architecture
 ---

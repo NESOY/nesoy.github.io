@@ -1,11 +1,11 @@
 ---
 aliases: [/articles/2018-01/CleanCode-Object]
+comments: false
 date: 2018-01-17
+description: 
 tags: [CleanCode]
 title: Clean Code - 객체와 자료구조(Object & DataStructure)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
 # 객체와 자료구조(Object & DataStructure)
 ## 자료 추상화
 

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-11/Couchbase]
+comments: false
 date: 2018-11-20
+description: 
 tags: [Couchbase]
 title: Couchbase는 어떻게 동작하는가?
 ---

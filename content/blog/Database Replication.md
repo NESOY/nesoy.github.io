@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-02/Database-Replication]
+comments: false
 date: 2018-02-16
+description: 
 tags: [Database]
 title: Database Replication
 ---

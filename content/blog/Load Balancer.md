@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2018-06/Load-Balancer]
+comments: false
 date: 2018-06-02
+description: 
 tags: [DevOps]
 title: 로드 밸런서(Load Balancer)란?
 ---
-
+# 로드 밸런서(Load Balancer)란?
 ## 왜 Load Balancer가 필요한가요?
 
 #### Client가 한 두명인 경우에는 어떨까요?

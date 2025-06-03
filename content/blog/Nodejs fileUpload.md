@@ -1,14 +1,12 @@
 ---
-title: NodeJs의 파일 업로드(File Upload), Multipart 요청, formidable
-tags:
-  - NodeJs
+aliases: [/articles/2017-04/Nodejs-fileUpload]
+comments: false
 date: 2017-04-20
-aliases: 
-  - /articles/2017-04/Nodejs-fileUpload
+description: 
+tags: [NodeJs]
+title: NodeJs의 파일 업로드(File Upload), Multipart 요청, formidable
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 파일 업로드(File Upload), Multipart 요청, formidable
 ## Multipart 요청
 - ex) 사진 올리기, 글과 사진 올리기
 - `Content-type: multipart/form-data; boundary="Boundary"`

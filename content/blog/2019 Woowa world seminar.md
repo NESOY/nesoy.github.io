@@ -1,12 +1,15 @@
 ---
-title: 우아한 세계 세미나 - 우아한 형제들
+aliases:
+  - /articles/2019-07/woowa-world-woowahan
+comments: false
+date: 2019-07-25
+description: 
 tags:
   - Review
-date: 2019-07-25
-aliases: 
-  - /articles/2019-07/woowa-world-woowahan
+  - WoowaBros
+title: 우아한 세계 세미나 - 우아한 형제들
 ---
-
+# 2019 우아한 세계 세미나 - 우아한 형제들
 ![[assets/posts/img/2019-07-26-00-35-48.png]]
 
 ## 글로벌 서비스 개발하기 - 고명석님

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2020-06/DNS-type]
+comments: false
 date: 2020-06-04
+description: 
 tags: [DNS, Infra]
 title: DNS Type
 ---

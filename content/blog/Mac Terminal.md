@@ -1,11 +1,12 @@
 ---
 aliases: [/articles/2018-01/Mac-Terminal]
+comments: false
 date: 2018-01-13
+description: 
 tags: [Mac, 개발환경]
 title: Mac 터미널 셋팅하기
 ---
-
-# Homebrew
+# Mac 터미널 셋팅하기
 - homebrew는 맥용 패키지 매니저입니다.
 - 설치하시면 매우매우 편합니다. 꼭 설치하세요.
 

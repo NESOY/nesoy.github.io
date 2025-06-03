@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-10/Column-Oriented-DBMS]
+comments: false
 date: 2019-10-01
+description: 
 tags: [Database]
 title: Column Oriented DBMS란?
 ---

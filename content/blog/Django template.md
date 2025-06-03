@@ -1,14 +1,12 @@
 ---
 aliases: [/articles/2017-10/Django-template]
+comments: false
 date: 2017-10-24T00:00:00.000Z
+description: 
 tags: [Django, Python]
 title: Django 튜토리얼3
 ---
-
-![[assets/posts/20171021/django.png]]
-
 # Django Template
-
 - `setting.py` : `APP_DIRS`: `True`로 설정하기.
 - 만든 App 안에 `App이름/templates/app이름`의 폴더 생성
 

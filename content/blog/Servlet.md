@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2019-02/Servlet]
+comments: false
 date: 2019-02-06
+description: 
 tags: [Java]
 title: Java Servlet에 대해
 ---
-
+# Java Servlet에 대해
 ## [Servlet이란?](https://tomcat.apache.org/tomcat-9.0-doc/servletapi/index.html)
 - tomcat 9.0에 정의된 Servlet 내용입니다.
 

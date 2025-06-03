@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-05/Database-Transaction]
+comments: false
 date: 2018-05-27
+description: 
 tags: [Database]
 title: Database의 트랜잭션(Transaction)이란?
 ---

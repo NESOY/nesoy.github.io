@@ -1,9 +1,9 @@
 ---
-aliases:
-  - /articles/2017-04/Socket.io
+aliases: [/articles/2017-04/Socket.io]
+comments: false
 date: 2017-04-28
-tags:
-  - NodeJs
+description: 
+tags: [NodeJs]
 title: Socket.io
 ---
 # Socket.io

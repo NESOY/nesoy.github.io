@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-02/Redux]
+comments: false
 date: 2019-02-26
+description: 
 tags: [Redux]
 title: Redux
 ---

@@ -1,12 +1,12 @@
 ---
 aliases: [/articles/2017-01/Maven]
+comments: false
 date: 2017-01-11
-tags: [Intellij, Java, Maven]
+description: 
+tags: [IntelliJ, Java, Maven]
 title: Maven
 ---
 # Maven
-![[assets/posts/20170111/maven.PNG]]
-
 > **자바 프로젝트의 빌드를 자동화 해주는 Build Tool**
 
 ## 메이븐 활용 패턴

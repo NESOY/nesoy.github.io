@@ -1,14 +1,12 @@
 ---
-title: NodeJs의 HttpServer
-tags:
-  - NodeJs
+aliases: [/articles/2017-04/HttpModule]
+comments: false
 date: 2017-04-18
-aliases:
-  - /articles/2017-04/HttpModule
+description: 
+tags: [NodeJs]
+title: NodeJs의 HttpServer
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 HttpServer
 ## HTTP Module
 - `var http = require('http');`
 

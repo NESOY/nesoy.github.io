@@ -1,7 +1,12 @@
 ---
-aliases: [/articles/2018-05/Next-With-Google]
+aliases:
+  - /articles/2018-05/Next-With-Google
+comments: false
 date: 2018-05-09
-tags: [Review]
+description: 
+tags:
+  - Review
+  - Google
 title: 2018 Next With Google 후기
 ---
 # 2018 Next With Google 후기

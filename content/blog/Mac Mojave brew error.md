@@ -1,14 +1,12 @@
 ---
-title: Mac 모하비 brew 에러 해결하기
-date: 2018-10-30
-aliases:
-  - /articles/2018-10/Mac-Mojave-brew-error
+aliases: [/articles/2018-10/Mac-Mojave-brew-error]
 comments: false
-tags: 
-description:
+date: 2018-10-30
+description: 
+tags: [개발환경]
+title: Mac 모하비 brew 에러 해결하기
 ---
-
-
+# Mac 모하비 brew 에러 해결하기
 ## 문제 발생..🔥
 - 기분 좋게 Mojave로 update한 이후에 brew가 말을 듣지 않는다..
 

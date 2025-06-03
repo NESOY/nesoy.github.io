@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-02/Webpack]
+comments: false
 date: 2019-02-25
+description: 
 tags: [Webpack]
 title: Webpack이란?
 ---

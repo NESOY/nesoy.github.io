@@ -1,9 +1,12 @@
 ---
 aliases: [/articles/2019-11/Github-suggestion]
+comments: false
 date: 2019-11-18
+description: 
 tags: [Github]
 title: Github - Suggestion 기능 활용하기
 ---
+# Github - Suggestion 기능 활용하기
 ## 들어가며
 - 온라인 코드 리뷰를 하면서 작은 변경 사항을 고치기 위해 `Local에서 변경 -> Commit -> Push하는 프로세스`를 보다 간편하게 할 수 있는 기능이 있어 공유합니다.
 

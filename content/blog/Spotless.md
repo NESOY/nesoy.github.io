@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2020-04/Spotless]
+comments: false
 date: 2020-04-22
-tags: [Spotless]
+description: 
+tags: [Java, Spotless]
 title: Spotless
 ---
 # Spotless

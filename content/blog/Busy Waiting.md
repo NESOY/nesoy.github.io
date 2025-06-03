@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-06/OS-Busy-Waiting]
+comments: false
 date: 2019-06-04
+description: 
 tags: [OS]
 title: Busy Waiting이란?
 ---

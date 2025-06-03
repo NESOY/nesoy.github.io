@@ -1,13 +1,11 @@
 ---
-title: Clean Code - 시스템(System)
-tags:
-  - CleanCode
+aliases: [/articles/2018-03/CleanCode-System]
+comments: false
 date: 2018-03-20
-aliases: 
-  - /articles/2018-03/CleanCode-System
+description: 
+tags: [CleanCode]
+title: Clean Code - 시스템(System)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
 # 시스템(System)
 > 복잡성은 죽음이다. 개발자에게서 생기를 앗아가며, 제품을 계획하고 제작하고 테스트하기 어렵게 만든다.
 

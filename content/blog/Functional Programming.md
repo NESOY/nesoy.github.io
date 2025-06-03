@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-05/Functional-Programming]
+comments: false
 date: 2018-05-10
+description: 
 tags: [Programming]
 title: 함수형 프로그래밍(Functional Programming)이란?
 ---

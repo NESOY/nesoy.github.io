@@ -1,13 +1,12 @@
 ---
 aliases: [/articles/2017-12/CleanCode-Function]
+comments: false
 date: 2017-12-13
+description: 
 tags: [CleanCode]
 title: Clean Code - Function
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
 # 함수(Function)
-
 ## 작게 만들기.
 
 ```java

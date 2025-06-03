@@ -1,15 +1,12 @@
 ---
-title: Django 시작하기
-tags:
-  - Django
-  - Python
+aliases: [/articles/2017-10/Django-Start]
+comments: false
 date: 2017-10-21
-aliases: 
-  - /articles/2017-10/Django-Start
+description: 
+tags: [Django, Python]
+title: Django 시작하기
 ---
-
-![[assets/posts/20171021/django.png]]
-
+# Django Start
 ## Django란?
 > The web framework for perfectionists with deadlines.
 

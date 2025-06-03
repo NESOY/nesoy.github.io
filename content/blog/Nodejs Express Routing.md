@@ -1,15 +1,12 @@
 ---
-title: NodeJs의 Express Routing, Thrid Party Middleware
-tags:
-  - NodeJs
-  - Express
+aliases: [/articles/2017-04/Nodejs-Express-Routing]
+comments: false
 date: 2017-04-23
-aliases: 
-  - /articles/2017-04/Nodejs-Express-Routing
+description: 
+tags: [Express, NodeJs]
+title: NodeJs의 Express Routing, Thrid Party Middleware
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 Express Routing, Thrid Party Middleware
 ## Routing
 - 클라이언트의 요청을 미들웨어로 분배
 

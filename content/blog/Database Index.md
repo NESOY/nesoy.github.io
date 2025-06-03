@@ -1,5 +1,6 @@
 ---
 aliases: [/articles/2017-07/DBIndex]
+comments: false
 date: 2017-07-09
 description: Database Index 기능에 대해 소개한다.
 tags: [Database]

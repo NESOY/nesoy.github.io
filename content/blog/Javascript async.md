@@ -1,12 +1,12 @@
 ---
-title: Javascript의 Arrow function, async
-tags:
-  - Javascript
+aliases: [/articles/2017-05/javascript-async]
+comments: false
 date: 2017-05-16
-aliases: 
-  - /articles/2017-05/javascript-async
+description: 
+tags: [Javascript]
+title: Javascript의 Arrow function, async
 ---
-
+# Javascript의 Arrow function, async
 ## Arrow function expression (=>)
 - function 표현에 짧게 표현할 수 있는 장점과 자신의 this, arguments, super 또는 new.target을 바인딩 하지 않습니다.
 - Arrow function는 항상 익명입니다.

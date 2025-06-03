@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-10/Hbase-Key-Design]
+comments: false
 date: 2019-10-11
+description: 
 tags: [Hbase]
 title: Hbase Key Design에 대해
 ---

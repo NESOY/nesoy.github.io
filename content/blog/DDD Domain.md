@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-08/DDD-Domain]
+comments: false
 date: 2018-08-03
+description: 
 tags: [DDD]
 title: DDD - Domain
 ---

@@ -1,7 +1,12 @@
 ---
-aliases: [/articles/2017-01/travis-ci]
+aliases:
+  - /articles/2017-01/travis-ci
+comments: false
 date: 2017-01-05
-tags: [DevOps, Travis-CI]
+description: 
+tags:
+  - DevOps
+  - Travis-CI
 title: Travis CI
 ---
 # Travis CI

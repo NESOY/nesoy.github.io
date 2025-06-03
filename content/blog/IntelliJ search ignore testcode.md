@@ -1,7 +1,11 @@
 ---
-aliases: [/articles/2018-06/Intellij-search-ignore-testcode]
+aliases:
+  - /articles/2018-06/Intellij-search-ignore-testcode
+comments: false
 date: 2018-06-15
-tags: [Intellij]
+description: 
+tags:
+  - IntelliJ
 title: Intellij 검색에서 Test Code 제외하기
 ---
 # Intellij 검색에서 Test Code 제외하기

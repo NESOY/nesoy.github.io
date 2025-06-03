@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-07/DDD-CQRS]
+comments: false
 date: 2018-07-19
+description: 
 tags: [DDD]
 title: DDD - CQRS
 ---

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-02/REST]
+comments: false
 date: 2017-02-06
+description: 
 tags: [REST, Web]
 title: REST API
 ---

@@ -1,7 +1,11 @@
 ---
-aliases: [/articles/2017-02/Jenkins]
+aliases:
+  - /articles/2017-02/Jenkins
+comments: false
 date: 2017-02-20
-tags: [DevOps, Jenkins]
+description: 
+tags:
+  - Jenkins
 title: 젠킨스(Jenkins) 설치하기
 ---
 # Jenkins Install

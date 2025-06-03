@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2022-03/command-k8s]
+comments: false
 date: 2022-03-17
-tags: [kubrenetes]
+description: 
+tags: [Command, Kubernetes]
 title: kubernetes 명령어 모음
 ---
-# Kubectl
+# kubernetes 명령어 모음
 ## How to Use
 ```
 # Restart된 컨테이너의 이전 로그 확인하기

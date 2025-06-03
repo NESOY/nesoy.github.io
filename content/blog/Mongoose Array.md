@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-06/Mongoose-Array]
+comments: false
 date: 2017-06-02
+description: 
 tags: [MongoDB, Mongoose]
 title: Mongoose 활용하여 Array에 Add(Push), Delete(Remove) 하기
 ---

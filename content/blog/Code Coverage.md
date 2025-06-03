@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-01/Code-Coverage]
+comments: false
 date: 2018-01-14
+description: 
 tags: [Testing]
 title: 코드 커버리지(Code Coverage)란?
 ---

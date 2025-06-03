@@ -1,11 +1,12 @@
 ---
 aliases: [/articles/2019-11/editorconfig]
+comments: false
 date: 2019-11-10
+description: 
 tags: [개발환경]
 title: EditorConfig란?
 ---
-![[assets/posts/img/2019-11-10-21-02-28.png]]
-
+# EditorConfig란?
 ## 들어가며
 > 오픈소스를 보면서 많은 개발자들이 일정한 Convention을 어떻게 유지할 수 있는 방법에 대한 좋은 가이드가 있어 공유합니다.
 

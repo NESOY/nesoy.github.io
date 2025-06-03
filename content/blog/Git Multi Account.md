@@ -1,9 +1,12 @@
 ---
 aliases: [/articles/2019-12/Git-Multi-Account]
+comments: false
 date: 2019-12-02
+description: 
 tags: [Git]
 title: Git 계정 여러개 사용하기
 ---
+# Git Multi Account
 ## Git 계정 여러개 사용하기
 
 #### Global Git config 확인 하기

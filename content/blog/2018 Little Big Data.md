@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-04/Little-Big-Data]
+comments: false
 date: 2018-04-22
+description: 
 tags: [Review]
 title: Little Big Data 후기
 ---

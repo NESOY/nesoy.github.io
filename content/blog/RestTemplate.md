@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2020-05/RestTemplate]
+comments: false
 date: 2020-05-06
+description: 
 tags: [Spring]
 title: RestTemplate
 ---

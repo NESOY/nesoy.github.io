@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2021-01/kustomize]
+comments: false
 date: 2021-01-07
-tags: [k8s]
+description: 
+tags: [Command, Kubernetes]
 title: kustomize란?
 ---
-# Command Kustomize
+# kustomize란?
 > Kustomize provides a solution for customizing Kubernetes resource configuration free from templates and DSLs.
 - kubernetes resource 설정들을 customize할 수 있는 도구이다.
 

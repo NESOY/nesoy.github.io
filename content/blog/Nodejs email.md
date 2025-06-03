@@ -1,14 +1,12 @@
 ---
-title: Nodejs를 통해 Email 보내기
-tags:
-  - NodeJs
+aliases: [/articles/2017-05/Nodejs-email]
+comments: false
 date: 2017-05-17
-aliases: 
-  - /articles/2017-05/Nodejs-email
+description: 
+tags: [NodeJs]
+title: Nodejs를 통해 Email 보내기
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# Nodejs를 통해 Email 보내기
 ## NodeMailer
 - `Nodejs`에서 e-mail을 쉽게 보낼 수 있게 도와주는 Module.
 - 지원 가능한 Mail 목록 : [List](https://github.com/nodemailer/nodemailer/blob/5be7c902e953043be3618d747c349f02405f003b/lib/well-known/services.json)

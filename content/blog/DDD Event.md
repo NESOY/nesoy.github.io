@@ -1,10 +1,11 @@
 ---
 aliases: [/articles/2018-07/DDD-Event]
+comments: false
 date: 2018-07-11
+description: 
 tags: [DDD]
 title: DDD - Event
 ---
-
 # 이벤트
 ## 이벤트가 왜(Why) 필요할까요?
 ### Example

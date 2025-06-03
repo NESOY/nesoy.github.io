@@ -1,6 +1,9 @@
 ---
 aliases: [/articles/2018-10/Algorithm-String-Matching]
+comments: false
 date: 2018-10-23
+description: 
+tags: [Algorithm]
 title: String Matching Algorithm에 대해
 ---
 # String Matching Algorithm에 대해

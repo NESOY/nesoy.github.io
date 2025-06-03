@@ -1,14 +1,12 @@
 ---
-title: Nodejs의 Tcp, Udp
-tags:
-  - NodeJs
+aliases: [/articles/2017-04/Nodejs-Network]
+comments: false
 date: 2017-04-27
-aliases: 
-  - /articles/2017-04/Nodejs-Network
+description: 
+tags: [NodeJs]
+title: Nodejs의 Tcp, Udp
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# Nodejs Network
 ## TCP Module
 - `var net = require('net');`
 

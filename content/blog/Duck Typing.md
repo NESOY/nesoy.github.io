@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2018-02/Duck-Typing]
+comments: false
 date: 2018-02-06
+description: 
 tags: [Programming]
 title: 덕 타이핑(Duck Typing)
 ---
-# Duck Typing
+# 덕 타이핑(Duck Typing)
 > 만약 어떤 새가 오리처럼 걷고, 헤엄치고, 꽥꽥거리는 소리를 낸다면 나는 그 새를 오리라고 부를 것이다.
 - 사람이 오리처럼 행동하면 오리로 봐도 무방하다라는게 덕 타이핑(Duck Typing)이다.
 - 타입을 미리 정하는게 아니라 실행이 되었을 때 해당 Method들을 확인하여 타입을 정한다.

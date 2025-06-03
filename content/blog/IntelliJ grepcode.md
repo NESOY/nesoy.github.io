@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2018-04/Intellij-grepcode]
+comments: false
 date: 2018-04-15
-tags: [Intellij]
+description: 
+tags: [IntelliJ]
 title: Intellij Grep Console Plugin
 ---
 # Intellij Grep Console Plugin

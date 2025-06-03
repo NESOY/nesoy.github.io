@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-11/java-String]
+comments: false
 date: 2017-11-20
+description: 
 tags: [Java]
 title: String, StringBuilder, StringBuffer 차이.
 ---

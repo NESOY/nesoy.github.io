@@ -1,7 +1,7 @@
 ---
 aliases: [/articles/2017-12/SRP]
 date: 2017-12-12
-tags: [Design, Pattern, SRP]
+tags: [DesignPattern]
 title: SRP(Single Responsibility Principle)
 ---
 # SRP(Single Responsibility Principle)

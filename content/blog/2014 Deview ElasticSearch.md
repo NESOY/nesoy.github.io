@@ -1,10 +1,9 @@
 ---
-aliases:
-  - /articles/2019-01/Deview2014-ElasticSearch
+aliases: [/articles/2019-01/Deview2014-ElasticSearch]
+comments: false
 date: 2019-01-25
-tags:
-  - ElasticSearch
-  - Deview
+description: 
+tags: [Deview, ElasticSearch, Review]
 title: Deview 2014 - Elastic Search 성능 최적화
 ---
 # 2014 Deview ElasticSearch

@@ -1,14 +1,12 @@
 ---
-title: NodeJs의 callback hell, Async, Promise
-tags:
-  - NodeJs
+aliases: [/articles/2017-04/Nodejs-callback]
+comments: false
 date: 2017-04-18
-aliases: 
-  - /articles/2017-04/Nodejs-callback
+description: 
+tags: [NodeJs]
+title: NodeJs의 callback hell, Async, Promise
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 callback hell, Async, Promise
 ## Call-Back, Call-Back hell
 - 비동기 함수 : 콜백 함수 사용
 

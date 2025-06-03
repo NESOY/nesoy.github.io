@@ -1,9 +1,12 @@
 ---
 aliases: [/articles/2018-10/nGrinder-Start]
+comments: false
 date: 2018-10-31
+description: 
+tags: [nGrinder, Testing]
 title: nGrinder 시작하기
 ---
-
+# nGrinder 시작하기
 ## nGrinder의 구성요소는?
 ### Controller
 - 웹기반의 GUI 시스템

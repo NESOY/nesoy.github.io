@@ -1,9 +1,12 @@
 ---
 aliases: [/articles/2019-07/jenv]
+comments: false
 date: 2019-07-03
+description: 
 tags: [Java]
 title: jenv 설치 및 사용하기
 ---
+# jenv 설치 및 사용하기
 ## [jenv란?](https://www.jenv.be/)
 
 -   다양한 Java version을 하나의 컴퓨터에서 사용하는 상황에서는 매우 복잡함이 있습니다.

@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-02/RabbitMQ]
+comments: false
 date: 2019-02-14
+description: 
 tags: [MessageQueue, RabbitMQ]
 title: RabbitMQ에 대해
 ---

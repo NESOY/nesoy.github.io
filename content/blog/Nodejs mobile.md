@@ -1,15 +1,12 @@
 ---
-title: NodeJs의 Json, XML
-tags:
-  - NodeJs
-  - JSON
+aliases: [/articles/2017-04/Nodejs-mobile]
+comments: false
 date: 2017-04-21
-aliases: 
-  - /articles/2017-04/Nodejs-mobile
+description: 
+tags: [JSON, NodeJs]
+title: NodeJs의 Json, XML
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# Nodejs mobile
 ## Mobile Server
 - 웹 + 모바일 지원 서비스 만들기
 - 모바일 앱 : `api.nelp.kr/path`

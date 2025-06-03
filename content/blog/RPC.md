@@ -1,10 +1,10 @@
 ---
-title: RPC
-tags:
-  - OS
+aliases: [/articles/2019-07/RPC]
+comments: false
 date: 2019-07-09
-aliases:
-  - /articles/2019-07/RPC
+description: 
+tags: [OS]
+title: RPC
 ---
 # RPC
 ## 왜 RPC가 등장하게 되었을까?

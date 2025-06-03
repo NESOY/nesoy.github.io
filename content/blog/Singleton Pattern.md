@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2017-01/Singleton-Pattern]
+comments: false
 date: 2017-01-13
-tags: []
+description: 
+tags: [DesignPattern]
 title: Singleton Pattern(싱글턴 패턴)
 ---
 # **Singleton Pattern**

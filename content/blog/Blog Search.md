@@ -1,13 +1,11 @@
 ---
-title: 검색엔진에 블로그 내용 올리기
-tags:
-  - Jekyll
-  - Github
+aliases: [/articles/2017-01/blog-search]
+comments: false
 date: 2017-01-03
-aliases:
-  - /articles/2017-01/blog-search
+description: 
+tags: [Github, Jekyll]
+title: 검색엔진에 블로그 내용 올리기
 ---
-
 # **구글 네이버에 블로그 글 등록하기**
 
 ## 1. Jekyll Sitemap 만들기

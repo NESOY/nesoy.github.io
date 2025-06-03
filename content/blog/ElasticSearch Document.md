@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-01/ElasticSearch-Document]
+comments: false
 date: 2019-01-15
+description: 
 tags: [ElasticSearch]
 title: Elastic Search 데이터 처리
 ---

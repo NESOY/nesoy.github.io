@@ -1,9 +1,9 @@
 ---
-aliases:
-  - /articles/2020-05/Docker
+aliases: [/articles/2020-05/Docker]
+comments: false
 date: 2020-05-25
-tags:
-  - Docker
+description: 
+tags: [Docker]
 title: Docker
 ---
 # Docker

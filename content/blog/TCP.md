@@ -1,6 +1,9 @@
 ---
 aliases: [/articles/2018-10/TCP]
+comments: false
 date: 2018-10-10
+description: 
+tags: [Network]
 title: TCP에 대해
 ---
 # TCP에 대해

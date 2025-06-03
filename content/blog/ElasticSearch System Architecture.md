@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-01/ElasticSearch-System-Architecture]
+comments: false
 date: 2019-01-22
+description: 
 tags: [ElasticSearch]
 title: Elastic Search 시스템 구조
 ---

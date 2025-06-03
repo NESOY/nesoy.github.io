@@ -1,8 +1,10 @@
 ---
-title: Syntatic Sugar
+aliases: [/articles/2019-12/Syntactic-sugar]
+comments: false
 date: 2019-12-04
-aliases:
-  - /articles/2019-12/Syntactic-sugar
+description: 
+tags: [Programming]
+title: Syntatic Sugar
 ---
 # Syntatic Sugar
 - 프로그래밍 언어 차원에서 제공되는 논리적으로 간결하게 표현하는 것

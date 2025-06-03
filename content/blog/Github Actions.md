@@ -1,9 +1,12 @@
 ---
 aliases: [/articles/2019-12/Github-Actions]
+comments: false
 date: 2019-12-23
+description: 
 tags: [Github]
 title: Github Action 시작하기
 ---
+# Github Actions
 ## [Github Action이란?](https://blog.outsider.ne.kr/1412)
 - 개발과정에서 발생하는 워크플로우를 자동화할 수 있는 도구
 - 빌드 / 테스트 / 커버리지 / 배포까지 진행할 수 있다.

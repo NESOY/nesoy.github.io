@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2018-03/How-get-devinfo]
+comments: false
 date: 2018-03-02
+description: 
 tags: [Programming]
 title: 어떻게 하면 개발 관련 정보를 얻을까?
 ---

@@ -1,12 +1,11 @@
 ---
 aliases: [/articles/2018-05/Refactoring-BadSmell]
+comments: false
 date: 2018-05-08
-tags: [Refactoring]
+description: 
+tags: [CleanCode, Refactoring]
 title: Refactoring - 나쁜 냄새(Bad Smell)
 ---
-
-![[assets/posts/20180503/refactoring.jpg]]
-
 # 냄새 원인
 ## 중복된 코드(Duplicated Code)
 - 한 곳 이상에서 중복된 코드 구조가 나타난다면, 그것을 합쳐서 프로그램을 개선할 수 있다.

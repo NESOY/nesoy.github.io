@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2018-08/Mac-Airpod]
+comments: false
 date: 2018-08-30
+description: 
 tags: [개발환경]
 title: Mac-Airpod 간편하게 연결하기
 ---
-
+# Mac-Airpod 간편하게 연결하기
 ## 매일 iPhone과 Airpod이 연결된 상태에서 Mac으로 연결하기 위해선?
 - 블루투스 -> Airpod -> 연결 버튼을 눌러야 합니다.
 

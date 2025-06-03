@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2018-08/Testing-Performance]
+comments: false
 date: 2018-08-22
+description: 
 tags: [Testing]
 title: 성능, 부하, 스트레스 테스트에 대하여
 ---
-
+# 성능, 부하, 스트레스 테스트에 대하여
 ## 들어가며
 - 성능, 부하, 스트레스 테스트를 진행하고 튜닝하는 작업에는 굉장히 오랜시간과 노력이 필요합니다.
 - 튜닝하는 과정에서 실패를 할 수도 있습니다.

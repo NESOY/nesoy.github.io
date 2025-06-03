@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2018-11/Linux-nohup]
+comments: false
 date: 2018-11-23
+description: 
 tags: [Linux]
 title: Linux Background Process 실행하기
 ---
-# Linux Nohup
+# Linux Background Process 실행하기
 ## Example
 - 우리는 종종 Background로 Process를 실행해야 하는 경우가 있습니다.
     - 모니터링, 데이터 전송, 큰 파일의 압축을 푸는 과정.

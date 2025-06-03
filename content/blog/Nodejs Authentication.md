@@ -1,14 +1,12 @@
 ---
-title: Nodejs의 인증(Authentication), Passport
-tags:
-  - NodeJs
+aliases: [/articles/2017-04/NodejsAuthentication]
+comments: false
 date: 2017-04-30
-aliases: 
-  - /articles/2017-04/NodejsAuthentication
+description: 
+tags: [NodeJs]
+title: Nodejs의 인증(Authentication), Passport
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# Nodejs의 인증(Authentication), Passport
 ## 쿠키
 - 쿠키에 대한 BLOG : <https://nesoy.github.io/articles/2017-03/Session-Cookie>
 

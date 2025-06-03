@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2018-04/why-close-to-domain]
+comments: false
 date: 2018-04-14
-tags: [Design Pattern]
+description: 
+tags: [DesignPattern]
 title: 왜 비즈니스 로직은 Model(Domain)에 가까울수록 좋은가?
 ---
 # 왜 비즈니스 로직은 Model(Domain)에 가까울수록 좋은가?

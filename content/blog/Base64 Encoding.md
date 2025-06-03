@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2020-05/Base64-Encode]
+comments: false
 date: 2020-05-11
+description: 
 tags: [Encode]
 title: Base64 Encoding
 ---

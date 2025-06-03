@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-10/Hbase-Data-Model]
+comments: false
 date: 2019-10-02
+description: 
 tags: [Hbase]
 title: Hbase Data Model에 대해
 ---

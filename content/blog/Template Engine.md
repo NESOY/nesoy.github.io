@@ -1,10 +1,11 @@
 ---
 aliases: [/articles/2017-03/web-template]
+comments: false
 date: 2017-03-06
+description: 
 tags: [Web]
 title: 웹 템플릿 엔진(Template Engine) 이란?
 ---
-
 # 웹 템플릿 엔진(Template Engine) 이란?
 > Spring의 JSP나 Springboot의 Thymeleaf등등 Template에 대해 역할 궁금하여 찾아본 결과 Web Template System의 Engine이란 걸 알았다. Web Template System에 대해 정리하고 또 기억하기 위해 포스팅을 한다.
 

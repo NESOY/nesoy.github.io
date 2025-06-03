@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2020-11/Jib]
+comments: false
 date: 2020-11-23
-tags: [Docker]
+description: 
+tags: [Docker, Java]
 title: Jib
 ---
 # Jib

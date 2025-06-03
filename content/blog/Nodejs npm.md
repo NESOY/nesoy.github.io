@@ -1,12 +1,12 @@
 ---
 aliases: [/articles/2017-04/Nodejs-npm]
+comments: false
 date: 2017-04-17
+description: 
 tags: [NodeJs, npm]
 title: NodeJs의 npm, nodemon, Module
 ---
-
-![[assets/posts/20170413/1.PNG]]
-
+# NodeJs의 npm, nodemon, Module
 ## npm ( Node Package Modules )
 - 확장 모듈(패키지) 검색
 - 패키지 매니저

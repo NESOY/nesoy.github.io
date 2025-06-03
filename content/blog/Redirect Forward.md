@@ -1,11 +1,12 @@
 ---
 aliases: [/articles/2018-04/Redirect-Forward]
+comments: false
 date: 2018-04-09
+description: 
 tags: [Web]
 title: Redirect와 Forward의 차이에 대해
 ---
-![[assets/posts/20180409/0.png]]
-
+# Redirect와 Forward의 차이에 대해
 ## 들어가며
 > 예전에 Spring Project를 진행하면서 redirect와 forward차이점에 대해 궁금하였지만 지금에 와서야 차이점을 알게 되었고 정리하기 위해 작성합니다.
 

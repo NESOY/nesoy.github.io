@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-01/Spring-AOP]
+comments: false
 date: 2017-01-18
+description: 
 tags: [Spring]
 title: Spring AOP
 ---

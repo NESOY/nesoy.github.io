@@ -1,11 +1,11 @@
 ---
 aliases: [/articles/2018-02/CleanCode-Boundary]
+comments: false
 date: 2018-02-07
+description: 
 tags: [CleanCode]
 title: Clean Code - 경계(Boundary)
 ---
-![[assets/posts/20171211/cleancode.jpg]]
-
 # 경계
 > 어떤 식으로든 외부 코드를 우리 코드에 깔끔하게 통합해야만 한다.
 

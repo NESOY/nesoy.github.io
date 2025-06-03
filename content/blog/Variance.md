@@ -1,7 +1,9 @@
 ---
 aliases: [/articles/2021-05/variance]
+comments: false
 date: 2021-05-13
-tags: [language]
+description: 
+tags: [Programming]
 title: Variance
 ---
 # Variance

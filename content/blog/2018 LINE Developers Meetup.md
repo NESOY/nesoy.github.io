@@ -1,10 +1,9 @@
 ---
-aliases:
-  - /articles/2018-07/LINE-Developers-Meetup
+aliases: [/articles/2018-07/LINE-Developers-Meetup]
+comments: false
 date: 2018-07-13
-tags:
-  - Review
-  - Line
+description: 
+tags: [Line, Review]
 title: LINE Developers Meetup - Server tech 후기
 ---
 # LINE Developers Meetup - Server tech 후기

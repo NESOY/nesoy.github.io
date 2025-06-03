@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2017-01/javascript-study2]
+comments: false
 date: 2017-01-03
+description: 
 tags: [Javascript]
 title: Javascript Study2
 ---

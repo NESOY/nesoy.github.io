@@ -1,11 +1,13 @@
 ---
-title: Intellij Git 연동하기
-tags:
-  - Intellij
-  - Git
-date: 2017-01-14
-aliases: 
+aliases:
   - /articles/2017-01/Intellj-Git
+comments: false
+date: 2017-01-14
+description: 
+tags:
+  - Git
+  - IntelliJ
+title: Intellij Git 연동하기
 ---
 # **Intellij Git 연동하기**
 

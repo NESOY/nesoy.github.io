@@ -1,10 +1,12 @@
 ---
 aliases: [/articles/2021-03/maven-plugins]
+comments: false
 date: 2021-03-31
+description: 
 tags: [Maven]
 title: Maven Plugins에 대해
 ---
-# Maven Plugins
+# Maven Plugins에 대해
 ## [maven-resources-plugin](https://maven.apache.org/plugins/maven-resources-plugin/)
 - Resource들을 원하는 장소에 복사 하는 플러그인
 - The Resources Plugin handles the copying of project resources to the output directory.

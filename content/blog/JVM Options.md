@@ -1,6 +1,8 @@
 ---
 aliases: [/articles/2019-08/JVM-Options]
+comments: false
 date: 2019-08-12
+description: 
 tags: [Java]
 title: JVM Options
 ---
