@@ -1,10 +1,8 @@
 ---
-title: Alfred에서 iTerm 명령어 바로 실행하기
-tags:
-  - 개발환경
+aliases: [/articles/2019-07/Alfred-iterm]
 date: 2019-07-15
-aliases: 
-  - /articles/2019-07/Alfred-iterm
+tags: [개발환경]
+title: Alfred에서 iTerm 명령어 바로 실행하기
 ---
 
 ## Alfred에서 iTerm 명령어 바로 실행하기
@@ -73,5 +71,3 @@ end alfred_script
 
 #### 터미널 실행 후 화면
 ![[assets/posts/img/2019-07-15-20-22-37.png]]
-
-## Reference
