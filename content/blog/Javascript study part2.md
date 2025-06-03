@@ -17,22 +17,23 @@ title: Javascript Study2
   - ##### null과 undefined 동일하다.
   - ##### NaN이라면 false를 반환 항상 false를 반환한다.
 
-{% highlight javascript %}
+```javascript
   null == undefined // true
   "NaN" == NaN // false
   NaN == NaN // false
   true == 1 // true
   true == 2 // false
   "5" == 5 //true
-{% endhighlight %}
+```
+
 
   - ##### ====은 피연산자의 타입을 변환하지 않고 있는 그대로 비교한다.
 
-  {% highlight javascript %}
+```javascript
     var result1 = {"55" == 55}; //true
     var result2 = {"55" === 55}; //false
-  {% endhighlight %}
-
+```
+  
   - ##### <U>==,!=은 타입 변환 때문에 자주 문제가 발생하므로 대신 ===,!==를 자주 사용하자. 데이터 타입을 관리하기 쉬워진다.</U>
 
 - #### Switch 문
@@ -44,8 +45,7 @@ title: Javascript Study2
 - #### ECMAScript의 변수는 원시 값과 참조 값 두가지 타입의 데이터를 저장할 수 있다.
   - ##### 원시 값 : undefined, Null, Boolean, 숫자, 문자열
   - ##### 참조 값 : Reference 공유
-
-  {% highlight javascript %}
+```javascript
     // 참조 값
     var person = new Object();
     person.name = "Young Jae";
@@ -61,11 +61,10 @@ title: Javascript Study2
     var obj2 = obj1;
     obj1.name = "Young Jae";
     alert(obj2.name); // Young Jae
-  {% endhighlight %}
-
+```
 - #### 매개변수 전달은 값이 복사하는 것과 똑같다.
 
-{% highlight javascript %}
+```javascript
 function addTen(num){ // num => local Variable
   num += 10;
   return num;
@@ -74,22 +73,22 @@ var count = 20;
 var result = addTen(count);
 alert(count); // 20
 alert(result); // 30
-{% endhighlight %}
+```
 
 - #### obj는 힙에 존재하는 전역 객체를 참조
 
-{% highlight javascript %}
+```javascript
 function setName(obj){
   obj.name = "NESOY"
 }
 var person = new Object();
 setName(person);
 alert(person.name); // NESOY
-{% endhighlight %}
+```
 
 - #### 함수에 값을 전달했기 때문에 함수 내부에서 매개변수의 값이 바뀌었음에도 불구하고 원래 객체에 대한 참조를 그대로 유지.
 
-{% highlight javascript %}
+```javascript
 function setName(obj){
   obj.name = "NESOY"
   obj = new Object();
@@ -98,7 +97,7 @@ function setName(obj){
 var person = new Object();
 setName(person);
 alert(person.name); // NESOY
-{% endhighlight %}
+```
 
 - #### Execution Context(EC)
   - ##### 자바스크립트 엔진은 코드를 실행하기 위해 필요한 여러가지 정보를 관리하기 위한 객체가 Execution Context다.
@@ -110,7 +109,7 @@ alert(person.name); // NESOY
   - ##### Scope
   - ##### this
 
-  {% highlight javascript %}
+```javascript
   var x = 'xxx';
 
   function foo () {
@@ -123,7 +122,7 @@ alert(person.name); // NESOY
     bar();
   }
   foo();
-  {% endhighlight %}
+```
 
 ![[assets/posts/20170103/execution-context.PNG]]
 
@@ -139,8 +138,7 @@ alert(person.name); // NESOY
 - #### Javascript에는 블록 레벨 스코프가 없다.
   - ##### var를 사용해 선언한 변수는 자동으로 가까운 컨텍스트에 추가된다.
   - ##### 선언하지 않으면 자동으로 전역 컨텍스트에 추가된다.
-
-  {% highlight javascript %}
+```javascript
   // var로 선언
   function add(num1,num2){
     var sum = num1 + num2;
@@ -157,10 +155,8 @@ alert(person.name); // NESOY
   }
   var result = add(10, 20); //30
   alert(result);  // 30
-  {% endhighlight %}
+```
 
 ## 참조
-
-<http://poiemaweb.com/>
-
-<http://www.nextree.co.kr/p7363/>
+- http://poiemaweb.com/
+- http://www.nextree.co.kr/p7363/

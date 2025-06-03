@@ -11,7 +11,7 @@ title: Javascript Study4
   - 오버로딩은 없다.
   - 마지막에 정의한 함수가 이전에 정의한 함수를 덮어씀을 쉽게 이해 할 수 있다.
 
-  {% highlight javascript %}
+  ```javascript
   function addSomeNumber(num){ // 1번
     return num + 100;
   }
@@ -19,7 +19,7 @@ title: Javascript Study4
     return num + 200;
   }
   var result = addSomeNumber(100); // 300  2번 호출
-  {% endhighlight %}
+  ```
 
 - #### 함수 선언 vs 함수 표현식 (Hoisting)
   - 함수 선언은 어떤 코드도 실행하기 전에 이미 모든 EC에서 접근하고 실행할 수 있다.
@@ -28,30 +28,30 @@ title: Javascript Study4
 
   - 함수 표현식은 코드 실행이 해당 줄까지 진행하기 전에는 사용할 수 없다.
 
-{% highlight javascript %}
+```javascript
 alert(sum(10,10));
 function sum(num1,num2){ // 함수 선언
   return num1 + num2;
 }
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 alert(sum(10,10)); // error 함수가 정의되어 있지 않다.
 var sum = function (num1,num2){ // 함수 표현식
   return num1 + num2;
 }
-{% endhighlight %}
+```
 
 - #### 값처럼 쓰는 함수
 
-{% highlight javascript %}
+```javascript
 // someFunction : 함수매개변수,  someArgument : 콜백 함수에 넘길 값
 function callSomeFunction(someFunction, someArgument){
   return someFunction(someArgument);
 }
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 function add10(num){
   return num + 10;
 }
@@ -63,14 +63,14 @@ function getGreeting(name){
 }
 var result2 = callSomeFunction(getGreeting,"NESOY");
 alert(result2); // Hello NESOY
-{% endhighlight %}
+```
 
 - #### 함수의 내부 구조
   - 함수 내부에는 argument, this 객체가 존재
   - argument의 property에 callee : 객체의 소유자인 함수를 가리키는 포인터
   - caller , callee을 통해 함수와 이름 사이의 의존성을 제거
 
-{% highlight javascript %}
+```javascript
 function factorial(num){
   if ( num <= 1){
     return 1;
@@ -78,7 +78,7 @@ function factorial(num){
     return num * argument.callee(num-1);
   }
 }
-{% endhighlight %}
+```
 
 - #### 함수의 프로퍼티와 Method
   - 모든 함수에 length, prototype이 존재
@@ -86,7 +86,7 @@ function factorial(num){
   - prototype : 모든 참조 타입의 인스턴스 메서드가 존재하는 곳
   - apply(), call() 함수 존재
 
-{% highlight javascript %}
+```javascript
   function sum(num1, num2){
     return num1 + num2;
   }
@@ -99,7 +99,7 @@ function factorial(num){
   alert(callSum1(10,10)); // 10
   alert(callSum2(10,10)); // 10
 
-{% endhighlight %}
+```
 
   - bind()라는 함수를 통해 this를 교체 할 수 있다.
 
@@ -117,4 +117,4 @@ function factorial(num){
   - random()
 
 ## 참조
-<http://insanehong.kr/post/javascript-function/>
+- http://insanehong.kr/post/javascript-function/

@@ -4,8 +4,7 @@ date: 2021-03-19
 tags: [Maven]
 title: Maven의 Settings에 대해
 ---
-# 2021-03-19-maven-settings
-
+# Maven의 Settings에 대해
 ## 들어가며
 - Maven에서 자주 마주치는 설정 파일인 `settings.xml`이 있습니다.
 - 무슨 역할을 가지고 있는지 어떻게 사용하는지 정리합니다.
