@@ -1,7 +1,9 @@
 ---
-aliases: [/articles/2020-09/Docker-image]
+aliases:
+  - /articles/2020-09/Docker-image
 date: 2020-09-20
-tags: [docker]
+tags:
+  - Docker
 title: Docker Image
 ---
 # Docker Image

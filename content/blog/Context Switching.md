@@ -4,6 +4,7 @@ date: 2018-11-13
 tags: [OS]
 title: Context Switching이란?
 ---
+# Context Switching
 ## 들어가며
 > 면접에서 받았던 질문에 대해 정리하고 조금 더 자세하게 알기 위해 작성합니다.
 

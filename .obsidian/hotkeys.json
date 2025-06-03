@@ -1,11 +1,21 @@
 {
-  "random-note": [
+  "smart-random-note:open-random-note-from-search": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
       "key": "R"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
     }
   ]
 }

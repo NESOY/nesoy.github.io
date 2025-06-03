@@ -2,5 +2,8 @@
   "obsidian-hider",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-custom-attachment-location",
+  "smart-random-note",
+  "templater-obsidian"
 ]
