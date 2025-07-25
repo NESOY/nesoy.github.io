@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Blog Template.md",
+                "file": "blog/Kubernetes CPU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blog Template"
+              "title": "Kubernetes CPU"
             }
           }
         ]
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Blog Template.md",
+                "file": "blog/Kubernetes CPU.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Blog Template"
+              "title": "Outline of Kubernetes CPU"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "templates/Blog Template.md"
+                "file": "blog/Kubernetes CPU.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -191,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "templates/Blog Template.md",
+                "file": "blog/Kubernetes CPU.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,7 +219,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Blog Template"
+              "title": "Graph of Kubernetes CPU"
             }
           }
         ]
@@ -240,12 +240,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "48892466eb14f432",
+  "active": "585ce278009be6c9",
   "lastOpenFiles": [
+    "templates/Blog Template.md",
+    "이것은 테스트.md",
+    "essay/2019 회고.md",
+    "blog/Kubernetes CPU.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "blog/Front Controller.md",
+    "blog/Spotless.md",
+    "blog/Mongoose Array.md",
     "about.md",
     "이것은 무엇일까.md",
     "이것은.md",
-    "이것은 테스트.md",
     "public/templates/index.html",
     "public/templates/Blog-Template.html",
     "public/templates",
@@ -279,14 +287,6 @@
     "content/blog/Database Transaction isolation.md",
     "content/blog/Couchbase Mock.md",
     "content/blog/Nodejs mobile.md",
-    "content/blog/Nodejs Network.md",
-    "content/blog/JVM Options.md",
-    "content/blog/DNS type.md",
-    "content/blog/Git-stash.md",
-    "content/blog/MySQL UTF8.md",
-    "content/blog/CleanCode ConCurrency.md",
-    "content/blog/CleanCode Function.md",
-    "content/blog/CleanCode naming.md",
-    "content/blog/Spotless.md"
+    "content/blog/Nodejs Network.md"
   ]
 }

@@ -2,6 +2,7 @@
   "types": {
     "aliases": "aliases",
     "cssclasses": "multitext",
-    "tags": "tags"
+    "tags": "tags",
+    "date": "date"
   }
 }
