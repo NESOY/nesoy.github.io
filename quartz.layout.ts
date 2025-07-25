@@ -46,6 +46,7 @@ export const sharedPageComponents: SharedLayout = {
       GitHub: "https://github.com/nesoy",
       Twitter: "https://x.com/nesoy_kwon",
       LinkedIn: "https://www.linkedin.com/in/young-jae-kwon-3514b3141/",
+      RSS: "https:/nesoy.github.io/index.xml",
     },
   }),
 }
