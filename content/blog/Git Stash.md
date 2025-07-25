@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-03/Git-Stash]
-comments: false
-date: 2017-03-01
-description: 
-tags: [Git]
 title: Git Pull 충돌 오류시 해결방법
+description: 
+aliases: [/articles/2017-03/Git-Stash]
+date: 2017-03-01
+tags: [Git]
+comments: false
 ---
 # Git Stash
 ## 들어가며
@@ -12,7 +12,6 @@ title: Git Pull 충돌 오류시 해결방법
 > 다른 사람들과 협업을 하던 도중에 git pull을 통해 Project를 동기화하려고 했는데 Error Message가 발생하여 해결하기 위해 Git stash에 대해 알아보았다. 많은 사람들이 이 기능을 보면 쉽게 충돌 에러를 피할 수 있을 것 같아 포스트를 한다.
 
 ## Git Pull 충돌 오류시 해결방법
-
 ## 1. Error Message
 
 - git pull을 하였을 때 충돌되는 파일(File)들이 존재하기에 Error가 발생된다.

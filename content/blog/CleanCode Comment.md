@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-01/CleanCode-Comment]
-comments: false
-date: 2018-01-01
-description: 
-tags: [CleanCode]
 title: Clean Code - 주석(Comment)
+description: 
+aliases: [/articles/2018-01/CleanCode-Comment]
+date: 2018-01-01
+tags: [CleanCode]
+comments: false
 ---
 # 주석(Comment)
 > 주석은 기껏해야 필요악이다.

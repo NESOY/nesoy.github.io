@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-03/Session-Cookie]
-comments: false
-date: 2017-03-17
-description: 
-tags: [Cookie, Session, Web]
 title: 쿠키(Cookie) 그리고 세션(Session)
+description: 
+aliases: [/articles/2017-03/Session-Cookie]
+date: 2017-03-17
+tags: [Cookie, Session, Web]
+comments: false
 ---
 # 쿠키(Cookie)
 ## 배경

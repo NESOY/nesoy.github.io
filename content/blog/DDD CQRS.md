@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-07/DDD-CQRS]
-comments: false
-date: 2018-07-19
-description: 
-tags: [DDD]
 title: DDD - CQRS
+description: 
+aliases: [/articles/2018-07/DDD-CQRS]
+date: 2018-07-19
+tags: [DDD]
+comments: false
 ---
 # DDD - CQRS
 ## 왜 등장하게 되었을까요?

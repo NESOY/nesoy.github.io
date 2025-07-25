@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-05/Refactoring-Example]
-comments: false
-date: 2018-05-25
-description: 
-tags: [Refactoring]
 title: Refactoring - 예시[Example]
+description: 
+aliases: [/articles/2018-05/Refactoring-Example]
+date: 2018-05-25
+tags: [Refactoring]
+comments: false
 ---
 # Refactoring Example
 ## Extract Method

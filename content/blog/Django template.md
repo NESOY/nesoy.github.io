@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-10/Django-template]
-comments: false
-date: 2017-10-24T00:00:00.000Z
-description: 
-tags: [Django, Python]
 title: Django 튜토리얼3
+description: 
+aliases: [/articles/2017-10/Django-template]
+date: 2017-10-24T00:00:00.000Z
+tags: [Django, Python]
+comments: false
 ---
 # Django Template
 - `setting.py` : `APP_DIRS`: `True`로 설정하기.

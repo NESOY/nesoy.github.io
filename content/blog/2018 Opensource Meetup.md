@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-07/Opensource-Meetup]
-comments: false
-date: 2018-07-01
-description: 
-tags: [Review]
 title: 2018 오픈소스 개발자 이야기 후기
+description: 
+aliases: [/articles/2018-07/Opensource-Meetup]
+date: 2018-07-01
+tags: [Review]
+comments: false
 ---
 # 2018 오픈소스 개발자 이야기 후기
 ![[assets/posts/20180701/1.png]]

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-08/logrotate]
-comments: false
-date: 2019-08-19
-description: 
-tags: [Linux]
 title: logrotate란?
+description: 
+aliases: [/articles/2019-08/logrotate]
+date: 2019-08-19
+tags: [Linux]
+comments: false
 ---
 # logrotate란?
 ## 들어가며

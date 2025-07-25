@@ -1,13 +1,10 @@
 ---
-aliases:
-  - /articles/2017-05/AWS
-comments: false
-date: 2017-05-18
-description: 
-tags:
-  - AWS
-  - DevOps
 title: AWS EC2 시작하기
+description: 
+aliases: [/articles/2017-05/AWS]
+date: 2017-05-18
+tags: [AWS, DevOps]
+comments: false
 ---
 # AWS EC2
 ## AWS 시작하기

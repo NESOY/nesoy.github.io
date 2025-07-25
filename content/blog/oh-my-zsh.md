@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-03/ZSH]
-comments: false
-date: 2017-03-18
-description: 
-tags: [Mac, 개발환경]
 title: oh-my-zsh 설치 및 적용하기
+description: 
+aliases: [/articles/2017-03/ZSH]
+date: 2017-03-18
+tags: [Mac, 개발환경]
+comments: false
 ---
 # oh-my-zsh 설치 및 적용하기
 ## 터미널모양을 바꿔보자 :)

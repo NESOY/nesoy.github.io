@@ -1,6 +1,6 @@
 ---
-comments: false
 title: About me
+comments: false
 ---
 # About Me
 I'm youngjae kwon. also call me as nesoy. currently Working in [Kakao Corporation](https://www.kakaocorp.com/)
