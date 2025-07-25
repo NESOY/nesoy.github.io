@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-11/Jib]
-comments: false
-date: 2020-11-23
-description: 
-tags: [Docker, Java]
 title: Jib
+description: 
+aliases: [/articles/2020-11/Jib]
+date: 2020-11-23
+tags: [Docker, Java]
+comments: false
 ---
 # Jib
 ![[assets/posts/img/2020-11-23-23-27-40.png]]

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-10/Git-clean]
-comments: false
-date: 2018-10-18
-description: 
-tags: [Git]
 title: Git clean이란?
+description: 
+aliases: [/articles/2018-10/Git-clean]
+date: 2018-10-18
+tags: [Git]
+comments: false
 ---
 # Git clean이란?
 ### 🔥주의🔥

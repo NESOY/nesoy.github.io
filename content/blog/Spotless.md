@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-04/Spotless]
-comments: false
-date: 2020-04-22
-description: 
-tags: [Java, Spotless]
 title: Spotless
+description: 
+aliases: [/articles/2020-04/Spotless]
+date: 2020-04-22
+tags: [Java, Spotless]
+comments: false
 ---
 # Spotless
 - Spotless: Keep your code spotless

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-02/Servlet]
-comments: false
-date: 2019-02-06
-description: 
-tags: [Java]
 title: Java Servlet에 대해
+description: 
+aliases: [/articles/2019-02/Servlet]
+date: 2019-02-06
+tags: [Java]
+comments: false
 ---
 # Java Servlet에 대해
 ## [Servlet이란?](https://tomcat.apache.org/tomcat-9.0-doc/servletapi/index.html)

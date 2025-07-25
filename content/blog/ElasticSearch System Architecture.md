@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-01/ElasticSearch-System-Architecture]
-comments: false
-date: 2019-01-22
-description: 
-tags: [ElasticSearch]
 title: Elastic Search 시스템 구조
+description: 
+aliases: [/articles/2019-01/ElasticSearch-System-Architecture]
+date: 2019-01-22
+tags: [ElasticSearch]
+comments: false
 ---
 # Elastic Search 시스템 구조
 ## Cluster와 Node

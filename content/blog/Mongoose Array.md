@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-06/Mongoose-Array]
-comments: false
-date: 2017-06-02
-description: 
-tags: [MongoDB, Mongoose]
 title: Mongoose 활용하여 Array에 Add(Push), Delete(Remove) 하기
+description: 
+aliases: [/articles/2017-06/Mongoose-Array]
+date: 2017-06-02
+tags: [MongoDB, Mongoose]
+comments: false
 ---
 # Mongoose Array
 > 이번 프로젝트에 Mongoose를 활용하고 있는데 Data Type이 Array 형태인 부분이 많다. Array형태의 Delete 다루는 부분에 있어서 에러가 발생하였습니다. 해결책을 mongoose github에 issues에서 찾았고 많은 사람들이 이 문제를 쉽게 해결하기 위해 기록을 남긴다.

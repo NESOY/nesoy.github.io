@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-04/CleanCode-ConCurrency]
-comments: false
-date: 2018-04-22
-description: 
-tags: [CleanCode]
 title: Clean Code - 동시성(Concurrency)
+description: 
+aliases: [/articles/2018-04/CleanCode-ConCurrency]
+date: 2018-04-22
+tags: [CleanCode]
+comments: false
 ---
 # 동시성(Concurrency)
 

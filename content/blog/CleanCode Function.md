@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-12/CleanCode-Function]
-comments: false
-date: 2017-12-13
-description: 
-tags: [CleanCode]
 title: Clean Code - Function
+description: 
+aliases: [/articles/2017-12/CleanCode-Function]
+date: 2017-12-13
+tags: [CleanCode]
+comments: false
 ---
 # 함수(Function)
 ## 작게 만들기.

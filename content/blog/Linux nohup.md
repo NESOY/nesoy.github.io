@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-11/Linux-nohup]
-comments: false
-date: 2018-11-23
-description: 
-tags: [Linux]
 title: Linux Background Process 실행하기
+description: 
+aliases: [/articles/2018-11/Linux-nohup]
+date: 2018-11-23
+tags: [Linux]
+comments: false
 ---
 # Linux Background Process 실행하기
 ## Example

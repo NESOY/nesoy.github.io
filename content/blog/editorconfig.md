@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-11/editorconfig]
-comments: false
-date: 2019-11-10
-description: 
-tags: [개발환경]
 title: EditorConfig란?
+description: 
+aliases: [/articles/2019-11/editorconfig]
+date: 2019-11-10
+tags: [개발환경]
+comments: false
 ---
 # EditorConfig란?
 ## 들어가며

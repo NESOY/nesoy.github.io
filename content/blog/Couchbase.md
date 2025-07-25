@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-11/Couchbase]
-comments: false
-date: 2018-11-20
-description: 
-tags: [Couchbase]
 title: Couchbase는 어떻게 동작하는가?
+description: 
+aliases: [/articles/2018-11/Couchbase]
+date: 2018-11-20
+tags: [Couchbase]
+comments: false
 ---
 # Couchbase는 어떻게 동작하는가?
 ## High - Level Deployment Architecture

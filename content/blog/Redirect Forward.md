@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-04/Redirect-Forward]
-comments: false
-date: 2018-04-09
-description: 
-tags: [Web]
 title: Redirect와 Forward의 차이에 대해
+description: 
+aliases: [/articles/2018-04/Redirect-Forward]
+date: 2018-04-09
+tags: [Web]
+comments: false
 ---
 # Redirect와 Forward의 차이에 대해
 ## 들어가며

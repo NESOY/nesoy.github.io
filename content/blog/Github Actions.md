@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-12/Github-Actions]
-comments: false
-date: 2019-12-23
-description: 
-tags: [Github]
 title: Github Action 시작하기
+description: 
+aliases: [/articles/2019-12/Github-Actions]
+date: 2019-12-23
+tags: [Github]
+comments: false
 ---
 # Github Actions
 ## [Github Action이란?](https://blog.outsider.ne.kr/1412)

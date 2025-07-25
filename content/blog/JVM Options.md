@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-08/JVM-Options]
-comments: false
-date: 2019-08-12
-description: 
-tags: [Java]
 title: JVM Options
+description: 
+aliases: [/articles/2019-08/JVM-Options]
+date: 2019-08-12
+tags: [Java]
+comments: false
 ---
 # JVM Option 설정에 대하여
 ## JVM (Oracle) Options

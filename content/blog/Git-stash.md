@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-05/git-stash]
-comments: false
-date: 2017-05-12
-description: 
-tags: [Git]
 title: Git Stash에 대해 알아보자.
+description: 
+aliases: [/articles/2017-05/git-stash]
+date: 2017-05-12
+tags: [Git]
+comments: false
 ---
 # Git Stash에 대해 알아보자.
 

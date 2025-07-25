@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-01/Spring-annotation]
-comments: false
-date: 2017-01-16
-description: 
-tags: [Spring]
 title: Spring Annotation(@Required,@Autowired,@Qulifier,@Resource)
+description: 
+aliases: [/articles/2017-01/Spring-annotation]
+date: 2017-01-16
+tags: [Spring]
+comments: false
 ---
 # **Spring Annotation**
 - @Required, @Autowired, @Qulifier, @Resource

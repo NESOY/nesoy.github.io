@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-12/CleanCode-naming]
-comments: false
-date: 2017-12-11
-description: 
-tags: [CleanCode]
 title: Clean Code - Naming
+description: 
+aliases: [/articles/2017-12/CleanCode-naming]
+date: 2017-12-11
+tags: [CleanCode]
+comments: false
 ---
 > 캠프장은 처음 왔을 때보다 더 깨긋하게 해놓고 떠나라. - 보이스카우트 규칙
 

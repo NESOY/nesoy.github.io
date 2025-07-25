@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2021-06/Java-Garbage-Collection]
-comments: false
-date: 2021-06-24
-description: 
-tags: [Java]
 title: Java Garbage Collection
+description: 
+aliases: [/articles/2021-06/Java-Garbage-Collection]
+date: 2021-06-24
+tags: [Java]
+comments: false
 ---
 # Java Garbage Collection
 ## Garbage Collector

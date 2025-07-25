@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-09/Git-Flow]
-comments: false
-date: 2018-09-04
-description: 
-tags: []
 title: Git-flow에 대해
+description: 
+aliases: [/articles/2018-09/Git-Flow]
+date: 2018-09-04
+tags: []
+comments: false
 ---
 # Git-flow에 대해
 ## Git-Flow란?
