@@ -70,7 +70,7 @@
       "update-on-file-contents-updated": "never"
     },
     "yaml-title": {
-      "enabled": false,
+      "enabled": true,
       "title-key": "title",
       "mode": "first-h1-or-filename-if-h1-missing"
     },
@@ -276,12 +276,7 @@
   "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
-  "foldersToIgnore": [
-    "docs",
-    "node_modules",
-    "public",
-    "quartz"
-  ],
+  "foldersToIgnore": [],
   "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",

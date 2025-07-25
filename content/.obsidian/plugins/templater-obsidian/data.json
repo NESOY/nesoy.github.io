@@ -7,23 +7,23 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
+  "enable_folder_templates": false,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "templates",
+      "template": "templates/Blog Template.md"
     }
   ],
-  "enable_file_templates": false,
+  "enable_file_templates": true,
   "file_templates": [
     {
       "regex": ".*",
-      "template": ""
+      "template": "templates/Blog Template.md"
     }
   ],
   "syntax_highlighting": true,
@@ -31,8 +31,6 @@
   "enabled_templates_hotkeys": [
     ""
   ],
-  "startup_templates": [
-    ""
-  ],
+  "startup_templates": [],
   "intellisense_render": 1
 }
