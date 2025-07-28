@@ -75,7 +75,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-   Component.DesktopOnly(Component.Explorer({sortFn: sortByRecentDate})),
+   Component.DesktopOnly(Component.Explorer({
+      title: "Wiki",
+      sortFn: sortByRecentDate
+    })),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -99,7 +102,10 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.DesktopOnly(Component.Explorer({sortFn: sortByRecentDate})),
+    Component.DesktopOnly(Component.Explorer({
+      title: "Wiki",
+      sortFn: sortByRecentDate
+    })),
   ],
   right: [],
 }
