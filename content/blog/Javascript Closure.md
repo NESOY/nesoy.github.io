@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-05/Javascript-Closure]
-comments: false
-date: 2017-05-04
-description: 
-tags: [Javascript]
 title: Javascript 클로져(Closure)란?
+description: 
+aliases: [/articles/2017-05/Javascript-Closure]
+date: 2017-05-04
+tags: [Javascript]
+comments: false
 ---
 # Javascript Closure
 
