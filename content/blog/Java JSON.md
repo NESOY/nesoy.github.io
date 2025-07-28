@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-04/Java-JSON]
-comments: false
-date: 2018-04-26
-description: 
-tags: [Java]
 title: Java JSON 라이브러리에 대해
+description: 
+aliases: [/articles/2018-04/Java-JSON]
+date: 2018-04-26
+tags: [Java]
+comments: true
 ---
 # Java JSON 라이브러리에 대해
 ## 들어가며

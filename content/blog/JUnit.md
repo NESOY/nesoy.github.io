@@ -1,14 +1,10 @@
 ---
-aliases:
-  - /articles/2017-02/JUnit
-comments: false
-date: 2017-02-01
-description: 
-tags:
-  - JUnit
-  - Testing
-  - Java
 title: JUnit
+description: 
+aliases: [/articles/2017-02/JUnit]
+date: 2017-02-01
+tags: [Java, JUnit, Testing]
+comments: true
 ---
 # JUnit
 > TDD를 공부하던 중에 Java의 대표적인 Testing Framework인 JUnit에 대해 예전에 공부를 했었지만 잘 기억이 나지 않았다. JUnit의 어떠한 Method가 있는지 그 역할은 뭔지에 대해 정리하기 위해 포스트를 작성합니다.

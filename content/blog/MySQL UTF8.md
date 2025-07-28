@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-05/mysql-UTF8]
 date: 2017-05-09
 tags: [Encoding, MySQL]
-comments: false
+comments: true
 ---
 # MySQL 한글 깨짐 현상 해결하기(UTF8)
 > 프로젝트를 진행하던 도중에 DB에 값을 입력할때 한글값이 제대로 저장이 안되는 경우가 있다. character set 설정문제가 대부분이며 이와 같은 경우에 UTF-8로 설정하면 쉽게 고칠 수 있다. MySQL의 설정하는 법을 기록하기 위해 블로그를 쓴다.

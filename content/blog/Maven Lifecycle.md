@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2021-03/maven-lifecycle]
 date: 2021-03-10
 tags: [Maven]
-comments: false
+comments: true
 ---
 # Maven Lifecycle
 ## 들어가며

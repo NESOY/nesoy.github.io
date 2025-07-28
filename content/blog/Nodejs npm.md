@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/Nodejs-npm]
-comments: false
-date: 2017-04-17
-description: 
-tags: [NodeJs, npm]
 title: NodeJs의 npm, nodemon, Module
+description: 
+aliases: [/articles/2017-04/Nodejs-npm]
+date: 2017-04-17
+tags: [NodeJs, npm]
+comments: true
 ---
 # NodeJs의 npm, nodemon, Module
 ## npm ( Node Package Modules )

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-01/OCP]
-comments: false
-date: 2018-01-08
-description: 
-tags: [DesignPattern]
 title: OCP(Open Closed Principle)
+description: 
+aliases: [/articles/2018-01/OCP]
+date: 2018-01-08
+tags: [DesignPattern]
+comments: true
 ---
 # OCP(Open Closed Principle)
 > 기존의 코드를 변경하지 않으면서 기능을 추가할 수 있도록 설계가 되어야 한다.

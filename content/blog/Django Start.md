@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-10/Django-Start]
-comments: false
-date: 2017-10-21
-description: 
-tags: [Django, Python]
 title: Django 시작하기
+description: 
+aliases: [/articles/2017-10/Django-Start]
+date: 2017-10-21
+tags: [Django, Python]
+comments: true
 ---
 # Django Start
 ## Django란?

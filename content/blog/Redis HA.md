@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-05/Redis-HA]
-comments: false
-date: 2020-05-12
-description: 
-tags: [Redis]
 title: Redis HA(RHA)에 대해
+description: 
+aliases: [/articles/2020-05/Redis-HA]
+date: 2020-05-12
+tags: [Redis]
+comments: true
 ---
 # Redis HA
 - 모든 저장소가 그렇듯 Redis에서도 High Availability를 지원한다.

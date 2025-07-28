@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-10/Git-clean]
 date: 2018-10-18
 tags: [Git]
-comments: false
+comments: true
 ---
 # Git clean이란?
 ### 🔥주의🔥

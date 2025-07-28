@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-08/Algorithm-HashTable]
-comments: false
-date: 2018-08-07
-description: 
-tags: [DataStructure, Java]
 title: Java의 HashMap에 대해
+description: 
+aliases: [/articles/2018-08/Algorithm-HashTable]
+date: 2018-08-07
+tags: [DataStructure, Java]
+comments: true
 ---
 # Java의 HashMap에 대해
 > 가장 자주 사용하는 자료구조인 HashMap에 대해 더 깊이 이해하기 위해 작성합니다.

@@ -1,9 +1,12 @@
 ---
-aliases: [/articles/2017-04/Nodejs-Express-Routing]
-comments: false
+aliases:
+  - /articles/2017-04/Nodejs-Express-Routing
+comments: true
 date: 2017-04-23
-description: 
-tags: [Express, NodeJs]
+description:
+tags:
+  - Express
+  - NodeJs
 title: NodeJs의 Express Routing, Thrid Party Middleware
 ---
 # NodeJs의 Express Routing, Thrid Party Middleware

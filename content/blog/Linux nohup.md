@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-11/Linux-nohup]
 date: 2018-11-23
 tags: [Linux]
-comments: false
+comments: true
 ---
 # Linux Background Process 실행하기
 ## Example

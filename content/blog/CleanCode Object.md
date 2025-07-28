@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-01/CleanCode-Object]
 date: 2018-01-17
 tags: [CleanCode]
-comments: false
+comments: true
 ---
 # 객체와 자료구조(Object & DataStructure)
 ## 자료 추상화

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-01/Singleton-Pattern]
-comments: false
-date: 2017-01-13
-description: 
-tags: [DesignPattern]
 title: Singleton Pattern(싱글턴 패턴)
+description: 
+aliases: [/articles/2017-01/Singleton-Pattern]
+date: 2017-01-13
+tags: [DesignPattern]
+comments: true
 ---
 # **Singleton Pattern**
 Spring을 공부하던 도중에 Container가 Default로 빈(Bean) 들을 Singleton Pattern으로 관리한다는 사실을 알았다.

@@ -1,12 +1,10 @@
 ---
-aliases:
-  - /articles/2017-02/Jenkins
-comments: false
-date: 2017-02-20
-description: 
-tags:
-  - Jenkins
 title: 젠킨스(Jenkins) 설치하기
+description: 
+aliases: [/articles/2017-02/Jenkins]
+date: 2017-02-20
+tags: [Jenkins]
+comments: true
 ---
 # Jenkins Install
 ## 1. 젠킨스(Jenkins)란?

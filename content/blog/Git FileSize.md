@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-05/Git-FileSize]
 date: 2018-05-09
 tags: [Git]
-comments: false
+comments: true
 ---
 # Git push 파일 크기 에러 해결하기
 ## 문제

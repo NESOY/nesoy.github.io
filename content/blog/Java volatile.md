@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-06/Java-volatile]
-comments: false
-date: 2018-06-09
-description: 
-tags: [Java]
 title: Java volatile
+description: 
+aliases: [/articles/2018-06/Java-volatile]
+date: 2018-06-09
+tags: [Java]
+comments: true
 ---
 # Java Volatile이란?
 - `volatile` keyword는 Java 변수를 Main Memory에 저장하겠다라는 것을 명시하는 것입니다.
