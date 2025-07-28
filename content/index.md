@@ -1,11 +1,12 @@
 ---
 title: NESOY
-description: 
+description:
 aliases: []
+date: 2025-07-28
 tags: []
-comments: 
+comments: false
 ---
 # Index
-- [[blog]]
-- [[essay]]
+- [[blog/index|blog]]
+- [[essay/index|essay]]
 - [[about]]

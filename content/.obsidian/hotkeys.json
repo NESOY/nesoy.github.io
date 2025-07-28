@@ -17,15 +17,6 @@
       "key": "R"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
   "switcher:open": [],
   "darlal-switcher-plus:switcher-plus:open": [
     {
@@ -33,6 +24,15 @@
         "Mod"
       ],
       "key": "O"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
     }
   ]
 }

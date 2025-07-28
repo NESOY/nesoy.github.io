@@ -106,10 +106,10 @@
       "enabled": false
     },
     "move-footnotes-to-the-bottom": {
-      "enabled": false
+      "enabled": true
     },
     "re-index-footnotes": {
-      "enabled": false
+      "enabled": true
     },
     "auto-correct-common-misspellings": {
       "enabled": false,
@@ -277,7 +277,13 @@
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],
-  "filesToIgnore": [],
+  "filesToIgnore": [
+    {
+      "label": "",
+      "match": "index",
+      "flags": "i"
+    }
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],

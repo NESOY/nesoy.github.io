@@ -22,17 +22,66 @@
             }
           },
           {
+            "id": "74f2bc0efd81b687",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "f994b9c5b5b9e4d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/Javascript Closure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Javascript Closure"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "cdaa469fd84270d7",
+        "type": "tabs",
+        "children": [
+          {
             "id": "59246547c52d76cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/Nodejs Express Routing.md",
+                "file": "templates/Blog Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nodejs Express Routing"
+              "title": "Blog Template"
+            }
+          },
+          {
+            "id": "1c3e18a08ca9fe6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -110,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/Nodejs Express Routing.md",
+                "file": "blog/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nodejs Express Routing"
+              "title": "Outline of index"
             }
           },
           {
@@ -206,7 +255,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "blog/Nodejs Express Routing.md",
+                "file": "blog/index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -234,7 +283,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Nodejs Express Routing"
+              "title": "Graph of index"
             }
           }
         ]
@@ -257,13 +306,24 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "59246547c52d76cb",
+  "active": "1c3e18a08ca9fe6e",
   "lastOpenFiles": [
+    "about.md",
+    "index.md",
+    "blog/index.md",
+    "blog/Javascript Closure.md",
+    "essay/index.md",
+    "essay/2017 회고.md",
+    "essay/2018 생각 정리.md",
+    "templates/Blog Template.md",
+    "blog/Nodejs Express Routing.md",
+    "essay/2018 회고.md",
+    "blog/Linux nohup.md",
+    "Untitled.md",
     "blog/Java volatile.md",
     "blog/Singleton Pattern.md",
     "blog/Open Closed Principle.md",
     "blog/Redis HA.md",
-    "templates/Blog Template.md",
     "blog/Mockito.md",
     "blog/editorconfig.md",
     "blog/Intellij War.md",
@@ -274,17 +334,6 @@
     "blog/Variance.md",
     "blog/2018 Opensource Meetup.md",
     "blog/Command df.md",
-    "blog/Javascript study part4.md",
-    "blog/ifkakao 2021.md",
-    "blog/Java Serialize.md",
-    "blog/DDD Event.md",
-    "blog/Docker multi stage build.md",
-    "blog/Linux nohup.md",
-    "blog/Javascript study part3.md",
-    "blog/Blog Search.md",
-    "blog/Java HashMap.md",
-    "blog/MySQL UTF8.md",
-    "blog/CleanCode Object.md",
     "public/templates/index.html",
     "public/templates/Blog-Template.html",
     "public/templates",
