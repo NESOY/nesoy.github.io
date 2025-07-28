@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-04/Guid]
-comments: false
-date: 2020-04-23
-description: 
-tags: [Guid]
 title: Guid(Global Unique identifier)
+description: 
+aliases: [/articles/2020-04/Guid]
+date: 2020-04-23
+tags: [Guid]
+comments: true
 ---
 # GUID
 - Global Unique identifier

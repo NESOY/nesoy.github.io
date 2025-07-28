@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/Kubernetes CPU.md",
+                "file": "blog/Nodejs URL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kubernetes CPU"
+              "title": "Nodejs URL"
             }
           }
         ]
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/Kubernetes CPU.md",
+                "file": "blog/Nodejs URL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kubernetes CPU"
+              "title": "Outline of Nodejs URL"
             }
           },
           {
@@ -191,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "blog/Kubernetes CPU.md",
+                "file": "blog/Nodejs URL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,7 +219,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Kubernetes CPU"
+              "title": "Graph of Nodejs URL"
             }
           }
         ]
@@ -237,23 +237,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "585ce278009be6c9",
+  "active": "48892466eb14f432",
   "lastOpenFiles": [
-    "templates/Blog Template.md",
-    "이것은 테스트.md",
-    "essay/2019 회고.md",
-    "blog/Kubernetes CPU.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "blog/Front Controller.md",
-    "blog/Spotless.md",
-    "blog/Mongoose Array.md",
-    "about.md",
-    "이것은 무엇일까.md",
-    "이것은.md",
+    "blog/Nodejs MySQL.md",
+    "blog/Database Replication.md",
+    "blog/Test Driven Development.md",
+    "blog/DDD Bounded Context.md",
+    "blog/IntelliJ Theme.md",
+    "blog/Functional Programming.md",
+    "blog/Object Oriented Programming.md",
+    "blog/Jekyll github.md",
+    "blog/Scala Trait.md",
+    "blog/DDD Architecture.md",
+    "blog/Base64 Encoding.md",
+    "blog/2019 ifkakao day2.md",
+    "blog/Variance.md",
+    "blog/ElasticSearch Configuration.md",
+    "blog/Nodejs Authentication.md",
+    "blog/Kubectl.md",
+    "blog/Java transient.md",
+    "blog/Refactoring BadSmell.md",
+    "blog/Javascript async.md",
+    "blog/Database Transaction.md",
+    "blog/JVM JRE JDK.md",
+    "blog/Intellij War.md",
+    "blog/IntelliJ Infinitest.md",
+    "blog/CleanCode Emergence.md",
+    "blog/Syntactic Sugar.md",
+    "blog/MySQL datetime timestamp.md",
     "public/templates/index.html",
     "public/templates/Blog-Template.html",
     "public/templates",
@@ -273,20 +289,6 @@
     "public/articles/2021-08/StackVM-RegisterVM.html",
     "public/articles/2021-08",
     "public/articles/2021-09/Reactive-Stream.html",
-    "public/articles/2021-09",
-    "content/blog/ElasticSearch Intro.md",
-    "docs/features/darkmode.md",
-    "content/Untitled.md",
-    "content/blog/Liskov Substitution Principle.md",
-    "content/blog/Spring AOP.md",
-    "content/blog/2018 LINE Developers Meetup.md",
-    "content/blog/2018 Next With Google.md",
-    "content/blog/Front Controller.md",
-    "content/blog/Mongoose Array.md",
-    "content/blog/Couchbase CAS.md",
-    "content/blog/Database Transaction isolation.md",
-    "content/blog/Couchbase Mock.md",
-    "content/blog/Nodejs mobile.md",
-    "content/blog/Nodejs Network.md"
+    "public/articles/2021-09"
   ]
 }

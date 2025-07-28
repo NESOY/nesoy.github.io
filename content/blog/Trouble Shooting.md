@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-12/Trouble-Shooting]
-comments: false
-date: 2018-12-17
-description: 
-tags: [Engineering, Software]
 title: Trouble Shooting에 대하여
+description: 
+aliases: [/articles/2018-12/Trouble-Shooting]
+date: 2018-12-17
+tags: [Engineering, Software]
+comments: true
 ---
 # Trouble Shooting에 대하여
 ## 들어가며

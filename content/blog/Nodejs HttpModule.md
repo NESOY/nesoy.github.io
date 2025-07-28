@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/HttpModule]
-comments: false
-date: 2017-04-18
-description: 
-tags: [NodeJs]
 title: NodeJs의 HttpServer
+description: 
+aliases: [/articles/2017-04/HttpModule]
+date: 2017-04-18
+tags: [NodeJs]
+comments: true
 ---
 # NodeJs의 HttpServer
 ## HTTP Module

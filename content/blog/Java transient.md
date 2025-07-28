@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-06/Java-transient]
-comments: false
-date: 2018-06-10
-description: 
-tags: [Java]
 title: Java transient이란?
+description: 
+aliases: [/articles/2018-06/Java-transient]
+date: 2018-06-10
+tags: [Java]
+comments: true
 ---
 # Java Transient
 ## 들어가며

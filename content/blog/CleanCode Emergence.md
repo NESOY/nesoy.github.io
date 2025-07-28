@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-03/CleanCode-Emergence]
-comments: false
-date: 2018-03-30
-description: 
-tags: [CleanCode]
 title: Clean Code - 창발성(Emergence)
+description: 
+aliases: [/articles/2018-03/CleanCode-Emergence]
+date: 2018-03-30
+tags: [CleanCode]
+comments: true
 ---
 # 창발성(Emergence)
 - 창발성이란 단순한 결합이 복잡한 결과를 나타내는 것을 의미.

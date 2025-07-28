@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-07/DDD-Bounded-Context]
-comments: false
-date: 2018-07-02
-description: 
-tags: [DDD]
 title: DDD - Bounded Context
+description: 
+aliases: [/articles/2018-07/DDD-Bounded-Context]
+date: 2018-07-02
+tags: [DDD]
+comments: true
 ---
 # DDD - Bounded Context
 ## 도메인 모델과 Bounded Context

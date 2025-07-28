@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-08/logrotate]
 date: 2019-08-19
 tags: [Linux]
-comments: false
+comments: true
 ---
 # logrotate란?
 ## 들어가며

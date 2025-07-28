@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-01/Spring-AOP]
 date: 2017-01-18
 tags: [Spring]
-comments: false
+comments: true
 ---
 # **Spring AOP**
 ## AOP(Aspect Oriented Programming)이란?

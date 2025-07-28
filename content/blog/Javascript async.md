@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-05/javascript-async]
-comments: false
-date: 2017-05-16
-description: 
-tags: [Javascript]
 title: Javascript의 Arrow function, async
+description: 
+aliases: [/articles/2017-05/javascript-async]
+date: 2017-05-16
+tags: [Javascript]
+comments: true
 ---
 # Javascript의 Arrow function, async
 ## Arrow function expression (=>)

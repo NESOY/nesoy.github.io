@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-11/editorconfig]
 date: 2019-11-10
 tags: [개발환경]
-comments: false
+comments: true
 ---
 # EditorConfig란?
 ## 들어가며

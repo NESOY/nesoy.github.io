@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/Nodejs-PRGPattern]
-comments: false
-date: 2017-04-19
-description: 
-tags: [DesignPattern, NodeJs]
 title: NodeJs의 Post요청, PRG 패턴
+description: 
+aliases: [/articles/2017-04/Nodejs-PRGPattern]
+date: 2017-04-19
+tags: [DesignPattern, NodeJs]
+comments: true
 ---
 # NodeJs의 Post요청, PRG 패턴
 ## Post 요청

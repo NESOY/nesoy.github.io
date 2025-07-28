@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-11/Dependency-Mechanism]
-comments: false
-date: 2020-11-02
-description: 
-tags: [Maven]
 title: Dependency Mechanism
+description: 
+aliases: [/articles/2020-11/Dependency-Mechanism]
+date: 2020-11-02
+tags: [Maven]
+comments: true
 ---
 # Dependency Mechanism
 ## 들어가며

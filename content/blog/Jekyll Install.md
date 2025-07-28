@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2016-12/Install-Jekyll]
-comments: false
-date: 2016-12-28
-description: 
-tags: [Jekyll]
 title: Jekyll 설치하기
+description: 
+aliases: [/articles/2016-12/Install-Jekyll]
+date: 2016-12-28
+tags: [Jekyll]
+comments: true
 ---
 # Jekyll 설치하기(Window)
 ## Jekyll

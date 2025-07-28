@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2021-05/variance]
-comments: false
-date: 2021-05-13
-description: 
-tags: [Programming]
 title: Variance
+description: 
+aliases: [/articles/2021-05/variance]
+date: 2021-05-13
+tags: [Programming]
+comments: true
 ---
 # Variance
 ## 들어가며

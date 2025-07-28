@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-11/helm]
-comments: false
-date: 2020-11-18
-description: 
-tags: [Command, Kubernetes]
 title: Helm
+description: 
+aliases: [/articles/2020-11/helm]
+date: 2020-11-18
+tags: [Command, Kubernetes]
+comments: true
 ---
 # Helm
 ## [Helm이란?](https://helm.sh/)

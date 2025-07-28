@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/NodejsAuthentication]
-comments: false
-date: 2017-04-30
-description: 
-tags: [NodeJs]
 title: Nodejs의 인증(Authentication), Passport
+description: 
+aliases: [/articles/2017-04/NodejsAuthentication]
+date: 2017-04-30
+tags: [NodeJs]
+comments: true
 ---
 # Nodejs의 인증(Authentication), Passport
 ## 쿠키

@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2020-11/Jib]
 date: 2020-11-23
 tags: [Docker, Java]
-comments: false
+comments: true
 ---
 # Jib
 ![[assets/posts/img/2020-11-23-23-27-40.png]]

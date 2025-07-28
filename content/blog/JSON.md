@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-02/JSON]
-comments: false
-date: 2017-02-08
-description: 
-tags: [JSON, Web]
 title: JSON
+description: 
+aliases: [/articles/2017-02/JSON]
+date: 2017-02-08
+tags: [JSON, Web]
+comments: true
 ---
 # JSON
 > 지난 번 포스팅에서 Restful API관하여 자세히 알아보다가 공개된 OPEN API 대부분 JSON을 활용하여 데이터를 주고 받는 다는 것을 알았다. 위 포스팅에서는 JSON의 개념과 어떠한 형식에 대해 좀 더 자세히 알아보고 JSON에 관련된 Library가 무엇이 있는지 알아본다.

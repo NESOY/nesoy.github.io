@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-03/How-get-devinfo]
-comments: false
-date: 2018-03-02
-description: 
-tags: [Programming]
 title: 어떻게 하면 개발 관련 정보를 얻을까?
+description: 
+aliases: [/articles/2018-03/How-get-devinfo]
+date: 2018-03-02
+tags: [Programming]
+comments: true
 ---
 # 나는 어떻게 개발 관련 정보를 얻고 있는가?
 > 많은 분들에게 제가 개발 관련 정보를 얻고 있는 방법에 대해 소개해 드리고 싶어서 글을 적게 되었습니다. 더 좋은 커뮤니티와 방법들이 있다면 언제든지 댓글, 메일, 커뮤니티의 게시글로 알려 주시면 감사하겠습니다. :)

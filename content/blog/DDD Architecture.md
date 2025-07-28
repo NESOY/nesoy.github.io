@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-08/DDD-Architecture]
-comments: false
-date: 2018-08-12
-description: 
-tags: [DDD]
 title: DDD - Architecture
+description: 
+aliases: [/articles/2018-08/DDD-Architecture]
+date: 2018-08-12
+tags: [DDD]
+comments: true
 ---
 # DDD - Architecture
 ## 아키텍처 개요

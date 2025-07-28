@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-02/Database-Replication]
-comments: false
-date: 2018-02-16
-description: 
-tags: [Database]
 title: Database Replication
+description: 
+aliases: [/articles/2018-02/Database-Replication]
+date: 2018-02-16
+tags: [Database]
+comments: true
 ---
 # Database Replication
 ## 배경

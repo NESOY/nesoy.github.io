@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-10/Jvm-Jre-Jdk]
-comments: false
-date: 2020-10-05
-description: 
-tags: [Java]
 title: JVM, JRE, JDK에 대해
+description: 
+aliases: [/articles/2020-10/Jvm-Jre-Jdk]
+date: 2020-10-05
+tags: [Java]
+comments: true
 ---
 # JVM JRE JDK
 ## JVM(Java Virtual Machine)

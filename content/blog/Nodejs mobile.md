@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-04/Nodejs-mobile]
 date: 2017-04-21
 tags: [JSON, NodeJs]
-comments: false
+comments: true
 ---
 # Nodejs mobile
 ## Mobile Server

@@ -1,11 +1,9 @@
 ---
 title: Kubernetes CPU
-description:
+description: 
 aliases: []
 date: 2025-07-25
-tags:
-  - Kubernetes
-  - CPU
+tags: [CPU, Kubernetes]
 comments: true
 ---
 # Kubernetes CPU

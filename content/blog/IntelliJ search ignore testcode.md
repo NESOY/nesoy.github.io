@@ -1,12 +1,10 @@
 ---
-aliases:
-  - /articles/2018-06/Intellij-search-ignore-testcode
-comments: false
-date: 2018-06-15
-description: 
-tags:
-  - IntelliJ
 title: Intellij 검색에서 Test Code 제외하기
+description: 
+aliases: [/articles/2018-06/Intellij-search-ignore-testcode]
+date: 2018-06-15
+tags: [IntelliJ]
+comments: true
 ---
 # Intellij 검색에서 Test Code 제외하기
 ## 문제 정의

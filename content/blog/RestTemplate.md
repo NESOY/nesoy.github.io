@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-05/RestTemplate]
-comments: false
-date: 2020-05-06
-description: 
-tags: [Spring]
 title: RestTemplate
+description: 
+aliases: [/articles/2020-05/RestTemplate]
+date: 2020-05-06
+tags: [Spring]
+comments: true
 ---
 # RestTemplate
 - Spring에서 제공하는 Rest Client

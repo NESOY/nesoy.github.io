@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-09/Mockito]
-comments: false
-date: 2018-09-17
-description: 
-tags: [Mockito]
 title: Mockito란?
+description: 
+aliases: [/articles/2018-09/Mockito]
+date: 2018-09-17
+tags: [Mockito]
+comments: true
 ---
 # Mockito란?
 - 단위 테스트를 위한 Java mocking framework입니다.

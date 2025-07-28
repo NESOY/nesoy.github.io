@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-05/Refactoring-Example]
 date: 2018-05-25
 tags: [Refactoring]
-comments: false
+comments: true
 ---
 # Refactoring Example
 ## Extract Method

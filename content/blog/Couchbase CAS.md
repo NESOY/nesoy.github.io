@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-01/Couchbase-CAS]
 date: 2019-01-23
 tags: [Couchbase]
-comments: false
+comments: true
 ---
 # Couchbase의 CAS
 ## CAS(Check & Set) 값이란?

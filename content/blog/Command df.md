@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-10/command-df]
-comments: false
-date: 2020-10-06
-description: 
-tags: [Command, Linux]
 title: df 명령어
+description: 
+aliases: [/articles/2020-10/command-df]
+date: 2020-10-06
+tags: [Command, Linux]
+comments: true
 ---
 # Df 명령어
 > display free disk space(파일 시스템의 남은 용량을 보여준다)
@@ -29,6 +29,3 @@ Filesystem    512-blocks      Used Available Capacity iused      ifree %iused  M
 Filesystem      Size   Used  Avail Capacity iused      ifree %iused  Mounted on
 /dev/disk1s6   466Gi   10Gi  163Gi     6%  488248 4880653912    0%   /
 ```
-
-
-## Reference

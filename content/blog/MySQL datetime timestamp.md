@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-02/mysql-datetime-timestamp]
-comments: false
-date: 2020-02-22
-description: 
-tags: [MySQL]
 title: MySQL Datetime, Timestamp 차이에 대해
+description: 
+aliases: [/articles/2020-02/mysql-datetime-timestamp]
+date: 2020-02-22
+tags: [MySQL]
+comments: true
 ---
 # MySQL Datetime, Timestamp 차이에 대해
 ## MySQL의 Time Zone을 확인해보자.

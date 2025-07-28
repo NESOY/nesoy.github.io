@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-02/RabbitMQ]
-comments: false
-date: 2019-02-14
-description: 
-tags: [MessageQueue, RabbitMQ]
 title: RabbitMQ에 대해
+description: 
+aliases: [/articles/2019-02/RabbitMQ]
+date: 2019-02-14
+tags: [MessageQueue, RabbitMQ]
+comments: true
 ---
 # RabbitMQ에 대해
 ## [RabbitMQ란?](http://www.rabbitmq.com/)

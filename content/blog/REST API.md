@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-02/REST]
-comments: false
-date: 2017-02-06
-description: 
-tags: [REST, Web]
 title: REST API
+description: 
+aliases: [/articles/2017-02/REST]
+date: 2017-02-06
+tags: [REST, Web]
+comments: true
 ---
 # REST API
 > Web에 관련된 자료를 보게 되거나 혹은 API를 보게 되었을 때 가장 많이 보이는 단어가 REST란 단어였다. 하지만 REST란 단어만 알고만 있을 뿐 자세한 의미는 알지 못했다. 그래서 이번 기회에 RESTful API에 대해 정리를 시작해보려고 한다.

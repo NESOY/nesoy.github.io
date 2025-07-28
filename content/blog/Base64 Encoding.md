@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-05/Base64-Encode]
-comments: false
-date: 2020-05-11
-description: 
-tags: [Encode]
 title: Base64 Encoding
+description: 
+aliases: [/articles/2020-05/Base64-Encode]
+date: 2020-05-11
+tags: [Encode]
+comments: true
 ---
 # Encoding이란?
 - 정보의 형태나 형식을 `표준화`, `보안`, `처리 속도 향상`, `저장 공간 절약` 등을 위해서 다른 형태나 형식으로 변환하는 방식을 말한다.

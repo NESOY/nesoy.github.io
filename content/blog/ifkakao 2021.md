@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2021-12/if-kakao-2021]
 date: 2021-12-16
 tags: [Kakao, Review]
-comments: false
+comments: true
 ---
 # ifkakao 2021
 ## [Thing for Post Cloud Native](https://if.kakao.com/session/34)

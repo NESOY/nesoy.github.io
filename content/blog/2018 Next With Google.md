@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-05/Next-With-Google]
 date: 2018-05-09
 tags: [Google, Review]
-comments: false
+comments: true
 ---
 # 2018 Next With Google 후기
 ![[assets/posts/20180509/1.png]]

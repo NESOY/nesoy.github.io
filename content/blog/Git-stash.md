@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-05/git-stash]
 date: 2017-05-12
 tags: [Git]
-comments: false
+comments: true
 ---
 # Git Stash에 대해 알아보자.
 

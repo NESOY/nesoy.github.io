@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-05/Refactoring-BadSmell]
-comments: false
-date: 2018-05-08
-description: 
-tags: [CleanCode, Refactoring]
 title: Refactoring - 나쁜 냄새(Bad Smell)
+description: 
+aliases: [/articles/2018-05/Refactoring-BadSmell]
+date: 2018-05-08
+tags: [CleanCode, Refactoring]
+comments: true
 ---
 # 냄새 원인
 ## 중복된 코드(Duplicated Code)

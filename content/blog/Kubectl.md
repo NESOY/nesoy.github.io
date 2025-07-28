@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2022-03/command-k8s]
-comments: false
-date: 2022-03-17
-description: 
-tags: [Command, Kubernetes]
 title: kubernetes 명령어 모음
+description: 
+aliases: [/articles/2022-03/command-k8s]
+date: 2022-03-17
+tags: [Command, Kubernetes]
+comments: true
 ---
 # kubernetes 명령어 모음
 ## How to Use

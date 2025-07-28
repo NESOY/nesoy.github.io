@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-11/Docker-multi-stage-build]
-comments: false
-date: 2020-11-06
-description: 
-tags: [Docker]
 title: Docker Multi Stage
+description: 
+aliases: [/articles/2020-11/Docker-multi-stage-build]
+date: 2020-11-06
+tags: [Docker]
+comments: true
 ---
 # Docker Multi Stage
 > 컨테이너 이미지를 만들면서 빌드 등에는 필요하지만 최종 컨테이너 이미지에는 필요 없는 환경을 제거할 수 있도록 단계를 나누어서 기반 이미지를 만드는 방법

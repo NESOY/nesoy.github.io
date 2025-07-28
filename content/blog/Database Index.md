@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-07/DBIndex]
-comments: false
-date: 2017-07-09
-description: Database Index 기능에 대해 소개한다.
-tags: [Database]
 title: DB의 Index 기능에 대해
+description: Database Index 기능에 대해 소개한다.
+aliases: [/articles/2017-07/DBIndex]
+date: 2017-07-09
+tags: [Database]
+comments: true
 ---
 # Database Index
 ## 들어가며

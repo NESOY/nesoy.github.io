@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-02/CleanCode-ErrorHandle]
-comments: false
-date: 2018-02-05
-description: 
-tags: [CleanCode]
 title: Clean Code - 오류 처리(Error Handle)
+description: 
+aliases: [/articles/2018-02/CleanCode-ErrorHandle]
+date: 2018-02-05
+tags: [CleanCode]
+comments: true
 ---
 # 오류 처리
 ## 오류 코드보다 예외를 사용하라

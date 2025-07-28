@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/Nodejs-callback]
-comments: false
-date: 2017-04-18
-description: 
-tags: [NodeJs]
 title: NodeJs의 callback hell, Async, Promise
+description: 
+aliases: [/articles/2017-04/Nodejs-callback]
+date: 2017-04-18
+tags: [NodeJs]
+comments: true
 ---
 # NodeJs의 callback hell, Async, Promise
 ## Call-Back, Call-Back hell

@@ -1,13 +1,15 @@
 ---
+title: SRP(Single Responsibility Principle)
+description: 
 aliases: [/articles/2017-12/SRP]
 date: 2017-12-12
 tags: [DesignPattern]
-title: SRP(Single Responsibility Principle)
+comments: true
 ---
 # SRP(Single Responsibility Principle)
 > A class should have only one reason to change. // 클래스가 변경될 이유는 단 하나여야 한다.
 
-## Example
+## 예시
 
 아래의 `Book`이라는 클래스는 매우 논리적이고 간단한 클래스처럼 보입니다. 클래스를 통해 제목을 얻을 수도 있고, 작가, 다음페이지, 현재 페이지 내용을 얻을 수 있습니다.
 

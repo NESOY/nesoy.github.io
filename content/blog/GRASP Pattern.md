@@ -1,12 +1,10 @@
 ---
-aliases:
-  - /articles/2019-05/GRASP-Pattern
-comments: false
-date: 2019-05-10
-description: 
-tags:
-  - DesignPattern
 title: GRASP Pattern이란?
+description: 
+aliases: [/articles/2019-05/GRASP-Pattern]
+date: 2019-05-10
+tags: [DesignPattern]
+comments: true
 ---
 # GRASP Pattern이란?
 - General Responsibility Assignment Software Patterns

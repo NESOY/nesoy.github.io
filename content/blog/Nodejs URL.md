@@ -1,9 +1,11 @@
 ---
-aliases: [/articles/2017-04/Nodejs-URL]
-comments: false
+aliases:
+  - /articles/2017-04/Nodejs-URL
+comments: true
 date: 2017-04-15
-description: 
-tags: [NodeJs]
+description:
+tags:
+  - NodeJs
 title: NodeJs의 Stream, URL, QueryString, Cluster
 ---
 # NodeJs의 Stream, URL, QueryString, Cluster

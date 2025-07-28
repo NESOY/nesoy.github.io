@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-01/ElasticSearch-Intro]
 date: 2019-01-09
 tags: [ElasticSearch]
-comments: false
+comments: true
 ---
 # Elastic Search를 시작하며
 ## Node

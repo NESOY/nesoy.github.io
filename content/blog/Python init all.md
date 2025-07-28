@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-07/Python-init-all]
-comments: false
-date: 2018-07-15
-description: 
-tags: [Python]
 title: Python의 __init__, __all__ 란?
+description: 
+aliases: [/articles/2018-07/Python-init-all]
+date: 2018-07-15
+tags: [Python]
+comments: true
 ---
 # Python의 __init__, __all__ 란?
 ## 들어가며

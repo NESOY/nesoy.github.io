@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-10/Deview-2018]
-comments: false
-date: 2018-10-11
-description: 
-tags: [Deview, Review]
 title: Deview 2018 후기
+description: 
+aliases: [/articles/2018-10/Deview-2018]
+date: 2018-10-11
+tags: [Deview, Review]
+comments: true
 ---
 # Deview 2018 후기
 ![[assets/posts/20181011/1.png]]

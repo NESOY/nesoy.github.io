@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-07/Git-Revert]
-comments: false
-date: 2018-07-20
-description: 
-tags: [Git]
 title: Git Revert란?
+description: 
+aliases: [/articles/2018-07/Git-Revert]
+date: 2018-07-20
+tags: [Git]
+comments: true
 ---
 # Git Revert란?
 ## 들어가며

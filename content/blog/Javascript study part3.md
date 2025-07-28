@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-01/javascript-study3]
-comments: false
-date: 2017-01-04
-description: 
-tags: [Javascript]
 title: Javascript Study3
+description: 
+aliases: [/articles/2017-01/javascript-study3]
+date: 2017-01-04
+tags: [Javascript]
+comments: true
 ---
 # Javascript
 ## 5. 참조 타입
