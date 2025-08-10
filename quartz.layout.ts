@@ -84,6 +84,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.Graph(),
   ],
+  afterBody: [
+     Component.ConditionalRender({
+      component: Component.RecentNotes({
+        showTags: false, 
+        limit: 10,
+        filter: (page) => page.slug !== "index",
+      }),  
+      condition: (page) => page.fileData.slug == "index",
+    }),
+  ]
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -114,4 +124,5 @@ export const defaultListPageLayout: PageLayout = {
     })),
   ],
   right: [],
+  afterBody: []
 }

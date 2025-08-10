@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-07/jenv]
-comments: false
-date: 2019-07-03
-description: 
-tags: [Java]
 title: jenv 설치 및 사용하기
+description: 
+aliases: [/articles/2019-07/jenv]
+date: 2019-07-03
+tags: [Java]
+comments: false
 ---
 # jenv 설치 및 사용하기
 ## [jenv란?](https://www.jenv.be/)
