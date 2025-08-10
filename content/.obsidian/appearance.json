@@ -4,5 +4,8 @@
   "theme": "moonstone",
   "showViewHeader": true,
   "showRibbon": false,
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "nesoy"
+  ]
 }
