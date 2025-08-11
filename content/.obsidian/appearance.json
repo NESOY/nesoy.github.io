@@ -7,5 +7,8 @@
   "translucency": false,
   "enabledCssSnippets": [
     "nesoy"
-  ]
+  ],
+  "interfaceFontFamily": "SF Pro Rounded",
+  "textFontFamily": "SF Pro Text",
+  "monospaceFontFamily": "SF Mono"
 }

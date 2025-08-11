@@ -57,10 +57,10 @@ indent_size = 4
 - root
 
 #### 플러그인 없이 지원가능한 Editor
-![[assets/posts/img/2019-11-10-21-12-36.png]]
+![[editorconfig-20250811113435.png]]
 
 #### 플러그인 설치해야 지원가능한 Editor
-![[assets/posts/img/2019-11-10-21-12-48.png]]
+![[editorconfig-20250811113435 1.png]]
 
 ## Reference
 - <https://editorconfig.org/>

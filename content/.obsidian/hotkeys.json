@@ -51,5 +51,21 @@
       ],
       "key": "\\"
     }
+  ],
+  "obsidian-custom-attachment-location:collect-attachments-current-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "0"
+    }
+  ],
+  "editor:download-attachments": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "9"
+    }
   ]
 }

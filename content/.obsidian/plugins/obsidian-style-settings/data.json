@@ -23,6 +23,5 @@
   "minimal-style@@file-header-visibility": "minimal-tab-title-hover",
   "minimal-style@@file-header-justify": "center",
   "minimal-style@@inline-title-weight": 600,
-  "minimal-advanced@@styled-scrollbars": true,
   "minimal-advanced@@cursor": "default"
 }
