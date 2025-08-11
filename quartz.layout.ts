@@ -24,6 +24,14 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+     Component.ConditionalRender({
+      component: Component.RecentNotes({
+        showTags: false, 
+        limit: 10,
+        filter: (page) => page.slug !== "index",
+      }),  
+      condition: (page) => page.fileData.slug == "index",
+    }),
     Component.DesktopOnly(
       Component.Adsense({
         clientId: "ca-pub-1829817529831781",
@@ -81,18 +89,8 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
     Component.Graph(),
-  ],
-  afterBody: [
-     Component.ConditionalRender({
-      component: Component.RecentNotes({
-        showTags: false, 
-        limit: 10,
-        filter: (page) => page.slug !== "index",
-      }),  
-      condition: (page) => page.fileData.slug == "index",
-    }),
+    Component.Backlinks(),
   ]
 }
 
@@ -124,5 +122,4 @@ export const defaultListPageLayout: PageLayout = {
     })),
   ],
   right: [],
-  afterBody: []
 }
