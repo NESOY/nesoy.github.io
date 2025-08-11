@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-01/Deview2014-ElasticSearch]
 date: 2019-01-25
 tags: [Deview, ElasticSearch, Review]
-comments: false
+comments: true
 ---
 # 2014 Deview ElasticSearch
 ## ElasticSearch 이해와 성능 최적화 - 정호욱님

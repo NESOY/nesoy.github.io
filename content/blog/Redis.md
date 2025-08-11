@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-05/Redis]
-comments: false
-date: 2020-05-06
-description: 
-tags: [Redis]
 title: Redis
+description: 
+aliases: [/articles/2020-05/Redis]
+date: 2020-05-06
+tags: [Redis]
+comments: true
 ---
 # Redis
 - `Remote Dictionary Server`

@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-07/jenv]
 date: 2019-07-03
 tags: [Java]
-comments: false
+comments: true
 ---
 # jenv 설치 및 사용하기
 ## [jenv란?](https://www.jenv.be/)

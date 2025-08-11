@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2020-04/Scala-Tuple]
 date: 2020-04-02
 tags: [Scala]
-comments: false
+comments: true
 ---
 # Scala Tuple
 ## Tuple란?

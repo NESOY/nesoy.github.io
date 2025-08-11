@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-01/ElasticSearch-Document]
-comments: false
-date: 2019-01-15
-description: 
-tags: [ElasticSearch]
 title: Elastic Search 데이터 처리
+description: 
+aliases: [/articles/2019-01/ElasticSearch-Document]
+date: 2019-01-15
+tags: [ElasticSearch]
+comments: true
 ---
 # Elastic Search 데이터 처리
 ## ElasticSearch의 데이터 구조

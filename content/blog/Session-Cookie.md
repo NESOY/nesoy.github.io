@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-03/Session-Cookie]
 date: 2017-03-17
 tags: [Cookie, Session, Web]
-comments: false
+comments: true
 ---
 # 쿠키(Cookie)
 ## 배경

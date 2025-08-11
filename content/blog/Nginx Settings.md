@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-04/Nginx-Settings]
-comments: false
-date: 2020-04-28
-description: 
-tags: [Nginx]
 title: Nginx 설정에 대하여
+description: 
+aliases: [/articles/2020-04/Nginx-Settings]
+date: 2020-04-28
+tags: [Nginx]
+comments: true
 ---
 # Nginx 설정에 대하여
 #### [server_tokens](http://nginx.org/en/docs/http/ngx_http_core_module.html#server_tokens)

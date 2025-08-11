@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-01/ElasticSearch-Install]
 date: 2019-01-10
 tags: [ElasticSearch]
-comments: false
+comments: true
 ---
 # Elastic Search 설치하기
 ## Elastic Search 다운로드

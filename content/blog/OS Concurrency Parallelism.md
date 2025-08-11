@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-09/OS-Concurrency-Parallelism]
 date: 2018-09-13
 tags: [OS]
-comments: false
+comments: true
 ---
 # 병행성(Concurrency)와 병렬성(Parallelism)의 차이에 대해
 ## Concurrency와 Parallelism의 차이에 대해

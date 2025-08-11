@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-11/java-String]
-comments: false
-date: 2017-11-20
-description: 
-tags: [Java]
 title: String, StringBuilder, StringBuffer 차이.
+description: 
+aliases: [/articles/2017-11/java-String]
+date: 2017-11-20
+tags: [Java]
+comments: true
 ---
 # Java String
 > 특정한 문자열을 계속적으로 더하여 결과 값을 가져오는 문제를 풀고 있었다. 시간 초과가 발생하여 문제를 찾아보니 사용했던 문자열 Class에 대한 문제였다. 각 문자열 Class에 차이를 이해하고 문제를 해결하여 포스팅을 한다.

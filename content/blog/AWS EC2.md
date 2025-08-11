@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-05/AWS]
 date: 2017-05-18
 tags: [AWS, DevOps]
-comments: false
+comments: true
 ---
 # AWS EC2
 ## AWS 시작하기

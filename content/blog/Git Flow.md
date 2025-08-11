@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-09/Git-Flow]
 date: 2018-09-04
 tags: []
-comments: false
+comments: true
 ---
 # Git-flow에 대해
 ## Git-Flow란?

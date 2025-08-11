@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-03/Selenium]
 date: 2017-03-31
 tags: [Selenium, Spring, Testing, Web]
-comments: false
+comments: true
 ---
 # Selenium
 > Web Page를 작성하였지만 실제로 하나하나 테스트를 하기엔 많은 시간과 노력이 필요하다. Testing을 쉽게 도와주는 프레임워크인 Selenium을 통해 여러가지 기능 테스트를 작성하여 쉽고 빠르게 기능테스트를 할 수 있다. 이번 포스트에서는 Selenium설치과정과 SpringBoot에 적용하는 방법을 설명하겠다.

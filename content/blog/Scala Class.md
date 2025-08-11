@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-03/Scala-Class]
-comments: false
-date: 2020-03-22
-description: 
-tags: [Scala]
 title: Scala의 클래스에 대해
+description: 
+aliases: [/articles/2020-03/Scala-Class]
+date: 2020-03-22
+tags: [Scala]
+comments: true
 ---
 # Scala의 클래스에 대해
 ## Class

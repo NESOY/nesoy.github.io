@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-07/DDD-CQRS]
 date: 2018-07-19
 tags: [DDD]
-comments: false
+comments: true
 ---
 # DDD - CQRS
 ## 왜 등장하게 되었을까요?

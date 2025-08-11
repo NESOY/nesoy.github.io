@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-07/LINE-Developers-Meetup]
 date: 2018-07-13
 tags: [Line, Review]
-comments: false
+comments: true
 ---
 # LINE Developers Meetup - Server tech 후기
 ![[assets/posts/20180713/1.png]]

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-10/Algorithm-String-Matching]
-comments: false
-date: 2018-10-23
-description: 
-tags: [Algorithm]
 title: String Matching Algorithm에 대해
+description: 
+aliases: [/articles/2018-10/Algorithm-String-Matching]
+date: 2018-10-23
+tags: [Algorithm]
+comments: true
 ---
 # String Matching Algorithm에 대해
 ## 왜 우리는 String Matching Algorithm에 대해 고민할까?

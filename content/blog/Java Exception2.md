@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-05/Java-Exception]
-comments: false
-date: 2018-05-02
-description: 
-tags: [Java]
 title: Java 예외(Exception)에 대해
+description: 
+aliases: [/articles/2018-05/Java-Exception]
+date: 2018-05-02
+tags: [Java]
+comments: true
 ---
 # Java 예외(Exception)에 대해
 ![[assets/posts/20180502/1.png]]

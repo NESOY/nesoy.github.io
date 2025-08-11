@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-04/CleanCode-ConCurrency]
 date: 2018-04-22
 tags: [CleanCode]
-comments: false
+comments: true
 ---
 # 동시성(Concurrency)
 

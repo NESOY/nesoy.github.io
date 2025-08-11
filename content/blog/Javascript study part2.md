@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-01/javascript-study2]
 date: 2017-01-03
 tags: [Javascript]
-comments: false
+comments: true
 ---
 
 # **Javascript**

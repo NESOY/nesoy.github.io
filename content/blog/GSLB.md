@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-01/GSLB]
-comments: false
-date: 2020-01-09
-description: 
-tags: [DevOps]
 title: GSLB
+description: 
+aliases: [/articles/2020-01/GSLB]
+date: 2020-01-09
+tags: [DevOps]
+comments: true
 ---
 # GSLB
 - DNS 기반의 로드밸런싱 서비스

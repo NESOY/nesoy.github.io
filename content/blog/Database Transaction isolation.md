@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-05/Database-Transaction-isolation]
 date: 2019-05-08
 tags: [Database]
-comments: false
+comments: true
 ---
 # 트랜잭션의 격리 수준(isolation Level)이란?
 ## 트랜잭션의 격리 수준(isolation)이란?

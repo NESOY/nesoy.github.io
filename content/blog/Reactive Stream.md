@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2021-09/Reactive-Stream]
 date: 2021-09-17
 tags: [Reactive]
-comments: false
+comments: true
 ---
 # Reactive Stream
 > Reactive Streams is a standard for asynchronous data processing in a streaming fashion with non-blocking back pressure.

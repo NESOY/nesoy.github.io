@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-03/Scala-Type]
-comments: false
-date: 2020-03-21
-description: 
-tags: [Scala]
 title: Scala의 타입에 대해
+description: 
+aliases: [/articles/2020-03/Scala-Type]
+date: 2020-03-21
+tags: [Scala]
+comments: true
 ---
 # Scala Type에 대해
 ![[assets/posts/img/2020-03-21-17-36-32.png]]

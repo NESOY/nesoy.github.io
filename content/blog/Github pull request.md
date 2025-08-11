@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-01/GitPullRequest]
-comments: false
-date: 2017-01-12
-description: 
-tags: [Git]
 title: GitHub Pull Request 따라하기
+description: 
+aliases: [/articles/2017-01/GitPullRequest]
+date: 2017-01-12
+tags: [Git]
+comments: true
 ---
 # GitHub Pull Request 따라하기
 ## 1. 원하는 Project Fork하기

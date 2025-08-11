@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-01/travis-ci]
 date: 2017-01-05
 tags: [DevOps, Travis-CI]
-comments: false
+comments: true
 ---
 # Travis CI
 ![[assets/posts/20170105/travis-ci.jpg]]

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-02/Safari-Developer-Tool]
-comments: false
-date: 2018-02-10
-description: 
-tags: [개발환경]
 title: Safari(Mac - Iphone) 개발자 도구 사용하기
+description: 
+aliases: [/articles/2018-02/Safari-Developer-Tool]
+date: 2018-02-10
+tags: [개발환경]
+comments: true
 ---
 # Safari(Mac - Iphone) 개발자 도구 사용하기
 > Web개발을 하는 부분에 있어 개발자 도구가 많은 도움이 되었다. Mac과 아이폰을 통해 실제

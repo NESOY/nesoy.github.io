@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/MongoDB]
-comments: false
-date: 2017-04-02
-description: 
-tags: [MongoDB]
 title: MAC OS에서 MongoDB 설치하기
+description: 
+aliases: [/articles/2017-04/MongoDB]
+date: 2017-04-02
+tags: [MongoDB]
+comments: true
 ---
 # MongoDB
 ### 1. Homebrew 설치

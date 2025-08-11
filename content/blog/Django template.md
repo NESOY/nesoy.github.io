@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-10/Django-template]
 date: 2017-10-24T00:00:00.000Z
 tags: [Django, Python]
-comments: false
+comments: true
 ---
 # Django Template
 - `setting.py` : `APP_DIRS`: `True`로 설정하기.

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-04/Socket.io]
-comments: false
-date: 2017-04-28
-description: 
-tags: [NodeJs]
 title: Socket.io
+description: 
+aliases: [/articles/2017-04/Socket.io]
+date: 2017-04-28
+tags: [NodeJs]
+comments: true
 ---
 # Socket.io
 - 호환되는 기술 자동 선택 ex) websocket, ajax, polling

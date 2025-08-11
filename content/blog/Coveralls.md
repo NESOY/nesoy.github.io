@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-04/Coveralls]
-comments: false
-date: 2018-04-08
-description: 
-tags: [Coveralls, DevOps]
 title: Coveralls 시작하기
+description: 
+aliases: [/articles/2018-04/Coveralls]
+date: 2018-04-08
+tags: [Coveralls, DevOps]
+comments: true
 ---
 # CoverAlls
 ![[assets/posts/20180408/coveralls.png]]

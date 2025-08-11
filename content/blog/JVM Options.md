@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-08/JVM-Options]
 date: 2019-08-12
 tags: [Java]
-comments: false
+comments: true
 ---
 # JVM Option 설정에 대하여
 ## JVM (Oracle) Options

@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2021-03/maven-plugins]
-comments: false
-date: 2021-03-31
-description: 
-tags: [Maven]
 title: Maven Plugins에 대해
+description: 
+aliases: [/articles/2021-03/maven-plugins]
+date: 2021-03-31
+tags: [Maven]
+comments: true
 ---
 # Maven Plugins에 대해
 ## [maven-resources-plugin](https://maven.apache.org/plugins/maven-resources-plugin/)

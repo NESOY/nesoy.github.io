@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-06/DDD-Transcation]
-comments: false
-date: 2018-06-28
-description: 
-tags: [DDD]
 title: DDD - Aggregate Transaction 관리
+description: 
+aliases: [/articles/2018-06/DDD-Transcation]
+date: 2018-06-28
+tags: [DDD]
+comments: true
 ---
 # DDD - Aggregate Transaction 관리
 ## 트랜잭션(Transaction)이란?

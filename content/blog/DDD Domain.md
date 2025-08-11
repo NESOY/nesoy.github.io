@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-08/DDD-Domain]
 date: 2018-08-03
 tags: [DDD]
-comments: false
+comments: true
 ---
 # 도메인 모델 시작
 - 도메인 모델은 기본적으로 도메인 자체를 이해하기 위한 개념 모델

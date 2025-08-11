@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-05/Database-Shard]
-comments: false
-date: 2018-05-30
-description: 
-tags: [Database]
 title: Database의 샤딩(Sharding)이란?
+description: 
+aliases: [/articles/2018-05/Database-Shard]
+date: 2018-05-30
+tags: [Database]
+comments: true
 ---
 # Database의 샤딩(Sharding)이란?
 ## 왜 샤딩(Sharding)이 필요할까요?

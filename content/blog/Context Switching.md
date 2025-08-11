@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-11/Context-Switching]
-comments: false
-date: 2018-11-13
-description: 
-tags: [OS]
 title: Context Switching이란?
+description: 
+aliases: [/articles/2018-11/Context-Switching]
+date: 2018-11-13
+tags: [OS]
+comments: true
 ---
 # Context Switching
 ## 들어가며

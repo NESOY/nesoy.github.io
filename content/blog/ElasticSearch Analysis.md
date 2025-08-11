@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-03/ElasticSearch-Analysis]
-comments: false
-date: 2019-03-05
-description: 
-tags: [ElasticSearch]
 title: ElasticSearch - 분석
+description: 
+aliases: [/articles/2019-03/ElasticSearch-Analysis]
+date: 2019-03-05
+tags: [ElasticSearch]
+comments: true
 ---
 # ElasticSearch - 분석
 ## ElasticSearch의 분석(Analysis)이란?

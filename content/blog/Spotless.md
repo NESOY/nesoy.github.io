@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2020-04/Spotless]
 date: 2020-04-22
 tags: [Java, Spotless]
-comments: false
+comments: true
 ---
 # Spotless
 - Spotless: Keep your code spotless

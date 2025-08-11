@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2018-04/Redirect-Forward]
 date: 2018-04-09
 tags: [Web]
-comments: false
+comments: true
 ---
 # Redirect와 Forward의 차이에 대해
 ## 들어가며

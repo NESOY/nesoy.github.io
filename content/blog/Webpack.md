@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-02/Webpack]
-comments: false
-date: 2019-02-25
-description: 
-tags: [Webpack]
 title: Webpack이란?
+description: 
+aliases: [/articles/2019-02/Webpack]
+date: 2019-02-25
+tags: [Webpack]
+comments: true
 ---
 # Webpack
 ## 왜 Webpack이 등장하게 되었을까?

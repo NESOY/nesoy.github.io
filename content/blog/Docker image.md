@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2020-09/Docker-image]
-comments: false
-date: 2020-09-20
-description: 
-tags: [Docker]
 title: Docker Image
+description: 
+aliases: [/articles/2020-09/Docker-image]
+date: 2020-09-20
+tags: [Docker]
+comments: true
 ---
 # Docker Image
 - subicura님의 표현이 가장 이해하기 쉬웠다.

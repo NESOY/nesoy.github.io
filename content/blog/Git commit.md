@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-03/git-commit]
 date: 2017-03-27
 tags: [Git]
-comments: false
+comments: true
 ---
 # Git 커밋(Commit)을 쉽게 다루어 보자
 ## 들어가며

@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2020-06/DNS-type]
 date: 2020-06-04
 tags: [DNS, Infra]
-comments: false
+comments: true
 ---
 # DNS type
 ## A record

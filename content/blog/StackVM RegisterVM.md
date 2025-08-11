@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2021-08/StackVM-RegisterVM]
-comments: false
-date: 2021-08-20
-description: 
-tags: [Java]
 title: StackVM, RegisterVM
+description: 
+aliases: [/articles/2021-08/StackVM-RegisterVM]
+date: 2021-08-20
+tags: [Java]
+comments: true
 ---
 # StackVM과 RegisterVM
 ## 들어가며

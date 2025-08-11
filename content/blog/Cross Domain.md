@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2017-06/Cross-Domain]
-comments: false
-date: 2017-06-08
-description: 
-tags: [Web]
 title: 크로스 도메인(Cross Domain) 이슈
+description: 
+aliases: [/articles/2017-06/Cross-Domain]
+date: 2017-06-08
+tags: [Web]
+comments: true
 ---
 # 크로스 도메인(Cross Domain) 이슈
 > API서버에서 받은 데이터를 Angular를 통해 데이터를 보여주려고 했지만 실패했다. 원인은 XMLHttpRequest cannot load http//localhost.com. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http//localhost.com is therefore not allowed access. 이였다. 크로스 도메인(Cross Domain)이란 이슈에 대해 정리하고 해결방안을 적기 위해 포스팅한다.

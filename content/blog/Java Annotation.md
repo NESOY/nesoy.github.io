@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-04/Java-Annotation]
-comments: false
-date: 2018-04-11
-description: 
-tags: [Java]
 title: Java Annotation이란?
+description: 
+aliases: [/articles/2018-04/Java-Annotation]
+date: 2018-04-11
+tags: [Java]
+comments: true
 ---
 # Java Annotation이란?
 ## Annotation

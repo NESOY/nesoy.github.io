@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-02/Servlet]
 date: 2019-02-06
 tags: [Java]
-comments: false
+comments: true
 ---
 # Java Servlet에 대해
 ## [Servlet이란?](https://tomcat.apache.org/tomcat-9.0-doc/servletapi/index.html)

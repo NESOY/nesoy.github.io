@@ -1,12 +1,10 @@
 ---
-aliases:
-  - /articles/2018-08/Algorithm-RedblackTree
-comments: false
-date: 2018-08-31
-description: 
-tags:
-  - DataStructure
 title: RedBlack Tree에 대해
+description: 
+aliases: [/articles/2018-08/Algorithm-RedblackTree]
+date: 2018-08-31
+tags: [DataStructure]
+comments: true
 ---
 # RedBlack Tree에 대해
 ## RedBlack Tree 왜(Why) 생긴 것일까요?

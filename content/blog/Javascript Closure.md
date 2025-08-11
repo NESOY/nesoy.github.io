@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-05/Javascript-Closure]
 date: 2017-05-04
 tags: [Javascript]
-comments: false
+comments: true
 ---
 # Javascript Closure
 

@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-10/Web-Font]
 date: 2017-10-07
 tags: [Web]
-comments: false
+comments: true
 ---
 # 한글 웹 폰트 적용하기
 ## Web Font 적용하기

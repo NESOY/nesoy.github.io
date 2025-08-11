@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2019-02/Redux]
-comments: false
-date: 2019-02-26
-description: 
-tags: [Redux]
 title: Redux
+description: 
+aliases: [/articles/2019-02/Redux]
+date: 2019-02-26
+tags: [Redux]
+comments: true
 ---
 # Redux
 ## 왜 Flux가 등장하게 되었을까?

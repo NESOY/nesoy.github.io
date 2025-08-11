@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-01/Spring-annotation]
 date: 2017-01-16
 tags: [Spring]
-comments: false
+comments: true
 ---
 # **Spring Annotation**
 - @Required, @Autowired, @Qulifier, @Resource

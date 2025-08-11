@@ -1,10 +1,10 @@
 ---
-aliases: [/articles/2018-02/Duck-Typing]
-comments: false
-date: 2018-02-06
-description: 
-tags: [Programming]
 title: 덕 타이핑(Duck Typing)
+description: 
+aliases: [/articles/2018-02/Duck-Typing]
+date: 2018-02-06
+tags: [Programming]
+comments: true
 ---
 # 덕 타이핑(Duck Typing)
 > 만약 어떤 새가 오리처럼 걷고, 헤엄치고, 꽥꽥거리는 소리를 낸다면 나는 그 새를 오리라고 부를 것이다.

@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2019-01/ElasticSearch-System-Architecture]
 date: 2019-01-22
 tags: [ElasticSearch]
-comments: false
+comments: true
 ---
 # Elastic Search 시스템 구조
 ## Cluster와 Node

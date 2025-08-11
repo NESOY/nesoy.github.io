@@ -4,7 +4,7 @@ description:
 aliases: [/articles/2017-12/CleanCode-Function]
 date: 2017-12-13
 tags: [CleanCode]
-comments: false
+comments: true
 ---
 # 함수(Function)
 ## 작게 만들기.
