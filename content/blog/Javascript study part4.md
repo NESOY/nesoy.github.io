@@ -6,7 +6,7 @@ date: 2017-01-05
 tags: [Javascript]
 comments: true
 ---
-# **Javascript**
+# Javascript
 - #### Function 타입
   - 함수는 객체이다.
   - 오버로딩은 없다.

@@ -6,8 +6,7 @@ date: 2016-12-30
 tags: [Javascript]
 comments: true
 ---
-
-# **Javascript**
+# Javascript
 ## 1. Javascript 구성요소
 ![[assets/posts/20161230/javascript_element.png]]
 
