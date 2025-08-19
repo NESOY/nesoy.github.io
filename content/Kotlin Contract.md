@@ -8,7 +8,7 @@ comments: true
 ---
 # Kotlin Contract
 ## 배경
-```
+```kotlin
 // 문자열이 유효한지 (null도 아니고 비어있지도 않은지) 검사하는 함수
 fun isValid(value: String?): Boolean {
     return value != null && value.isNotEmpty()
@@ -27,7 +27,7 @@ fun printVerifiedLength(text: String?) {
 - 이런 문제를 해결하기 위해 Kotlin Contract 탄생하게 되었다.
 
 ## How to use
-```
+```kotlin
 fun isValid(value: String?): Boolean {
 	contract {  
 	    returns(true) implies (value != null)  
@@ -38,7 +38,7 @@ fun isValid(value: String?): Boolean {
 - 결과값을 true로 반환하면, value가 null이 아니라는 정보를 [[Compiler]]에게 전달한다.
 
 ## 쓰임새
-```
+```kotlin
 fun runBlock(block: () -> Unit) {
 	// '이 블록은 여기서, 정확히 한 번 실행된다'고 계약
 	contract { 
