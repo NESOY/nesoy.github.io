@@ -54,7 +54,6 @@ export const sharedPageComponents: SharedLayout = {
       GitHub: "https://github.com/nesoy",
       Twitter: "https://x.com/nesoy_kwon",
       LinkedIn: "https://www.linkedin.com/in/young-jae-kwon-3514b3141/",
-      RSS: "https:/nesoy.github.io/index.xml",
     },
   }),
 }
@@ -89,7 +88,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Graph(),
+    Component.DesktopOnly(Component.Graph()),
     Component.Backlinks(),
   ]
 }
