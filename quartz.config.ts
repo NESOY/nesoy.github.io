@@ -24,9 +24,30 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Sans KR",
-        body: "Noto Sans KR",
-        code: "IBM Plex Mono",
+        title:
+          {
+            name: "Do Hyeon",
+            weights: [400],
+            includeItalic: true,
+          },
+        header:
+          {
+            name: "42dot Sans",
+            weights: [400, 500, 600, 700],
+            includeItalic: true,
+          },
+        body:
+          {
+            name: "42dot Sans",
+            weights: [400, 500, 600, 700],
+            includeItalic: true,
+          },
+        code:
+          {
+            name: "JetBrains Mono",
+            weights: [400, 700],
+            includeItalic: true,
+          },
       },
       colors: {
         lightMode: {
