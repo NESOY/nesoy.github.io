@@ -57,10 +57,10 @@ indent_size = 4
 - root
 
 #### 플러그인 없이 지원가능한 Editor
-![[editorconfig-20250811113435.png]]
+![[Editorconfig-20250811113435.png]]
 
 #### 플러그인 설치해야 지원가능한 Editor
-![[editorconfig-20250811113435 1.png]]
+![[Editorconfig-20250811113435 1.png]]
 
 ## Reference
 - <https://editorconfig.org/>
