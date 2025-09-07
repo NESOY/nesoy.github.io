@@ -3,5 +3,6 @@
   "promptDelete": false,
   "showInlineTitle": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": ""
+  "newFileFolderPath": "blog",
+  "alwaysUpdateLinks": true
 }
