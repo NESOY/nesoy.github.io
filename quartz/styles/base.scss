@@ -44,22 +44,8 @@ ul,
 .typst-doc * {
   color: var(--darkgray);
   fill: var(--darkgray);
-  hyphens: auto;
-}
-
-p,
-ul,
-text,
-a,
-li,
-ol,
-ul,
-.katex,
-.math,
-.typst-doc,
-.typst-doc * {
-  overflow-wrap: anywhere;
-  /* tr and td removed from list of selectors for overflow-wrap, allowing them to use default 'normal' property value */
+  overflow-wrap: break-word;
+  text-wrap: pretty;
 }
 
 .math {
@@ -225,7 +211,7 @@ a {
     }
 
     & .sidebar {
-      gap: 2rem;
+      gap: 1.2rem;
       top: 0;
       box-sizing: border-box;
       padding: $topSpacing 2rem 2rem 2rem;
