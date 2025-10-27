@@ -6,8 +6,7 @@ date: 2017-01-14
 tags: [Git, IntelliJ]
 comments: true
 ---
-# **Intellij Git 연동하기**
-
+# Intellij Git 연동하기
 - Intellij에서 해당 Project를 Version 관리를 위해 Git을 연동하는 과정을 설명하겠습니다.
 
 ### 1. Git.exe 실행파일 찾기
