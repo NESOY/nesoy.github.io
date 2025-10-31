@@ -16,7 +16,6 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
     ) as FullSlug
 
     const redirUrl = resolveRelative(aliasTargetSlug, ogSlug)
-    // Create absolute URL for canonical and meta refresh
     const baseUrl = ctx.cfg.configuration.baseUrl || ""
     const absoluteUrl = baseUrl ? `https://${baseUrl}/${ogSlug}` : redirUrl
 
