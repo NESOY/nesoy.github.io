@@ -1,9 +1,9 @@
 ---
 title: JVM Options
-description: 
+description:
 aliases: [/articles/2019-08/JVM-Options]
 date: 2019-08-12
-tags: [Java]
+tags: [Java, JVM]
 comments: true
 ---
 # JVM Option 설정에 대하여
