@@ -3,8 +3,8 @@ import * as Component from "./quartz/components"
 
 export const sortByRecentDate: Options["sortFn"] = (a, b) => {
   if (!a.isFolder && !b.isFolder) {
-    const dateA = a.data.frontmatter?.date ? new Date(a.data.frontmatter.published) : new Date(0);
-    const dateB = b.data.frontmatter?.date ? new Date(b.data.frontmatter.published) : new Date(0);
+    const dateA = a.data.frontmatter?.date ? new Date(a.data.frontmatter.date) : new Date(0);
+    const dateB = b.data.frontmatter?.date ? new Date(b.data.frontmatter.date) : new Date(0);
 
     return dateB.getTime() - dateA.getTime();
   }
