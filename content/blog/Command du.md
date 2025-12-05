@@ -11,7 +11,7 @@ comments: true
 
 - 디렉토리와 모든 하위 디렉토리의 용량을 표시
 
-#### Example
+## How to use
 - 선택한 디렉토리만의 용량을 표시
 
 ```
@@ -29,5 +29,3 @@ du -h --max-depth=1 | sort -hr
 ```
 du -h --apparent-size
 ```
-
-## Reference
