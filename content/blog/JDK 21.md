@@ -17,7 +17,7 @@ comments: true
 - 443: Unnamed Patterns and Variables (Preview)
 - 444: [[Virtual Thread]]
 - 445: Unnamed Classes and Instance Main Methods (Preview)
-- 446: [[ScopedValue]] (Preview)
+- 446: [[Scoped Values]] (Preview)
 - 448: Vector API (Sixth Incubator)
 - 449: Deprecate the Windows 32-bit x86 Port for Removal
 - 451: Prepare to Disallow the Dynamic Loading of Agents

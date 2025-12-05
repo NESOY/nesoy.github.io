@@ -12,7 +12,7 @@ comments: true
 - 502: Stable Values (Preview)
 - 503: Remove the 32-bit x86 Port
 - 505: Structured Concurrency (Fifth Preview)
-- 506: [[ScopedValue]]
+- 506: [[Scoped Values]]
 - 507: Primitive Types in Patterns, instanceof, and switch (Third Preview)
 - 508: Vector API (Tenth Incubator)
 - 509: JFR CPU-Time Profiling (Experimental)

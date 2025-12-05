@@ -17,7 +17,7 @@ comments: true
 - GC 친화적: 불필요한 참조를 남기지 않음
 
 ## ThreadLocal 차이
-|     특징      | [[ScopedValue]] | [[ThreadLocal]] |
+|     특징      | [[Scoped Values]] | [[ThreadLocal]] |
 | :---------: | :-------------: | :-------------: |
 |    변경 여부    |  Immutability   |     Mutable     |
 |     GC      |    Scope 종료시    |     명시적 제거      |
