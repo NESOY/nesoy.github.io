@@ -18,7 +18,7 @@ brew install coreutils curl git
 brew install asdf 
 
 # add to shell
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # java home 지정하기
 . ~/.asdf/plugins/java/set-java-home.zsh
