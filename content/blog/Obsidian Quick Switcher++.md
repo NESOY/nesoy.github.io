@@ -1,9 +1,9 @@
 ---
 title: Obsidian Quick Switcher++
-description: 
+description:
 aliases: []
 date: 2026-01-30
-tags: []
+tags: [Obsidian]
 comments: true
 ---
 # Obsidian Quick Switcher++
