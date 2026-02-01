@@ -55,23 +55,26 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
             // Add frontmatter links to outgoing links
             if (opts.includeFrontmatterLinks && file.data.frontmatter) {
               for (const [_fmKey, fmValue] of Object.entries(file.data.frontmatter)) {
-                if (fmValue && typeof fmValue === "string") {
-                  const linkMatch = fmValue.match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]+)?\]\]/)
-                  if (linkMatch) {
-                    const rawDest = linkMatch[1]
-                    // Transform link relative to current file, same as internal links
-                    const transformed = transformLink(
-                      file.data.slug!,
-                      rawDest as RelativeURL,
-                      transformOptions,
-                    )
-                    const url = new URL(transformed, baseUrl + stripSlashes(curSlug, true))
-                    let destCanonical = url.pathname
-                    if (destCanonical.endsWith("/")) {
-                      destCanonical += "index"
+                const values = Array.isArray(fmValue) ? fmValue : fmValue ? [fmValue] : []
+                for (const v of values) {
+                  if (typeof v === "string") {
+                    const linkMatch = v.match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]+)?\]\]/)
+                    if (linkMatch) {
+                      const rawDest = linkMatch[1]
+                      // Transform link relative to current file, same as internal links
+                      const transformed = transformLink(
+                        file.data.slug!,
+                        rawDest as RelativeURL,
+                        transformOptions,
+                      )
+                      const url = new URL(transformed, baseUrl + stripSlashes(curSlug, true))
+                      let destCanonical = url.pathname
+                      if (destCanonical.endsWith("/")) {
+                        destCanonical += "index"
+                      }
+                      const full = decodeURIComponent(stripSlashes(destCanonical, true)) as FullSlug
+                      outgoing.add(simplifySlug(full))
                     }
-                    const full = decodeURIComponent(stripSlashes(destCanonical, true)) as FullSlug
-                    outgoing.add(simplifySlug(full))
                   }
                 }
               }
