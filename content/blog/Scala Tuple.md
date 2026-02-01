@@ -3,7 +3,7 @@ title: Scala Tuple
 description: 
 aliases: [/articles/2020-04/Scala-Tuple]
 date: 2020-04-02
-tags: [Scala]
+category: "[[Scala]]"
 comments: true
 ---
 # Scala Tuple

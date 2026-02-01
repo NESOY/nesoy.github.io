@@ -3,7 +3,7 @@ title: Database Replication
 description: 
 aliases: [/articles/2018-02/Database-Replication]
 date: 2018-02-16
-tags: [Database]
+category: "[[Database]]"
 comments: true
 ---
 # Database Replication

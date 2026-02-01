@@ -3,7 +3,7 @@ title: Database Partitioning
 description: Database Partitioning에 대해 알아보자.
 aliases: [/articles/2018-02/Database-Partitioning]
 date: 2018-02-22
-tags: [Database]
+category: "[[Database]]"
 comments: true
 ---
 # Database Partitioning

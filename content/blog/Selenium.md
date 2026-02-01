@@ -3,7 +3,7 @@ title: Selenium을 이용하여 스프링(Spring) Test하기
 description: 
 aliases: [/articles/2017-03/Selenium]
 date: 2017-03-31
-tags: [Selenium, Spring, Testing, Web]
+category: "[[Selenium]], [[Spring]], [[Testing]], [[Web]]"
 comments: true
 ---
 # Selenium

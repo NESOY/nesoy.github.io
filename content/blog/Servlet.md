@@ -3,7 +3,7 @@ title: Java Servlet에 대해
 description: 
 aliases: [/articles/2019-02/Servlet]
 date: 2019-02-06
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # Java Servlet에 대해

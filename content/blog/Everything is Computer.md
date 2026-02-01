@@ -3,7 +3,7 @@ title: Everything is Computer 번역
 description:
 aliases: []
 date: 2026-01-13
-tags: [A16Z]
+category: "[[A16Z]]"
 comments: true
 ---
 # Everything is Computer

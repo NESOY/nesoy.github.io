@@ -3,7 +3,7 @@ title: Clean Code - 시스템(System)
 description: 
 aliases: [/articles/2018-03/CleanCode-System]
 date: 2018-03-20
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 시스템(System)

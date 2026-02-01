@@ -3,7 +3,7 @@ title: REST API
 description: 
 aliases: [/articles/2017-02/REST]
 date: 2017-02-06
-tags: [REST, Web]
+category: "[[REST]], [[Web]]"
 comments: true
 ---
 # REST API

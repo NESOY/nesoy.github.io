@@ -3,7 +3,7 @@ title: awk 명령어
 description: 
 aliases: [/articles/2021-10/command-awk]
 date: 2021-10-28
-tags: [Command, Linux]
+category: "[[Command]], [[Linux]]"
 comments: true
 ---
 # awk 명령어

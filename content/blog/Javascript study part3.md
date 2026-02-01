@@ -3,7 +3,7 @@ title: Javascript Study3
 description: 
 aliases: [/articles/2017-01/javascript-study3]
 date: 2017-01-04
-tags: [Javascript]
+category: "[[Javascript]]"
 comments: true
 ---
 # Javascript

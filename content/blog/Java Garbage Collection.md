@@ -3,7 +3,7 @@ title: Java Garbage Collection
 description: 
 aliases: [/articles/2021-06/Java-Garbage-Collection]
 date: 2021-06-24
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # Java Garbage Collection

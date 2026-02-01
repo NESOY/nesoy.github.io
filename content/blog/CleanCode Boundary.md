@@ -3,7 +3,7 @@ title: Clean Code - 경계(Boundary)
 description: 
 aliases: [/articles/2018-02/CleanCode-Boundary]
 date: 2018-02-07
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 경계

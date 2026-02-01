@@ -3,7 +3,7 @@ title: DDD - Event
 description: 
 aliases: [/articles/2018-07/DDD-Event]
 date: 2018-07-11
-tags: [DDD]
+category: "[[DDD]]"
 comments: true
 ---
 # 이벤트

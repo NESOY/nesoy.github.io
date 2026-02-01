@@ -3,7 +3,7 @@ title: TDD(Test-driven Development) 테스트 주도 개발방법론
 description: 
 aliases: [/articles/2017-01/TDD]
 date: 2017-01-31
-tags: [JUnit, TDD, Testing]
+category: "[[JUnit]], [[TDD]], [[Testing]]"
 comments: true
 ---
 # TDD(Test-driven Development) 테스트 주도 개발방법론

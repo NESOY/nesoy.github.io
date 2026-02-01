@@ -3,7 +3,7 @@ title: Mockito란?
 description: 
 aliases: [/articles/2018-09/Mockito]
 date: 2018-09-17
-tags: [Mockito]
+category: "[[Mockito]]"
 comments: true
 ---
 # Mockito란?

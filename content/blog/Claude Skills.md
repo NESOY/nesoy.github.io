@@ -3,7 +3,7 @@ title: Claude Skills
 description:
 aliases: []
 date: 2026-01-11
-tags: [Claude]
+category: "[[Claude]]"
 comments: true
 ---
 # Claude Skills

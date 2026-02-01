@@ -3,7 +3,7 @@ title: Variance
 description: 
 aliases: [/articles/2021-05/variance]
 date: 2021-05-13
-tags: [Programming]
+category: "[[Programming]]"
 comments: true
 ---
 # Variance

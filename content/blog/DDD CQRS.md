@@ -3,7 +3,7 @@ title: DDD - CQRS
 description: 
 aliases: [/articles/2018-07/DDD-CQRS]
 date: 2018-07-19
-tags: [DDD]
+category: "[[DDD]]"
 comments: true
 ---
 # DDD - CQRS

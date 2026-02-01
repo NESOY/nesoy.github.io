@@ -3,7 +3,7 @@ title: Redis
 description: 
 aliases: [/articles/2020-05/Redis]
 date: 2020-05-06
-tags: [Redis]
+category: "[[Redis]]"
 comments: true
 ---
 # Redis

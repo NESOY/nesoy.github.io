@@ -3,7 +3,7 @@ title: Spring AOP
 description: 
 aliases: [/articles/2017-01/Spring-AOP]
 date: 2017-01-18
-tags: [Spring]
+category: "[[Spring]]"
 comments: true
 ---
 # **Spring AOP**

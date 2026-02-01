@@ -3,7 +3,7 @@ title: Java equals()와 hashCode()에 대해
 description: 
 aliases: [/articles/2018-06/Java-equals-hashcode]
 date: 2018-06-26
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # Java equals()와 hashCode()에 대해

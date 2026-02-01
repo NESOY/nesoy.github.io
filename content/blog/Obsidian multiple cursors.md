@@ -3,7 +3,7 @@ title: Obsidian 다중 커서
 description:
 aliases: []
 date: 2025-09-05
-tags: [Obsidian]
+category: "[[Obsidian]]"
 comments: true
 ---
 # Obsidian multiple cursors

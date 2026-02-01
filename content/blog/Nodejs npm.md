@@ -3,7 +3,7 @@ title: NodeJs의 npm, nodemon, Module
 description: 
 aliases: [/articles/2017-04/Nodejs-npm]
 date: 2017-04-17
-tags: [NodeJs, npm]
+category: "[[NodeJs]], [[npm]]"
 comments: true
 ---
 # NodeJs의 npm, nodemon, Module

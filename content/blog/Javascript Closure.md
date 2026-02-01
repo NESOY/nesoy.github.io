@@ -3,7 +3,7 @@ title: Javascript 클로져(Closure)란?
 description: 
 aliases: [/articles/2017-05/Javascript-Closure]
 date: 2017-05-04
-tags: [Javascript]
+category: "[[Javascript]]"
 comments: true
 ---
 # Javascript Closure

@@ -3,7 +3,7 @@ title: Mac-Airpod 간편하게 연결하기
 description: 
 aliases: [/articles/2018-08/Mac-Airpod]
 date: 2018-08-30
-tags: [개발환경]
+category: "[[개발환경]]"
 comments: true
 ---
 # Mac-Airpod 간편하게 연결하기

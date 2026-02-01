@@ -3,7 +3,7 @@ title: NodeJs의 Post요청, PRG 패턴
 description: 
 aliases: [/articles/2017-04/Nodejs-PRGPattern]
 date: 2017-04-19
-tags: [DesignPattern, NodeJs]
+category: "[[DesignPattern]], [[NodeJs]]"
 comments: true
 ---
 # NodeJs의 Post요청, PRG 패턴

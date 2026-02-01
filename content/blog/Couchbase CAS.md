@@ -3,7 +3,7 @@ title: Couchbase의 CAS란?
 description: 
 aliases: [/articles/2019-01/Couchbase-CAS]
 date: 2019-01-23
-tags: [Couchbase]
+category: "[[Couchbase]]"
 comments: true
 ---
 # Couchbase의 CAS

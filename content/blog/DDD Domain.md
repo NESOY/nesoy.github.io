@@ -3,7 +3,7 @@ title: DDD - Domain
 description: 
 aliases: [/articles/2018-08/DDD-Domain]
 date: 2018-08-03
-tags: [DDD]
+category: "[[DDD]]"
 comments: true
 ---
 # 도메인 모델 시작

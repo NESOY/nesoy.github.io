@@ -3,7 +3,7 @@ title: jQuery ready와 load의 차이점
 description: 
 aliases: [/articles/2017-05/Jquery-onready]
 date: 2017-05-14
-tags: [jQuery]
+category: "[[jQuery]]"
 comments: true
 ---
 # jQuery ready와 load의 차이점

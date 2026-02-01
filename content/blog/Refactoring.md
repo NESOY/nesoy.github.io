@@ -3,7 +3,7 @@ title: Refactoring이란?
 description: 
 aliases: [/articles/2018-05/Refactoring]
 date: 2018-05-03
-tags: [Refactoring]
+category: "[[Refactoring]]"
 comments: true
 ---
 # 리팩토링이란 무엇인가?

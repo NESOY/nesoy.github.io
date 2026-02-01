@@ -3,7 +3,7 @@ title: Nodejs MongoDB 연결하기, Mongoose
 description: 
 aliases: [/articles/2017-04/Nodejs-MongoDB]
 date: 2017-04-26
-tags: [MongoDB, NodeJs]
+category: "[[MongoDB]], [[NodeJs]]"
 comments: true
 ---
 # Nodejs MongoDB 연결하기, Mongoose

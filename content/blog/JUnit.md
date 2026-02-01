@@ -3,7 +3,7 @@ title: JUnit
 description: 
 aliases: [/articles/2017-02/JUnit]
 date: 2017-02-01
-tags: [Java, JUnit, Testing]
+category: "[[Java]], [[JUnit]], [[Testing]]"
 comments: true
 ---
 # JUnit

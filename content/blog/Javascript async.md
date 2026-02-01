@@ -3,7 +3,7 @@ title: Javascript의 Arrow function, async
 description: 
 aliases: [/articles/2017-05/javascript-async]
 date: 2017-05-16
-tags: [Javascript]
+category: "[[Javascript]]"
 comments: true
 ---
 # Javascript의 Arrow function, async

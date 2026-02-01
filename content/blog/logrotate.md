@@ -3,7 +3,7 @@ title: logrotate란?
 description: 
 aliases: [/articles/2019-08/logrotate]
 date: 2019-08-19
-tags: [Linux]
+category: "[[Linux]]"
 comments: true
 ---
 # logrotate란?

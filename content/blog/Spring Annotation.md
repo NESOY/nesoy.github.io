@@ -3,7 +3,7 @@ title: Spring Annotation(@Required,@Autowired,@Qulifier,@Resource)
 description: 
 aliases: [/articles/2017-01/Spring-annotation]
 date: 2017-01-16
-tags: [Spring]
+category: "[[Spring]]"
 comments: true
 ---
 # **Spring Annotation**

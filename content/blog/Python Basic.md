@@ -3,7 +3,7 @@ title: Python Basic
 description: 
 aliases: [/articles/2018-01/Python-Basic]
 date: 2018-01-02
-tags: [Python]
+category: "[[Python]]"
 comments: true
 ---
 # 문법

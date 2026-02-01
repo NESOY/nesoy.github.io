@@ -3,7 +3,7 @@ title: 코드 커버리지(Code Coverage)란?
 description: 
 aliases: [/articles/2018-01/Code-Coverage]
 date: 2018-01-14
-tags: [Testing]
+category: "[[Testing]]"
 comments: true
 ---
 

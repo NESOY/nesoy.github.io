@@ -3,7 +3,7 @@ title: 성능, 부하, 스트레스 테스트에 대하여
 description: 
 aliases: [/articles/2018-08/Testing-Performance]
 date: 2018-08-22
-tags: [Testing]
+category: "[[Testing]]"
 comments: true
 ---
 # 성능, 부하, 스트레스 테스트에 대하여

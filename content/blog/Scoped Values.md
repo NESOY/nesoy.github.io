@@ -3,7 +3,7 @@ title: ScopedValue
 description:
 aliases: []
 date: 2025-09-05
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # ScopedValue

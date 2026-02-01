@@ -3,7 +3,7 @@ title: Elastic Search 데이터 처리
 description: 
 aliases: [/articles/2019-01/ElasticSearch-Document]
 date: 2019-01-15
-tags: [ElasticSearch]
+category: "[[ElasticSearch]]"
 comments: true
 ---
 # Elastic Search 데이터 처리

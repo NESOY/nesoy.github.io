@@ -3,7 +3,7 @@ title: Obsidian Sync
 description:
 aliases: []
 date: 2025-10-27
-tags: [Obsidian]
+category: "[[Obsidian]]"
 comments: true
 ---
 # Obsidian Sync

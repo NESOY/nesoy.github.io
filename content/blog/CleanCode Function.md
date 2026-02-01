@@ -3,7 +3,7 @@ title: Clean Code - Function
 description: 
 aliases: [/articles/2017-12/CleanCode-Function]
 date: 2017-12-13
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 함수(Function)

@@ -3,7 +3,7 @@ title: Redis HA(RHA)에 대해
 description: 
 aliases: [/articles/2020-05/Redis-HA]
 date: 2020-05-12
-tags: [Redis]
+category: "[[Redis]]"
 comments: true
 ---
 # Redis HA

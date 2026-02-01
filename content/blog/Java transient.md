@@ -3,7 +3,7 @@ title: Java transient이란?
 description: 
 aliases: [/articles/2018-06/Java-transient]
 date: 2018-06-10
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # Java Transient

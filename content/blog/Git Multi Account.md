@@ -3,7 +3,7 @@ title: Git 계정 여러개 사용하기
 description: 
 aliases: [/articles/2019-12/Git-Multi-Account]
 date: 2019-12-02
-tags: [Git]
+category: "[[Git]]"
 comments: true
 ---
 # Git Multi Account

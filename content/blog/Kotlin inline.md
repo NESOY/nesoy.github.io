@@ -3,7 +3,7 @@ title: Kotlin inline
 description:
 aliases: []
 date: 2025-09-02
-tags: [Kotlin]
+category: "[[Kotlin]]"
 comments: true
 ---
 # Kotlin inline

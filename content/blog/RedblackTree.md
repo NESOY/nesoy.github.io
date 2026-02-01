@@ -3,7 +3,7 @@ title: RedBlack Tree에 대해
 description: 
 aliases: [/articles/2018-08/Algorithm-RedblackTree]
 date: 2018-08-31
-tags: [DataStructure]
+category: "[[DataStructure]]"
 comments: true
 ---
 # RedBlack Tree에 대해

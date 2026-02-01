@@ -3,7 +3,7 @@ title: Java JSON 라이브러리에 대해
 description: 
 aliases: [/articles/2018-04/Java-JSON]
 date: 2018-04-26
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # Java JSON 라이브러리에 대해

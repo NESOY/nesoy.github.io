@@ -3,7 +3,7 @@ title: Clean Code - 객체와 자료구조(Object & DataStructure)
 description: 
 aliases: [/articles/2018-01/CleanCode-Object]
 date: 2018-01-17
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 객체와 자료구조(Object & DataStructure)

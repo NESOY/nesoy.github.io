@@ -3,7 +3,7 @@ title: 덕 타이핑(Duck Typing)
 description: 
 aliases: [/articles/2018-02/Duck-Typing]
 date: 2018-02-06
-tags: [Programming]
+category: "[[Programming]]"
 comments: true
 ---
 # 덕 타이핑(Duck Typing)

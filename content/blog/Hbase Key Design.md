@@ -3,7 +3,7 @@ title: Hbase Key Design에 대해
 description: 
 aliases: [/articles/2019-10/Hbase-Key-Design]
 date: 2019-10-11
-tags: [Hbase]
+category: "[[Hbase]]"
 comments: true
 ---
 # Hbase Key Design에 대해

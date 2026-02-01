@@ -3,7 +3,7 @@ title: RabbitMQ에 대해
 description: 
 aliases: [/articles/2019-02/RabbitMQ]
 date: 2019-02-14
-tags: [MessageQueue, RabbitMQ]
+category: "[[MessageQueue]], [[RabbitMQ]]"
 comments: true
 ---
 # RabbitMQ에 대해

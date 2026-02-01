@@ -3,7 +3,7 @@ title: Intellij 테마(Theme) 적용하기
 description: 
 aliases: [/articles/2018-03/Intellij-Theme]
 date: 2018-03-28
-tags: [IntelliJ]
+category: "[[IntelliJ]]"
 comments: true
 ---
 # Intellij Material Theme 적용하기

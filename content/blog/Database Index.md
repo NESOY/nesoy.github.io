@@ -3,7 +3,7 @@ title: DB의 Index 기능에 대해
 description: Database Index 기능에 대해 소개한다.
 aliases: [/articles/2017-07/DBIndex]
 date: 2017-07-09
-tags: [Database]
+category: "[[Database]]"
 comments: true
 ---
 # Database Index

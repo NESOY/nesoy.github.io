@@ -3,7 +3,7 @@ title: Git .gitignore 적용하기
 description: 
 aliases: [/articles/2017-01/Git-Ignore]
 date: 2017-01-26
-tags: [Git]
+category: "[[Git]]"
 comments: true
 ---
 # **Git .gitignore File 적용하기**

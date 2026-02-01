@@ -3,7 +3,7 @@ title: DDD - Architecture
 description: 
 aliases: [/articles/2018-08/DDD-Architecture]
 date: 2018-08-12
-tags: [DDD]
+category: "[[DDD]]"
 comments: true
 ---
 # DDD - Architecture

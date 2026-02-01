@@ -3,7 +3,7 @@ title: Elastic Search 설정
 description: 
 aliases: [/articles/2019-01/ElasticSearch-Configuration]
 date: 2019-01-12
-tags: [ElasticSearch]
+category: "[[ElasticSearch]]"
 comments: true
 ---
 # Elastic Search 설정

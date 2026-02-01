@@ -3,7 +3,7 @@ title: Git clean이란?
 description: 
 aliases: [/articles/2018-10/Git-clean]
 date: 2018-10-18
-tags: [Git]
+category: "[[Git]]"
 comments: true
 ---
 # Git clean이란?

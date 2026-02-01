@@ -3,7 +3,7 @@ title: Git push 파일 크기 에러 해결하기
 description: 
 aliases: [/articles/2018-05/Git-FileSize]
 date: 2018-05-09
-tags: [Git]
+category: "[[Git]]"
 comments: true
 ---
 # Git push 파일 크기 에러 해결하기

@@ -3,7 +3,7 @@ title: Vscode Code Snippets 설정하기
 description: 
 aliases: [/articles/2019-03/Vscode-Code-snippet]
 date: 2019-03-03
-tags: [Vscode]
+category: "[[Vscode]]"
 comments: true
 ---
 # Vscode Code Snippet 설정하기

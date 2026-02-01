@@ -3,7 +3,7 @@ title: Scala Trait
 description: 
 aliases: [/articles/2020-03/Scala-Trait]
 date: 2020-03-24
-tags: [Scala]
+category: "[[Scala]]"
 comments: true
 ---
 # Scala Trait

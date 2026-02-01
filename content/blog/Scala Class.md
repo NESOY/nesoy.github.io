@@ -3,7 +3,7 @@ title: Scala의 클래스에 대해
 description: 
 aliases: [/articles/2020-03/Scala-Class]
 date: 2020-03-22
-tags: [Scala]
+category: "[[Scala]]"
 comments: true
 ---
 # Scala의 클래스에 대해

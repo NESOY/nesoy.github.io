@@ -3,7 +3,7 @@ title: Java의 직렬화(Serialize)란?
 description: 
 aliases: [/articles/2018-04/Java-Serialize]
 date: 2018-04-18
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # Java의 직렬화(Serialize)란?

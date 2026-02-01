@@ -3,7 +3,7 @@ title: df 명령어
 description: 
 aliases: [/articles/2020-10/command-df]
 date: 2020-10-06
-tags: [Command, Linux]
+category: "[[Command]], [[Linux]]"
 comments: true
 ---
 # Df 명령어

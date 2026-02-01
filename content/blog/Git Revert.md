@@ -3,7 +3,7 @@ title: Git Revert란?
 description: 
 aliases: [/articles/2018-07/Git-Revert]
 date: 2018-07-20
-tags: [Git]
+category: "[[Git]]"
 comments: true
 ---
 # Git Revert란?

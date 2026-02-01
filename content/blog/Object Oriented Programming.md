@@ -3,7 +3,7 @@ title: 객체 지향 프로그래밍(Object-Oriented Programming)이란?
 description: 
 aliases: [/articles/2018-05/Object-Oriented-Programming]
 date: 2018-05-24
-tags: [Programming]
+category: "[[Programming]]"
 comments: true
 ---
 # 객체 지향 프로그래밍(Object-Oriented Programming)이란?

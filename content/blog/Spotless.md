@@ -3,7 +3,7 @@ title: Spotless
 description: 
 aliases: [/articles/2020-04/Spotless]
 date: 2020-04-22
-tags: [Java, Spotless]
+category: "[[Java]], [[Spotless]]"
 comments: true
 ---
 # Spotless

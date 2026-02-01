@@ -3,7 +3,7 @@ title: Jekyll Github에 올리기 & 테마 적용하기
 description: 
 aliases: [/articles/2016-12/github-Jekyll]
 date: 2016-12-29
-tags: [Github, Jekyll]
+category: "[[Github]], [[Jekyll]]"
 comments: true
 ---
 

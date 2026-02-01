@@ -3,7 +3,7 @@ title: DDD - Aggregate Transaction 관리
 description: 
 aliases: [/articles/2018-06/DDD-Transcation]
 date: 2018-06-28
-tags: [DDD]
+category: "[[DDD]]"
 comments: true
 ---
 # DDD - Aggregate Transaction 관리

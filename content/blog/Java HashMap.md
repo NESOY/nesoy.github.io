@@ -3,7 +3,7 @@ title: Java의 HashMap에 대해
 description: 
 aliases: [/articles/2018-08/Algorithm-HashTable]
 date: 2018-08-07
-tags: [DataStructure, Java]
+category: "[[DataStructure]], [[Java]]"
 comments: true
 ---
 # Java의 HashMap에 대해

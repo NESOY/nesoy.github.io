@@ -3,7 +3,7 @@ title: Dependency Mechanism
 description: 
 aliases: [/articles/2020-11/Dependency-Mechanism]
 date: 2020-11-02
-tags: [Maven]
+category: "[[Maven]]"
 comments: true
 ---
 # Dependency Mechanism

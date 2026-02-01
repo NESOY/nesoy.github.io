@@ -3,7 +3,7 @@ title: GitHub Pull Request 따라하기
 description: 
 aliases: [/articles/2017-01/GitPullRequest]
 date: 2017-01-12
-tags: [Git]
+category: "[[Git]]"
 comments: true
 ---
 # GitHub Pull Request 따라하기

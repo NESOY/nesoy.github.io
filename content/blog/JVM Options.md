@@ -3,7 +3,7 @@ title: JVM Options
 description:
 aliases: [/articles/2019-08/JVM-Options]
 date: 2019-08-12
-tags: [Java, JVM]
+category: "[[Java]], [[JVM]]"
 comments: true
 ---
 # JVM Option 설정에 대하여

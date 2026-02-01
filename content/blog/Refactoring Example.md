@@ -3,7 +3,7 @@ title: Refactoring - 예시[Example]
 description: 
 aliases: [/articles/2018-05/Refactoring-Example]
 date: 2018-05-25
-tags: [Refactoring]
+category: "[[Refactoring]]"
 comments: true
 ---
 # Refactoring Example

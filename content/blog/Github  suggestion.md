@@ -3,7 +3,7 @@ title: Github - Suggestion 기능 활용하기
 description: 
 aliases: [/articles/2019-11/Github-suggestion]
 date: 2019-11-18
-tags: [Github]
+category: "[[Github]]"
 comments: true
 ---
 # Github - Suggestion 기능 활용하기

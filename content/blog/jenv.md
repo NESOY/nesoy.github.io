@@ -3,7 +3,7 @@ title: jenv 설치 및 사용하기
 description: 
 aliases: [/articles/2019-07/jenv]
 date: 2019-07-03
-tags: [Java]
+category: "[[Java]]"
 comments: true
 ---
 # jenv 설치 및 사용하기

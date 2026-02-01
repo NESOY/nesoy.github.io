@@ -3,7 +3,7 @@ title: Linux Background Process 실행하기
 description: 
 aliases: [/articles/2018-11/Linux-nohup]
 date: 2018-11-23
-tags: [Linux]
+category: "[[Linux]]"
 comments: true
 ---
 # Linux Background Process 실행하기

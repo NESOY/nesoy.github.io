@@ -3,7 +3,7 @@ title: nGrinder 시작하기
 description: 
 aliases: [/articles/2018-10/nGrinder-Start]
 date: 2018-10-31
-tags: [nGrinder, Testing]
+category: "[[nGrinder]], [[Testing]]"
 comments: true
 ---
 # nGrinder 시작하기

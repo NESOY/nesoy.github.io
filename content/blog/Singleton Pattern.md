@@ -3,7 +3,7 @@ title: Singleton Pattern(싱글턴 패턴)
 description: 
 aliases: [/articles/2017-01/Singleton-Pattern]
 date: 2017-01-13
-tags: [DesignPattern]
+category: "[[DesignPattern]]"
 comments: true
 ---
 # **Singleton Pattern**

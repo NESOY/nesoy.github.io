@@ -3,7 +3,7 @@ title: 병행성(Concurrency)와 병렬성(Parallelism)의 차이에 대해
 description: 
 aliases: [/articles/2018-09/OS-Concurrency-Parallelism]
 date: 2018-09-13
-tags: [OS]
+category: "[[OS]]"
 comments: true
 ---
 # 병행성(Concurrency)와 병렬성(Parallelism)의 차이에 대해

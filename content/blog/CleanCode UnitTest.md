@@ -3,7 +3,7 @@ title: Clean Code - 단위테스트(Unit Test)
 description: 
 aliases: [/articles/2018-02/CleanCode-UnitTest]
 date: 2018-02-09
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 단위테스트(Unit Test)

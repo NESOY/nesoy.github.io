@@ -3,7 +3,7 @@ title: 함수형 프로그래밍(Functional Programming)이란?
 description: 
 aliases: [/articles/2018-05/Functional-Programming]
 date: 2018-05-10
-tags: [Programming]
+category: "[[Programming]]"
 comments: true
 ---
 # 함수형 프로그래밍(Functional Programming)이란?

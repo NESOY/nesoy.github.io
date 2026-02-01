@@ -3,7 +3,7 @@ title: Nginx 설정에 대하여
 description: 
 aliases: [/articles/2020-04/Nginx-Settings]
 date: 2020-04-28
-tags: [Nginx]
+category: "[[Nginx]]"
 comments: true
 ---
 # Nginx 설정에 대하여

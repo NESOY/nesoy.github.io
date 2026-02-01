@@ -3,7 +3,7 @@ title: Clean Code - 클래스(Class)
 description: 
 aliases: [/articles/2018-02/CleanCode-Class]
 date: 2018-02-24
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 클래스(Class)

@@ -3,7 +3,7 @@ title: Reactive Stream
 description: 
 aliases: [/articles/2021-09/Reactive-Stream]
 date: 2021-09-17
-tags: [Reactive]
+category: "[[Reactive]]"
 comments: true
 ---
 # Reactive Stream

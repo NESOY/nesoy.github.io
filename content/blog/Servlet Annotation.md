@@ -3,7 +3,7 @@ title: Servlet Annotation
 description: 
 aliases: [/articles/2017-01/servlet-annotation]
 date: 2017-01-08
-tags: [Java, Servlet]
+category: "[[Java]], [[Servlet]]"
 comments: true
 ---
 # **Servlet Annotation**

@@ -3,7 +3,7 @@ title: Couchbase는 어떻게 동작하는가?
 description: 
 aliases: [/articles/2018-11/Couchbase]
 date: 2018-11-20
-tags: [Couchbase]
+category: "[[Couchbase]]"
 comments: true
 ---
 # Couchbase는 어떻게 동작하는가?

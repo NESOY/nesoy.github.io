@@ -3,7 +3,7 @@ title: Clean Code - 주석(Comment)
 description: 
 aliases: [/articles/2018-01/CleanCode-Comment]
 date: 2018-01-01
-tags: [CleanCode]
+category: "[[CleanCode]]"
 comments: true
 ---
 # 주석(Comment)
