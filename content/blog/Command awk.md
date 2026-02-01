@@ -3,10 +3,10 @@ title: awk 명령어
 description: 
 aliases: [/articles/2021-10/command-awk]
 date: 2021-10-28
+comments: true
 category:
   - "[[Command]]"
   - "[[Linux]]"
-comments: true
 ---
 # awk 명령어
 > Awk scans each input file for lines that match any of a set of patterns specified literally in prog or in one or more files  specified  as  -f progfile.

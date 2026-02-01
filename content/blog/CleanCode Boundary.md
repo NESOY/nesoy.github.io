@@ -3,9 +3,9 @@ title: Clean Code - 경계(Boundary)
 description: 
 aliases: [/articles/2018-02/CleanCode-Boundary]
 date: 2018-02-07
+comments: true
 category:
   - "[[CleanCode]]"
-comments: true
 ---
 # 경계
 > 어떤 식으로든 외부 코드를 우리 코드에 깔끔하게 통합해야만 한다.

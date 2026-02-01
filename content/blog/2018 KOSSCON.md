@@ -1,12 +1,13 @@
 ---
 title: KOSSCON - 2018 후기
-description: 
-aliases: [/articles/2018-11/KOSSCON-2018]
+description:
+aliases:
+  - /articles/2018-11/KOSSCON-2018
 date: 2018-11-30
+comments: true
 category:
   - "[[KOSSCON]]"
-  - "[[Review]]"
-comments: true
+  - "[[Reviews]]"
 ---
 # KOSSCON - 2018 후기
 ![[assets/posts/20181130/1.png]]

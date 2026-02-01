@@ -3,10 +3,10 @@ title: AWS EC2 시작하기
 description: 
 aliases: [/articles/2017-05/AWS]
 date: 2017-05-18
+comments: true
 category:
   - "[[AWS]]"
   - "[[DevOps]]"
-comments: true
 ---
 # AWS EC2
 ## AWS 시작하기

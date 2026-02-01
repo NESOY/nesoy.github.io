@@ -3,9 +3,9 @@ title: ClassLoader
 description: 
 aliases: [/articles/2020-11/ClassLoader]
 date: 2020-11-05
+comments: true
 category:
   - "[[Java]]"
-comments: true
 ---
 # ClassLoader
 - JVM에서 동작하는 모든 Class들은 참조되는 순간 동적으로 Load 및 Link가 이루어진다.

@@ -3,10 +3,10 @@ title: JWT에 대해
 description: 
 aliases: [/articles/2020-03/JWT]
 date: 2020-03-03
+comments: true
 category:
   - "[[JWT]]"
   - "[[Security]]"
-comments: true
 ---
 # JWT에 대해
 ## JWT(JSON Web Tokens)이란?

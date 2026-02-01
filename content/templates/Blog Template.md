@@ -1,10 +1,10 @@
 ---
 title: <% tp.file.title %>
-description: 
+description:
 aliases: []
 date: <% tp.date.now() %>
-tags: []
 comments: true
+category: []
 ---
 # <% tp.file.title %>
 

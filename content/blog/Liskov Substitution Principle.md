@@ -3,9 +3,9 @@ title: Liskov Substitution Principle
 description: 
 aliases: [/articles/2018-03/LSP]
 date: 2018-03-06
+comments: true
 category:
   - "[[DesignPattern]]"
-comments: true
 ---
 # 리스코프 치환 원칙(Liskov Substitution Principle)
 > 자식 클래스는 최소한 자신의 부모 클래스에서 가능한 행위는 수행할 수 있어야 한다.

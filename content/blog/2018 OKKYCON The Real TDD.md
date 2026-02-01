@@ -1,12 +1,13 @@
 ---
 title: 2018 OKKY The Real TDD 후기
-description: 
-aliases: [/articles/2018-10/OKKYCON2018-Real-TDD]
+description:
+aliases:
+  - /articles/2018-10/OKKYCON2018-Real-TDD
 date: 2018-10-18
+comments: true
 category:
   - "[[OKKY]]"
-  - "[[Review]]"
-comments: true
+  - "[[Reviews]]"
 ---
 # 2018 OKKY The Real TDD 후기
 ![[assets/posts/20181019/1.png]]

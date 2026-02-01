@@ -3,9 +3,9 @@ title: Multi Thread Algorithm에 대해
 description: 
 aliases: [/articles/2018-09/Algorithm-MultiThread]
 date: 2018-09-14
+comments: true
 category:
   - "[[Algorithm]]"
-comments: true
 ---
 # Multi Thread Algorithm에 대해
 ## 직렬 알고리즘(Serial Algorithm)

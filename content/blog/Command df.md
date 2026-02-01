@@ -3,10 +3,10 @@ title: df 명령어
 description: 
 aliases: [/articles/2020-10/command-df]
 date: 2020-10-06
+comments: true
 category:
   - "[[Command]]"
   - "[[Linux]]"
-comments: true
 ---
 # Df 명령어
 > display free disk space(파일 시스템의 남은 용량을 보여준다)

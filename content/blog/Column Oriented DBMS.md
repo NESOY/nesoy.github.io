@@ -3,9 +3,9 @@ title: Column Oriented DBMS란?
 description: 
 aliases: [/articles/2019-10/Column-Oriented-DBMS]
 date: 2019-10-01
+comments: true
 category:
   - "[[Database]]"
-comments: true
 ---
 # Column Oriented DBMS
 ## 왜 Column-Oriented DBMS이 등장하게 되었을까?

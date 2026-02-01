@@ -3,9 +3,9 @@ title: Asdf
 description:
 aliases: []
 date: 2025-10-09
+comments: true
 category:
   - "[[Java]]"
-comments: true
 ---
 # Asdf
 - java뿐만 아니라 다른 언어도 쉽게 설치하고 제어할 수 있는 패키지 매니저

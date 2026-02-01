@@ -1,10 +1,11 @@
 ---
 title: Little Big Data 후기
-description: 
-aliases: [/articles/2018-04/Little-Big-Data]
+description:
+aliases:
+  - /articles/2018-04/Little-Big-Data
 date: 2018-04-22
 category:
-  - "[[Review]]"
+  - "[[Reviews]]"
 comments: true
 ---
 # 2018 Little Big Data 후기

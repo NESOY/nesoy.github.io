@@ -1,12 +1,12 @@
 ---
 title: if kakao day 1 후기
-description: 
+description:
 aliases: [/articles/2019-08/if-kakao-day1]
 date: 2019-08-30
+comments: true
 category:
   - "[[Kakao]]"
-  - "[[Review]]"
-comments: true
+  - "[[Reviews]]"
 ---
 # 2019 if kakao day 1 후기
 ![[assets/posts/img/2019-08-30-23-18-27.png]]

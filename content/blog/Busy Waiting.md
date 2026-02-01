@@ -3,9 +3,9 @@ title: Busy Waiting이란?
 description: 
 aliases: [/articles/2019-06/OS-Busy-Waiting]
 date: 2019-06-04
+comments: true
 category:
   - "[[OS]]"
-comments: true
 ---
 # Busy Waiting
 - 원하는 자원을 얻기 위해 기다리는 것이 아니라 `권한을 얻을 때까지 확인하는 것`을 의미합니다.

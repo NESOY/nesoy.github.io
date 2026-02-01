@@ -1,12 +1,12 @@
 ---
 title: 2018 Next With Google 후기
-description: 
+description:
 aliases: [/articles/2018-05/Next-With-Google]
 date: 2018-05-09
+comments: true
 category:
   - "[[Google]]"
-  - "[[Review]]"
-comments: true
+  - "[[Reviews]]"
 ---
 # 2018 Next With Google 후기
 ![[assets/posts/20180509/1.png]]

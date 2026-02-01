@@ -1,12 +1,12 @@
 ---
 title: 우아한 세계 세미나 - 우아한 형제들
-description: 
+description:
 aliases: [/articles/2019-07/woowa-world-woowahan]
 date: 2019-07-25
-category:
-  - "[[Review]]"
-  - "[[WoowaBros]]"
 comments: true
+category:
+  - "[[Reviews]]"
+  - "[[WoowaBros]]"
 ---
 # 2019 우아한 세계 세미나 - 우아한 형제들
 ![[2019-07-26-00-35-48.png]]

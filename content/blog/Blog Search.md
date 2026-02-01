@@ -3,10 +3,10 @@ title: 검색엔진에 블로그 내용 올리기
 description: 
 aliases: [/articles/2017-01/blog-search]
 date: 2017-01-03
+comments: true
 category:
   - "[[Github]]"
   - "[[Jekyll]]"
-comments: true
 ---
 # **구글 네이버에 블로그 글 등록하기**
 

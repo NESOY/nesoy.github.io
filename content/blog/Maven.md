@@ -3,11 +3,11 @@ title: Maven
 description: 
 aliases: [/articles/2017-01/Maven]
 date: 2017-01-11
+comments: true
 category:
   - "[[IntelliJ]]"
   - "[[Java]]"
   - "[[Maven]]"
-comments: true
 ---
 # Maven
 > **자바 프로젝트의 빌드를 자동화 해주는 Build Tool**
