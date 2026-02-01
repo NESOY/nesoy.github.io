@@ -22,6 +22,8 @@ interface Options {
   openLinksInNewTab: boolean
   lazyLoad: boolean
   externalLinkIcon: boolean
+  /** Parse wikilinks in frontmatter and add to graph/backlinks */
+  includeFrontmatterLinks: boolean
 }
 
 const defaultOptions: Options = {
@@ -30,6 +32,7 @@ const defaultOptions: Options = {
   openLinksInNewTab: false,
   lazyLoad: false,
   externalLinkIcon: true,
+  includeFrontmatterLinks: true,
 }
 
 export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
@@ -42,10 +45,36 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
           return (tree: Root, file) => {
             const curSlug = simplifySlug(file.data.slug!)
             const outgoing: Set<SimpleSlug> = new Set()
+            const baseUrl = `https://${ctx.cfg.configuration.baseUrl ?? "base.com"}/`
 
             const transformOptions: TransformOptions = {
               strategy: opts.markdownLinkResolution,
               allSlugs: ctx.allSlugs,
+            }
+
+            // Add frontmatter links to outgoing links
+            if (opts.includeFrontmatterLinks && file.data.frontmatter) {
+              for (const [_fmKey, fmValue] of Object.entries(file.data.frontmatter)) {
+                if (fmValue && typeof fmValue === "string") {
+                  const linkMatch = fmValue.match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]+)?\]\]/)
+                  if (linkMatch) {
+                    const rawDest = linkMatch[1]
+                    // Transform link relative to current file, same as internal links
+                    const transformed = transformLink(
+                      file.data.slug!,
+                      rawDest as RelativeURL,
+                      transformOptions,
+                    )
+                    const url = new URL(transformed, baseUrl + stripSlashes(curSlug, true))
+                    let destCanonical = url.pathname
+                    if (destCanonical.endsWith("/")) {
+                      destCanonical += "index"
+                    }
+                    const full = decodeURIComponent(stripSlashes(destCanonical, true)) as FullSlug
+                    outgoing.add(simplifySlug(full))
+                  }
+                }
+              }
             }
 
             visit(tree, "element", (node, _index, _parent) => {
@@ -111,7 +140,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
 
                   // url.resolve is considered legacy
                   // WHATWG equivalent https://nodejs.dev/en/api/v18/url/#urlresolvefrom-to
-                  const url = new URL(dest, "https://base.com/" + stripSlashes(curSlug, true))
+                  const url = new URL(dest, baseUrl + stripSlashes(curSlug, true))
                   const canonicalDest = url.pathname
                   let [destCanonical, _destAnchor] = splitAnchor(canonicalDest)
                   if (destCanonical.endsWith("/")) {
