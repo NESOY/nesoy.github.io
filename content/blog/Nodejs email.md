@@ -3,9 +3,9 @@ title: Nodejs를 통해 Email 보내기
 description: 
 aliases: [/articles/2017-05/Nodejs-email]
 date: 2017-05-17
+comments: true
 category:
   - "[[NodeJs]]"
-comments: true
 ---
 # Nodejs를 통해 Email 보내기
 ## NodeMailer

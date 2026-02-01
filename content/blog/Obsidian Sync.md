@@ -3,9 +3,9 @@ title: Obsidian Sync
 description:
 aliases: []
 date: 2025-10-27
+comments: true
 category:
   - "[[Obsidian]]"
-comments: true
 ---
 # Obsidian Sync
 ## Icloud Sync

@@ -5,7 +5,6 @@ aliases: []
 date: 2026-01-30
 comments: true
 category:
-  - "[[Java]]"
   - "[[Obsidian]]"
 ---
 # Obsidian Linter

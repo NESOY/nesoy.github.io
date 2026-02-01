@@ -3,10 +3,10 @@ title: Obsidian Claude
 description:
 aliases: [Obsidian Skills]
 date: 2026-01-27
+comments: true
 category:
   - "[[Claude]]"
   - "[[Obsidian]]"
-comments: true
 ---
 # Obsidian Claude
 ## How to install
