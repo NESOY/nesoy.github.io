@@ -24,25 +24,29 @@ export default ((userOpts?: Partial<FrontmatterLinksOptions>) => {
     if (fileData.frontmatter) {
       for (const field of opts.fields) {
         const value = fileData.frontmatter[field]
-        if (value && typeof value === "string") {
-          const match = value.match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/)
-          if (match) {
-            const linkTarget = match[1]
-            const linkTitle = match[2] || linkTarget
-            // Find matching slug from allSlugs
-            const matchingSlugs = ctx.allSlugs.filter((slug) => {
-              const parts = slug.split("/")
-              const fileName = parts.at(-1)
-              return linkTarget === fileName
-            })
-            let slug: string
-            if (matchingSlugs.length === 1) {
-              slug = matchingSlugs[0]
-            } else {
-              const currentDir = fileData.slug!.split("/").slice(0, -1).join("/")
-              slug = currentDir ? `${currentDir}/${linkTarget}` : linkTarget
+        const values = Array.isArray(value) ? value : value ? [value] : []
+
+        for (const v of values) {
+          if (typeof v === "string") {
+            const match = v.match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/)
+            if (match) {
+              const linkTarget = match[1]
+              const linkTitle = match[2] || linkTarget
+              // Find matching slug from allSlugs
+              const matchingSlugs = ctx.allSlugs.filter((slug) => {
+                const parts = slug.split("/")
+                const fileName = parts.at(-1)
+                return linkTarget === fileName
+              })
+              let slug: string
+              if (matchingSlugs.length === 1) {
+                slug = matchingSlugs[0]
+              } else {
+                const currentDir = fileData.slug!.split("/").slice(0, -1).join("/")
+                slug = currentDir ? `${currentDir}/${linkTarget}` : linkTarget
+              }
+              links.push({ field, title: linkTitle, slug })
             }
-            links.push({ field, title: linkTitle, slug })
           }
         }
       }
