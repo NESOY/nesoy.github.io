@@ -3,7 +3,8 @@ title: String Matching Algorithm에 대해
 description: 
 aliases: [/articles/2018-10/Algorithm-String-Matching]
 date: 2018-10-23
-category: "[[Algorithm]]"
+category:
+  - "[[Algorithm]]"
 comments: true
 ---
 # String Matching Algorithm에 대해

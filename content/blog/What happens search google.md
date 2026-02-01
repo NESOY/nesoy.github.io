@@ -3,7 +3,8 @@ title: Browser에서 Google.com을 검색하면 무슨 일이 발생하나요?
 description: 
 aliases: [/articles/2018-06/What-happens-search-google]
 date: 2018-06-17
-category: "[[Web]]"
+category:
+  - "[[Web]]"
 comments: true
 ---
 # Browser에서 Google.com을 검색하면 무슨 일이 발생하나요?

@@ -3,7 +3,8 @@ title: JEP
 description: JDK Enhancement Proposal
 aliases: [JDK Enhancement Proposal]
 date: 2025-10-27
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # JEP(JDK Enhancement Proposal)

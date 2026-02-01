@@ -3,7 +3,8 @@ title: Maven의 Settings에 대해
 description: 
 aliases: [/articles/2021-03/maven-settings]
 date: 2021-03-19
-category: "[[Maven]]"
+category:
+  - "[[Maven]]"
 comments: true
 ---
 # Maven의 Settings에 대해

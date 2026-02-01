@@ -3,7 +3,8 @@ title: Java volatile
 description: 
 aliases: [/articles/2018-06/Java-volatile]
 date: 2018-06-09
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # Java Volatile이란?

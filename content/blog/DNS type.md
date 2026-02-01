@@ -3,7 +3,9 @@ title: DNS Type
 description: 
 aliases: [/articles/2020-06/DNS-type]
 date: 2020-06-04
-category: "[[DNS]], [[Infra]]"
+category:
+  - "[[DNS]]"
+  - "[[Infra]]"
 comments: true
 ---
 # DNS type

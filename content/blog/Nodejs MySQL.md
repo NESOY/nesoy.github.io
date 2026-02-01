@@ -3,7 +3,9 @@ title: Nodejs MySQL 연결하기
 description: 
 aliases: [/articles/2017-04/Nodejs-MySQL]
 date: 2017-04-24
-category: "[[MySQL]], [[NodeJs]]"
+category:
+  - "[[MySQL]]"
+  - "[[NodeJs]]"
 comments: true
 ---
 # Nodejs MySQL

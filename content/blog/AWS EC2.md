@@ -3,7 +3,9 @@ title: AWS EC2 시작하기
 description: 
 aliases: [/articles/2017-05/AWS]
 date: 2017-05-18
-category: "[[AWS]], [[DevOps]]"
+category:
+  - "[[AWS]]"
+  - "[[DevOps]]"
 comments: true
 ---
 # AWS EC2

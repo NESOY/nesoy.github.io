@@ -3,7 +3,8 @@ title: Spring Field Injection에 대해
 description: 
 aliases: [/articles/2018-12/Spring-Field-Injection]
 date: 2018-12-26
-category: "[[Spring]]"
+category:
+  - "[[Spring]]"
 comments: true
 ---
 # Spring Field Injection에 대해

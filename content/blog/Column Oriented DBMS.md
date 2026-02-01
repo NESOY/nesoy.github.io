@@ -3,7 +3,8 @@ title: Column Oriented DBMS란?
 description: 
 aliases: [/articles/2019-10/Column-Oriented-DBMS]
 date: 2019-10-01
-category: "[[Database]]"
+category:
+  - "[[Database]]"
 comments: true
 ---
 # Column Oriented DBMS

@@ -3,7 +3,10 @@ title: Maven
 description: 
 aliases: [/articles/2017-01/Maven]
 date: 2017-01-11
-category: "[[IntelliJ]], [[Java]], [[Maven]]"
+category:
+  - "[[IntelliJ]]"
+  - "[[Java]]"
+  - "[[Maven]]"
 comments: true
 ---
 # Maven

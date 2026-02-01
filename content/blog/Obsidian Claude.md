@@ -3,7 +3,9 @@ title: Obsidian Claude
 description:
 aliases: [Obsidian Skills]
 date: 2026-01-27
-category: "[[Claude]], [[Obsidian]]"
+category:
+  - "[[Claude]]"
+  - "[[Obsidian]]"
 comments: true
 ---
 # Obsidian Claude

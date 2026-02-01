@@ -3,7 +3,10 @@ title: TOAST FORWARD - "Spring Framework 애플리케이션 개발자를 위한 
 description: 
 aliases: [/articles/2019-04/TOAST-FORWARD-SpringBoot]
 date: 2019-04-17
-category: "[[NHN]], [[Review]], [[Spring]]"
+category:
+  - "[[NHN]]"
+  - "[[Review]]"
+  - "[[Spring]]"
 comments: true
 ---
 # TOAST FORWARD - "Spring Framework 애플리케이션 개발자를 위한 Spring Boot"

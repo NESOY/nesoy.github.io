@@ -3,7 +3,9 @@ title: Mac 터미널 셋팅하기
 description: 
 aliases: [/articles/2018-01/Mac-Terminal]
 date: 2018-01-13
-category: "[[Mac]], [[개발환경]]"
+category:
+  - "[[Mac]]"
+  - "[[개발환경]]"
 comments: true
 ---
 # Mac 터미널 셋팅하기

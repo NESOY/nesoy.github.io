@@ -3,7 +3,8 @@ title: Docker Multi Stage
 description: 
 aliases: [/articles/2020-11/Docker-multi-stage-build]
 date: 2020-11-06
-category: "[[Docker]]"
+category:
+  - "[[Docker]]"
 comments: true
 ---
 # Docker Multi Stage

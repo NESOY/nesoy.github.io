@@ -3,7 +3,8 @@ title: Intellij Setting 동기화하기
 description: 
 aliases: [/articles/2019-08/Intellij-Setting-Sync]
 date: 2019-08-16
-category: "[[IntelliJ]]"
+category:
+  - "[[IntelliJ]]"
 comments: true
 ---
 # Intellij Setting 동기화하기

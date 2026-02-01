@@ -3,7 +3,8 @@ title: Intellij War 추출하기
 description: 
 aliases: [/articles/2017-01/Intellij-War]
 date: 2017-01-10
-category: "[[IntelliJ]]"
+category:
+  - "[[IntelliJ]]"
 comments: true
 ---
 # **Intellij War 추출하기**

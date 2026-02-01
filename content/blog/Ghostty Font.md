@@ -3,7 +3,9 @@ title: Ghostty Font
 description:
 aliases: [Ghostty 폰트]
 date: 2026-01-27
-category: "[[Font]], [[Ghostty]]"
+category:
+  - "[[Font]]"
+  - "[[Ghostty]]"
 comments: true
 ---
 # Ghostty Font

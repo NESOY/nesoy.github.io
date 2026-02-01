@@ -3,7 +3,9 @@ title: Deview 2018 후기
 description: 
 aliases: [/articles/2018-10/Deview-2018]
 date: 2018-10-11
-category: "[[Deview]], [[Review]]"
+category:
+  - "[[Deview]]"
+  - "[[Review]]"
 comments: true
 ---
 # Deview 2018 후기

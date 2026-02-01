@@ -3,7 +3,8 @@ title: Busy Waiting이란?
 description: 
 aliases: [/articles/2019-06/OS-Busy-Waiting]
 date: 2019-06-04
-category: "[[OS]]"
+category:
+  - "[[OS]]"
 comments: true
 ---
 # Busy Waiting

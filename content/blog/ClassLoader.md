@@ -3,7 +3,8 @@ title: ClassLoader
 description: 
 aliases: [/articles/2020-11/ClassLoader]
 date: 2020-11-05
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # ClassLoader

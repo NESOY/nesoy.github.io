@@ -3,8 +3,9 @@ title: Elastic Search를 시작하며
 description: 
 aliases: [/articles/2019-01/ElasticSearch-Intro]
 date: 2019-01-09
-category: "[[ElasticSearch]]"
 comments: true
+category:
+  - "[[ElasticSearch]]"
 ---
 # Elastic Search를 시작하며
 ## Node

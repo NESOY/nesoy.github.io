@@ -3,7 +3,8 @@ title: 젠킨스(Jenkins) 설치하기
 description: 
 aliases: [/articles/2017-02/Jenkins]
 date: 2017-02-20
-category: "[[Jenkins]]"
+category:
+  - "[[Jenkins]]"
 comments: true
 ---
 # Jenkins Install

@@ -3,7 +3,9 @@ title: Spring의 MVC & Front Controller Pattern
 description: 
 aliases: [/articles/2017-02/Front-Controller]
 date: 2017-02-17
-category: "[[DesignPattern]], [[Spring]]"
+category:
+  - "[[DesignPattern]]"
+  - "[[Spring]]"
 comments: true
 ---
 # Spring의 MVC & Front Controller Pattern

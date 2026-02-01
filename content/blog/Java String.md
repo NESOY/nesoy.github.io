@@ -3,7 +3,8 @@ title: String, StringBuilder, StringBuffer 차이.
 description: 
 aliases: [/articles/2017-11/java-String]
 date: 2017-11-20
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # Java String

@@ -3,7 +3,8 @@ title: Database의 트랜잭션(Transaction)이란?
 description: 
 aliases: [/articles/2018-05/Database-Transaction]
 date: 2018-05-27
-category: "[[Database]]"
+category:
+  - "[[Database]]"
 comments: true
 ---
 # Database의 트랜잭션(Transaction)이란?

@@ -3,7 +3,8 @@ title: DDD - Bounded Context
 description: 
 aliases: [/articles/2018-07/DDD-Bounded-Context]
 date: 2018-07-02
-category: "[[DDD]]"
+category:
+  - "[[DDD]]"
 comments: true
 ---
 # DDD - Bounded Context

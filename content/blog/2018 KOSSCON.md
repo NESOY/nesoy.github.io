@@ -3,7 +3,9 @@ title: KOSSCON - 2018 후기
 description: 
 aliases: [/articles/2018-11/KOSSCON-2018]
 date: 2018-11-30
-category: "[[KOSSCON]], [[Review]]"
+category:
+  - "[[KOSSCON]]"
+  - "[[Review]]"
 comments: true
 ---
 # KOSSCON - 2018 후기

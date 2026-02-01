@@ -3,7 +3,8 @@ title: Intellij에서 메인(Main)이 실행되지 않을 경우 해결방법
 description: 
 aliases: [/articles/2018-05/Intellij-Cannot-Run-Main]
 date: 2018-05-29
-category: "[[IntelliJ]]"
+category:
+  - "[[IntelliJ]]"
 comments: true
 ---
 # Intellij에서 메인(Main)이 실행되지 않을 경우 해결방법

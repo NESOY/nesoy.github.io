@@ -3,7 +3,8 @@ title: StackVM, RegisterVM
 description: 
 aliases: [/articles/2021-08/StackVM-RegisterVM]
 date: 2021-08-20
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # StackVM과 RegisterVM

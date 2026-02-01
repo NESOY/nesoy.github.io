@@ -3,7 +3,9 @@ title: kubernetes 명령어 모음
 description: 
 aliases: [/articles/2022-03/command-k8s]
 date: 2022-03-17
-category: "[[Command]], [[Kubernetes]]"
+category:
+  - "[[Command]]"
+  - "[[Kubernetes]]"
 comments: true
 ---
 # kubernetes 명령어 모음

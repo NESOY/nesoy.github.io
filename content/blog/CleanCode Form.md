@@ -3,7 +3,8 @@ title: Clean Code - 형식 맞추기(Form)
 description: 
 aliases: [/articles/2018-01/CleanCode-Form]
 date: 2018-01-09
-category: "[[CleanCode]]"
+category:
+  - "[[CleanCode]]"
 comments: true
 ---
 # 형식 맞추기

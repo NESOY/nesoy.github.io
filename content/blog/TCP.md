@@ -3,7 +3,8 @@ title: TCP에 대해
 description: 
 aliases: [/articles/2018-10/TCP]
 date: 2018-10-10
-category: "[[Network]]"
+category:
+  - "[[Network]]"
 comments: true
 ---
 # TCP에 대해

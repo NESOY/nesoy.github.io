@@ -3,7 +3,8 @@ title: MAC OS에서 MongoDB 설치하기
 description: 
 aliases: [/articles/2017-04/MongoDB]
 date: 2017-04-02
-category: "[[MongoDB]]"
+category:
+  - "[[MongoDB]]"
 comments: true
 ---
 # MongoDB

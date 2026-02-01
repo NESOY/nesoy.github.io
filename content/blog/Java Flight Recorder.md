@@ -3,7 +3,9 @@ title: Java Flight Recorder
 description:
 aliases: [JFR]
 date: 2025-09-07
-category: "[[Java]], [[JDK]]"
+category:
+  - "[[Java]]"
+  - "[[JDK]]"
 comments: true
 ---
 # Java Flight Recorder

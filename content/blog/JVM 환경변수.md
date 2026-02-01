@@ -3,7 +3,9 @@ title: JVM 환경변수
 description:
 aliases: []
 date: 2025-11-19
-category: "[[Java]], [[JVM]]"
+category:
+  - "[[Java]]"
+  - "[[JVM]]"
 comments: true
 ---
 # JVM 환경변수

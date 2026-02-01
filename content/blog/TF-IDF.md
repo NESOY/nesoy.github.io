@@ -3,7 +3,8 @@ title: TF-IDF(Term Frequency - Inverse Document Frequency) 란?
 description: 
 aliases: [/articles/2017-11/tf-idf]
 date: 2017-11-07
-category: "[[NLP]]"
+category:
+  - "[[NLP]]"
 comments: true
 ---
 # TF-IDF(Term Frequency - Inverse Document Frequency) 란?

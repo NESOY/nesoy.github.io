@@ -3,7 +3,8 @@ title: MySQL Datetime, Timestamp 차이에 대해
 description: 
 aliases: [/articles/2020-02/mysql-datetime-timestamp]
 date: 2020-02-22
-category: "[[MySQL]]"
+category:
+  - "[[MySQL]]"
 comments: true
 ---
 # MySQL Datetime, Timestamp 차이에 대해

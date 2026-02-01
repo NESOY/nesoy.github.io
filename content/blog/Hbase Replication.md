@@ -3,7 +3,8 @@ title: Hbase Replication에 대해
 description: 
 aliases: [/articles/2020-07/Hbase-Replication]
 date: 2020-07-13
-category: "[[HBase]]"
+category:
+  - "[[HBase]]"
 comments: true
 ---
 # Hbase Replication

@@ -3,8 +3,9 @@ title: NodeJs의 파일 업로드(File Upload), Multipart 요청, formidable
 description: 
 aliases: [/articles/2017-04/Nodejs-fileUpload]
 date: 2017-04-20
-category: "[[NodeJs]]"
 comments: true
+category:
+  - "[[NodeJs]]"
 ---
 # NodeJs의 파일 업로드(File Upload), Multipart 요청, formidable
 ## Multipart 요청

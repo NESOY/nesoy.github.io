@@ -3,7 +3,8 @@ title: Git Pull 충돌 오류시 해결방법
 description: 
 aliases: [/articles/2017-03/Git-Stash]
 date: 2017-03-01
-category: "[[Git]]"
+category:
+  - "[[Git]]"
 comments: true
 ---
 # Git Stash

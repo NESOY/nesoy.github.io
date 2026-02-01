@@ -3,7 +3,8 @@ title: Docker Image
 description: 
 aliases: [/articles/2020-09/Docker-image]
 date: 2020-09-20
-category: "[[Docker]]"
+category:
+  - "[[Docker]]"
 comments: true
 ---
 # Docker Image

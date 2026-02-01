@@ -3,7 +3,8 @@ title: Clean Code - 창발성(Emergence)
 description: 
 aliases: [/articles/2018-03/CleanCode-Emergence]
 date: 2018-03-30
-category: "[[CleanCode]]"
+category:
+  - "[[CleanCode]]"
 comments: true
 ---
 # 창발성(Emergence)

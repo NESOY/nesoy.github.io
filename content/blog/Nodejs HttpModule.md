@@ -3,7 +3,8 @@ title: NodeJs의 HttpServer
 description: 
 aliases: [/articles/2017-04/HttpModule]
 date: 2017-04-18
-category: "[[NodeJs]]"
+category:
+  - "[[NodeJs]]"
 comments: true
 ---
 # NodeJs의 HttpServer

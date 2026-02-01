@@ -3,7 +3,9 @@ title: JUnit Rule
 description: 
 aliases: [/articles/2018-12/Junit-Rule]
 date: 2018-12-31
-category: "[[JUnit]], [[Testing]]"
+category:
+  - "[[JUnit]]"
+  - "[[Testing]]"
 comments: true
 ---
 # JUnit Rule

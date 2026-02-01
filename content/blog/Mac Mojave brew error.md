@@ -3,7 +3,8 @@ title: Mac 모하비 brew 에러 해결하기
 description: 
 aliases: [/articles/2018-10/Mac-Mojave-brew-error]
 date: 2018-10-30
-category: "[[개발환경]]"
+category:
+  - "[[개발환경]]"
 comments: true
 ---
 # Mac 모하비 brew 에러 해결하기

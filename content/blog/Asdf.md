@@ -3,7 +3,8 @@ title: Asdf
 description:
 aliases: []
 date: 2025-10-09
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # Asdf

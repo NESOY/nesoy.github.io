@@ -3,7 +3,8 @@ title: du 명령어
 description: 
 aliases: [/articles/2021-12/command-du]
 date: 2021-12-26
-category: "[[Command]]"
+category:
+  - "[[Command]]"
 comments: true
 ---
 # du 명령어

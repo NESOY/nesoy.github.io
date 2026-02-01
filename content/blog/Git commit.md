@@ -3,7 +3,8 @@ title: Git 커밋(Commit)을 쉽게 다루어 보자
 description: 
 aliases: [/articles/2017-03/git-commit]
 date: 2017-03-27
-category: "[[Git]]"
+category:
+  - "[[Git]]"
 comments: true
 ---
 # Git 커밋(Commit)을 쉽게 다루어 보자

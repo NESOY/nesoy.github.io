@@ -3,7 +3,9 @@ title: Jib
 description: 
 aliases: [/articles/2020-11/Jib]
 date: 2020-11-23
-category: "[[Docker]], [[Java]]"
+category:
+  - "[[Docker]]"
+  - "[[Java]]"
 comments: true
 ---
 # Jib

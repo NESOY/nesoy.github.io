@@ -3,7 +3,8 @@ title: Github Action 시작하기
 description: 
 aliases: [/articles/2019-12/Github-Actions]
 date: 2019-12-23
-category: "[[Github]]"
+category:
+  - "[[Github]]"
 comments: true
 ---
 # Github Actions

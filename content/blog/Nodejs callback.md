@@ -3,7 +3,8 @@ title: NodeJs의 callback hell, Async, Promise
 description: 
 aliases: [/articles/2017-04/Nodejs-callback]
 date: 2017-04-18
-category: "[[NodeJs]]"
+category:
+  - "[[NodeJs]]"
 comments: true
 ---
 # NodeJs의 callback hell, Async, Promise

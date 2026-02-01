@@ -3,7 +3,8 @@ title: Guid(Global Unique identifier)
 description: 
 aliases: [/articles/2020-04/Guid]
 date: 2020-04-23
-category: "[[Guid]]"
+category:
+  - "[[Guid]]"
 comments: true
 ---
 # GUID

@@ -3,7 +3,8 @@ title: Clean Code - 동시성(Concurrency)
 description: 
 aliases: [/articles/2018-04/CleanCode-ConCurrency]
 date: 2018-04-22
-category: "[[CleanCode]]"
+category:
+  - "[[CleanCode]]"
 comments: true
 ---
 # 동시성(Concurrency)

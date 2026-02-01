@@ -3,7 +3,8 @@ title: GSLB
 description: 
 aliases: [/articles/2020-01/GSLB]
 date: 2020-01-09
-category: "[[DevOps]]"
+category:
+  - "[[DevOps]]"
 comments: true
 ---
 # GSLB

@@ -3,7 +3,9 @@ title: Coveralls 시작하기
 description: 
 aliases: [/articles/2018-04/Coveralls]
 date: 2018-04-08
-category: "[[Coveralls]], [[DevOps]]"
+category:
+  - "[[Coveralls]]"
+  - "[[DevOps]]"
 comments: true
 ---
 # CoverAlls

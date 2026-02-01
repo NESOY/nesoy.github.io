@@ -3,7 +3,8 @@ title: 웹 템플릿 엔진(Template Engine) 이란?
 description: 
 aliases: [/articles/2017-03/web-template]
 date: 2017-03-06
-category: "[[Web]]"
+category:
+  - "[[Web]]"
 comments: true
 ---
 # 웹 템플릿 엔진(Template Engine) 이란?

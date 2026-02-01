@@ -3,7 +3,9 @@ title: MySQL 한글 깨짐 현상 해결하기(UTF8)
 description: 
 aliases: [/articles/2017-05/mysql-UTF8]
 date: 2017-05-09
-category: "[[Encoding]], [[MySQL]]"
+category:
+  - "[[Encoding]]"
+  - "[[MySQL]]"
 comments: true
 ---
 # MySQL 한글 깨짐 현상 해결하기(UTF8)

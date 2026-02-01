@@ -3,7 +3,8 @@ title: Database의 샤딩(Sharding)이란?
 description: 
 aliases: [/articles/2018-05/Database-Shard]
 date: 2018-05-30
-category: "[[Database]]"
+category:
+  - "[[Database]]"
 comments: true
 ---
 # Database의 샤딩(Sharding)이란?

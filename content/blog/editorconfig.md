@@ -3,7 +3,8 @@ title: EditorConfig란?
 description: 
 aliases: [/articles/2019-11/editorconfig]
 date: 2019-11-10
-category: "[[개발환경]]"
+category:
+  - "[[개발환경]]"
 comments: true
 ---
 # EditorConfig란?

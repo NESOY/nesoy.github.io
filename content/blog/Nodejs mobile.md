@@ -3,7 +3,9 @@ title: NodeJs의 Json, XML
 description: 
 aliases: [/articles/2017-04/Nodejs-mobile]
 date: 2017-04-21
-category: "[[JSON]], [[NodeJs]]"
+category:
+  - "[[JSON]]"
+  - "[[NodeJs]]"
 comments: true
 ---
 # Nodejs mobile

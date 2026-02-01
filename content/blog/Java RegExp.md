@@ -3,7 +3,8 @@ title: Java 정규식 표현(Regular Expression)에 대해
 description: 
 aliases: [/articles/2018-06/Java-RegExp]
 date: 2018-06-01
-category: "[[Java]]"
+category:
+  - "[[Java]]"
 comments: true
 ---
 # 정규식 표현(Regular Expression)이란?

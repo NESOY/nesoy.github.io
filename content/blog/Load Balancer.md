@@ -3,7 +3,8 @@ title: 로드 밸런서(Load Balancer)란?
 description: 
 aliases: [/articles/2018-06/Load-Balancer]
 date: 2018-06-02
-category: "[[DevOps]]"
+category:
+  - "[[DevOps]]"
 comments: true
 ---
 # 로드 밸런서(Load Balancer)란?

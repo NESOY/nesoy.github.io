@@ -3,7 +3,9 @@ title: JDK 25
 description:
 aliases: []
 date: 2025-09-05
-category: "[[Java]], [[JDK]]"
+category:
+  - "[[Java]]"
+  - "[[JDK]]"
 comments: true
 ---
 # JDK 25

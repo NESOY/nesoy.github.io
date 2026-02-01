@@ -3,7 +3,9 @@ title: Kubernetes CPU
 description: 
 aliases: []
 date: 2025-07-25
-category: "[[CPU]], [[Kubernetes]]"
+category:
+  - "[[CPU]]"
+  - "[[Kubernetes]]"
 comments: true
 ---
 # Kubernetes CPU

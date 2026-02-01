@@ -3,7 +3,8 @@ title: Javascript Arrow function과 Binding에 대해
 description: 
 aliases: [/articles/2019-04/Javascript-Arrow-function]
 date: 2019-04-03
-category: "[[Javascript]]"
+category:
+  - "[[Javascript]]"
 comments: true
 ---
 # Arrow function과 Binding에 대해

@@ -3,8 +3,10 @@ title: JDK 21
 description:
 aliases: []
 date: 2025-09-05
-category: "[[Java]], [[JDK]]"
 comments: true
+category:
+  - "[[Java]]"
+  - "[[JDK]]"
 ---
 # JDK 21
 ## Features

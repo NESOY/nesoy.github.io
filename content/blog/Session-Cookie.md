@@ -3,8 +3,11 @@ title: 쿠키(Cookie) 그리고 세션(Session)
 description: 
 aliases: [/articles/2017-03/Session-Cookie]
 date: 2017-03-17
-category: "[[Cookie]], [[Session]], [[Web]]"
 comments: true
+category:
+  - "[[Cookie]]"
+  - "[[Session]]"
+  - "[[Web]]"
 ---
 # 쿠키(Cookie)
 ## 배경

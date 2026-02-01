@@ -3,7 +3,8 @@ title: 어떻게 하면 개발 관련 정보를 얻을까?
 description: 
 aliases: [/articles/2018-03/How-get-devinfo]
 date: 2018-03-02
-category: "[[Programming]]"
+category:
+  - "[[Programming]]"
 comments: true
 ---
 # 나는 어떻게 개발 관련 정보를 얻고 있는가?

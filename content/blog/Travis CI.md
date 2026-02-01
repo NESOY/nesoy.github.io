@@ -3,8 +3,10 @@ title: Travis CI
 description: 
 aliases: [/articles/2017-01/travis-ci]
 date: 2017-01-05
-category: "[[DevOps]], [[Travis-CI]]"
 comments: true
+category:
+  - "[[DevOps]]"
+  - "[[Travis-CI]]"
 ---
 # Travis CI
 ![[assets/posts/20170105/travis-ci.jpg]]

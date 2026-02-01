@@ -3,7 +3,9 @@ title: JSON
 description: 
 aliases: [/articles/2017-02/JSON]
 date: 2017-02-08
-category: "[[JSON]], [[Web]]"
+category:
+  - "[[JSON]]"
+  - "[[Web]]"
 comments: true
 ---
 # JSON

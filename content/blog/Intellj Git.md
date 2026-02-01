@@ -3,7 +3,9 @@ title: Intellij Git 연동하기
 description: 
 aliases: [/articles/2017-01/Intellj-Git]
 date: 2017-01-14
-category: "[[Git]], [[IntelliJ]]"
+category:
+  - "[[Git]]"
+  - "[[IntelliJ]]"
 comments: true
 ---
 # Intellij Git 연동하기

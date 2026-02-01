@@ -3,7 +3,8 @@ title: Base64 Encoding
 description: 
 aliases: [/articles/2020-05/Base64-Encode]
 date: 2020-05-11
-category: "[[Encode]]"
+category:
+  - "[[Encode]]"
 comments: true
 ---
 # Encoding이란?

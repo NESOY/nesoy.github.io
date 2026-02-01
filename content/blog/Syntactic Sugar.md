@@ -3,7 +3,8 @@ title: Syntatic Sugar
 description: 
 aliases: [/articles/2019-12/Syntactic-sugar]
 date: 2019-12-04
-category: "[[Programming]]"
+category:
+  - "[[Programming]]"
 comments: true
 ---
 # Syntatic Sugar

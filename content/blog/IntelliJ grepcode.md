@@ -3,7 +3,8 @@ title: Intellij Grep Console Plugin
 description: 
 aliases: [/articles/2018-04/Intellij-grepcode]
 date: 2018-04-15
-category: "[[IntelliJ]]"
+category:
+  - "[[IntelliJ]]"
 comments: true
 ---
 # Intellij Grep Console Plugin

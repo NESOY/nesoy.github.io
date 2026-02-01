@@ -3,7 +3,9 @@ title: kustomize란?
 description: 
 aliases: [/articles/2021-01/kustomize]
 date: 2021-01-07
-category: "[[Command]], [[Kubernetes]]"
+category:
+  - "[[Command]]"
+  - "[[Kubernetes]]"
 comments: true
 ---
 # kustomize란?

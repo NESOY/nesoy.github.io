@@ -3,7 +3,8 @@ title: Synchronous(동기) Vs Asynchronous(비동기)
 description: 
 aliases: [/articles/2017-01/Synchronized]
 date: 2017-01-27
-category: "[[OS]]"
+category:
+  - "[[OS]]"
 comments: true
 ---
 # Synchronous(동기) Vs Asynchronous(비동기)

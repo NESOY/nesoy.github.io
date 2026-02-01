@@ -3,7 +3,8 @@ title: Kotlin Contract
 description:
 aliases: []
 date: 2025-08-17
-category: "[[Kotlin]]"
+category:
+  - "[[Kotlin]]"
 comments: true
 ---
 # Kotlin Contract

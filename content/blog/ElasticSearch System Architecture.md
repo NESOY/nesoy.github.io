@@ -3,7 +3,8 @@ title: Elastic Search 시스템 구조
 description: 
 aliases: [/articles/2019-01/ElasticSearch-System-Architecture]
 date: 2019-01-22
-category: "[[ElasticSearch]]"
+category:
+  - "[[ElasticSearch]]"
 comments: true
 ---
 # Elastic Search 시스템 구조

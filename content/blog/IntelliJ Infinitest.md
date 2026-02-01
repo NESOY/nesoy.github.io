@@ -3,7 +3,8 @@ title: Intellij 테스트 자동 실행하기
 description: 
 aliases: [/articles/2019-07/Intellij-Infinitest]
 date: 2019-07-26
-category: "[[IntelliJ]]"
+category:
+  - "[[IntelliJ]]"
 comments: true
 ---
 # Intellij 테스트 자동 실행하기

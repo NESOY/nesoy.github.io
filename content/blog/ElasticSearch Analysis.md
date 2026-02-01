@@ -3,7 +3,8 @@ title: ElasticSearch - 분석
 description: 
 aliases: [/articles/2019-03/ElasticSearch-Analysis]
 date: 2019-03-05
-category: "[[ElasticSearch]]"
+category:
+  - "[[ElasticSearch]]"
 comments: true
 ---
 # ElasticSearch - 분석

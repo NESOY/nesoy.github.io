@@ -3,7 +3,9 @@ title: if kakao day 1 후기
 description: 
 aliases: [/articles/2019-08/if-kakao-day1]
 date: 2019-08-30
-category: "[[Kakao]], [[Review]]"
+category:
+  - "[[Kakao]]"
+  - "[[Review]]"
 comments: true
 ---
 # 2019 if kakao day 1 후기

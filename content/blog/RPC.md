@@ -3,7 +3,8 @@ title: RPC
 description: 
 aliases: [/articles/2019-07/RPC]
 date: 2019-07-09
-category: "[[OS]]"
+category:
+  - "[[OS]]"
 comments: true
 ---
 # RPC

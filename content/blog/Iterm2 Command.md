@@ -3,7 +3,8 @@ title: Iterm2에서 동시에 명령어 실행하기
 description: 
 aliases: [/articles/2020-01/Iterm2-Command]
 date: 2020-01-08
-category: "[[개발환경]]"
+category:
+  - "[[개발환경]]"
 comments: true
 ---
 # Iterm2에서 동시에 명령어 실행하기

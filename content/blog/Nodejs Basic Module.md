@@ -3,8 +3,9 @@ title: NodeJs의 Basic Module(기본 모듈)
 description: 
 aliases: [/articles/2017-04/Nodejs-BasicModule]
 date: 2017-04-13
-category: "[[NodeJs]]"
 comments: true
+category:
+  - "[[NodeJs]]"
 ---
 # NodeJs의 Basic Module(기본 모듈)
 ## Basic Module(기본 모듈)

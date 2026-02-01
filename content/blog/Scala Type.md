@@ -3,7 +3,8 @@ title: Scala의 타입에 대해
 description: 
 aliases: [/articles/2020-03/Scala-Type]
 date: 2020-03-21
-category: "[[Scala]]"
+category:
+  - "[[Scala]]"
 comments: true
 ---
 # Scala Type에 대해

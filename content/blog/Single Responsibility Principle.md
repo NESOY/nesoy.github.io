@@ -3,7 +3,8 @@ title: SRP(Single Responsibility Principle)
 description: 
 aliases: [/articles/2017-12/SRP]
 date: 2017-12-12
-category: "[[DesignPattern]]"
+category:
+  - "[[DesignPattern]]"
 comments: true
 ---
 # SRP(Single Responsibility Principle)

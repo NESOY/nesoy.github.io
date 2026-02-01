@@ -3,7 +3,10 @@ title: NodeJs의 path, File, Buffer
 description: 
 aliases: [/articles/2017-04/Nodejs-path-file-buffer-]
 date: 2017-04-14
-category: "[[Javascript]], [[Nodejs]], [[Web]]"
+category:
+  - "[[Javascript]]"
+  - "[[Nodejs]]"
+  - "[[Web]]"
 comments: true
 ---
 # NodeJs의 path, File, Buffer

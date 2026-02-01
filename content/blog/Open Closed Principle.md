@@ -3,7 +3,8 @@ title: OCP(Open Closed Principle)
 description: 
 aliases: [/articles/2018-01/OCP]
 date: 2018-01-08
-category: "[[DesignPattern]]"
+category:
+  - "[[DesignPattern]]"
 comments: true
 ---
 # OCP(Open Closed Principle)

@@ -3,7 +3,9 @@ title: Helm
 description: 
 aliases: [/articles/2020-11/helm]
 date: 2020-11-18
-category: "[[Command]], [[Kubernetes]]"
+category:
+  - "[[Command]]"
+  - "[[Kubernetes]]"
 comments: true
 ---
 # Helm

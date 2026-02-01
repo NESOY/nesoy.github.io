@@ -3,7 +3,8 @@ title: Multi Thread Algorithm에 대해
 description: 
 aliases: [/articles/2018-09/Algorithm-MultiThread]
 date: 2018-09-14
-category: "[[Algorithm]]"
+category:
+  - "[[Algorithm]]"
 comments: true
 ---
 # Multi Thread Algorithm에 대해

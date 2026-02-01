@@ -3,7 +3,9 @@ title: Django 시작하기
 description: 
 aliases: [/articles/2017-10/Django-Start]
 date: 2017-10-21
-category: "[[Django]], [[Python]]"
+category:
+  - "[[Django]]"
+  - "[[Python]]"
 comments: true
 ---
 # Django Start

@@ -3,7 +3,9 @@ title: ifkakao 2021
 description: 
 aliases: [/articles/2021-12/if-kakao-2021]
 date: 2021-12-16
-category: "[[Kakao]], [[Review]]"
+category:
+  - "[[Kakao]]"
+  - "[[Review]]"
 comments: true
 ---
 # ifkakao 2021

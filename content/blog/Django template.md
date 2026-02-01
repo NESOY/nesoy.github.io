@@ -3,7 +3,9 @@ title: Django 튜토리얼3
 description: 
 aliases: [/articles/2017-10/Django-template]
 date: 2017-10-24T00:00:00.000Z
-category: "[[Django]], [[Python]]"
+category:
+  - "[[Django]]"
+  - "[[Python]]"
 comments: true
 ---
 # Django Template

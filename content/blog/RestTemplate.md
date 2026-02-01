@@ -3,7 +3,8 @@ title: RestTemplate
 description: 
 aliases: [/articles/2020-05/RestTemplate]
 date: 2020-05-06
-category: "[[Spring]]"
+category:
+  - "[[Spring]]"
 comments: true
 ---
 # RestTemplate

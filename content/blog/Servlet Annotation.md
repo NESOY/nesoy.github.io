@@ -3,8 +3,10 @@ title: Servlet Annotation
 description: 
 aliases: [/articles/2017-01/servlet-annotation]
 date: 2017-01-08
-category: "[[Java]], [[Servlet]]"
 comments: true
+category:
+  - "[[Java]]"
+  - "[[Servlet]]"
 ---
 # **Servlet Annotation**
 Servlet을 공부하던 중에 index.html에서 action의 DoLogin을 호출하는 경우가 있었다.

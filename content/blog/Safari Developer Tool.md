@@ -3,7 +3,8 @@ title: Safari(Mac - Iphone) 개발자 도구 사용하기
 description: 
 aliases: [/articles/2018-02/Safari-Developer-Tool]
 date: 2018-02-10
-category: "[[개발환경]]"
+category:
+  - "[[개발환경]]"
 comments: true
 ---
 # Safari(Mac - Iphone) 개발자 도구 사용하기

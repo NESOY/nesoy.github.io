@@ -3,7 +3,8 @@ title: Obsidian Quick Switcher++
 description:
 aliases: []
 date: 2026-01-30
-category: "[[Obsidian]]"
+category:
+  - "[[Obsidian]]"
 comments: true
 ---
 # Obsidian Quick Switcher++

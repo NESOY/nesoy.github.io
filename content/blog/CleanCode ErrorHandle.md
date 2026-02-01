@@ -3,7 +3,8 @@ title: Clean Code - 오류 처리(Error Handle)
 description: 
 aliases: [/articles/2018-02/CleanCode-ErrorHandle]
 date: 2018-02-05
-category: "[[CleanCode]]"
+category:
+  - "[[CleanCode]]"
 comments: true
 ---
 # 오류 처리

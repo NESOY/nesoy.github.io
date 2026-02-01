@@ -3,7 +3,9 @@ title: Refactoring - 나쁜 냄새(Bad Smell)
 description: 
 aliases: [/articles/2018-05/Refactoring-BadSmell]
 date: 2018-05-08
-category: "[[CleanCode]], [[Refactoring]]"
+category:
+  - "[[CleanCode]]"
+  - "[[Refactoring]]"
 comments: true
 ---
 # 냄새 원인

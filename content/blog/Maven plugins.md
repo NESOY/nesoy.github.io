@@ -3,7 +3,8 @@ title: Maven Plugins에 대해
 description: 
 aliases: [/articles/2021-03/maven-plugins]
 date: 2021-03-31
-category: "[[Maven]]"
+category:
+  - "[[Maven]]"
 comments: true
 ---
 # Maven Plugins에 대해

@@ -3,7 +3,9 @@ title: JUnit Test 순서 제어하기
 description: 
 aliases: [/articles/2019-02/JUnit-Test-Ordering]
 date: 2019-02-13
-category: "[[JUnit]], [[Testing]]"
+category:
+  - "[[JUnit]]"
+  - "[[Testing]]"
 comments: true
 ---
 # JUnit Test 순서 제어하기

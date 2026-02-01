@@ -3,7 +3,8 @@ title: Redux
 description: 
 aliases: [/articles/2019-02/Redux]
 date: 2019-02-26
-category: "[[Redux]]"
+category:
+  - "[[Redux]]"
 comments: true
 ---
 # Redux

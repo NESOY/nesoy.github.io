@@ -3,7 +3,8 @@ title: Liskov Substitution Principle
 description: 
 aliases: [/articles/2018-03/LSP]
 date: 2018-03-06
-category: "[[DesignPattern]]"
+category:
+  - "[[DesignPattern]]"
 comments: true
 ---
 # 리스코프 치환 원칙(Liskov Substitution Principle)
