@@ -79,6 +79,9 @@ article {
 
 strong {
   font-weight: $semiBoldWeight;
+  background-color: var(--highlight);
+  padding: 0.1em 0.2em;
+  border-radius: 4px;
 }
 
 a {

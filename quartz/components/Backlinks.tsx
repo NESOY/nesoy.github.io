@@ -35,7 +35,7 @@ export default ((opts?: Partial<BacklinksOptions>) => {
           {backlinkFiles.length > 0 ? (
             backlinkFiles.map((f) => (
               <li>
-                <a href={resolveRelative(fileData.slug!, f.slug!)} class="internal">
+                <a href={resolveRelative(fileData.slug!, f.slug!)} class="internal" style="margin-left: 1rem;">
                   {f.frontmatter?.title}
                 </a>
               </li>
