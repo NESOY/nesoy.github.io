@@ -3,9 +3,9 @@ title: Dependency Mechanism
 description: 
 aliases: [/articles/2020-11/Dependency-Mechanism]
 date: 2020-11-02
+comments: true
 category:
   - "[[Maven]]"
-comments: true
 ---
 # Dependency Mechanism
 ## 들어가며

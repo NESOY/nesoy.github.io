@@ -3,9 +3,9 @@ title: Spring Field Injection에 대해
 description: 
 aliases: [/articles/2018-12/Spring-Field-Injection]
 date: 2018-12-26
+comments: true
 category:
   - "[[Spring]]"
-comments: true
 ---
 # Spring Field Injection에 대해
 ## 왜(Why) Spring은 Field Injection보다 Constructor Injection을 권장할까?
