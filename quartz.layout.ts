@@ -48,6 +48,7 @@ export const sharedPageComponents: SharedLayout = {
         mapping: 'title'
       }
     }),
+    Component.Backlinks(),
   ],
   footer: Component.Footer({
     links: {
@@ -90,7 +91,6 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Graph()),
-    Component.Backlinks(),
   ]
 }
 
