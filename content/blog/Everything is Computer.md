@@ -3,9 +3,9 @@ title: Everything is Computer 번역
 description:
 aliases: []
 date: 2026-01-13
+comments: true
 category:
   - "[[A16Z]]"
-comments: true
 ---
 # Everything is Computer
 ## 소비자 가전, “모듈형 중간재”, 그리고 미래의 생산 모델.
